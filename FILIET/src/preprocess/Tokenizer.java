@@ -17,12 +17,9 @@ public class Tokenizer {
 		InputStream is = new FileInputStream("./model/en-token.bin");
 		TokenizerModel model = new TokenizerModel(is);
 		TokenizerME tokenizer = new TokenizerME(model);
+		
 		String tokens[] = tokenizer.tokenize(string);
-		
-		for(String token: tokens){
-			System.out.println(token);
-		}
-		
+
 		is.close();
 		
 		return tokens;

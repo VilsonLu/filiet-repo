@@ -31,8 +31,6 @@ public class POSTagger {
 			}
 			s.close();
 		}
-		System.out.println(tokens);
-		System.out.println("end");
 		return tokens;
 	}
 }
