@@ -1,26 +1,13 @@
 package preprocess;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.util.Scanner;
-
 public class DisasterTagger {
+	private DisasterTaggerInterface strategy;
 	
-	public String[] DisasterTag(String[] text) throws FileNotFoundException{
-		File DisasterWords = new File("./model/DisasterWords.txt");
-		Scanner s = null;
-		for(int i=0; i<text.length; i++){
-			s = new Scanner(DisasterWords);
-			while(s.hasNextLine()){
-				String line = s.nextLine();
-			
-				if(text[i].contains(line)){
-					text[i] = "<disaster="+text[i]+"/>";
-				}
-			}
-			s.close();
-		}
-		return text;
-		
+	public DisasterTagger(DisasterTaggerInterface strategy){
+		this.strategy = strategy;
+	}
+	
+	public String[] executeStrategy(String[] tokens){
+		return this.strategy.execute(tokens);
 	}
 }
