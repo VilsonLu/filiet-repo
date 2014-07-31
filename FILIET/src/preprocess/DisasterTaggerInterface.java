@@ -8,6 +8,7 @@ public interface DisasterTaggerInterface {
 	String[] execute(String[] tokens);
 }
 
+// Default Implementation of Disaster Tagger
 class DefaultDisasterTag implements DisasterTaggerInterface{
 
 	@Override
@@ -27,8 +28,8 @@ class DefaultDisasterTag implements DisasterTaggerInterface{
 			
 			while(s.hasNextLine()){
 				String line = s.nextLine();
-			
-				if(tokens[i].contains(line)){
+				String temp[] = tokens[i].split("-");
+				if(temp[0].equalsIgnoreCase(line)){
 					tokens[i] = "<disaster="+tokens[i]+"/>";
 				}
 			}

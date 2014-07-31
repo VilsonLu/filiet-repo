@@ -16,6 +16,7 @@ class POSLookup implements POSTaggerInterface {
 	@Override
 	public String[] execute(String[] tokens) {
 		// TODO Auto-generated method stub
+
 		File PosDictionary = new File("./model/Dict File.txt");
 
 		Scanner s = null;

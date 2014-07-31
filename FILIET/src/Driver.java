@@ -7,8 +7,8 @@ public class Driver {
 		// TODO Auto-generated method stub
 		System.out.println("Welcome back to Java");
 		PreprocessorManager preprocess = new PreprocessorManager();
-		String text = "umiiyak ang puso ko  una  sa mga naging biktima ng bagyo. pangalawa  sa ilang staff na nawalan ng trabaho.";
-		preprocess.PreprocessText(text);
+		String text = "Magnitude 4.3 quake jolts Antique, Boracay Lindol everywhere";
+		String tokens[] = preprocess.PreprocessText(text);
 			
 	}
 }

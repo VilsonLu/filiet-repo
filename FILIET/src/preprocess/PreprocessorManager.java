@@ -20,8 +20,10 @@ public class PreprocessorManager {
 	 */
 	public void PrintArray(String[] text){
 		for(String token: text){
-			System.out.println(token);
+			System.out.print(token);
+			System.out.print(" ");
 		}
+		System.out.println();
 	}
 	
 	/*
@@ -37,19 +39,29 @@ public class PreprocessorManager {
 	 * Preprocess the text
 	 * Tokenizer, POS Tagger and Disaster Tagger
 	 */
-	public void PreprocessText(String text){
+	public String[] PreprocessText(String text){
 		
 		String tokens[] = null;
+		long start = 0;
+		long end = 0;
 	
 		try {
 			
 			// Tokenizer
+			System.out.println("Tokenizer");
 			tokens = tokenizer.executeStrategy(text);
 			PrintArray(tokens);
+			
 			// POS Tagger
+			start = System.nanoTime();
 			tokens = post.executeStrategy(tokens);
+			end = System.nanoTime();
+			
 			System.out.println("POS Tagger:");
 			PrintArray(tokens);
+			
+			System.out.println("Execution Time: " + ((end-start)/1000000));
+			
 			// Disaster Tagger
 			tokens = disasterTagger.executeStrategy(tokens);
 			System.out.println("Disaster Tagger:");
@@ -59,5 +71,7 @@ public class PreprocessorManager {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		
+		return tokens;
 	}
 }
