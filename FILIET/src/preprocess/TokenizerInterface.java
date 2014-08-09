@@ -1,5 +1,8 @@
 package preprocess;
 
+import gate.Gate;
+import gate.util.GateException;
+
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -19,7 +22,7 @@ class OpenNLPTokenizer implements TokenizerInterface {
 		InputStream is;
 		String tokens[] = null;
 		try {
-			is = new FileInputStream("./model/en-token.bin");
+			is = new FileInputStream("./resources/en-token.bin");
 			TokenizerModel model = new TokenizerModel(is);
 			TokenizerME tokenizer = new TokenizerME(model);
 			tokens = tokenizer.tokenize(text);
@@ -34,4 +37,15 @@ class OpenNLPTokenizer implements TokenizerInterface {
 		
 		return tokens;
 	}
+}
+
+class TwitIETokenizer implements TokenizerInterface{
+
+	@Override
+	public String[] execute(String text) {
+		// TODO Auto-generated method stub
+
+		return null;
+	}
+	
 }

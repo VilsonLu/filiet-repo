@@ -14,7 +14,7 @@ class DefaultDisasterTag implements DisasterTaggerInterface{
 	@Override
 	public String[] execute(String[] tokens) {
 		// TODO Auto-generated method stub
-		File DisasterWords = new File("./model/DisasterWords.txt");
+		File DisasterWords = new File("./resources/DisasterWords.txt");
 		Scanner s = null;
 		
 		for(int i=0; i<tokens.length; i++){
@@ -28,7 +28,7 @@ class DefaultDisasterTag implements DisasterTaggerInterface{
 			
 			while(s.hasNextLine()){
 				String line = s.nextLine();
-				String temp[] = tokens[i].split("-");
+				String temp[] = tokens[i].split("_");
 				if(temp[0].equalsIgnoreCase(line)){
 					tokens[i] = "<disaster="+tokens[i]+"/>";
 				}
