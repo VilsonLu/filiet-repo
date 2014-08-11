@@ -8,24 +8,32 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 
+import data.Sentence;
+import data.Token;
 import opennlp.tools.tokenize.TokenizerME;
 import opennlp.tools.tokenize.TokenizerModel;
 import opennlp.tools.util.InvalidFormatException;
 
 public interface TokenizerInterface {
-	String[] execute(String text);
+	Sentence execute(String text);
 }
 
 class OpenNLPTokenizer implements TokenizerInterface {
 	
-	public String[] execute(String text){
+	public Sentence execute(String text){
 		InputStream is;
 		String tokens[] = null;
+		Sentence sentence = new Sentence();
 		try {
 			is = new FileInputStream("./resources/en-token.bin");
 			TokenizerModel model = new TokenizerModel(is);
 			TokenizerME tokenizer = new TokenizerME(model);
 			tokens = tokenizer.tokenize(text);
+			for(String token: tokens){
+				Token word = new Token();
+				word.setWord(token);
+				sentence.AddToken(word);
+			}
 			is.close();
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
@@ -35,14 +43,14 @@ class OpenNLPTokenizer implements TokenizerInterface {
 			e.printStackTrace();
 		}
 		
-		return tokens;
+		return sentence;
 	}
 }
 
 class TwitIETokenizer implements TokenizerInterface{
 
 	@Override
-	public String[] execute(String text) {
+	public Sentence execute(String text) {
 		// TODO Auto-generated method stub
 
 		return null;

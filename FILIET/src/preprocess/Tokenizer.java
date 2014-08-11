@@ -2,6 +2,7 @@ package preprocess;
 
 import java.io.IOException;
 
+import data.Sentence;
 import opennlp.tools.util.InvalidFormatException;
 
 public class Tokenizer {
@@ -10,7 +11,7 @@ public class Tokenizer {
 		this.strategy = strategy;
 	}
 	
-	public String[] executeStrategy(String text) throws InvalidFormatException, IOException{
+	public Sentence executeStrategy(String text) throws InvalidFormatException, IOException{
 		return this.strategy.execute(text);
 	}
 }

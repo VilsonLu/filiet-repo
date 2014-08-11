@@ -1,5 +1,8 @@
 package preprocess;
 
+import data.Sentence;
+
+
 public class POSTagger {
 	private POSTaggerInterface strategy;
 	
@@ -7,7 +10,7 @@ public class POSTagger {
 		this.strategy = strategy;
 	}
 	
-	public String[] executeStrategy(String[] text){
+	public Sentence executeStrategy(Sentence text){
 		return this.strategy.execute(text);
 	}
 }

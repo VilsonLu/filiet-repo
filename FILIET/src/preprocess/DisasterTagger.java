@@ -1,5 +1,8 @@
 package preprocess;
 
+import data.Sentence;
+
+
 public class DisasterTagger {
 	private DisasterTaggerInterface strategy;
 	
@@ -7,7 +10,7 @@ public class DisasterTagger {
 		this.strategy = strategy;
 	}
 	
-	public String[] executeStrategy(String[] tokens){
+	public Sentence executeStrategy(Sentence tokens){
 		return this.strategy.execute(tokens);
 	}
 }

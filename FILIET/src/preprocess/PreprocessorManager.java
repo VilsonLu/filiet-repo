@@ -2,11 +2,15 @@ package preprocess;
 
 import java.io.IOException;
 
+import data.Sentence;
+import data.Token;
+
 public class PreprocessorManager {
 
 	private Tokenizer tokenizer;
 	private POSTagger post;
 	private DisasterTagger disasterTagger;
+	private NamedEntityRecognizer ner;
 	
 	/*
 	 * Constructor: Initializes the modules
@@ -16,56 +20,49 @@ public class PreprocessorManager {
 	}
 	
 	/*
-	 * Prints the array
-	 */
-	public void PrintArray(String[] text){
-		for(String token: text){
-			System.out.print(token);
-			System.out.print(" ");
-		}
-		System.out.println();
-	}
-	
-	/*
 	 * Default Implementation
 	 */
 	public void InitializeModules(){
 		tokenizer = new Tokenizer(new OpenNLPTokenizer());
 		post = new POSTagger(new POSLookup());
 		disasterTagger = new DisasterTagger(new DefaultDisasterTag());
+		ner = new NamedEntityRecognizer(new SomidiaNER());
 	}
 	
 	/*
 	 * Preprocess the text
 	 * Tokenizer, POS Tagger and Disaster Tagger
 	 */
-	public String[] PreprocessText(String text){
+	public Sentence PreprocessText(String text){
 		
-		String tokens[] = null;
+		Sentence tokens = null;
 		long start = 0;
 		long end = 0;
 	
 		try {
 			
 			// Tokenizer
-			System.out.println("Tokenizer");
+			System.out.println("Tokenizer:");
 			tokens = tokenizer.executeStrategy(text);
-			PrintArray(tokens);
+			tokens.PrintSentence();
 			
 			// POS Tagger
-			start = System.nanoTime();
-			tokens = post.executeStrategy(tokens);
-			end = System.nanoTime();
-			
+			tokens = post.executeStrategy(tokens);			
 			System.out.println("POS Tagger:");
-			PrintArray(tokens);
+			tokens.PrintSentence();
 			
-			System.out.println("Execution Time: " + ((end-start)/1000000));
+			// Named Entity Recognizer
+			tokens = ner.executeStrategy(tokens);
+			System.out.println("Named Entity Recognizer:");
+			tokens.PrintSentence();
 			
-			// Disaster Tagger
-			tokens = disasterTagger.executeStrategy(tokens);
+			// Disaster Keyword Tagger
+			tokens =  disasterTagger.executeStrategy(tokens);
 			System.out.println("Disaster Tagger:");
-			PrintArray(tokens);
+			tokens.PrintSentence();
+			
+			
+
 			
 		} catch (IOException e) {
 			// TODO Auto-generated catch block

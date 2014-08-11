@@ -4,8 +4,11 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
+import data.Sentence;
+import data.Token;
+
 public interface POSTaggerInterface {
-	String[] execute(String[] tokens);
+	Sentence execute(Sentence tokens);
 }
 
 /*
@@ -14,36 +17,40 @@ public interface POSTaggerInterface {
 class POSLookup implements POSTaggerInterface {
 
 	@Override
-	public String[] execute(String[] tokens) {
+	public Sentence execute(Sentence tokens) {
 		// TODO Auto-generated method stub
 
-		File PosDictionary = new File("./resources/Dict File.txt");
-
+		File PosDictionary = new File("./resources/posDictionary");
 		Scanner s = null;
-		for (int i = 0; i < tokens.length; i++) {
-
+		
+		
+		for(int i=0; i<tokens.GetLength(); i++){
 			try {
 				s = new Scanner(PosDictionary);
 			} catch (FileNotFoundException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-
-			while (s.hasNextLine()) {
+			
+			while(s.hasNextLine()){
 				String line = s.nextLine();
 				String tagToken[] = line.split("\\s+");
-
-				if (tokens[i].equalsIgnoreCase(tagToken[0])) {
+				Token token = tokens.GetToken(i);
+				if(token.getWord().equalsIgnoreCase(tagToken[0])){
 					if (tagToken[2].equalsIgnoreCase("ENG")
 							|| tagToken[2].equalsIgnoreCase("TAG")) {
-						tokens[i] = tokens[i] + "_" + tagToken[3];
+						token.setPOSTag(tagToken[3]);
+						
 					} else {
-						tokens[i] = tokens[i] + "_" + tagToken[2];
+						token.setPOSTag(tagToken[2]);
+						
 					}
-				}
+					tokens.ReplaceToken(i, token);	
+				}	
 			}
 			s.close();
 		}
+	
 		
 		return tokens;
 
