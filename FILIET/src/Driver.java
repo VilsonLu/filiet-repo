@@ -13,7 +13,7 @@ public class Driver {
 		//crawler.TweetCrawl();
 		
 		PreprocessorManager preprocess = new PreprocessorManager();
-		String text = "Magnitude 4.3 quake jolts Antique, Boracay Lindol everywhere";
+		String text = "Kailangan na talaga ng military efforts sa most part of Leyte. Nagkakagulo na.";
 		preprocess.PreprocessText(text);
 		
 

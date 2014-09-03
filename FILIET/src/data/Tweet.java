@@ -18,7 +18,7 @@ public class Tweet {
 	private Boolean Retweet;
 	private Boolean Hashtag;
 	private Boolean URL;
-	
+	private String Language;
 	private Status Status;
 	
 	public Tweet(Status status){
@@ -35,7 +35,7 @@ public class Tweet {
 		this.Retweet = status.isRetweet();
 		this.Hashtag = isHashtag(status);
 		this.URL = isURL(status);
-		
+		this.Language = status.getLang();
 	}
 	
 	public Boolean isURL(Status status){
@@ -100,7 +100,7 @@ public class Tweet {
 		DBFactory factory = DBFactory.getInstance();
 		Connection connection = factory.getConnection();
 		
-		String query = "INSERT INTO tweets (TweetID, User, Tweet, Latitude, Longitude, IsHashtag, IsURL, IsRetweet) VALUES(?, ?, ?, ?, ?, ?, ?, ?);";
+		String query = "INSERT INTO tweets (TweetID, User, Tweet, Latitude, Longitude, IsHashtag, IsURL, IsRetweet, Language) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?);";
 	
 		PreparedStatement stmt = connection.prepareStatement(query);
 		stmt.setLong(1, this.TweetID);
@@ -118,7 +118,7 @@ public class Tweet {
 		stmt.setBoolean(6, this.Hashtag);
 		stmt.setBoolean(7, this.URL);
 		stmt.setBoolean(8, this.Retweet);
-		
+		stmt.setString(9, this.Language);
 		stmt.executeUpdate();
 		
 		connection.close();

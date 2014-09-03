@@ -23,7 +23,7 @@ public class PreprocessorManager {
 	 * Default Implementation
 	 */
 	public void InitializeModules(){
-		tokenizer = new Tokenizer(new OpenNLPTokenizer());
+		tokenizer = new Tokenizer(new ArkNLPTokenizer());
 		post = new POSTagger(new POSLookup());
 		disasterTagger = new DisasterTagger(new DefaultDisasterTag());
 		ner = new NamedEntityRecognizer(new SomidiaNER());
@@ -40,6 +40,9 @@ public class PreprocessorManager {
 		long end = 0;
 	
 		try {
+			
+			System.out.println("Tweet:");
+			System.out.println(text);
 			
 			// Tokenizer
 			System.out.println("Tokenizer:");

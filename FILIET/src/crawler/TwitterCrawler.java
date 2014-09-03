@@ -86,7 +86,7 @@ public class TwitterCrawler {
 		
 		
 	}
-	public void TweetCrawl() {
+	public void TweetCrawlPH() {
 	
 		UserStreamListener listener = new UserStreamListener(){
 			private int tweetCount = 0;
@@ -118,6 +118,7 @@ public class TwitterCrawler {
 				System.out.println(tweetCount);
 				tweetCount++;
 			
+				System.out.println(status.getText());
 				StoreTweets(status);
 	
 				
@@ -165,9 +166,7 @@ public class TwitterCrawler {
 			@Override
 			public void onFollow(User source, User followedUser) {
 				// TODO Auto-generated method stub
-			     System.out.println("onFollow source:@"
-		                    + source.getScreenName() + " target:@"
-		                    + followedUser.getScreenName());
+			    
 			}
 
 			@Override
@@ -260,6 +259,181 @@ public class TwitterCrawler {
 		TwitterStream tweetStream = twitterStreamFactory.getInstance();
 		tweetStream.addListener(listener);
 		tweetStream.user();
+
+	}
+	
+	public void TweetCrawl() {
+		
+		UserStreamListener listener = new UserStreamListener(){
+			private int tweetCount = 0;
+
+			@Override
+			public void onDeletionNotice(StatusDeletionNotice arg0) {
+				// TODO Auto-generated method stub
+				
+			}
+
+			@Override
+			public void onScrubGeo(long arg0, long arg1) {
+				// TODO Auto-generated method stub
+				
+			}
+
+			@Override
+			public void onStallWarning(StallWarning arg0) {
+				// TODO Auto-generated method stub
+				
+			}
+
+			@Override
+			public void onStatus(Status status) {
+				// TODO Auto-generated stub
+				System.out.println("onStatus @" + status.getUser().getScreenName() + " - " + status.getText());
+				// Add tweet to list
+				// manager.PreprocessText(content);
+				System.out.println(tweetCount);
+				tweetCount++;
+			
+				StoreTweets(status);
+	
+				
+				//Tweet tweet = new Tweet(tweetID, username, content, location.getLatitude(), location.getLongitude());
+				//Tweets.AddTweets(tweet);
+				
+			}
+
+			@Override
+			public void onTrackLimitationNotice(int arg0) {
+				// TODO Auto-generated method stub
+				
+			}
+
+			@Override
+			public void onException(Exception e) {
+				// TODO Auto-generated method stub
+				System.out.println("This tweet cannot be stored");	
+			}
+
+			@Override
+			public void onBlock(User arg0, User arg1) {
+				// TODO Auto-generated method stub
+				
+			}
+
+			@Override
+			public void onDeletionNotice(long arg0, long arg1) {
+				// TODO Auto-generated method stub
+				
+			}
+
+			@Override
+			public void onDirectMessage(DirectMessage arg0) {
+				// TODO Auto-generated method stub
+				
+			}
+
+			@Override
+			public void onFavorite(User arg0, User arg1, Status arg2) {
+				// TODO Auto-generated method stub
+				
+			}
+
+			@Override
+			public void onFollow(User source, User followedUser) {
+				// TODO Auto-generated method stub
+			    
+			}
+
+			@Override
+			public void onFriendList(long[] friendIds) {
+				// TODO Auto-generated method stub
+			}
+
+			@Override
+			public void onUnblock(User arg0, User arg1) {
+				// TODO Auto-generated method stub
+				
+			}
+
+			@Override
+			public void onUnfavorite(User arg0, User arg1, Status arg2) {
+				// TODO Auto-generated method stub
+				
+			}
+
+			@Override
+			public void onUnfollow(User arg0, User arg1) {
+				// TODO Auto-generated method stub
+				
+			}
+
+			@Override
+			public void onUserListCreation(User arg0, UserList arg1) {
+				// TODO Auto-generated method stub
+				
+			}
+
+			@Override
+			public void onUserListDeletion(User arg0, UserList arg1) {
+				// TODO Auto-generated method stub
+				
+			}
+
+			@Override
+			public void onUserListMemberAddition(User arg0, User arg1,
+					UserList arg2) {
+				// TODO Auto-generated method stub
+				
+			}
+
+			@Override
+			public void onUserListMemberDeletion(User arg0, User arg1,
+					UserList arg2) {
+				// TODO Auto-generated method stub
+				
+			}
+
+			@Override
+			public void onUserListSubscription(User arg0, User arg1,
+					UserList arg2) {
+				// TODO Auto-generated method stub
+				
+			}
+
+			@Override
+			public void onUserListUnsubscription(User arg0, User arg1,
+					UserList arg2) {
+				// TODO Auto-generated method stub
+				
+			}
+
+			@Override
+			public void onUserListUpdate(User arg0, UserList arg1) {
+				// TODO Auto-generated method stub
+				
+			}
+
+			@Override
+			public void onUserProfileUpdate(User arg0) {
+				// TODO Auto-generated method stub
+				
+			}
+			
+			private void StoreTweets(Status status){
+				Tweet tweet = new Tweet(status);
+				try {
+					tweet.StoreTweet();
+				} catch (SQLException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			}
+			
+		};
+		
+		TwitterStream tweetStream = twitterStreamFactory.getInstance();
+		tweetStream.addListener(listener);
+		tweetStream.sample();
 
 	}
 	

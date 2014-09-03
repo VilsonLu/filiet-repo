@@ -77,10 +77,11 @@ public class Token {
 			}
 		}
 		
-		System.out.print(word);
+		System.out.print("\""+word+"\",");
 	}
 	
 	public void TokenXML(){
 		
 	}
+	
 }

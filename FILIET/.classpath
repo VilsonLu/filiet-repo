@@ -60,5 +60,6 @@
 	<classpathentry kind="lib" path="lib/gate/xstream-1.4.7.jar"/>
 	<classpathentry kind="lib" path="lib/gate/gate.jar"/>
 	<classpathentry kind="lib" path="lib/weka/weka-src.jar"/>
+	<classpathentry kind="lib" path="lib/arknlp/ark-tweet-nlp-0.3.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

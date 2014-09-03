@@ -7,7 +7,9 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.List;
 
+import cmu.arktweetnlp.Twokenize;
 import data.Sentence;
 import data.Token;
 import opennlp.tools.tokenize.TokenizerME;
@@ -47,13 +49,19 @@ class OpenNLPTokenizer implements TokenizerInterface {
 	}
 }
 
-class TwitIETokenizer implements TokenizerInterface{
+class ArkNLPTokenizer implements TokenizerInterface{
 
 	@Override
 	public Sentence execute(String text) {
 		// TODO Auto-generated method stub
-
-		return null;
+		List<String> tokens = Twokenize.tokenizeRawTweetText(text);
+		Sentence sentence = new Sentence();
+		for(String token: tokens){
+			Token t = new Token();
+			t.setWord(token);
+			sentence.AddToken(t);
+		}
+		return sentence;
 	}
 	
 }
