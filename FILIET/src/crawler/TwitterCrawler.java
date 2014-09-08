@@ -11,6 +11,8 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.Properties;
 
+import org.apache.log4j.BasicConfigurator;
+
 import preprocess.PreprocessorManager;
 import data.Tweet;
 import database.DBFactory;
@@ -47,7 +49,7 @@ public class TwitterCrawler {
 	
 	public TwitterCrawler(){
 			try {
-				manager = new PreprocessorManager();
+				//BasicConfigurator.configure();
 				InitializeKey();
 				InitializeTwitter();
 			} catch (IOException | TwitterException e) {
@@ -433,7 +435,7 @@ public class TwitterCrawler {
 		
 		TwitterStream tweetStream = twitterStreamFactory.getInstance();
 		tweetStream.addListener(listener);
-		tweetStream.sample();
+		tweetStream.user();
 
 	}
 	
