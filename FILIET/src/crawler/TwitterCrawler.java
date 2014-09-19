@@ -11,10 +11,11 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.Properties;
 
+import model.Tweet;
+
 import org.apache.log4j.BasicConfigurator;
 
 import preprocess.PreprocessorManager;
-import data.Tweet;
 import database.DBFactory;
 import twitter4j.DirectMessage;
 import twitter4j.FilterQuery;
@@ -264,6 +265,7 @@ public class TwitterCrawler {
 
 	}
 	
+	
 	public void TweetCrawl() {
 		
 		UserStreamListener listener = new UserStreamListener(){
@@ -433,9 +435,13 @@ public class TwitterCrawler {
 			
 		};
 		
+		FilterQuery fq = new FilterQuery();
+		String keywords[] = {"#reliefph", "baha", "#rescueph"};
+		fq.track(keywords);
+		
 		TwitterStream tweetStream = twitterStreamFactory.getInstance();
 		tweetStream.addListener(listener);
-		tweetStream.user();
+		tweetStream.filter(fq);
 
 	}
 	

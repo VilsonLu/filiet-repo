@@ -2,8 +2,8 @@ package preprocess;
 
 import java.io.IOException;
 
-import data.Sentence;
-import data.Token;
+import model.Sentence;
+import model.Token;
 
 public class PreprocessorManager {
 

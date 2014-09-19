@@ -2,7 +2,7 @@ package preprocess;
 
 import java.io.IOException;
 
-import data.Sentence;
+import model.Sentence;
 import opennlp.tools.util.InvalidFormatException;
 
 public class Tokenizer {

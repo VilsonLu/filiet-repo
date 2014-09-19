@@ -1,4 +1,4 @@
-package data;
+package model;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -20,7 +20,7 @@ public class Tweet {
 	private Boolean URL;
 	private String Language;
 	private Status Status;
-	
+	private Sentence AnnotatedTweet;
 	public Tweet(Status status){
 		this.Status = status;
 		this.TweetID = status.getId();
@@ -56,10 +56,10 @@ public class Tweet {
 			return true;
 	}
 	
-	
 	public long getTweetID() {
 		return TweetID;
 	}
+	
 	public void setTweetID(long tweetID) {
 		TweetID = tweetID;
 	}
@@ -67,6 +67,7 @@ public class Tweet {
 	public String getUser() {
 		return User;
 	}
+	
 	public void setUser(String user) {
 		User = user;
 	}
@@ -81,6 +82,7 @@ public class Tweet {
 	public Double getLatitude() {
 		return Latitude;
 	}
+	
 	public void setLatitude(Double latitude) {
 		Latitude = latitude;
 	}
@@ -88,6 +90,7 @@ public class Tweet {
 	public Double getLongitude() {
 		return Longitude;
 	}
+	
 	public void setLongitude(Double longitude) {
 		Longitude = longitude;
 	}

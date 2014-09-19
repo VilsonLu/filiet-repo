@@ -4,8 +4,8 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-import data.Sentence;
-import data.Token;
+import model.Sentence;
+import model.Token;
 
 public interface DisasterTaggerInterface {
 	Sentence execute(Sentence tokens);

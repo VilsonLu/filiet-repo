@@ -9,9 +9,9 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
 
+import model.Sentence;
+import model.Token;
 import cmu.arktweetnlp.Twokenize;
-import data.Sentence;
-import data.Token;
 import opennlp.tools.tokenize.TokenizerME;
 import opennlp.tools.tokenize.TokenizerModel;
 import opennlp.tools.util.InvalidFormatException;
