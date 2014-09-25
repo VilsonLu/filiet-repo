@@ -441,7 +441,7 @@ public class TwitterCrawler {
 		
 		TwitterStream tweetStream = twitterStreamFactory.getInstance();
 		tweetStream.addListener(listener);
-		tweetStream.sample();
+		tweetStream.filter(fq);
 
 	}
 	
