@@ -4,7 +4,6 @@ public class Token {
 	private String Word;
 	private String POSTag;
 	private String NERTag;
-	private Boolean IsDisasterWord;
 	
 	/**
 	 * @return the word
@@ -42,21 +41,6 @@ public class Token {
 	public void setNERTag(String nERTag) {
 		NERTag = nERTag;
 	}
-	/**
-	 * @return the isDisasterWord
-	 */
-	public Boolean getIsDisasterWord() {
-		if(IsDisasterWord == null){
-			return false;
-		}
-		return IsDisasterWord;
-	}
-	/**
-	 * @param isDisasterWord the isDisasterWord to set
-	 */
-	public void setIsDisasterWord(Boolean isDisasterWord) {
-		IsDisasterWord = isDisasterWord;
-	}	
 	
 	public void PrintToken(){
 		String word = this.Word;
@@ -69,14 +53,8 @@ public class Token {
 			if(this.NERTag.equalsIgnoreCase("location")){
 				word = "<location: " + this.Word + "/>";
 			}
-		}
-		
-		if(this.IsDisasterWord != null){
-			if(this.IsDisasterWord){
-				word = "<disaster: " + this.Word + "/>";
-			}
-		}
-		
+		}	
+	
 		System.out.print("\""+word+"\",");
 	}
 	

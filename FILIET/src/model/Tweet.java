@@ -4,9 +4,11 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
+import cmu.arktweetnlp.Twokenize;
 import twitter4j.HashtagEntity;
 import twitter4j.Status;
 import twitter4j.URLEntity;
+import weka.core.Attribute;
 import database.DBFactory;
 
 public class Tweet {
@@ -20,11 +22,14 @@ public class Tweet {
 	private Boolean URL;
 	private String Language;
 	private Status Status;
-	private Sentence AnnotatedTweet;
+	
+	public Tweet(){}
+	
 	public Tweet(Status status){
+		
 		this.Status = status;
 		this.TweetID = status.getId();
-		this.Tweet = status.getText().toString();
+		this.Tweet = Twokenize.squeezeWhitespace(status.getText().toString());
 		this.User = status.getUser().getScreenName();
 		
 		if(status.getGeoLocation() != null){
@@ -95,6 +100,47 @@ public class Tweet {
 		Longitude = longitude;
 	}
 	
+	
+	public Boolean getRetweet() {
+		return Retweet;
+	}
+
+	public void setRetweet(Boolean retweet) {
+		Retweet = retweet;
+	}
+
+	public Boolean getHashtag() {
+		return Hashtag;
+	}
+
+	public void setHashtag(Boolean hashtag) {
+		Hashtag = hashtag;
+	}
+
+	public Boolean getURL() {
+		return URL;
+	}
+
+	public void setURL(Boolean uRL) {
+		URL = uRL;
+	}
+
+	public String getLanguage() {
+		return Language;
+	}
+
+	public void setLanguage(String language) {
+		Language = language;
+	}
+
+	public Status getStatus() {
+		return Status;
+	}
+
+	public void setStatus(Status status) {
+		Status = status;
+	}
+
 	/*
 	 * This stores the tweet into the database
 	 */

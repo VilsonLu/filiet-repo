@@ -19,7 +19,7 @@ class DefaultDisasterTag implements DisasterTaggerInterface{
 		// TODO Auto-generated method stub
 		File DisasterWords = new File("./resources/DisasterWords");
 		Scanner s = null;
-		
+		/*
 		for(int i=0; i<tokens.GetLength(); i++){
 			Token token = tokens.GetToken(i);
 			try {
@@ -38,7 +38,7 @@ class DefaultDisasterTag implements DisasterTaggerInterface{
 			}
 			s.close();
 		}
-		
+		*/
 		return tokens;
 	}
 	

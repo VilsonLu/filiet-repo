@@ -25,7 +25,7 @@ public class PreprocessorManager {
 	public void InitializeModules(){
 		tokenizer = new Tokenizer(new ArkNLPTokenizer());
 		post = new POSTagger(new POSLookup());
-		disasterTagger = new DisasterTagger(new DefaultDisasterTag());
+		//disasterTagger = new DisasterTagger(new DefaultDisasterTag());
 		ner = new NamedEntityRecognizer(new SomidiaNER());
 	}
 	
@@ -59,11 +59,12 @@ public class PreprocessorManager {
 			System.out.println("Named Entity Recognizer:");
 			tokens.PrintSentence();
 			
+			/*
 			// Disaster Keyword Tagger
 			tokens =  disasterTagger.executeStrategy(tokens);
 			System.out.println("Disaster Tagger:");
 			tokens.PrintSentence();
-			
+			*/
 			
 
 			

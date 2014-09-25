@@ -436,7 +436,7 @@ public class TwitterCrawler {
 		};
 		
 		FilterQuery fq = new FilterQuery();
-		String keywords[] = {"#reliefph", "baha", "#rescueph"};
+		String keywords[] = {"#reliefPH","#nopower", "#nowater", "#roadalert", "#tracingPH", "#rescuePH", "#floodPH"};
 		fq.track(keywords);
 		
 		TwitterStream tweetStream = twitterStreamFactory.getInstance();
