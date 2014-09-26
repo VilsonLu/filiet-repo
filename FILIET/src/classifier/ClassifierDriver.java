@@ -15,7 +15,7 @@ public class ClassifierDriver {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		ClassifierInterface classifier = new kNNClassifier();
+		ClassifierInterface classifier = new KNNClassifierImpl();
 		
 		Sentence sentence = new Sentence();
 		// Dummy Data

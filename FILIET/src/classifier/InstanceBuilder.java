@@ -83,7 +83,11 @@ public class InstanceBuilder {
 		instances.add(data);
 		return data;
 	}
-	
+	/**
+	 * 
+	 * @param sentence
+	 * @return Instance
+	 */
 	public Instance CreateInstance(Sentence sentence){
 
 		Instances instances = null;
@@ -94,10 +98,12 @@ public class InstanceBuilder {
 		return instance;
 	}
 	
-	/*
-	 *  This will create the Instance that will be used for the classifier. 
-	 *  @param Sentence - this is where the values will come from.
-	 *  @param Dataset - this is where the annotation, attributes will come from.
+	
+	/**
+	 * This will create an instance object 
+	 * @param sentence - this contains the annotated data
+	 * @param dataset - this contains the schema 
+	 * @return Instance
 	 */
 	public Instance CreateInstance(Sentence sentence, Instances dataset){
 

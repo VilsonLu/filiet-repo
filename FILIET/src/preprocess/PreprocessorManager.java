@@ -2,8 +2,14 @@ package preprocess;
 
 import java.io.IOException;
 
+import preprocess.disastertagger.DisasterTagger;
+import preprocess.ner.NamedEntityRecognizer;
+import preprocess.ner.SomidiaNERImpl;
+import preprocess.postagger.POSLookupImpl;
+import preprocess.postagger.POSTagger;
+import preprocess.tokenizer.ArkNLPTokenizerImpl;
+import preprocess.tokenizer.Tokenizer;
 import model.Sentence;
-import model.Token;
 
 public class PreprocessorManager {
 
@@ -23,10 +29,10 @@ public class PreprocessorManager {
 	 * Default Implementation
 	 */
 	public void InitializeModules(){
-		tokenizer = new Tokenizer(new ArkNLPTokenizer());
-		post = new POSTagger(new POSLookup());
+		tokenizer = new Tokenizer(new ArkNLPTokenizerImpl());
+		post = new POSTagger(new POSLookupImpl());
 		//disasterTagger = new DisasterTagger(new DefaultDisasterTag());
-		ner = new NamedEntityRecognizer(new SomidiaNER());
+		ner = new NamedEntityRecognizer(new SomidiaNERImpl());
 	}
 	
 	/*
