@@ -11,6 +11,11 @@ import twitter4j.URLEntity;
 import weka.core.Attribute;
 import database.DBFactory;
 
+/**
+ * This class was used to model the tweet gathered from the crawler
+ * @author Vilson
+ * 
+ */
 public class Tweet {
 	private long TweetID;
 	private String User;

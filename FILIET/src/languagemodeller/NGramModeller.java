@@ -122,7 +122,7 @@ public class NGramModeller {
 		int i = 0;
 
 		//String punctuations = "";
-		String punctuations = "\".,'!?:-";
+		String punctuations = "\".,\'!?:-()|";
 		for (Map.Entry<String, Integer> entry : frequency.entrySet()) {
 			if (!punctuations.contains(entry.getKey())) {
 				if (i < n) {

@@ -3,6 +3,8 @@ package classifier;
 import java.util.ArrayList;
 import java.util.List;
 
+import classifier.implementations.ClassifierInterface;
+import classifier.implementations.KNNClassifierImpl;
 import weka.core.Attribute;
 import weka.core.FastVector;
 import weka.core.Instance;
