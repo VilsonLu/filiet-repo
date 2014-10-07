@@ -21,7 +21,7 @@ public class ArkNLPTokenizerImpl implements TokenizerInterface{
 		for(String token: tokens){
 			Token t = new Token();
 			t.setWord(token);
-			sentence.AddToken(t);
+			sentence.addToken(t);
 		}
 		return sentence;
 	}

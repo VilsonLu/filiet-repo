@@ -41,8 +41,17 @@ public class InstanceBuilder {
 				vector.addElement(attribute);
 			}
 
-			HashMap<String, Integer> attributes = sentence.getAttributes();
+			HashMap<String, Integer> attributes = sentence.getExtractedWordFeatures();
 			Set<String> itAttributes = attributes.keySet();
+
+			for (String entry : itAttributes) {
+				Attribute attribute = new Attribute(entry);
+				vector.addElement(attribute);
+				attributeList.put(entry, attribute);
+			}
+			
+			attributes = sentence.getExtractedFeatures();
+			itAttributes = attributes.keySet();
 
 			for (String entry : itAttributes) {
 				Attribute attribute = new Attribute(entry);
@@ -97,9 +106,16 @@ public class InstanceBuilder {
 		data.setValue(7, getBooleanValue(sample.getURL()));
 		data.attribute(8).addStringValue(sample.getLanguage());
 
-		// features extracted from feature extraction
-		HashMap<String, Integer> attributes = sentence.getAttributes();
+		// extracted word features
+		HashMap<String, Integer> attributes = sentence.getExtractedWordFeatures();
 		Set<Entry<String, Integer>> itAttributes = attributes.entrySet();
+		for (Map.Entry<String, Integer> entry : itAttributes) {
+			data.setValue(attributeList.get(entry), entry.getValue());
+		}
+		
+		// extracted features
+		attributes = sentence.getExtractedFeatures();
+		itAttributes = attributes.entrySet();
 		for (Map.Entry<String, Integer> entry : itAttributes) {
 			data.setValue(attributeList.get(entry), entry.getValue());
 		}

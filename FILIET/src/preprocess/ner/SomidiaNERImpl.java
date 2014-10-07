@@ -20,8 +20,8 @@ public class SomidiaNERImpl implements NERInterface {
 		File file = new File("./resources/NamedEntityRecognizerDictModel");
 		Scanner s = null;
 
-		for (int i = 0; i < tweet.GetLength(); i++) {
-			Token token = tweet.GetToken(i);
+		for (int i = 0; i < tweet.getLength(); i++) {
+			Token token = tweet.getToken(i);
 			String category = null;
 			try {
 				s = new Scanner(file);
@@ -39,7 +39,7 @@ public class SomidiaNERImpl implements NERInterface {
 				} else if (token.getWord().equalsIgnoreCase(line.toString())) {
 					token.setNERTag(category);
 					token.setPOSTag("NN");
-					tweet.ReplaceToken(i, token);
+					tweet.replaceToken(i, token);
 					break;
 				}
 			}

@@ -10,13 +10,15 @@ public class Sentence {
 	// this class contains the information collected in the crawler
 	private Tweet tweets;
 	// this class contains other attributes such as word features, n-grams, tweet length.
-	private HashMap<String, Integer> attributes;
+	private HashMap<String, Integer> extractedWordFeatures;
+	private HashMap<String, Integer> extractedNgramFeatures;
+	private HashMap<String, Integer> extractedFeatures;
 	// this contains the tokens
 	private ArrayList<Token> sentence;
 	
 	public Sentence(){
 		this.sentence = new ArrayList<>();
-		this.attributes = new HashMap<>();
+		this.extractedWordFeatures = new HashMap<>();
 	}
 	
 	/**
@@ -33,18 +35,49 @@ public class Sentence {
 		this.tweets = tweets;
 	}
 
+
 	/**
-	 * @return the attributes
+	 * @return the extractedWordFeatures
 	 */
-	public HashMap<String, Integer> getAttributes() {
-		return attributes;
+	public HashMap<String, Integer> getExtractedWordFeatures() {
+		return extractedWordFeatures;
 	}
 
 	/**
-	 * @param attributes the attributes to set
+	 * @param extractedWordFeatures the extractedWordFeatures to set
 	 */
-	public void setAttributes(HashMap<String, Integer> attributes) {
-		this.attributes = attributes;
+	public void setExtractedWordFeatures(
+			HashMap<String, Integer> extractedWordFeatures) {
+		this.extractedWordFeatures = extractedWordFeatures;
+	}
+
+	/**
+	 * @return the extractedNgramFeatures
+	 */
+	public HashMap<String, Integer> getExtractedNgramFeatures() {
+		return extractedNgramFeatures;
+	}
+
+	/**
+	 * @param extractedNgramFeatures the extractedNgramFeatures to set
+	 */
+	public void setExtractedNgramFeatures(
+			HashMap<String, Integer> extractedNgramFeatures) {
+		this.extractedNgramFeatures = extractedNgramFeatures;
+	}
+
+	/**
+	 * @return the extractedFeatures
+	 */
+	public HashMap<String, Integer> getExtractedFeatures() {
+		return extractedFeatures;
+	}
+
+	/**
+	 * @param extractedFeatures the extractedFeatures to set
+	 */
+	public void setExtractedFeatures(HashMap<String, Integer> extractedFeatures) {
+		this.extractedFeatures = extractedFeatures;
 	}
 
 	/**
@@ -72,21 +105,23 @@ public class Sentence {
 	 * Add token to the sentence
 	 * @param token
 	 */
-	public void AddToken(Token token){
+	public void addToken(Token token){
 		sentence.add(token);
 	}
 	/**
 	 * Get the length (number of tokens) of the tweet
 	 * @return int
 	 */
-	public int GetLength(){
+	
+	public int getLength(){
 		return this.sentence.size();
 	}
+
 	/**
 	 * Get a token using the word
 	 * @param word
 	 */
-	public Token GetToken(String word){
+	public Token getToken(String word){
 		for(Token token: sentence){
 			if(token.getWord().equalsIgnoreCase(word)){
 				return token;
@@ -100,7 +135,7 @@ public class Sentence {
 	 * @param ith index
 	 * @return the ith token
 	 */
-	public Token GetToken(int i){
+	public Token getToken(int i){
 		if(i < this.sentence.size()){
 			return this.sentence.get(i);
 		}
@@ -112,11 +147,11 @@ public class Sentence {
 	 * Replace the ith token
 	 * @param i - ith index
 	 */
-	public void ReplaceToken(int i, Token token){
+	public void replaceToken(int i, Token token){
 		this.sentence.set(i, token);
 	}
 	
-	public void PrintSentence(){
+	public void printSentence(){
 		for(Token token: sentence){
 			token.PrintToken();
 			System.out.print(" ");
@@ -124,4 +159,6 @@ public class Sentence {
 		
 		System.out.println();
 	}
+	
+	
 }

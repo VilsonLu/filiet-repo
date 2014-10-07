@@ -29,7 +29,7 @@ public class OpenNLPTokenizerImpl  implements TokenizerInterface{
 			for(String token: tokens){
 				Token word = new Token();
 				word.setWord(token);
-				sentence.AddToken(word);
+				sentence.addToken(word);
 			}
 			is.close();
 		} catch (FileNotFoundException e) {

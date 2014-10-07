@@ -22,7 +22,7 @@ public class POSLookupImpl implements POSTaggerInterface {
 		File PosDictionary = new File("./resources/posDictionary");
 		Scanner s = null;
 
-		for (int i = 0; i < tokens.GetLength(); i++) {
+		for (int i = 0; i < tokens.getLength(); i++) {
 			try {
 				s = new Scanner(PosDictionary);
 			} catch (FileNotFoundException e) {
@@ -33,7 +33,7 @@ public class POSLookupImpl implements POSTaggerInterface {
 			while (s.hasNextLine()) {
 				String line = s.nextLine();
 				String tagToken[] = line.split("\\s+");
-				Token token = tokens.GetToken(i);
+				Token token = tokens.getToken(i);
 				if (token.getWord().equalsIgnoreCase(tagToken[0])) {
 					if (tagToken[2].equalsIgnoreCase("ENG")
 							|| tagToken[2].equalsIgnoreCase("TAG")) {
@@ -43,7 +43,7 @@ public class POSLookupImpl implements POSTaggerInterface {
 						token.setPOSTag(tagToken[2]);
 
 					}
-					tokens.ReplaceToken(i, token);
+					tokens.replaceToken(i, token);
 				}
 			}
 			s.close();
