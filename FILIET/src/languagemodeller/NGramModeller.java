@@ -86,8 +86,7 @@ public class NGramModeller {
 		Iterator<StringList> it = modeller.iterator();
 		while (it.hasNext()) {
 			StringList temp = it.next();
-			System.out.println(temp);
-			String tempString = temp.getToken(0);
+			String tempString = temp.getToken(0).replace(' ', '_');
 			frequency.put(tempString, modeller.getCount(temp));
 
 		}

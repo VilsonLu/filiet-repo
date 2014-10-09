@@ -10,10 +10,10 @@ public class Driver {
 		String word = "./resources/model/wordcount/words";
 		String saveModel = "./resources/model/wordcount/extractedFeatureTweets.csv";
 		FeatureExtractor fe = new FeatureExtractor(word,ngram);
-		//fe.extractFeatures(tweets,saveModel);
-		String text = "Ilang lugar naman sa Lungsod ng Makati, lubog pa rin sa baha. #MarioPH #FloodPH";
-		//fe.extract(text);
-		fe.extractNgramFeatures(text);
+		fe.extractFeatures(tweets,saveModel);
+//		String text = "Ilang lugar naman sa Lungsod ng Makati, lubog pa rin sa baha. #MarioPH #FloodPH";
+//		//fe.extract(text);
+//		fe.extractNgramFeatures(text);
 	}
 
 }
