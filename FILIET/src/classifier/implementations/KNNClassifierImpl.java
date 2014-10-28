@@ -11,14 +11,18 @@ import model.Sentence;
 public class KNNClassifierImpl implements ClassifierInterface {
 	
 	private SerializedClassifier classifier;
+	private String path;
 	
-	public KNNClassifierImpl(){
+	public KNNClassifierImpl(String path){
+		this.path = path;
+		System.out.println("KNNClassifier Path: " + path );
 		init();
+		
 	}
 	
 	public void init(){
 		classifier = new SerializedClassifier();
-		classifier.setModelFile(new File("./resources/model/kNN.model"));
+		classifier.setModelFile(new File(path));
 	}
 	
 	@Override
@@ -33,7 +37,6 @@ public class KNNClassifierImpl implements ClassifierInterface {
 		try {
 			value = classifier.classifyInstance(data);
 			label = dataset.classAttribute().value((int) value);
-			System.out.println(dataset.classAttribute().value((int) value ));
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

@@ -38,7 +38,7 @@ public class NGramModeller {
 	 */
 	public void countWordFrequency(String path, String saveFile, int topN)
 			throws IOException {
-
+		frequency = new HashMap<>();
 		File file = new File(path);
 		FileReader fr = new FileReader(file);
 		BufferedReader br = new BufferedReader(fr);
@@ -66,7 +66,7 @@ public class NGramModeller {
 	 */
 	public void CharNGram(int ngram, int topN, String saveFile, String path)
 			throws IOException {
-
+		frequency = new HashMap<>();
 		File file = new File(path);
 		FileReader fr = new FileReader(file);
 		BufferedReader br = new BufferedReader(fr);
