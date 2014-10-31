@@ -45,7 +45,6 @@ public class PreprocessorManager {
 		long start = 0;
 		long end = 0;
 	
-		try {
 			
 			System.out.println("Tweet:");
 			System.out.println(text);
@@ -74,11 +73,7 @@ public class PreprocessorManager {
 			
 
 			
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
+
 		return tokens;
 	}
 }

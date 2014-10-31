@@ -11,7 +11,7 @@ public class Tokenizer {
 		this.strategy = strategy;
 	}
 	
-	public Sentence executeStrategy(String text) throws InvalidFormatException, IOException{
+	public Sentence executeStrategy(String text){
 		return this.strategy.execute(text);
 	}
 }

@@ -23,6 +23,14 @@ public class NGramModeller {
 	private HashMap<String, Integer> frequency;
 	private Tokenizer tokenizer;
 
+	
+	private static String wordAffix = "W_";
+	private static String ngramAffix = "N_";
+	
+	private String quote = "\"";
+	private char colon = ':';
+	private char period = '.';
+	private char empty = ' ';
 	public NGramModeller() {
 		frequency = new HashMap<>();
 	}
@@ -48,12 +56,16 @@ public class NGramModeller {
 
 		while ((line = br.readLine()) != null) {
 			String[] column = line.split(split);
-			List<String> tokens = Twokenize.tokenizeRawTweetText(column[2]);
+			String tempTweet = column[2].replace("\"", "");
+			//tempTweet = column[2].replace(colon, empty);
+			//tempTweet = column[2].replace(period, empty);
+			List<String> tokens = Twokenize.tokenizeRawTweetText(tempTweet);
 			for (String token : tokens) {
-				if (frequency.get(token) == null) {
-					frequency.put(token, 1);
+				String tempToken = wordAffix+token.toLowerCase();
+				if (frequency.get(tempToken) == null) {
+					frequency.put(tempToken, 1);
 				} else {
-					frequency.put(token, frequency.get(token) + 1);
+					frequency.put(tempToken, frequency.get(tempToken) + 1);
 				}
 			}
 		}
@@ -87,7 +99,7 @@ public class NGramModeller {
 		while (it.hasNext()) {
 			StringList temp = it.next();
 			String tempString = temp.getToken(0).replace(' ', '_');
-			frequency.put(tempString, modeller.getCount(temp));
+			frequency.put(ngramAffix+tempString, modeller.getCount(temp));
 
 		}
 
