@@ -1,23 +1,12 @@
 package featureextraction;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
 import Test.Testing;
-import au.com.bytecode.opencsv.CSVReader;
-import opennlp.tools.util.InvalidFormatException;
-import preprocess.tokenizer.OpenNLPTokenizerImpl;
-import preprocess.tokenizer.Tokenizer;
 import model.Sentence;
-import model.Tweet;
+
 
 
 public class Driver {
@@ -34,8 +23,9 @@ public class Driver {
 		String word = "./resources/model/wordcount/wordcounts";
 		String saveModel = "./resources/tweets/preprocessed/testExtraction.csv";
 		String testTweets = "./resources/tweets/testdata/test-data.csv";
+
 		FeatureExtractor fe = new FeatureExtractor(word,ngram);
-		//fe.extractFeatures(tweets,saveModel);
+		fe.extractFeatures(tweets,saveModel);
 		
 		List<Sentence> sentences = Testing.readTestData(testTweets);
 	

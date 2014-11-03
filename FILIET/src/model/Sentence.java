@@ -151,13 +151,18 @@ public class Sentence {
 		this.sentence.set(i, token);
 	}
 	
-	public void printSentence(){
+	public String toString(){
+		String s = "";
+		int i=0;
+		int wordCount = sentence.size();
 		for(Token token: sentence){
-			token.PrintToken();
-			System.out.print(" ");
+			s += token.getWord();
+			if(i < wordCount-1)
+				s += " ";
+			i++;
 		}
 		
-		System.out.println();
+		return s;
 	}
 	
 	

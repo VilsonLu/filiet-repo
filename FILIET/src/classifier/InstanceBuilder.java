@@ -2,12 +2,10 @@ package classifier;
 
 import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Map.Entry;
 import java.util.Set;
 
 import model.Sentence;
@@ -85,7 +83,7 @@ public class InstanceBuilder {
 		Instances instances = new Instances("ClassifierInstance", vector, 0);
 
 		// Set the class label;
-		instances.setClassIndex(instances.numAttributes() - 1);
+		instances.setClassIndex(instances.numAttributes()-1);
 
 		return instances;
 	}
@@ -112,34 +110,42 @@ public class InstanceBuilder {
 		data.setValue(0, sample.getTweetID());
 		data.attribute(1).addStringValue(sample.getUser());
 		data.attribute(2).addStringValue(sample.getTweet());
-		data.setValue(3, sample.getLatitude());
-		data.setValue(4, sample.getLongitude());
+		
+		if(sample.getLatitude() != null){
+			data.setValue(3, sample.getLatitude());
+		}
+		if(sample.getLatitude() != null){
+			data.setValue(4, sample.getLongitude());
+		}
+		
 		data.setValue(5, getBooleanValue(sample.getHashtag()));
 		data.setValue(6, getBooleanValue(sample.getRetweet()));
 		data.setValue(7, getBooleanValue(sample.getURL()));
 		data.attribute(8).addStringValue(sample.getLanguage());
+	
+		// extracted word features
+		HashMap<String, Integer> attributes = sentence.getExtractedWordFeatures();
+		Set<Map.Entry<String, Integer>> itAttributes = attributes.entrySet();
+		for (Map.Entry<String, Integer> entry : itAttributes) {
+		
+			data.setValue(attributeList.get(entry.getKey()), entry.getValue());
+		}
+		
+		// extracted n-gram features
+		attributes = sentence.getExtractedNgramFeatures();
+		itAttributes = attributes.entrySet();
+		for (Map.Entry<String, Integer> entry : itAttributes) {
+			data.setValue(attributeList.get(entry.getKey()), entry.getValue());
+		}
+		
+		// extracted features
+		attributes = sentence.getExtractedFeatures();
+		itAttributes = attributes.entrySet();
+		for (Map.Entry<String, Integer> entry : itAttributes) {
+			data.setValue(attributeList.get(entry.getKey()), entry.getValue());
+		}
 
-//		// extracted word features
-//		HashMap<String, Integer> attributes = sentence.getExtractedWordFeatures();
-//		Set<Entry<String, Integer>> itAttributes = attributes.entrySet();
-//		for (Map.Entry<String, Integer> entry : itAttributes) {
-//			data.setValue(attributeList.get(entry), entry.getValue());
-//		}
-//		
-//		// extracted n-gram features
-//		attributes = sentence.getExtractedNgramFeatures();
-//		itAttributes = attributes.entrySet();
-//		for (Map.Entry<String, Integer> entry : itAttributes) {
-//			data.setValue(attributeList.get(entry), entry.getValue());
-//		}
-//		
-//		// extracted features
-//		attributes = sentence.getExtractedFeatures();
-//		itAttributes = attributes.entrySet();
-//		for (Map.Entry<String, Integer> entry : itAttributes) {
-//			data.setValue(attributeList.get(entry), entry.getValue());
-//		}
-
+		data.setValue((Attribute)vector.lastElement(), sample.getCategory());
 		instances.add(data);
 		return data;
 	}

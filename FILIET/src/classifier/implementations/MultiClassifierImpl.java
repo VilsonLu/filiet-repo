@@ -24,8 +24,9 @@ public class MultiClassifierImpl implements ClassifierInterface{
 	 */
 	private SerializedClassifier classifierD;
 	//private SerializedClassifier classifierO;
+
 	
-	public MultiClassifierImpl(){
+	public MultiClassifierImpl(int classIndex){
 		init();
 	}
 	

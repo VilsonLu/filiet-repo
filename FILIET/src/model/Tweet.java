@@ -26,7 +26,9 @@ public class Tweet {
 	private Boolean Hashtag;
 	private Boolean URL;
 	private String Language;
+	private String Category;
 	private Status Status;
+	
 	
 	public Tweet(){}
 	
@@ -137,6 +139,21 @@ public class Tweet {
 	public void setLanguage(String language) {
 		Language = language;
 	}
+	
+
+	/**
+	 * @return the category
+	 */
+	public String getCategory() {
+		return Category;
+	}
+
+	/**
+	 * @param category the category to set
+	 */
+	public void setCategory(String category) {
+		Category = category;
+	}
 
 	public Status getStatus() {
 		return Status;
@@ -145,6 +162,7 @@ public class Tweet {
 	public void setStatus(Status status) {
 		Status = status;
 	}
+	
 
 	/*
 	 * This stores the tweet into the database

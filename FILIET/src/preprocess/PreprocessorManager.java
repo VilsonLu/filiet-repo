@@ -52,17 +52,17 @@ public class PreprocessorManager {
 			// Tokenizer
 			System.out.println("Tokenizer:");
 			tokens = tokenizer.executeStrategy(text);
-			tokens.printSentence();
+			tokens.toString();
 			
 			// POS Tagger
 			tokens = post.executeStrategy(tokens);			
 			System.out.println("POS Tagger:");
-			tokens.printSentence();
+			tokens.toString();
 			
 			// Named Entity Recognizer
 			tokens = ner.executeStrategy(tokens);
 			System.out.println("Named Entity Recognizer:");
-			tokens.printSentence();
+			tokens.toString();
 			
 			/*
 			// Disaster Keyword Tagger
