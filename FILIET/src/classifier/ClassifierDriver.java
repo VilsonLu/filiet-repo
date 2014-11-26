@@ -1,9 +1,5 @@
 package classifier;
 
-import java.util.List;
-
-import model.Sentence;
-import Test.Testing;
 import classifier.implementations.ClassifierInterface;
 import classifier.implementations.KNNClassifierImpl;
 import featureextraction.FeatureExtractor;
@@ -26,7 +22,10 @@ public class ClassifierDriver {
 		System.out.println("Class Index: "  + classIndex);
 		ClassifierInterface classifier = new KNNClassifierImpl(modelPath);
 		
-		List<Sentence> testSentences = Testing.readTestData(testData);
+		
+		
+		
+	/*	List<Sentence> testSentences = Testing.readTestData(testData);
 		int i = 1;
 		for(Sentence sentence: testSentences){
 			System.out.println("Test " + i);
@@ -36,7 +35,7 @@ public class ClassifierDriver {
 			System.out.println("Actual: " + sentence.getTweets().getCategory());
 			System.out.println();
 			i++;
-		}
+		}*/
 		
 	
 		

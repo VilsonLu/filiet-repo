@@ -1,0 +1,25 @@
+package classifier;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import classifier.implementations.ClassifierInterface;
+import classifier.implementations.KNNClassifierImpl;
+import featureextraction.FeatureExtractor;
+import weka.core.Attribute;
+import weka.core.FastVector;
+import weka.core.Instance;
+import weka.core.Instances;
+import model.Sentence;
+import model.Tweet;
+
+public class ClassifierDriver {
+
+
+	public static void main(String[] args) {
+		
+		
+		
+	}
+
+}
