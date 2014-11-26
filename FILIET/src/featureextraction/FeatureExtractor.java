@@ -30,7 +30,6 @@ public class FeatureExtractor {
 	public static final int NGRAM = 1;
 	public static final int TWEET = 2;
 
-	
 	/*
 	 * Headers
 	 */
@@ -51,8 +50,10 @@ public class FeatureExtractor {
 	private int classIndex;
 
 	/**
-	 * @param wordModel - files that contained t list of words
-	 * @param ngramModel - files that contained th
+	 * @param wordModel
+	 *            - files that contained t list of words
+	 * @param ngramModel
+	 *            - files that contained th
 	 */
 	public FeatureExtractor(String wordModel, String ngramModel) {
 		readModel(wordModel, FeatureExtractor.WORD);
@@ -88,8 +89,6 @@ public class FeatureExtractor {
 	public void setNgramfeatures(List<String> ngramfeatures) {
 		this.ngramfeatures = ngramfeatures;
 	}
-	
-	
 
 	/**
 	 * @return the classIndex
@@ -99,7 +98,8 @@ public class FeatureExtractor {
 	}
 
 	/**
-	 * @param classIndex the classIndex to set
+	 * @param classIndex
+	 *            the classIndex to set
 	 */
 	public void setClassIndex(int classIndex) {
 		this.classIndex = classIndex;
@@ -167,17 +167,15 @@ public class FeatureExtractor {
 			/*
 			 * The reader
 			 */
-			
+
 			char delimiter = ';';
 			CsvReader csvReader = new CsvReader(path, delimiter);
-			int headerCount = 0;
-			int rowCount = 0;
 			/*
 			 * The writer
 			 */
 			File file = new File(save);
 			FileWriter fw = new FileWriter(file, true);
-			CSVWriter csvWriter = new CSVWriter(fw,',','\"');
+			CSVWriter csvWriter = new CSVWriter(fw, ',', '\"');
 			csvReader.readHeaders();
 			String[] header = csvReader.getHeaders();
 
@@ -192,101 +190,88 @@ public class FeatureExtractor {
 			for (String h : header) {
 				headers.add(h);
 				classIndex++;
-				headerCount++;
+
 			}
-			
+
 			// headers for word features
 			for (String w : wordfeatures) {
 				headers.add(w);
-				headerCount++;
 			}
 
-			//headers for ngram
-			 for(String g: ngramfeatures){
+			// headers for ngram
+			for (String g : ngramfeatures) {
 				headers.add(g);
-				headerCount++;
-			
+
 			}
-			 
-			//headers for length
+
+			// headers for length
 			headers.add("Length");
-			headerCount++;
-			
-			
+
 			csvWriter.writeNext(headers.toArray(new String[headers.size()]));
 
-			
 			while (csvReader.readRecord()) {
 				ArrayList<String> row = new ArrayList<>();
-	
+
 				String tweet = null;
-				rowCount = 0;
 				extractedWordFeatures = new HashMap<>();
 				for (int i = 0; i < csvReader.getColumnCount(); i++) {
 					/*
 					 * This removes " and '. The punctuation marks is causing
 					 * problem with Weka
-				 	 */
+					 */
 					if (i == FeatureExtractor.TWEET) {
 						String tempTweet = csvReader.get(i);
 						tempTweet = tempTweet.replaceAll(removePunctuation, "");
 						tweet = tempTweet.replaceAll(removeSingleQuote, "");
 						row.add(tweet);
-					
 
 					} else {
 						String temp = csvReader.get(i);
-						if(temp.equals("NULL")){
+						if (temp.equals("NULL")) {
 							row.add(null);
 						} else {
 							row.add(temp);
 						}
 					}
-					
-					rowCount++;
 				}
 
 				/*
 				 * Extraction of the features
 				 */
 				extract(tweet);
-				
+
 				/*
 				 * Writing to CSV
 				 */
 
 				// Word features
-				Set<Map.Entry<String, Integer>> entries = extractedWordFeatures.entrySet();
+				Set<Map.Entry<String, Integer>> entries = extractedWordFeatures
+						.entrySet();
 				for (Map.Entry<String, Integer> entry : entries) {
 					Integer value = entry.getValue();
 					row.add(value.toString());
-					rowCount++;
 				}
-				
+
 				// N-gram features
 				entries = extractedNgramFeatures.entrySet();
 				for (Map.Entry<String, Integer> entry : entries) {
 					Integer value = entry.getValue();
 					row.add(value.toString());
-					rowCount++;
 				}
-				
+
 				// Other features
 				entries = extractedFeatures.entrySet();
 				for (Map.Entry<String, Integer> entry : entries) {
 					Integer value = entry.getValue();
 					row.add(value.toString());
-					rowCount++;
 				}
-				
+
 				rows.add(row.toArray(new String[row.size()]));
-			
-				System.out.println(headerCount + ", " + rowCount);
 			}
-			
+
 			csvWriter.writeAll(rows);
 			csvWriter.close();
-			
+
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -300,7 +285,8 @@ public class FeatureExtractor {
 	/**
 	 * Initialize the hashmap
 	 * 
-	 * @param type - tells if it is ngram or word features
+	 * @param type
+	 *            - tells if it is ngram or word features
 	 * 
 	 */
 	private void initHashMap(int type) {
@@ -314,23 +300,24 @@ public class FeatureExtractor {
 			}
 		}
 	}
-	
+
 	/**
 	 * This extracts the hashtag feature from a tokenized text
+	 * 
 	 * @param tokens
 	 */
-	
-	public void extractHashTag(List<Token> tokens){
-		int  isHashtag = 0;
-		
-		for(Token token: tokens){
+
+	public void extractHashTag(List<Token> tokens) {
+		int isHashtag = 0;
+
+		for (Token token : tokens) {
 			String temp = token.getWord();
-			if(temp.startsWith("#")){
+			if (temp.startsWith("#")) {
 				isHashtag = 1;
 				break;
 			}
 		}
-		
+
 	}
 
 	/**
@@ -339,9 +326,9 @@ public class FeatureExtractor {
 	 * @param tokens
 	 *            - tokenized tweet
 	 */
-	
+
 	public void extractWordFeatures(List<Token> tokens) {
-		
+
 		initHashMap(FeatureExtractor.WORD);
 		for (Token token : tokens) {
 			for (String word : wordfeatures) {
@@ -354,7 +341,6 @@ public class FeatureExtractor {
 			}
 		}
 	}
-	
 
 	/**
 	 * This extracts the n-gram features from a tokenized text
@@ -364,7 +350,7 @@ public class FeatureExtractor {
 	 */
 
 	public void extractNgramFeatures(String sentence) {
-		
+
 		initHashMap(FeatureExtractor.NGRAM);
 		NGramModel model = new NGramModel();
 		model.add(sentence, 2, 2);
@@ -391,7 +377,7 @@ public class FeatureExtractor {
 	 *            - tokenized tweet
 	 */
 	public void extractTweetLength(List<Token> sentence) {
-		
+
 		int numWords = sentence.size();
 		extractedFeatures.put("Length", numWords);
 	}
@@ -400,17 +386,17 @@ public class FeatureExtractor {
 
 		Tokenizer tokenizer = new Tokenizer(new ArkNLPTokenizerImpl());
 
-			Sentence tweet = tokenizer.executeStrategy(sentence);
-			List<Token> tokens = tweet.getSentence();
-			
-			extractedFeatures = new HashMap<String, Integer>();
-			extractedWordFeatures = new HashMap<String, Integer>();
-			extractedNgramFeatures = new HashMap<String, Integer>();
-			
-			extractWordFeatures(tokens);
-			extractNgramFeatures(sentence);
-			extractTweetLength(tokens);
-	
+		Sentence tweet = tokenizer.executeStrategy(sentence);
+		List<Token> tokens = tweet.getSentence();
+
+		extractedFeatures = new HashMap<String, Integer>();
+		extractedWordFeatures = new HashMap<String, Integer>();
+		extractedNgramFeatures = new HashMap<String, Integer>();
+
+		extractWordFeatures(tokens);
+		extractNgramFeatures(sentence);
+		extractTweetLength(tokens);
+
 	}
 
 	/**
@@ -424,15 +410,15 @@ public class FeatureExtractor {
 
 		List<Token> tokens = sentence.getSentence();
 		Tweet tweet = sentence.getTweets();
-		
+
 		extractedFeatures = new HashMap<String, Integer>();
 		extractedWordFeatures = new HashMap<String, Integer>();
 		extractedNgramFeatures = new HashMap<String, Integer>();
-		
+
 		extractWordFeatures(tokens);
 		extractNgramFeatures(tweet.getTweet());
 		extractTweetLength(tokens);
-		
+
 		sentence.setExtractedWordFeatures(extractedWordFeatures);
 		sentence.setExtractedNgramFeatures(extractedNgramFeatures);
 		sentence.setExtractedFeatures(extractedFeatures);

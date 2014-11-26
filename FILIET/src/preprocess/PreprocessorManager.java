@@ -64,13 +64,7 @@ public class PreprocessorManager {
 			System.out.println("Named Entity Recognizer:");
 			tokens.toString();
 			
-			/*
-			// Disaster Keyword Tagger
-			tokens =  disasterTagger.executeStrategy(tokens);
-			System.out.println("Disaster Tagger:");
-			tokens.PrintSentence();
-			*/
-			
+
 
 			
 

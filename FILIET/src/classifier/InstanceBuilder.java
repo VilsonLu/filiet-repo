@@ -44,8 +44,6 @@ public class InstanceBuilder {
 
 			HashMap<String, Integer> attributes = sentence.getExtractedWordFeatures();
 			Set<String> itAttributes = attributes.keySet();
-			
-			System.out.println("Word");
 			for (String entry : itAttributes) {
 				Attribute attribute = new Attribute(entry);
 				vector.addElement(attribute);
@@ -54,7 +52,7 @@ public class InstanceBuilder {
 			
 			attributes = sentence.getExtractedNgramFeatures();
 			itAttributes = attributes.keySet();
-			System.out.println("N-gram");
+
 			for (String entry : itAttributes) {
 				Attribute attribute = new Attribute(entry);
 				vector.addElement(attribute);
@@ -63,7 +61,6 @@ public class InstanceBuilder {
 			
 			attributes = sentence.getExtractedFeatures();
 			itAttributes = attributes.keySet();
-			System.out.println("Features");
 			for (String entry : itAttributes) {
 				Attribute attribute = new Attribute(entry);
 				vector.addElement(attribute);
@@ -127,7 +124,6 @@ public class InstanceBuilder {
 		HashMap<String, Integer> attributes = sentence.getExtractedWordFeatures();
 		Set<Map.Entry<String, Integer>> itAttributes = attributes.entrySet();
 		for (Map.Entry<String, Integer> entry : itAttributes) {
-		
 			data.setValue(attributeList.get(entry.getKey()), entry.getValue());
 		}
 		
