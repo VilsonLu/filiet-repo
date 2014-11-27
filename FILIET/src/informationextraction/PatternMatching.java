@@ -17,9 +17,11 @@ import model.Token;
 public class PatternMatching {
 
 	private List<Grammar> extractionRules;
-
-	public PatternMatching() {
+	// Path to the extraction-rules file
+	private String path;
+	public PatternMatching(String path) {
 		extractionRules = new ArrayList<>();
+		this.path = path;
 	}
 	
 	// this reads the rule file (SOMIDIA rule format)
@@ -82,7 +84,6 @@ public class PatternMatching {
 	}
 
 	public void loadRules() throws IOException {
-		String path = "./resources/rules/extraction-rules";
 		File file = new File(path);
 		FileReader fr = new FileReader(file);
 		BufferedReader br = new BufferedReader(fr);
@@ -93,12 +94,39 @@ public class PatternMatching {
 	
 	}
 
-	public void match(Sentence sentence) {
+	public List<Sentence> match(Sentence sentence) {
 		List<Token> tokens = sentence.getSentence();
+		List<Sentence> extractedInformation = new ArrayList<Sentence>();
+		Sentence extracted = null;
 		for(Grammar rp: extractionRules){
-			for(Token token: tokens){
-				
+			int j = 0;
+			List<Rule> rules = rp.getRules();
+			extracted = new Sentence();
+			for(int i=0; i<tokens.size(); i++){
+				while(j<rules.size()){
+					if(rules.get(j).matchToken(tokens.get(i))){
+						j++;
+						extracted.addToken(tokens.get(i));
+						break;
+					} else {
+						j = 0;
+						extracted = new Sentence();
+						break;
+					}
+				}
+			
+			
 			}
+
+			// This checks if the rule is successfully match
+			if(j==rules.size()){
+				extractedInformation.add(extracted);
+			}else {
+				System.out.println("Rule did not match");
+			}
+			
+			
 		}
+		return extractedInformation;
 	}
 }

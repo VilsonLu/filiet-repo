@@ -95,13 +95,6 @@ public class Sentence {
 	}
 
 	/**
-	 * This will display the tokens
-	 */
-	public void DisplaySentence(){
-		// code later
-	}
-	
-	/**
 	 * Add token to the sentence
 	 * @param token
 	 */
@@ -151,15 +144,16 @@ public class Sentence {
 		this.sentence.set(i, token);
 	}
 	
+	public String getRawTweet(){
+		return tweets.getTweet();
+	}
+	
 	public String toString(){
 		String s = "";
 		int i=0;
 		int wordCount = sentence.size();
 		for(Token token: sentence){
-			s += token.getWord();
-			if(i < wordCount-1)
-				s += " ";
-			i++;
+			token.PrintToken();
 		}
 		
 		return s;

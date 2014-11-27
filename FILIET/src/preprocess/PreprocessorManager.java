@@ -17,57 +17,53 @@ public class PreprocessorManager {
 	private POSTagger post;
 	private DisasterTagger disasterTagger;
 	private NamedEntityRecognizer ner;
-	
+
 	/*
 	 * Constructor: Initializes the modules
 	 */
-	public PreprocessorManager (){
+	public PreprocessorManager() {
 		InitializeModules();
 	}
-	
+
 	/*
 	 * Default Implementation
 	 */
-	public void InitializeModules(){
+	public void InitializeModules() {
 		tokenizer = new Tokenizer(new ArkNLPTokenizerImpl());
 		post = new POSTagger(new POSLookupImpl());
-		//disasterTagger = new DisasterTagger(new DefaultDisasterTag());
+		// disasterTagger = new DisasterTagger(new DefaultDisasterTag());
 		ner = new NamedEntityRecognizer(new SomidiaNERImpl());
 	}
-	
+
 	/*
-	 * Preprocess the text
-	 * Tokenizer, POS Tagger and Disaster Tagger
+	 * Preprocess the text Tokenizer, POS Tagger and Disaster Tagger
 	 */
-	public Sentence PreprocessText(String text){
-		
+	public Sentence PreprocessText(String text) {
+
 		Sentence tokens = null;
 		long start = 0;
 		long end = 0;
+
+		System.out.println("Tweet:");
+		System.out.println(text);
+
+		// Tokenizer
+		System.out.println("Tokenizer...");
+		tokens = tokenizer.executeStrategy(text);
+
+		// POS Tagger
+		tokens = post.executeStrategy(tokens);
+		System.out.println("POS Tagger...");
 	
-			
-			System.out.println("Tweet:");
-			System.out.println(text);
-			
-			// Tokenizer
-			System.out.println("Tokenizer:");
-			tokens = tokenizer.executeStrategy(text);
-			tokens.toString();
-			
-			// POS Tagger
-			tokens = post.executeStrategy(tokens);			
-			System.out.println("POS Tagger:");
-			tokens.toString();
-			
-			// Named Entity Recognizer
-			tokens = ner.executeStrategy(tokens);
-			System.out.println("Named Entity Recognizer:");
-			tokens.toString();
-			
 
-
-			
-
+		// Named Entity Recognizer
+		tokens = ner.executeStrategy(tokens);
+		System.out.println("Named Entity Recognizer...");
+		
+		
+		tokens.toString();
+		
+	
 		return tokens;
 	}
 }
