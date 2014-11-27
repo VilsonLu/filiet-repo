@@ -22,10 +22,10 @@ public class Driver {
 		String word = "./resources/model/word/test-wordcounts";
 		String modelPath = "./resources/model/classifier/Combined/Combined-kNN-3.model";
 		PreprocessorManager preprocess = new PreprocessorManager();
-<<<<<<< HEAD
+
 		String text = "Kailangan na tlga ng military efforts s most part of Leyte. Nagkkgulo n.";
 		preprocess.PreprocessText(text);
-=======
+
 		FeatureExtractor fe = new FeatureExtractor(word,ngram);
 		ClassifierInterface classifier = new KNNClassifierImpl(modelPath);
 		
@@ -44,8 +44,6 @@ public class Driver {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
->>>>>>> upstream/master
 		
 
 			
