@@ -13,7 +13,7 @@ public class Driver {
 		//crawler.TweetCrawl();
 		
 		PreprocessorManager preprocess = new PreprocessorManager();
-		String text = "Kailangan na talaga ng military efforts sa most part of Leyte. Nagkakagulo na.";
+		String text = "Kailangan na tlga ng military efforts s most part of Leyte. Nagkkgulo n.";
 		preprocess.PreprocessText(text);
 		
 

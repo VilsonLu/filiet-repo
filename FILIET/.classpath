@@ -64,5 +64,6 @@
 	<classpathentry kind="lib" path="lib/weka/weka.jar"/>
 	<classpathentry kind="lib" path="lib/javacsv/javacsv.jar"/>
 	<classpathentry kind="lib" path="lib/javacsv/opencsv-2.4.jar"/>
+	<classpathentry kind="lib" path="lib/NormAPI/NormAPI.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
