@@ -65,5 +65,6 @@
 	<classpathentry kind="lib" path="lib/javacsv/javacsv.jar"/>
 	<classpathentry kind="lib" path="lib/javacsv/opencsv-2.4.jar"/>
 	<classpathentry kind="lib" path="lib/NormAPI/NormAPI.jar"/>
+	<classpathentry kind="lib" path="lib/owlapi/owlapi-distribution-3.5.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
