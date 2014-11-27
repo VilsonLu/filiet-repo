@@ -4,6 +4,9 @@ public class Rule {
 	private String type;
 	private String value;
 	private String asExtraction;
+	
+	
+	private String NUMBERS = "0123456789";
 	/**
 	 * @return the type
 	 */
@@ -41,21 +44,45 @@ public class Rule {
 		this.asExtraction = asExtraction;
 	}	
 	
+	// Supporting methods
+	private boolean isNumeric(String str)
+	{
+	    for (char c : str.toCharArray())
+	    {
+	        if (!Character.isDigit(c)) return false;
+	    }
+	    return true;
+	}
+	
 	public boolean matchToken(Token token){
-		
-		if(type == "string"){
+		if(type.equals("string")){
 			if(value.equals("ANY")){
 				return true;
 			} else {
+				
 				return value.equalsIgnoreCase(token.getWord());
 			}
 		} 
 		
-		if (type == "NER"){
+		if(type.equals("number")) {
+			if(value.equals("ANY")){
+				if(isNumeric(token.getWord())){
+					return true;
+				} 
+			} else {
+				if(value.equalsIgnoreCase(token.getWord())){
+					return true;
+				}
+			}
+			
+			return false;
+		}
+		
+		if (type.equals("NER")){
 			return value.equalsIgnoreCase(token.getNERTag());
 		} 
 		
-		if (type == "POS"){
+		if (type.equals("POS")){
 			return value.equalsIgnoreCase(token.getPOSTag());
 		}
 		

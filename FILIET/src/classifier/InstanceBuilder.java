@@ -2,11 +2,14 @@ package classifier;
 
 import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
+
+import com.csvreader.CsvReader;
 
 import model.Sentence;
 import model.Tweet;
@@ -14,7 +17,7 @@ import weka.core.Attribute;
 import weka.core.FastVector;
 import weka.core.Instance;
 import weka.core.Instances;
-
+import weka.core.converters.ConverterUtils.DataSource;
 public class InstanceBuilder {
 
 	private Instances instances;
@@ -88,9 +91,9 @@ public class InstanceBuilder {
 	private Attribute SetClassLabel() {
 
 		FastVector classVal = new FastVector();
-		classVal.addElement("CA");
-		classVal.addElement("CD");
 		classVal.addElement("O");
+		classVal.addElement("CD");
+		classVal.addElement("CA");
 		classVal.addElement("D");
 
 		Attribute classlabel = new Attribute("Category", classVal);
@@ -152,11 +155,9 @@ public class InstanceBuilder {
 	 * @return Instance
 	 */
 	public Instance CreateInstance(Sentence sentence) {
-
 		Instance instance = null;
 		instances = CreateDataset(sentence);
 		instance = SetInstanceValue(instances, sentence);
-
 		return instance;
 	}
 
@@ -168,13 +169,21 @@ public class InstanceBuilder {
 	 * @return Instance
 	 */
 	public Instance CreateInstance(Sentence sentence, Instances dataset) {
-
 		Instance instance = SetInstanceValue(dataset, sentence);
 		return instance;
 	}
+	
+	
+	public Instances buildTrainingData(String path) throws Exception{
+		int classIndex = 9; // this is the index of the class label
+		DataSource source = new DataSource(path);
+		Instances instances = source.getDataSet();
+		instances.setClassIndex(classIndex);
+		return instances;
+		
+	}
 
 	// Supporting functions
-
 	private int getBooleanValue(Boolean value) {
 		if (value)
 			return 1;
