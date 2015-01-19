@@ -7,10 +7,10 @@ import cmu.arktweetnlp.Twokenize;
 public class Driver {
 	public static void main(String[] args){
 		NGramModeller model = new NGramModeller();
-		String path = "./resources/tweets/Cleaned-Categorized-JP-3.csv";
-		String charngram = "./resources/model/ngram/char-ngram";
-		String save = "./resources/model/wordcount/wordcounts";
-		int top = 50;
+		String path = "./resources/tweets/ruby-datasets/combined-d.csv";
+		String charngram = "./resources/model/ngram/ruby-ngram-d";
+		String save = "./resources/model/word/ruby-word-d";
+		int top = 30;
 			
 		try {
 			model.CharNGram(2,top,charngram, path);
