@@ -13,6 +13,7 @@ public class WeightScorer {
 	private DocumentFrequency documentDataset;
 	
 	private Map<String, Double> weights;
+
 	
 	public WeightScorer(DocumentFrequency categoryDataset, DocumentFrequency documentDataset){
 		this.categoryDataset = categoryDataset;
@@ -22,7 +23,8 @@ public class WeightScorer {
 	
 	private Double computeTF(String term){
 		int frequency = categoryDataset.getWordFrequency(term);
-		if(frequency >  0){
+		
+		if(frequency > 0){
 			return 1 + Math.log(frequency);
 		} 
 		
@@ -38,6 +40,7 @@ public class WeightScorer {
 	public Map<String, Double> computeWeights(){
 		
 		List<String> vocabularies = categoryDataset.getListOfWords();
+		System.out.println(vocabularies.size());
 		for(String word: vocabularies){
 			weights.put(word, computeTFIDF(word));
 			System.out.println(word+":"+weights.get(word));

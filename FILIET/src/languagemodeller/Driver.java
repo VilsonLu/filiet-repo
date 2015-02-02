@@ -24,8 +24,8 @@ public class Driver {
 //		}
 //		
 		String dataset = "./resources/tweets/ruby-datasets/ruby-combined.csv";
-		String categoryDataset = "./resources/tweets/ruby-datasets/combined-d.csv";
-		String saveResults = "./resources/model/TFIDF-Scores/d-TFIDF.txt";
+		String categoryDataset = "./resources/tweets/ruby-datasets/combined-ca.csv";
+		String saveResults = "./resources/model/TFIDF-Scores/ca-TFIDF.txt";
 		
 		try {
 			DocumentFrequency documentDataset = new DocumentFrequency(dataset);

@@ -48,7 +48,7 @@ public class DocumentFrequency {
 	}
 	
 	public int getWordFrequency(String word){
-		return wordFrequency.get(word);
+		return wordFrequency.getOrDefault(word,1);
 	}
 	
 	public List<String> getListOfWords(){
