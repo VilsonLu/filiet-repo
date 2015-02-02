@@ -383,7 +383,7 @@ public class FeatureExtractor {
 	}
 
 	public void extract(String sentence) {
-
+		
 		Tokenizer tokenizer = new Tokenizer(new ArkNLPTokenizerImpl());
 
 		Sentence tweet = tokenizer.executeStrategy(sentence);
