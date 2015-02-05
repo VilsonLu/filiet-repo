@@ -17,15 +17,14 @@ public class Driver {
 			
 //		try {
 //			model.CharNGram(2,top,charngram, path);
-//			model.countWordFrequency(path, save, top);		
 //		} catch (IOException e) {
 //			// TODO Auto-generated catch block
 //			e.printStackTrace();
 //		}
 //		
-		String dataset = "./resources/tweets/ruby-datasets/ruby-combined.csv";
-		String categoryDataset = "./resources/tweets/ruby-datasets/combined-ca.csv";
-		String saveResults = "./resources/model/TFIDF-Scores/ca-TFIDF.txt";
+		String dataset = "./resources/tweets/ruby-datasets/original/ruby-combined-no-o.csv";
+		String categoryDataset = "./resources/tweets/ruby-datasets/original/combined-d.csv";
+		String saveResults = "./resources/model/TFIDF-Scores/d-TFIDF-100.txt";
 		
 		try {
 			DocumentFrequency documentDataset = new DocumentFrequency(dataset);
@@ -33,7 +32,8 @@ public class Driver {
 			
 			WeightScorer tfidfScores = new WeightScorer(documentCategory, documentDataset);
 			tfidfScores.computeWeights();
-			tfidfScores.saveResults(saveResults);
+			//tfidfScores.saveResults(saveResults);
+			tfidfScores.getTop(saveResults,100);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
