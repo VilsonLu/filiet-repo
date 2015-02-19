@@ -2,6 +2,8 @@ package preprocess.postagger;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 
 import model.Sentence;
@@ -9,8 +11,7 @@ import model.Token;
 
 /**
  * 
- * @author Vilson
- * Using POS Lookup for the implementation of POS Tagger
+ * @author Vilson Using POS Lookup for the implementation of POS Tagger
  */
 public class POSLookupImpl implements POSTaggerInterface {
 

@@ -7,11 +7,12 @@ public class Driver {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String category = "ch";
-		String tweets = "./resources/tweets/ruby-datasets/original/combined-bin-"+category+".csv";
+		String category = "d";
+		String tweets = "./resources/tweets/mario-datasets/original/mario-"+category+".csv";
 		String ngram = "./resources/model/ngram/ruby-ngram";
 		String word = "./resources/model/word/ruby-word";
-		String saveModel = "./resources/tweets/test-extracted/ruby-tfidf/ruby-combined-bin-"+category+".csv";
+		//String saveModel = "./resources/tweets/test-extracted/mario-tfidf/mario-rubytrained-combined.csv";
+		String saveModel = "./resources/tweets/test-extracted/mario-tfidf/mario-"+category+".csv";
 		//String testTweets = "./resources/test-extracte/Batch 2/test-D.csv";
 
 		
