@@ -31,7 +31,7 @@ public class KNNClassifierImpl implements ClassifierInterface {
 	
 	public void init() throws Exception{
 		// deserialize the model
-		classifier = (Classifier) weka.core.SerializationHelper.read("./resources/model/classifier/Combined/Combined-KNN-5.model");
+		classifier = (Classifier) weka.core.SerializationHelper.read(path);
 		// training data
 		builder = new InstanceBuilder();
 		trainingData = builder.buildTrainingData("./resources/tweets/test-extracted/Batch 2/test-Combined.csv");
