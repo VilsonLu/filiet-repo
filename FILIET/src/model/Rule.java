@@ -47,7 +47,8 @@ public class Rule {
 	// Supporting methods
 	private boolean isNumeric(String str)
 	{
-	    for (char c : str.toCharArray())
+		String num = str.replaceAll("[^0-9]", "");
+	    for (char c : num.toCharArray())
 	    {
 	        if (!Character.isDigit(c)) return false;
 	    }
@@ -55,7 +56,7 @@ public class Rule {
 	}
 	
 	public boolean matchToken(Token token){
-		if(type.equals("string")){
+		if(type.equalsIgnoreCase("string")){
 			if(value.equals("ANY")){
 				return true;
 			} else {
@@ -63,7 +64,7 @@ public class Rule {
 			}
 		} 
 		
-		if(type.equals("number")) {
+		if(type.equalsIgnoreCase("number")) {
 			if(value.equals("ANY")){
 				if(isNumeric(token.getWord())){
 					return true;
@@ -77,11 +78,11 @@ public class Rule {
 			return false;
 		}
 		
-		if (type.equals("ner")){
+		if (type.equalsIgnoreCase("ner")){
 			return value.equalsIgnoreCase(token.getNERTag());
 		} 
 		
-		if (type.equals("pos")){
+		if (type.equalsIgnoreCase("pos")){
 			return value.equalsIgnoreCase(token.getPOSTag());
 		}
 		

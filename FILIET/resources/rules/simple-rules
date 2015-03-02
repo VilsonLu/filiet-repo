@@ -1,1 +1,1 @@
-<ner:month>[as]MONTH <pos:PSNS> <number:ANY>[as]DATE 
+<ner:month> <pos:PSNS> <number:ANY>

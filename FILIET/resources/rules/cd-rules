@@ -1,1 +1,6 @@
-<number:ANY>[as]NUMBER <pos:NA> <pos:NA> <string:ANY> <pos:NNS>[as]UNIT
+<number:ANY>[as]NUMBER <pos:NA> <pos:NA> <string:ANY> <ner:UNIT>[as]UNIT
+<pos:NA> <pos:NCOM> <pos:NA> <pos:NCOM>
+<pos:NCOM> <ner:LOCATION>[as]LOCATION
+<string:sa> <ner:LOCATION>[as]LOCATION
+<number:ANY> <ner:UNIT>
+<ner:LOCATION>[as]LOCATION <pos:PSNS>

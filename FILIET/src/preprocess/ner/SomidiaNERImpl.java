@@ -14,6 +14,7 @@ import model.Token;
  */
 public class SomidiaNERImpl implements NERInterface {
 
+	
 	@Override
 	public Sentence execute(Sentence tweet) {
 		// TODO Auto-generated method stub

@@ -6,6 +6,7 @@ import org.apache.ivy.plugins.matcher.NoMatcher;
 
 import preprocess.disastertagger.DisasterTagger;
 import preprocess.ner.NamedEntityRecognizer;
+import preprocess.ner.SomidiaHashNERImpl;
 import preprocess.ner.SomidiaNERImpl;
 import preprocess.normalizer.NormApiImpl;
 import preprocess.normalizer.Normalizer;
@@ -40,7 +41,7 @@ public class PreprocessorManager {
 		tokenizer = new Tokenizer(new ArkNLPTokenizerImpl());
 		post = new POSTagger(new POSHashLookupImpl());
 		// disasterTagger = new DisasterTagger(new DefaultDisasterTag());
-		ner = new NamedEntityRecognizer(new SomidiaNERImpl());
+		ner = new NamedEntityRecognizer(new SomidiaHashNERImpl());
 	}
 
 	/*
