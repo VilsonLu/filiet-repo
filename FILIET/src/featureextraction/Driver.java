@@ -1,5 +1,13 @@
 package featureextraction;
 
+import java.io.IOException;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
+import testing.Testing;
+import model.Sentence;
+
 
 
 
@@ -13,13 +21,19 @@ public class Driver {
 		String word = "./resources/model/word/ruby-word";
 		//String saveModel = "./resources/tweets/test-extracted/mario-tfidf/mario-rubytrained-combined.csv";
 		String saveModel = "./resources/tweets/test-extracted/mario-tfidf/mario-"+category+".csv";
-		//String testTweets = "./resources/test-extracte/Batch 2/test-D.csv";
+		String testTweets = "./resources/tweets/ruby-datasets/original/combined-bin-d.csv";
 
 		
 		FeatureExtractor fe = new FeatureExtractor(word,ngram);
-		fe.extractFeatures(tweets,saveModel);
+		//fe.extractFeatures(tweets,saveModel);
 		
-		/*List<Sentence> sentences = Testing.readTestData(testTweets);
+		List<Sentence> sentences = null;
+		try {
+			sentences = Testing.readTestData(testTweets);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	
 		int count = 1;
 		for(Sentence sentence:sentences){
@@ -37,7 +51,7 @@ public class Driver {
 				System.out.println(entry.getKey()+": "+entry.getValue());
 			}
 			count++;
-		}*/
+		}
 		
 		
 		

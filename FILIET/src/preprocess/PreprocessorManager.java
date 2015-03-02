@@ -52,8 +52,8 @@ public class PreprocessorManager {
 		long start = 0;
 		long end = 0;
 
-		System.out.println("Tweet:");
-		System.out.println(text);
+		System.out.println("Tweet: " + text);
+		System.out.println();
 
 //		// Normalizer
 //		System.out.println("Normalizer:");
@@ -62,19 +62,23 @@ public class PreprocessorManager {
 
 		String normalizedTweet = text;
 		// Tokenizer
-		System.out.println("Tokenizer:");
+		
 		tokens = tokenizer.executeStrategy(normalizedTweet);
+		System.out.println("Tokenizer: ");
 		tokens.toString();
-
+		System.out.println();
+		
 		// POS Tagger
 		tokens = post.executeStrategy(tokens);			
 		System.out.println("POS Tagger:");
 		tokens.toString();
+		System.out.println();
 
 		// Named Entity Recognizer
 		tokens = ner.executeStrategy(tokens);
 		System.out.println("Named Entity Recognizer:");
 		tokens.toString();		
+		System.out.println();
 	
 		return tokens;
 	}

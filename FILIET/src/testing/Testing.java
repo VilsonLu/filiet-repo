@@ -25,23 +25,23 @@ public class Testing {
 			
 			Sentence sentence = new Sentence();
 			Tweet tweet = new Tweet();
-			//tweet.setTweetID(Long.valueOf(reader.get(0)));
-			tweet.setUser(reader.get(0));
-			tweet.setTweet(reader.get(1));
+			tweet.setTweetID(Long.valueOf(reader.get(0)));
+			tweet.setUser(reader.get(1));
+			tweet.setTweet(reader.get(2));
 		
-			if(!reader.get(2).equalsIgnoreCase("NULL")){
-				tweet.setLatitude(Double.valueOf(reader.get(2)));
-			}
 			if(!reader.get(3).equalsIgnoreCase("NULL")){
-				tweet.setLongitude(Double.valueOf(reader.get(3)));
+				tweet.setLatitude(Double.valueOf(reader.get(3)));
+			}
+			if(!reader.get(4).equalsIgnoreCase("NULL")){
+				tweet.setLongitude(Double.valueOf(reader.get(4)));
 			}
 			
 			
-			tweet.setHashtag(isBoolean(reader.get(4)));
-			tweet.setURL(isBoolean(reader.get(5)));
-			tweet.setRetweet(isBoolean(reader.get(6)));
-			tweet.setLanguage(reader.get(7));
-			tweet.setCategory(reader.get(8));
+			tweet.setHashtag(isBoolean(reader.get(5)));
+			tweet.setURL(isBoolean(reader.get(6)));
+			tweet.setRetweet(isBoolean(reader.get(7)));
+			tweet.setLanguage(reader.get(8));
+			tweet.setCategory(reader.get(9));
 			sentence.setTweets(tweet);
 			sentences.add(sentence);
 		}

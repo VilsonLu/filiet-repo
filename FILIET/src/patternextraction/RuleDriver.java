@@ -21,7 +21,7 @@ public class RuleDriver {
 			Tokenizer tokenizer = new Tokenizer(new ArkNLPTokenizerImpl());
 			PreprocessorManager preprocessor = new PreprocessorManager();
 			
-			//String tweet = "RT @gmanews: ROMBLON — As of 2:30PM, 30689 na ang total evacuees sa buong probinsya, ayon sa PSWD. #RubyPH via @akosiJaysent";
+			String tweet = "RT @gmanews: ROMBLON — As of 2:30PM, 30689 na ang total evacuees sa buong probinsya, ayon sa PSWD. #RubyPH via @akosiJaysent";
 			Sentence sentence = preprocessor.PreprocessText(tweet);
 
 			pm.loadRules();

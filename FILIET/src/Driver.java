@@ -17,21 +17,34 @@ public class Driver {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		String testTweets = "./resources/tweets/ruby-datasets/original/combined-bin-d.csv";
+		
 		System.out.println("FILIET - Filipino Information Extraction for Twitter");
+		System.out.println("Running: " + testTweets);
 		System.out.println();
 		
-		String ngram = "./resources/model/ngram/ruby-ngram";
-		String word = "./resources/model/word/ruby-word";
-		String modelPath = "./resources/model/classifier/combined-randomforest.model";
-		PreprocessorManager preprocess = new PreprocessorManager();
-		FeatureExtractor fe = new FeatureExtractor(word,ngram);
-		ClassifierInterface classifier = new KNNClassifierImpl(modelPath);
+//		String ngram = "./resources/model/ngram/ruby-ngram";
+//		String word = "./resources/model/word/ruby-word";
+//		String modelPath = "./resources/model/classifier/combined-randomforest.model";
+//		PreprocessorManager preprocess = new PreprocessorManager();
+//		FeatureExtractor fe = new FeatureExtractor(word,ngram);
+//		ClassifierInterface classifier = new KNNClassifierImpl(modelPath);
 		
 		InformationExtractionEngine extractorEngine = new InformationExtractionEngine();
 		
+		List<Sentence> sentences = null;
+		try {
+			sentences = Testing.readTestData(testTweets);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		
-		String text = "RT @DZMMTeleRadyo: #walangpasok | Klase sa lahat ng antas sa Mandaluyong City, suspendido bukas (Dec. 8) dahil kay #RubyPH - Mayor Abalos";
-		extractorEngine.runExtractor(text);
+//		String text = "RT @DZMMTeleRadyo: #walangpasok | Klase sa lahat ng antas sa Mandaluyong City, suspendido bukas (Dec. 8) dahil kay #RubyPH - Mayor Abalos";
+		for(Sentence sentence: sentences){
+	
+			extractorEngine.runExtractor(sentence);
+		}
 	
 		
 //		

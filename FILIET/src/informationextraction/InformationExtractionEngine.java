@@ -10,9 +10,9 @@ import featureextraction.FeatureExtractor;
 public class InformationExtractionEngine {
 
 	// paths to resources
-	String word = "./resources/model/word/ruby-word";
-	String ngram = "./resources/model/ngram/ruby-ngram";
-	String modelPath = "./resources/model/classifier/combined-knn5.model";
+	private String word = "./resources/model/word/ruby-word";
+	private String ngram = "./resources/model/ngram/ruby-ngram";
+	private String modelPath = "./resources/model/classifier/combined-knn5.model";
 
 	// modules
 	private PreprocessorManager preprocessor;
@@ -32,12 +32,17 @@ public class InformationExtractionEngine {
 		this.classifier = classifier;
 	}
 	
-	public Sentence runExtractor(Sentence sentence){
+	public Sentence runExtractor(Sentence tweet){
 		
-		Sentence tweet = preprocessor.PreprocessText(sentence.getRawTweet());
-		feature.extract(sentence);
-		classifier.executeStrategy(sentence)
+		System.out.println("Preprocessor Module");
+		Sentence extractedTweet = preprocessor.PreprocessText(tweet.getRawTweet());
+		extractedTweet.setTweets(tweet.getTweets());
 		
-		return sentence;
+		System.out.println("Feature Extractor Module");
+		feature.extract(extractedTweet);
+		
+		//extractedTweet.setCategory(classifier.executeStrategy(extractedTweet));
+		
+		return extractedTweet;
 	}
 }
