@@ -37,6 +37,7 @@ public class Grammar {
 		for(Rule r: rules){
 			System.out.println("Left: " + r.getType());
 			System.out.println("Right: " + r.getValue());
+			System.out.println("Extraction: " + r.getAsExtraction());
 			if(r.getAsExtraction() != null){
 				System.out.println(r.getAsExtraction());
 			}

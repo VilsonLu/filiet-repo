@@ -84,11 +84,7 @@ public class TwitterCrawler {
 		
 		twitterStreamFactory = new TwitterStreamFactory(cb.build());
 	}
-	public void StoreTweet(long tweetID, String user, String tweet, GeoLocation location) throws SQLException{
-		System.out.println("Im in store tweet");
-		
-		
-	}
+
 	public void TweetCrawlPH() {
 	
 		UserStreamListener listener = new UserStreamListener(){
@@ -293,16 +289,9 @@ public class TwitterCrawler {
 			public void onStatus(Status status) {
 				// TODO Auto-generated stub
 				System.out.println("onStatus @" + status.getUser().getScreenName() + " - " + status.getText());
-				// Add tweet to list
-				// manager.PreprocessText(content);
 				System.out.println(tweetCount);
-				tweetCount++;
-			
+				tweetCount++;		
 				StoreTweets(status);
-	
-				
-				//Tweet tweet = new Tweet(tweetID, username, content, location.getLatitude(), location.getLongitude());
-				//Tweets.AddTweets(tweet);
 				
 			}
 

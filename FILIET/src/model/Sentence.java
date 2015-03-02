@@ -15,6 +15,7 @@ public class Sentence {
 	private HashMap<String, Integer> extractedFeatures;
 	// this contains the tokens
 	private ArrayList<Token> sentence;
+	private String category;
 	
 	public Sentence(){
 		this.sentence = new ArrayList<>();
@@ -136,6 +137,22 @@ public class Sentence {
 		return null;
 	}
 	
+	
+	
+	/**
+	 * @return the category
+	 */
+	public String getCategory() {
+		return category;
+	}
+
+	/**
+	 * @param category the category to set
+	 */
+	public void setCategory(String category) {
+		this.category = category;
+	}
+
 	/**
 	 * Replace the ith token
 	 * @param i - ith index

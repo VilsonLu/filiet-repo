@@ -59,7 +59,6 @@ public class Rule {
 			if(value.equals("ANY")){
 				return true;
 			} else {
-				
 				return value.equalsIgnoreCase(token.getWord());
 			}
 		} 
@@ -78,11 +77,11 @@ public class Rule {
 			return false;
 		}
 		
-		if (type.equals("NER")){
+		if (type.equals("ner")){
 			return value.equalsIgnoreCase(token.getNERTag());
 		} 
 		
-		if (type.equals("POS")){
+		if (type.equals("pos")){
 			return value.equalsIgnoreCase(token.getPOSTag());
 		}
 		

@@ -14,17 +14,15 @@ public class ClassifierDriver {
 
 	public static void main(String[] args) throws IOException {
 		
-		String testData = "./resources/tweets/Testing/Combined-tagged.csv";
-		String ngram = "./resources/model/ngram/test-charngram";
-		String word = "./resources/model/word/test-wordcounts";
-		String modelPath = "./resources/model/classifier/Combined/Combined-kNN-3.model";
-		// TODO Auto-generated method stub
-		int classIndex = 0;
+		String testData = "./resources/tweets/test-extracted/mario-tfidf/mario-combined.csv";
+		String ngram = "./resources/model/ngram/ruby-ngram";
+		String word = "./resources/model/word/ruby-word";
+		String modelPath = "./resources/model/classifier/combined-knn5.model";
+
 		
 		FeatureExtractor fe = new FeatureExtractor(word,ngram);
 	
 		ClassifierInterface classifier = new KNNClassifierImpl(modelPath);
-		
 		
 		
 		

@@ -95,7 +95,7 @@ public class InstanceBuilder {
 		classVal.addElement("CD");
 		classVal.addElement("CA");
 		classVal.addElement("D");
-
+		classVal.addElement("CH");
 		Attribute classlabel = new Attribute("Category", classVal);
 		return classlabel;
 	}
@@ -144,7 +144,9 @@ public class InstanceBuilder {
 			data.setValue(attributeList.get(entry.getKey()), entry.getValue());
 		}
 
+		
 		data.setValue((Attribute)vector.lastElement(), sample.getCategory());
+
 		instances.add(data);
 		return data;
 	}

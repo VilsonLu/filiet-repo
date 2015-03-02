@@ -36,6 +36,8 @@ public class SomidiaNERImpl implements NERInterface {
 					category = "disaster";
 				} else if (line.contains("LOCATION")) {
 					category = "location";
+				} else if(line.contains("MONTH")){
+					category = "month";
 				} else if (token.getWord().equalsIgnoreCase(line.toString())) {
 					token.setNERTag(category);
 					token.setPOSTag("NN");

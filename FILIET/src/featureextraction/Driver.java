@@ -7,7 +7,7 @@ public class Driver {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String category = "d";
+		String category = "combined";
 		String tweets = "./resources/tweets/mario-datasets/original/mario-"+category+".csv";
 		String ngram = "./resources/model/ngram/ruby-ngram";
 		String word = "./resources/model/word/ruby-word";

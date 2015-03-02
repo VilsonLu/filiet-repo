@@ -4,15 +4,17 @@ import java.io.File;
 
 import model.Sentence;
 import weka.classifiers.Classifier;
+import weka.classifiers.lazy.IB1;
 import weka.classifiers.lazy.IBk;
 import weka.classifiers.misc.SerializedClassifier;
 import weka.core.Instance;
 import weka.core.Instances;
+import weka.filters.unsupervised.attribute.Remove;
 import classifier.InstanceBuilder;
 
 public class KNNClassifierImpl implements ClassifierInterface {
 	
-	private Classifier classifier;
+	private IBk classifier;
 	private String path;
 	private Instances trainingData;
 	private InstanceBuilder builder;
@@ -31,10 +33,11 @@ public class KNNClassifierImpl implements ClassifierInterface {
 	
 	public void init() throws Exception{
 		// deserialize the model
-		classifier = (Classifier) weka.core.SerializationHelper.read("./resources/model/classifier/Combined/Combined-KNN-5.model");
+		classifier = (IBk) weka.core.SerializationHelper.read(path);
+
 		// training data
 		builder = new InstanceBuilder();
-		trainingData = builder.buildTrainingData("./resources/tweets/test-extracted/Batch 2/test-Combined.csv");
+		//trainingData = builder.buildTrainingData("./resources/tweets/test-extracted/Batch 2/test-Combined.csv");
 	}
 	
 	@Override
@@ -42,6 +45,10 @@ public class KNNClassifierImpl implements ClassifierInterface {
 		// TODO Auto-generated method stub
 		Instances dataset = builder.CreateDataset(text);
 		Instance data = builder.CreateInstance(text,dataset);
+		dataset.add(data);
+		Remove rm = new Remove();
+		rm.setAttributeIndices("TweetID");
+		System.out.println(dataset.attribute(1));
 		data.setClassValue(Instance.missingValue());
 		double value = -1;
 		String label = null;

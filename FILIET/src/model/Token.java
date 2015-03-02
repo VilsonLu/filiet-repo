@@ -52,6 +52,8 @@ public class Token {
 		if(this.NERTag != null){
 			if(this.NERTag.equalsIgnoreCase("location")){
 				word = "<location: " + this.Word + "/>";
+			} else if(this.NERTag.equalsIgnoreCase("month")){
+				word = "<month: " + this.Word + "/>";
 			}
 		}	
 	

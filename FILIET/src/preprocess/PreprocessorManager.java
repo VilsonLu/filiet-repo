@@ -9,6 +9,7 @@ import preprocess.ner.NamedEntityRecognizer;
 import preprocess.ner.SomidiaNERImpl;
 import preprocess.normalizer.NormApiImpl;
 import preprocess.normalizer.Normalizer;
+import preprocess.postagger.POSHashLookupImpl;
 import preprocess.postagger.POSLookupImpl;
 import preprocess.postagger.POSTagger;
 import preprocess.tokenizer.ArkNLPTokenizerImpl;
@@ -35,9 +36,9 @@ public class PreprocessorManager {
 	 * Default Implementation
 	 */
 	public void InitializeModules(){
-		normalizer = new Normalizer(new NormApiImpl());
+		//normalizer = new Normalizer(new NormApiImpl());
 		tokenizer = new Tokenizer(new ArkNLPTokenizerImpl());
-		post = new POSTagger(new POSLookupImpl());
+		post = new POSTagger(new POSHashLookupImpl());
 		// disasterTagger = new DisasterTagger(new DefaultDisasterTag());
 		ner = new NamedEntityRecognizer(new SomidiaNERImpl());
 	}
@@ -54,11 +55,12 @@ public class PreprocessorManager {
 		System.out.println("Tweet:");
 		System.out.println(text);
 
-		// Normalizer
-		System.out.println("Normalizer:");
-		String normalizedTweet = normalizer.executeStrategy(text);
-		System.out.println(normalizedTweet);
+//		// Normalizer
+//		System.out.println("Normalizer:");
+//		String normalizedTweet = normalizer.executeStrategy(text);
+//		System.out.println(normalizedTweet);
 
+		String normalizedTweet = text;
 		// Tokenizer
 		System.out.println("Tokenizer:");
 		tokens = tokenizer.executeStrategy(normalizedTweet);

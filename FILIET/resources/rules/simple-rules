@@ -1,2 +1,1 @@
-<string:hello> <string:world>
-<string:bye> <string:world>
+<ner:month>[as]MONTH <pos:PSNS> <number:ANY>[as]DATE 
