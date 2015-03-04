@@ -3,7 +3,7 @@ package preprocess.disastertagger;
 import java.io.File;
 import java.util.Scanner;
 
-import model.Sentence;
+import support.model.Sentence;
 
 public class DefaultDisasterTaggerImpl implements DisasterTaggerInterface {
 	@Override

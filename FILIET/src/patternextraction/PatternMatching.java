@@ -9,11 +9,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 import opennlp.tools.util.featuregen.StringPattern;
-import model.ExtractedInformation;
-import model.Grammar;
-import model.Rule;
-import model.Sentence;
-import model.Token;
+import support.model.ExtractedInformation;
+import support.model.Grammar;
+import support.model.Rule;
+import support.model.Sentence;
+import support.model.Token;
 
 public class PatternMatching {
 

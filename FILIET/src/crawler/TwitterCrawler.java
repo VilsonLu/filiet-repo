@@ -11,12 +11,11 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.Properties;
 
-import model.Tweet;
-
 import org.apache.log4j.BasicConfigurator;
 
 import preprocess.PreprocessorManager;
-import database.DBFactory;
+import support.database.DBFactory;
+import support.model.Tweet;
 import twitter4j.DirectMessage;
 import twitter4j.FilterQuery;
 import twitter4j.GeoLocation;

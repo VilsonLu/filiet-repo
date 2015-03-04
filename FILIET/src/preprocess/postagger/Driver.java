@@ -1,10 +1,10 @@
 package preprocess.postagger;
 
-import model.Sentence;
-import model.Token;
 import preprocess.tokenizer.ArkNLPTokenizerImpl;
 import preprocess.tokenizer.OpenNLPTokenizerImpl;
 import preprocess.tokenizer.Tokenizer;
+import support.model.Sentence;
+import support.model.Token;
 
 public class Driver {
 

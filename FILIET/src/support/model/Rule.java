@@ -1,4 +1,4 @@
-package model;
+package support.model;
 
 public class Rule {
 	private String type;

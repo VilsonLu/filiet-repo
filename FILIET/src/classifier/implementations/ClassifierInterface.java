@@ -1,6 +1,6 @@
 package classifier.implementations;
 
-import model.Sentence;
+import support.model.Sentence;
 
 public interface ClassifierInterface {
 	public String classify(Sentence text);

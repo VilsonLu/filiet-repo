@@ -1,4 +1,4 @@
-package languagemodeller;
+package support.languagemodeller;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -16,7 +16,7 @@ import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import languagemodeller.NGramModeller.CustomComparator;
+import support.languagemodeller.NGramModeller.CustomComparator;
 
 public class WeightScorer {
 

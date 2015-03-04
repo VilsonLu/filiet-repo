@@ -1,7 +1,7 @@
 package preprocess.tokenizer;
 
-import model.Sentence;
-import model.Token;
+import support.model.Sentence;
+import support.model.Token;
 
 public class Driver {
 

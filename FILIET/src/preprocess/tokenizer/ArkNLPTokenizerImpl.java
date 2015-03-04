@@ -2,8 +2,8 @@ package preprocess.tokenizer;
 
 import java.util.List;
 
-import model.Sentence;
-import model.Token;
+import support.model.Sentence;
+import support.model.Token;
 import cmu.arktweetnlp.Twokenize;
 
 /**

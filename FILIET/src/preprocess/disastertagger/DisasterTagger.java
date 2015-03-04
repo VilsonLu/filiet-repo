@@ -1,6 +1,6 @@
 package preprocess.disastertagger;
 
-import model.Sentence;
+import support.model.Sentence;
 
 
 public class DisasterTagger {

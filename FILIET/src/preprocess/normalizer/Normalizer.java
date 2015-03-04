@@ -1,6 +1,6 @@
 package preprocess.normalizer;
 
-import model.Sentence;
+import support.model.Sentence;
 
 public class Normalizer {
 	private NormalizerInterface strategy;

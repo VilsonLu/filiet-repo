@@ -1,4 +1,4 @@
-package languagemodeller;
+package support.languagemodeller;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -11,12 +11,12 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
-import model.Token;
 import opennlp.tools.ngram.NGramModel;
 import opennlp.tools.util.StringList;
 import preprocess.tokenizer.ArkNLPTokenizerImpl;
 import preprocess.tokenizer.OpenNLPTokenizerImpl;
 import preprocess.tokenizer.Tokenizer;
+import support.model.Token;
 
 public class DocumentFrequency {
 

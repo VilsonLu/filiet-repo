@@ -13,13 +13,13 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import model.Sentence;
-import model.Token;
-import model.Tweet;
 import opennlp.tools.ngram.NGramModel;
 import opennlp.tools.util.StringList;
 import preprocess.tokenizer.ArkNLPTokenizerImpl;
 import preprocess.tokenizer.Tokenizer;
+import support.model.Sentence;
+import support.model.Token;
+import support.model.Tweet;
 import au.com.bytecode.opencsv.CSVWriter;
 
 import com.csvreader.CsvReader;

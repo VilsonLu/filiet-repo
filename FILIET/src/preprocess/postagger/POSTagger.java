@@ -1,6 +1,6 @@
 package preprocess.postagger;
 
-import model.Sentence;
+import support.model.Sentence;
 
 
 public class POSTagger {

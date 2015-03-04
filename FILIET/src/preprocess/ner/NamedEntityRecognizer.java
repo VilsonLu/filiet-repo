@@ -1,6 +1,6 @@
 package preprocess.ner;
 
-import model.Sentence;
+import support.model.Sentence;
 
 public class NamedEntityRecognizer {
 	private NERInterface strategy;

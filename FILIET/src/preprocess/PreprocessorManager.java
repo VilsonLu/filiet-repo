@@ -15,7 +15,7 @@ import preprocess.postagger.POSLookupImpl;
 import preprocess.postagger.POSTagger;
 import preprocess.tokenizer.ArkNLPTokenizerImpl;
 import preprocess.tokenizer.Tokenizer;
-import model.Sentence;
+import support.model.Sentence;
 
 public class PreprocessorManager {
 
@@ -65,21 +65,21 @@ public class PreprocessorManager {
 		// Tokenizer
 		
 		tokens = tokenizer.executeStrategy(normalizedTweet);
-		//System.out.println("Tokenizer: ");
-		//tokens.toString();
-		//System.out.println();
+		System.out.println("Tokenizer: ");
+		tokens.toString();
+		System.out.println();
 		
 		// POS Tagger
 		tokens = post.executeStrategy(tokens);			
-		//System.out.println("POS Tagger:");
-		//tokens.toString();
-		//System.out.println();
+		System.out.println("POS Tagger:");
+		tokens.toString();
+		System.out.println();
 
 		// Named Entity Recognizer
 		tokens = ner.executeStrategy(tokens);
-		//System.out.println("Named Entity Recognizer:");
-		//tokens.toString();		
-		//System.out.println();
+		System.out.println("Named Entity Recognizer:");
+		tokens.toString();		
+		System.out.println();
 	
 		return tokens;
 	}

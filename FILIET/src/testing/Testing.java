@@ -7,10 +7,10 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.csvreader.CsvReader;
+import support.model.Sentence;
+import support.model.Tweet;
 
-import model.Sentence;
-import model.Tweet;
+import com.csvreader.CsvReader;
 
 public class Testing {
 	

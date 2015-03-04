@@ -1,6 +1,6 @@
 package preprocess.normalizer;
 
-import model.Sentence;
+import support.model.Sentence;
 import normapi.*;
 
 public class NormApiImpl implements NormalizerInterface {

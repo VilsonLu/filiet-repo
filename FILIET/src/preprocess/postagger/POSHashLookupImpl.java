@@ -6,8 +6,8 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-import model.Sentence;
-import model.Token;
+import support.model.Sentence;
+import support.model.Token;
 
 public class POSHashLookupImpl implements POSTaggerInterface{
 

@@ -2,8 +2,8 @@ package preprocess.tokenizer;
 
 import java.io.IOException;
 
-import model.Sentence;
 import opennlp.tools.util.InvalidFormatException;
+import support.model.Sentence;
 
 public class Tokenizer {
 	private TokenizerInterface strategy;

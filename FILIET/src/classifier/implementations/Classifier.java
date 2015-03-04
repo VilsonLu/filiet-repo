@@ -1,7 +1,7 @@
 package classifier.implementations;
 
-import model.Sentence;
 import preprocess.disastertagger.DisasterTaggerInterface;
+import support.model.Sentence;
 
 public class Classifier {
 	private ClassifierInterface strategy;

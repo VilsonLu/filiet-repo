@@ -5,8 +5,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
+import support.model.Sentence;
 import testing.Testing;
-import model.Sentence;
 
 
 
