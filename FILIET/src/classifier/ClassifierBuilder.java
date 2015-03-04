@@ -15,6 +15,8 @@ import weka.core.Attribute;
 import weka.core.FastVector;
 import weka.core.Instance;
 import weka.core.Instances;
+import weka.filters.Filter;
+import weka.filters.unsupervised.attribute.Remove;
 
 public class ClassifierBuilder {
 
@@ -22,15 +24,21 @@ public class ClassifierBuilder {
 	private String ngramPath = "./resources/model/ngram/ruby-ngram";
 
 	private FastVector wekaAttributes;
+	private Instances dataset;
 	
-	public ClassifierBuilder() {
-		buildFeatures();
+	public ClassifierBuilder() throws Exception {
+		initialize();
 	}
 
-	public ClassifierBuilder(String word, String ngram) {
+	public ClassifierBuilder(String word, String ngram) throws Exception {
 		this.wordPath = word;
 		this.ngramPath = ngram;
+		initialize();
+	}
+	
+	public void initialize() throws Exception{
 		buildFeatures();
+		createInstances();
 	}
 	
 	/**
@@ -46,12 +54,27 @@ public class ClassifierBuilder {
 	public void setWekaAttributes(FastVector wekaAttributes) {
 		this.wekaAttributes = wekaAttributes;
 	}
+	
+	
+	/**
+	 * @return the dataset
+	 */
+	public Instances getDataset() {
+		return dataset;
+	}
+
+	/**
+	 * @param dataset the dataset to set
+	 */
+	public void setDataset(Instances dataset) {
+		this.dataset = dataset;
+	}
 
 	/**
 	 * This builds the features for the classifier
 	 */
 	@SuppressWarnings("resource")
-	public void buildFeatures() {
+	private void buildFeatures() {
 		// Attributes
 		Attribute tweetID = new Attribute("tweetID");
 		Attribute user = new Attribute("user",(FastVector) null);
@@ -61,8 +84,14 @@ public class ClassifierBuilder {
 		Attribute isURL = new Attribute("isURL");
 		Attribute isHashtag = new Attribute("isHashtag");
 		Attribute isRetweet = new Attribute("isRetweet");
+		Attribute length = new Attribute("length");
 		FastVector languageVector = new FastVector();
 		languageVector.addElement("tl");
+		languageVector.addElement("en");
+		languageVector.addElement("pt");
+		languageVector.addElement("in");
+		languageVector.addElement("tr");
+		languageVector.addElement("es");
 		Attribute language = new Attribute("language",languageVector);
 
 		// N-Word
@@ -136,7 +165,9 @@ public class ClassifierBuilder {
 		wekaAttributes.addElement(isURL);
 		wekaAttributes.addElement(isHashtag);
 		wekaAttributes.addElement(isRetweet);
+		wekaAttributes.addElement(length);
 		wekaAttributes.addElement(language);
+		
 
 		for (Attribute word : words) {
 			wekaAttributes.addElement(word);
@@ -150,13 +181,23 @@ public class ClassifierBuilder {
 		
 	}
 	
-	public Instances createInstances(){
-		Instances dataset = new Instances("rel", wekaAttributes, 1);
-		dataset.setClassIndex(wekaAttributes.size()-1);
-		return dataset;
+	private void createInstances() throws Exception{
+		dataset = new Instances("rel", wekaAttributes, 1);
+		
+		// Remove the tweetID (do not include in the computation)
+//		Remove rm = new Remove();
+//		rm.setAttributeIndices("1");
+//		rm.setInputFormat(dataset);
+//		dataset = Filter.useFilter(dataset, rm);
+		
+		// Remove the TweetID in the list of attribute
+		//wekaAttributes.removeElementAt(0);
+
+		dataset.setClassIndex(dataset.numAttributes()-1);
 	}
 	
-	public void setInstance(Instances dataset, Sentence sentence){
+	public Instance setInstance(Sentence sentence){
+		
 		Instance instance = new Instance(dataset.numAttributes());
 		Map<String,Integer> wordValues = sentence.getExtractedWordFeatures();
 		Map<String,Integer> ngramValues = sentence.getExtractedNgramFeatures();
@@ -179,26 +220,33 @@ public class ClassifierBuilder {
 		instance.setValue(((Attribute) wekaAttributes.elementAt(5)), getBooleanValue(tweet.getURL()));
 		instance.setValue(((Attribute) wekaAttributes.elementAt(6)), getBooleanValue(tweet.getHashtag()));
 		instance.setValue(((Attribute) wekaAttributes.elementAt(7)), getBooleanValue(tweet.getHashtag()));
-		instance.setValue(((Attribute) wekaAttributes.elementAt(8)), tweet.getLanguage());
+		instance.setValue(((Attribute) wekaAttributes.elementAt(8)), sentence.getExtractedFeatures().get("Length"));
+		instance.setValue(((Attribute) wekaAttributes.elementAt(9)), tweet.getLanguage());
 		
+		// Word Features
 		// To keep track of the current index
-		int currentIndex = 9 ;
+		int currentIndex = 10 ;
 		int wordsize = wordValues.size() + currentIndex;
-		for(int i=9; i<wordsize; i++){
+		for(int i=currentIndex; i<wordsize; i++){
 			String attributeName = ((Attribute) wekaAttributes.elementAt(i)).name();
 			instance.setValue(((Attribute) wekaAttributes.elementAt(i)), wordValues.get(attributeName));
 			currentIndex++;
 		}
 		
+		// N-Gram Features
 		int ngramsize = ngramValues.size() + currentIndex;
-		System.out.println("Ngram Size: " + ngramsize);
-		System.out.println("Current Index: "+ currentIndex);
 		for(int i=currentIndex; i<ngramsize; i++){
-			
+			String attributeName = ((Attribute) wekaAttributes.elementAt(i)).name();
+			instance.setValue(((Attribute) wekaAttributes.elementAt(i)), ngramValues.get(attributeName));
+			currentIndex++;
 		}
 		
+		System.out.println("CURRENT INDEX" + currentIndex);
+		
 		// Class Attribute
-		instance.setValue(((Attribute) wekaAttributes.elementAt(wekaAttributes.size()-1)), tweet.getTweetID());
+		instance.setValue(((Attribute) wekaAttributes.lastElement()), tweet.getCategory());
+		instance.setDataset(dataset);
+		return instance;
 	}
 	
 	

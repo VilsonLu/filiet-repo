@@ -22,7 +22,7 @@ public class InformationExtractionEngine {
 	public InformationExtractionEngine() {
 		preprocessor = new PreprocessorManager();
 		feature = new FeatureExtractor(word, ngram);
-		classifier = new Classifier(new KNNClassifierImpl(modelPath));
+		//classifier = new Classifier(new KNNClassifierImpl(modelPath));
 	}
 
 	public InformationExtractionEngine(PreprocessorManager pm,
@@ -34,7 +34,7 @@ public class InformationExtractionEngine {
 	
 	public Sentence runExtractor(Sentence tweet){
 		
-		System.out.println("Preprocessor Module");
+		//System.out.println("Preprocessor Module");
 		Sentence extractedTweet = preprocessor.PreprocessText(tweet.getRawTweet());
 		extractedTweet.setTweets(tweet.getTweets());
 		

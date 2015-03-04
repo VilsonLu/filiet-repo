@@ -5,6 +5,8 @@ import java.util.List;
 import java.util.Map.Entry;
 import java.util.Set;
 
+import classifier.implementations.Classifier;
+import classifier.implementations.ClassifierImpl;
 import model.Sentence;
 import informationextraction.InformationExtractionEngine;
 import testing.Testing;
@@ -14,22 +16,24 @@ import weka.core.Instances;
 
 public class Driver {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
-		String testTweets = "./resources/tweets/ruby-datasets/original/combined-bin-d.csv";
+		String testTweets = "./resources/tweets/mario-datasets/original/mario-combined.csv";
 		InformationExtractionEngine ie = new InformationExtractionEngine();
 		
 		try {
 			List<Sentence> sentences = Testing.readTestData(testTweets);
-			Sentence sentence = sentences.get(0);
-			sentence = ie.runExtractor(sentence);
+		
 			
 			ClassifierBuilder featureBuilder = new ClassifierBuilder();
 			FastVector weka = featureBuilder.getWekaAttributes();
 			
-			Instances dataset = featureBuilder.createInstances();
-			System.out.println("Total Attributes: " + dataset.numAttributes());
-			featureBuilder.setInstance(dataset, sentence);
+			Classifier classifier = new Classifier(new ClassifierImpl("./resources/model/classifier/testmodel.model"));
+			for(Sentence sentence: sentences){
+				Sentence temp = ie.runExtractor(sentence);
+				classifier.executeStrategy(temp);
+				System.out.println("Actual: " + temp.getTweets().getCategory());
+			}
 					
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
