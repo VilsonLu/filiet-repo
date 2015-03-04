@@ -1,10 +1,10 @@
 package informationextraction;
 
-import model.Sentence;
 import classifier.implementations.Classifier;
+import classifier.implementations.ClassifierImpl;
 import classifier.implementations.ClassifierInterface;
-import classifier.implementations.KNNClassifierImpl;
 import preprocess.PreprocessorManager;
+import support.model.Sentence;
 import featureextraction.FeatureExtractor;
 
 public class InformationExtractionEngine {
@@ -19,12 +19,18 @@ public class InformationExtractionEngine {
 	private FeatureExtractor feature;
 	private Classifier classifier;
 
-	public InformationExtractionEngine() {
+	public InformationExtractionEngine() throws Exception {
 		preprocessor = new PreprocessorManager();
 		feature = new FeatureExtractor(word, ngram);
-		//classifier = new Classifier(new KNNClassifierImpl(modelPath));
+		classifier = new Classifier(new ClassifierImpl());
 	}
 
+	/**
+	 * Integration of the modules
+	 * @param pm - Preprocessor Manager
+	 * @param feat - Feature Extractor
+	 * @param classifier - Classifier
+	 */
 	public InformationExtractionEngine(PreprocessorManager pm,
 			FeatureExtractor feat, Classifier classifier) {
 		this.preprocessor = pm;
@@ -34,14 +40,17 @@ public class InformationExtractionEngine {
 	
 	public Sentence runExtractor(Sentence tweet){
 		
-		//System.out.println("Preprocessor Module");
+		System.out.println("Preprocessor Module");
 		Sentence extractedTweet = preprocessor.PreprocessText(tweet.getRawTweet());
 		extractedTweet.setTweets(tweet.getTweets());
 		
 		System.out.println("Feature Extractor Module");
 		feature.extract(extractedTweet);
 		
-		//extractedTweet.setCategory(classifier.executeStrategy(extractedTweet));
+		System.out.println("Classifier Module");
+		extractedTweet.setCategory(classifier.executeStrategy(extractedTweet));
+		System.out.println("Predicted: " + extractedTweet.getCategory());
+		System.out.println("Actual: " + extractedTweet.getTweets().getCategory());
 		
 		return extractedTweet;
 	}

@@ -9,8 +9,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-import model.Sentence;
-import model.Tweet;
+import support.model.Sentence;
+import support.model.Tweet;
 import weka.core.Attribute;
 import weka.core.FastVector;
 import weka.core.Instance;
@@ -240,8 +240,6 @@ public class ClassifierBuilder {
 			instance.setValue(((Attribute) wekaAttributes.elementAt(i)), ngramValues.get(attributeName));
 			currentIndex++;
 		}
-		
-		System.out.println("CURRENT INDEX" + currentIndex);
 		
 		// Class Attribute
 		instance.setValue(((Attribute) wekaAttributes.lastElement()), tweet.getCategory());

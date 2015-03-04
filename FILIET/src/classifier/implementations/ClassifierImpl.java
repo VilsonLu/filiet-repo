@@ -1,8 +1,8 @@
 package classifier.implementations;
 
+import support.model.Sentence;
 import weka.core.Instance;
 import classifier.ClassifierBuilder;
-import model.Sentence;
 
 
 public class ClassifierImpl implements ClassifierInterface{
@@ -22,9 +22,19 @@ public class ClassifierImpl implements ClassifierInterface{
 		initialize();
 	}
 	
+	public ClassifierImpl(String pathModel, ClassifierBuilder builder) throws Exception{
+		this.pathModel = pathModel;
+		initialize(builder);
+	}
+	
 	private void initialize() throws Exception{
 		classifier = (weka.classifiers.Classifier) weka.core.SerializationHelper.read(pathModel);
 		builder = new ClassifierBuilder();
+	}
+	
+	private void initialize(ClassifierBuilder builder) throws Exception{
+		classifier = (weka.classifiers.Classifier) weka.core.SerializationHelper.read(pathModel);
+		this.builder = builder;
 	}
 	
 	@Override
@@ -32,16 +42,15 @@ public class ClassifierImpl implements ClassifierInterface{
 		// TODO Auto-generated method stub
 		Instance instance = builder.setInstance(text);
 		
-		System.out.println(instance);
+		String label = null;
 		try {
 			double value = classifier.classifyInstance(instance);
-			String label = instance.dataset().classAttribute().value((int) value);
-			System.out.println("Classification: " + label);
+			label = instance.dataset().classAttribute().value((int) value);
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		return null;
+		return label;
 	}
 
 }
