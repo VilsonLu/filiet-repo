@@ -12,7 +12,7 @@ public class ClassifierImpl implements ClassifierInterface{
 	private ClassifierBuilder builder;
 	
 	public ClassifierImpl() throws Exception{
-		this.pathModel = "./resources/model/classifier/combined-randomforest.model";
+		this.pathModel = "./resources/model/classifier/testmodel2.model";
 		initialize();
 	}
 	
@@ -38,7 +38,7 @@ public class ClassifierImpl implements ClassifierInterface{
 	}
 	
 	@Override
-	public String classify(Sentence text) {
+	public Sentence classify(Sentence text) {
 		// TODO Auto-generated method stub
 		Instance instance = builder.setInstance(text);
 		
@@ -46,11 +46,12 @@ public class ClassifierImpl implements ClassifierInterface{
 		try {
 			double value = classifier.classifyInstance(instance);
 			label = instance.dataset().classAttribute().value((int) value);
+			text.setCategory(label);
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		return label;
+		return text;
 	}
 
 }

@@ -10,7 +10,7 @@ public class Classifier {
 		this.strategy = strategy;
 	}
 
-	public String executeStrategy(Sentence sentence) {
+	public Sentence executeStrategy(Sentence sentence) {
 		return this.strategy.classify(sentence);
 	}
 }

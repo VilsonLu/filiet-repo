@@ -1,0 +1,11 @@
+<pos:JJ> <pos:NN> <pos:PSNS> <number:ANY>
+<ner:LOCATION>[as]LOCATION
+<pos:JJ> <string:#1>
+<pos:JJ> <string:#2>
+<pos:JJ> <string:#3>
+<pos:VBZ> <string:classes> <pos:IN> <pos:JJ> <pos:VBZ>
+<pos:VBP> <string:classes> <pos:IN> <pos:JJ> <pos:VBZ>
+<string:#walangpasok> <pos:JJ> <pos:VBZ>
+<string:signal> <pos:NN> <pos:PSNS> <number:ANY>
+<string:#walangpasok> <pos:PSNS> <string:klase> 
+<string:sa> <pos:PIDP> <pos:NA> <string:antas>

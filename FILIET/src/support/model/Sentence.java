@@ -16,10 +16,16 @@ public class Sentence {
 	// this contains the tokens
 	private ArrayList<Token> sentence;
 	private String category;
+	// applied rules
+	private List<Grammar> appliedRules;
+	// extracted information
+	private List<PostExtractedInformation> extractedInformation;
+	
 	
 	public Sentence(){
 		this.sentence = new ArrayList<>();
 		this.extractedWordFeatures = new HashMap<>();
+		this.appliedRules = new ArrayList<Grammar>();
 	}
 	
 	/**
@@ -152,6 +158,36 @@ public class Sentence {
 	public void setCategory(String category) {
 		this.category = category;
 	}
+	
+
+	/**
+	 * @return the appliedRules
+	 */
+	public List<Grammar> getAppliedRules() {
+		return appliedRules;
+	}
+
+	/**
+	 * @param appliedRules the appliedRules to set
+	 */
+	public void setAppliedRules(List<Grammar> appliedRules) {
+		this.appliedRules = appliedRules;
+	}
+
+	/**
+	 * @return the extractedInformation
+	 */
+	public List<PostExtractedInformation> getExtractedInformation() {
+		return extractedInformation;
+	}
+
+	/**
+	 * @param extractedInformation the extractedInformation to set
+	 */
+	public void setExtractedInformation(
+			List<PostExtractedInformation> extractedInformation) {
+		this.extractedInformation = extractedInformation;
+	}
 
 	/**
 	 * Replace the ith token
@@ -163,6 +199,10 @@ public class Sentence {
 	
 	public String getRawTweet(){
 		return tweets.getTweet();
+	}
+	
+	public void addAppliedRules(Grammar g){
+		appliedRules.add(g);
 	}
 	
 	public String toString(){

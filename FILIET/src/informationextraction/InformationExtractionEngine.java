@@ -4,6 +4,7 @@ import classifier.implementations.Classifier;
 import classifier.implementations.ClassifierImpl;
 import classifier.implementations.ClassifierInterface;
 import preprocess.PreprocessorManager;
+import ruleinduction.RuleInductor;
 import support.model.Sentence;
 import featureextraction.FeatureExtractor;
 
@@ -13,16 +14,19 @@ public class InformationExtractionEngine {
 	private String word = "./resources/model/word/ruby-word";
 	private String ngram = "./resources/model/ngram/ruby-ngram";
 	private String modelPath = "./resources/model/classifier/combined-knn5.model";
+	private String rulePath = "./resources/rules/simple-rules";
 
 	// modules
 	private PreprocessorManager preprocessor;
 	private FeatureExtractor feature;
 	private Classifier classifier;
+	private RuleInductor ruleInductor;
 
 	public InformationExtractionEngine() throws Exception {
 		preprocessor = new PreprocessorManager();
 		feature = new FeatureExtractor(word, ngram);
 		classifier = new Classifier(new ClassifierImpl());
+		ruleInductor = new RuleInductor(rulePath);
 	}
 
 	/**
@@ -48,9 +52,14 @@ public class InformationExtractionEngine {
 		feature.extract(extractedTweet);
 		
 		System.out.println("Classifier Module");
-		extractedTweet.setCategory(classifier.executeStrategy(extractedTweet));
+		classifier.executeStrategy(extractedTweet);
 		System.out.println("Predicted: " + extractedTweet.getCategory());
 		System.out.println("Actual: " + extractedTweet.getTweets().getCategory());
+		
+		if(extractedTweet.getCategory() != "O"){
+			System.out.println("Rule Induction Module");
+			extractedTweet.setExtractedInformation(ruleInductor.match(extractedTweet));
+		}
 		
 		return extractedTweet;
 	}

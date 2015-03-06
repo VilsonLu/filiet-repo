@@ -4,3 +4,13 @@
 <string:sa> <ner:LOCATION>[as]LOCATION
 <number:ANY> <ner:UNIT>
 <ner:LOCATION>[as]LOCATION <pos:PSNS>
+<pos:NCOM> <pos:NA> <pos:NCOM>[as]OBJECT
+<string:sa> <pos:PINP> <pos:NN>
+<string:sa> <pos:JJ> <ner:LOCATION>[as]LOCATION
+<ner:LOCATION>[as]LOCATION
+<string:state> <string:of> <string:calamity>
+<string:nawasak> <pos:NA> <pos:NCOM> <pos:ADOT> <string:alon>[as]DISASTER
+<pos:JJ> <ner:LOCATION>[as]LOCATION
+<number:ANY> <string:AM>
+<number:ANY> <string:PM>
+

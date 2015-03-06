@@ -1,1 +1,40 @@
-<ner:month> <pos:PSNS> <number:ANY>
+<Category>: CA
+<pos:JJ> <pos:NN> <pos:PSNS> <number:ANY>
+<ner:LOCATION>[as]LOCATION
+<pos:JJ> <string:#1>
+<pos:JJ> <string:#2>
+<pos:JJ> <string:#3>
+<pos:VBZ> <string:classes> <pos:IN> <pos:JJ> <pos:VBZ>
+<pos:VBP> <string:classes> <pos:IN> <pos:JJ> <pos:VBZ>
+<string:#walangpasok> <pos:JJ> <pos:VBZ>
+<string:signal> <pos:NN> <pos:PSNS> <number:ANY>
+<string:#walangpasok> <pos:PSNS> <string:klase> 
+<string:sa> <pos:PIDP> <pos:NA> <string:antas>
+<end>
+<Category>: CD
+<number:ANY>[as]NUMBER <pos:NA> <pos:NA> <string:ANY> <ner:UNIT>[as]UNIT
+<pos:NA> <pos:NCOM> <pos:NA> <pos:NCOM>
+<pos:NCOM> <ner:LOCATION>[as]LOCATION
+<string:sa> <ner:LOCATION>[as]LOCATION
+<number:ANY> <ner:UNIT>
+<ner:LOCATION>[as]LOCATION <pos:PSNS>
+<pos:NCOM> <pos:NA> <pos:NCOM>[as]OBJECT
+<string:sa> <pos:PINP> <pos:NN>
+<string:sa> <pos:JJ> <ner:LOCATION>[as]LOCATION
+<ner:LOCATION>[as]LOCATION
+<string:state> <string:of> <string:calamity>
+<string:nawasak> <pos:NA> <pos:NCOM> <pos:ADOT> <string:alon>[as]DISASTER
+<pos:JJ> <ner:LOCATION>[as]LOCATION
+<number:ANY> <string:AM>
+<number:ANY> <string:PM>
+<end>
+<Category>: CH
+<pos:MANH> <pos:CONG> <pos:NCOM>
+<end>
+<Category>: D
+<ner:LOCATION>[as]LOCATION
+<pos:VOBF> <pos:NA> <pos:NA> <pos:NN>[as]DONATION
+<number:ANY> <ner:UNIT>[as]UNIT
+<number:ANY> <pos:NN:UN> <ner:UNIT>[as]UNIT <string:packs>
+<end>
+
