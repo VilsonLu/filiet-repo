@@ -69,13 +69,13 @@ public class OntologyDriver {
 //			e.printStackTrace();
 //		}
 		
-		OntologyRetriever or = new OntologyRetriever();
-		try {
-			or.loadOntology();
-			or.getStoredTweets();
-			or.removeOntologyFromManager();
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
+//		OntologyRetriever or = new OntologyRetriever();
+//		try {
+//			or.loadOntology();
+//			or.getStoredTweets();
+//			or.removeOntologyFromManager();
+//		} catch (Exception e) {
+//			e.printStackTrace();
+//		}
 	}
 }

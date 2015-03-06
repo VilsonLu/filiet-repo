@@ -20,8 +20,7 @@ public class Sentence {
 	private List<Grammar> appliedRules;
 	// extracted information
 	private List<PostExtractedInformation> extractedInformation;
-	
-	
+		
 	public Sentence(){
 		this.sentence = new ArrayList<>();
 		this.extractedWordFeatures = new HashMap<>();

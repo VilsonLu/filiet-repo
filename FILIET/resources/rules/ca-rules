@@ -8,4 +8,4 @@
 <string:#walangpasok> <pos:JJ> <pos:VBZ>
 <string:signal> <pos:NN> <pos:PSNS> <number:ANY>
 <string:#walangpasok> <pos:PSNS> <string:klase> 
-<string:sa> <pos:PIDP> <pos:NA> <string:antas>
+<string:#walangpasok> <string:sa> <pos:PIDP> <pos:NA> <string:antas>

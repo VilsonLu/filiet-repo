@@ -61,11 +61,11 @@ public class OntologyModule {
 	}
 	
 	// ONTOLOGY PRE-REQUISITE METHOD: Ontology Loader
-	public void loadOntology() throws OWLOntologyCreationException {
+	public void loadOntology(String filePath) throws OWLOntologyCreationException {
 		// Get hold of an ontology manager
 		manager = OWLManager.createOWLOntologyManager();
 		// This is the file for the Ontology
-		file = new File("./resources/ontology/FILIET_Ontology2.owl");
+		file = new File(filePath);
 		// Now load the local copy
 		filietOntology = manager.loadOntologyFromOntologyDocument(file);
 		// Display the Name of the Loaded Ontology

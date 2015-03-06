@@ -337,50 +337,12 @@
     
 
 
-    <!-- http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_CD-I_ERV_Elem_School -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_CD-I_ERV_Elem_School">
-        <rdf:type rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#CasualtiesAndDamage"/>
-        <reports_damages_to rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_OBJ-I_ERV_Elem_School"/>
-        <reports_damages_to rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_VIC-I_ERV_Elem_School"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_CD-I_residente -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_CD-I_residente">
         <rdf:type rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#CasualtiesAndDamage"/>
         <reports_damages_to rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_OBJ-I_residente"/>
         <reports_damages_to rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_VIC-I_residente"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_CFH-I_pamilya_ng_mga_sundalo -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_CFH-I_pamilya_ng_mga_sundalo">
-        <rdf:type rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#CallForHelp"/>
-        <reports_a_call_for_help_from_a rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_VIC-I_pamilya_ng_mga_sundalo"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_D-I_students_of_ERV_Elem_School -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_D-I_students_of_ERV_Elem_School">
-        <rdf:type rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#Donation"/>
-        <reports_a_need_for_a rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_RES-I_students_of_ERV_Elem_School"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_OBJ-I_ERV_Elem_School -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_OBJ-I_ERV_Elem_School">
-        <rdf:type rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#Object"/>
-        <objectDetails rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Binaha ang classrooms.</objectDetails>
-        <objectName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ERV Elem School</objectName>
     </owl:NamedIndividual>
     
 
@@ -395,107 +357,11 @@
     
 
 
-    <!-- http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_RES-I_students_of_ERV_Elem_School -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_RES-I_students_of_ERV_Elem_School">
-        <rdf:type rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#Resource"/>
-        <resourceDetails rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1000 pcs</resourceDetails>
-        <resourceName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">notebooks and bags</resourceName>
-        <from_a rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_VIC-I_students_of_ERV_Elem_School"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_VIC-I_ERV_Elem_School -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_VIC-I_ERV_Elem_School">
-        <rdf:type rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#Victim"/>
-        <victimName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mga estudyante ng ERV Elem School</victimName>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_VIC-I_pamilya_ng_mga_sundalo -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_VIC-I_pamilya_ng_mga_sundalo">
-        <rdf:type rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#Victim"/>
-        <victimName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pamilya ng mga sundalo</victimName>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_VIC-I_residente -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_VIC-I_residente">
         <rdf:type rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#Victim"/>
         <victimName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</victimName>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_VIC-I_students_of_ERV_Elem_School -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_VIC-I_students_of_ERV_Elem_School">
-        <rdf:type rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#Victim"/>
-        <victimName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">students of ERV Elem School</victimName>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_A-I_WARNING!_Ito_ay_isang_advice_na_tweet! -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_A-I_WARNING!_Ito_ay_isang_advice_na_tweet!">
-        <rdf:type rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#Advice"/>
-        <tweetAdvice rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WARNING! Ito ay isang advice na tweet!</tweetAdvice>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_CA-I_WARNING!_Ito_ay_isang_advice_na_tweet! -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_CA-I_WARNING!_Ito_ay_isang_advice_na_tweet!">
-        <rdf:type rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#CautionAndAdvice"/>
-        <gives_out_an rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_A-I_WARNING!_Ito_ay_isang_advice_na_tweet!"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_LI_Ang_mga_pamilya_ng_mga_sundalo_sa_Brgy._Trese_ay_nangangailangan_ng_tulong! -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_LI_Ang_mga_pamilya_ng_mga_sundalo_sa_Brgy._Trese_ay_nangangailangan_ng_tulong!">
-        <rdf:type rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#Location"/>
-        <geoLocationOfTweet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">418.582912321, 102.51084911</geoLocationOfTweet>
-        <locationInTweet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brgy. Trese</locationInTweet>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_LI_BWAHAHAHAHAHA_RT_WARNING!_Ito_ay_isang_tweet! -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_LI_BWAHAHAHAHAHA_RT_WARNING!_Ito_ay_isang_tweet!">
-        <rdf:type rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#Location"/>
-        <geoLocationOfTweet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.00000121, 145.345300023</geoLocationOfTweet>
-        <locationInTweet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guadalupe</locationInTweet>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_LI_Hi_everyone!_The_students_of_ERV_Elem_School_are_in_need_of_1000_pcs_of_notebooks_and_bags! -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_LI_Hi_everyone!_The_students_of_ERV_Elem_School_are_in_need_of_1000_pcs_of_notebooks_and_bags!">
-        <rdf:type rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#Location"/>
-        <geoLocationOfTweet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9.011112321, 231.34569903</geoLocationOfTweet>
-        <locationInTweet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Makati City</locationInTweet>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_LI_PRAY!_RT_Binaha_ang_classrooms_ng_mga_estudyante_ng_ERV_Elem_School -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_LI_PRAY!_RT_Binaha_ang_classrooms_ng_mga_estudyante_ng_ERV_Elem_School">
-        <rdf:type rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#Location"/>
-        <geoLocationOfTweet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">109.00540121, 45.378000003</geoLocationOfTweet>
-        <locationInTweet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quezon City</locationInTweet>
     </owl:NamedIndividual>
     
 
@@ -510,58 +376,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_TI_Ang_mga_pamilya_ng_mga_sundalo_sa_Brgy._Trese_ay_nangangailangan_ng_tulong! -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_TI_Ang_mga_pamilya_ng_mga_sundalo_sa_Brgy._Trese_ay_nangangailangan_ng_tulong!">
-        <rdf:type rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#Tweet"/>
-        <tweetContent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ang mga pamilya ng mga sundalo sa Brgy. Trese ay nangangailangan ng tulong!</tweetContent>
-        <tweetHandle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TheJPGarcia</tweetHandle>
-        <can_be_of_the_category rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_CFH-I_pamilya_ng_mga_sundalo"/>
-        <has_this_information rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_LI_Ang_mga_pamilya_ng_mga_sundalo_sa_Brgy._Trese_ay_nangangailangan_ng_tulong!"/>
-        <has_this_information rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_TSI_Ang_mga_pamilya_ng_mga_sundalo_sa_Brgy._Trese_ay_nangangailangan_ng_tulong!"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_TI_BWAHAHAHAHAHA_RT_WARNING!_Ito_ay_isang_tweet! -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_TI_BWAHAHAHAHAHA_RT_WARNING!_Ito_ay_isang_tweet!">
-        <rdf:type rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#Tweet"/>
-        <tweetContent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BWAHAHAHAHAHA RT WARNING! Ito ay isang tweet!</tweetContent>
-        <tweetHandle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">theonlykyleeeee</tweetHandle>
-        <can_be_of_the_category rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_CA-I_WARNING!_Ito_ay_isang_advice_na_tweet!"/>
-        <has_this_information rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_LI_BWAHAHAHAHAHA_RT_WARNING!_Ito_ay_isang_tweet!"/>
-        <has_this_information rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_TSI_BWAHAHAHAHAHA_RT_WARNING!_Ito_ay_isang_tweet!"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_TI_Hi_everyone!_The_students_of_ERV_Elem_School_are_in_need_of_1000_pcs_of_notebooks_and_bags! -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_TI_Hi_everyone!_The_students_of_ERV_Elem_School_are_in_need_of_1000_pcs_of_notebooks_and_bags!">
-        <rdf:type rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#Tweet"/>
-        <tweetContent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hi everyone! The students of ERV Elem School are in need of 1000 pcs of notebooks and bags!</tweetContent>
-        <tweetHandle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vilsonluuufffy</tweetHandle>
-        <can_be_of_the_category rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_D-I_students_of_ERV_Elem_School"/>
-        <has_this_information rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_LI_Hi_everyone!_The_students_of_ERV_Elem_School_are_in_need_of_1000_pcs_of_notebooks_and_bags!"/>
-        <has_this_information rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_TSI_Hi_everyone!_The_students_of_ERV_Elem_School_are_in_need_of_1000_pcs_of_notebooks_and_bags!"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_TI_PRAY!_RT_Binaha_ang_classrooms_ng_mga_estudyante_ng_ERV_Elem_School -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_TI_PRAY!_RT_Binaha_ang_classrooms_ng_mga_estudyante_ng_ERV_Elem_School">
-        <rdf:type rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#Tweet"/>
-        <tweetContent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRAY! RT Binaha ang classrooms ng mga estudyante ng ERV Elem School</tweetContent>
-        <tweetHandle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">addicteduserrr</tweetHandle>
-        <can_be_of_the_category rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_CD-I_ERV_Elem_School"/>
-        <has_this_information rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_LI_PRAY!_RT_Binaha_ang_classrooms_ng_mga_estudyante_ng_ERV_Elem_School"/>
-        <has_this_information rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_TSI_PRAY!_RT_Binaha_ang_classrooms_ng_mga_estudyante_ng_ERV_Elem_School"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_TI_RT_@gmanews:_VIDEO:_Mahigit_200,000_residente,_lumikas_sa_Sorsogon_dahil_sa_Bagyong_#RubyPH_http://t.co/1SPOOw4WVF_http://t.co/XJerjp7yWk -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_TI_RT_@gmanews:_VIDEO:_Mahigit_200,000_residente,_lumikas_sa_Sorsogon_dahil_sa_Bagyong_#RubyPH_http://t.co/1SPOOw4WVF_http://t.co/XJerjp7yWk">
@@ -571,46 +385,6 @@
         <can_be_of_the_category rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_CD-I_residente"/>
         <has_this_information rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_LI_RT_@gmanews:_VIDEO:_Mahigit_200,000_residente,_lumikas_sa_Sorsogon_dahil_sa_Bagyong_#RubyPH_http://t.co/1SPOOw4WVF_http://t.co/XJerjp7yWk"/>
         <has_this_information rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_TSI_RT_@gmanews:_VIDEO:_Mahigit_200,000_residente,_lumikas_sa_Sorsogon_dahil_sa_Bagyong_#RubyPH_http://t.co/1SPOOw4WVF_http://t.co/XJerjp7yWk"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_TSI_Ang_mga_pamilya_ng_mga_sundalo_sa_Brgy._Trese_ay_nangangailangan_ng_tulong! -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_TSI_Ang_mga_pamilya_ng_mga_sundalo_sa_Brgy._Trese_ay_nangangailangan_ng_tulong!">
-        <rdf:type rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#Timestamp"/>
-        <tweetTimestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#string">03/21/2015:03:27:00:34</tweetTimestamp>
-        <tweetDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">March 21, 2015</tweetDate>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_TSI_BWAHAHAHAHAHA_RT_WARNING!_Ito_ay_isang_tweet! -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_TSI_BWAHAHAHAHAHA_RT_WARNING!_Ito_ay_isang_tweet!">
-        <rdf:type rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#Timestamp"/>
-        <tweetTimestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12/27/2014:00:13:67:40</tweetTimestamp>
-        <tweetDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">December 27, 2014</tweetDate>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_TSI_Hi_everyone!_The_students_of_ERV_Elem_School_are_in_need_of_1000_pcs_of_notebooks_and_bags! -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_TSI_Hi_everyone!_The_students_of_ERV_Elem_School_are_in_need_of_1000_pcs_of_notebooks_and_bags!">
-        <rdf:type rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#Timestamp"/>
-        <tweetTimestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12/30/2014:01:44:09:10</tweetTimestamp>
-        <tweetDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">December 30, 2014</tweetDate>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_TSI_PRAY!_RT_Binaha_ang_classrooms_ng_mga_estudyante_ng_ERV_Elem_School -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_TSI_PRAY!_RT_Binaha_ang_classrooms_ng_mga_estudyante_ng_ERV_Elem_School">
-        <rdf:type rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#Timestamp"/>
-        <tweetTimestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12/27/2014:00:14:47:24</tweetTimestamp>
-        <tweetDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">December 27, 2014</tweetDate>
     </owl:NamedIndividual>
     
 
