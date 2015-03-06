@@ -44,6 +44,18 @@ public class Binder {
 		}
 		System.out.println(locationInTweet);
 		System.out.println(advice);
+		
+		// Caution and Advice
+		if(locationInTweet != null)
+			ca.setLocationInTweet(locationInTweet);
+		else 
+			ca.setLocationInTweet("null");
+		
+		if(advice != null)
+			ca.setTweetAdvice(advice);
+		else
+			ca.setTweetAdvice("null");
+		
 		// Tweet
 		Tweet tweet = sentence.getTweets();
 		ca.setTweetContent(sentence.getRawTweet());
@@ -56,10 +68,6 @@ public class Binder {
 		}
 		ca.setTweetTimestamp("null");
 		ca.setTweetDate("null");
-
-		// Caution and Advice
-		ca.setLocationInTweet(locationInTweet);
-		ca.setTweetAdvice(advice);
 
 		return ca;
 	}
