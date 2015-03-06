@@ -366,12 +366,53 @@
     
 
 
+    <!-- http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_A-I_#WalangPasok_sa_lahat_ng_antas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_A-I_#WalangPasok_sa_lahat_ng_antas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#Advice"/>
+        <tweetAdvice rdf:datatype="http://www.w3.org/2001/XMLSchema#string">#WalangPasok sa lahat ng antas</tweetAdvice>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_CA-I_#WalangPasok_sa_lahat_ng_antas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_CA-I_#WalangPasok_sa_lahat_ng_antas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#CautionAndAdvice"/>
+        <gives_out_an rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_A-I_#WalangPasok_sa_lahat_ng_antas"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_LI_RT_@gmanews:_QUEZON_PROVINCE_â€“_#WalangPasok_sa_lahat_ng_antas_(public_at_private)_sa_Lunes,_Dec._8_|_#RubyPH_via_@PeeweeHero_@dzbb_http://tâ€¦ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_LI_RT_@gmanews:_QUEZON_PROVINCE_â€“_#WalangPasok_sa_lahat_ng_antas_(public_at_private)_sa_Lunes,_Dec._8_|_#RubyPH_via_@PeeweeHero_@dzbb_http://tâ€¦">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#Location"/>
+        <locationInTweet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">QUEZON, Lunes</locationInTweet>
+        <geoLocationOfTweet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</geoLocationOfTweet>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_LI_RT_@gmanews:_VIDEO:_Mahigit_200,000_residente,_lumikas_sa_Sorsogon_dahil_sa_Bagyong_#RubyPH_http://t.co/1SPOOw4WVF_http://t.co/XJerjp7yWk -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_LI_RT_@gmanews:_VIDEO:_Mahigit_200,000_residente,_lumikas_sa_Sorsogon_dahil_sa_Bagyong_#RubyPH_http://t.co/1SPOOw4WVF_http://t.co/XJerjp7yWk">
         <rdf:type rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#Location"/>
         <locationInTweet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sorsogon</locationInTweet>
         <geoLocationOfTweet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</geoLocationOfTweet>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_TI_RT_@gmanews:_QUEZON_PROVINCE_â€“_#WalangPasok_sa_lahat_ng_antas_(public_at_private)_sa_Lunes,_Dec._8_|_#RubyPH_via_@PeeweeHero_@dzbb_http://tâ€¦ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_TI_RT_@gmanews:_QUEZON_PROVINCE_â€“_#WalangPasok_sa_lahat_ng_antas_(public_at_private)_sa_Lunes,_Dec._8_|_#RubyPH_via_@PeeweeHero_@dzbb_http://tâ€¦">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#Tweet"/>
+        <tweetContent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RT @gmanews: QUEZON PROVINCE â€“ #WalangPasok sa lahat ng antas (public at private) sa Lunes, Dec. 8 | #RubyPH via @PeeweeHero @dzbb http://tâ€¦</tweetContent>
+        <tweetHandle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ReynardzJr</tweetHandle>
+        <can_be_of_the_category rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_CA-I_#WalangPasok_sa_lahat_ng_antas"/>
+        <has_this_information rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_LI_RT_@gmanews:_QUEZON_PROVINCE_â€“_#WalangPasok_sa_lahat_ng_antas_(public_at_private)_sa_Lunes,_Dec._8_|_#RubyPH_via_@PeeweeHero_@dzbb_http://tâ€¦"/>
+        <has_this_information rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_TSI_RT_@gmanews:_QUEZON_PROVINCE_â€“_#WalangPasok_sa_lahat_ng_antas_(public_at_private)_sa_Lunes,_Dec._8_|_#RubyPH_via_@PeeweeHero_@dzbb_http://tâ€¦"/>
     </owl:NamedIndividual>
     
 
@@ -385,6 +426,16 @@
         <can_be_of_the_category rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_CD-I_residente"/>
         <has_this_information rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_LI_RT_@gmanews:_VIDEO:_Mahigit_200,000_residente,_lumikas_sa_Sorsogon_dahil_sa_Bagyong_#RubyPH_http://t.co/1SPOOw4WVF_http://t.co/XJerjp7yWk"/>
         <has_this_information rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_TSI_RT_@gmanews:_VIDEO:_Mahigit_200,000_residente,_lumikas_sa_Sorsogon_dahil_sa_Bagyong_#RubyPH_http://t.co/1SPOOw4WVF_http://t.co/XJerjp7yWk"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_TSI_RT_@gmanews:_QUEZON_PROVINCE_â€“_#WalangPasok_sa_lahat_ng_antas_(public_at_private)_sa_Lunes,_Dec._8_|_#RubyPH_via_@PeeweeHero_@dzbb_http://tâ€¦ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_TSI_RT_@gmanews:_QUEZON_PROVINCE_â€“_#WalangPasok_sa_lahat_ng_antas_(public_at_private)_sa_Lunes,_Dec._8_|_#RubyPH_via_@PeeweeHero_@dzbb_http://tâ€¦">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#Timestamp"/>
+        <tweetTimestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</tweetTimestamp>
+        <tweetDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</tweetDate>
     </owl:NamedIndividual>
     
 

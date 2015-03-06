@@ -44,8 +44,11 @@ public class Test {
 		for (Sentence sentence : sentences) {
 			System.out.println(sentence.getTweets().getTweetID());
 			processedSentences.add(extractorEngine.runExtractor(sentence));
-			
-			// store the instance to ontology
+
+		}
+		
+		// adding the processed sentence instance
+		for (Sentence sentence : processedSentences) {
 			if (sentence.getTweets().getCategory().equalsIgnoreCase("CA")) {
 				CautionAndAdviceTweet ca = Binder.bindCA(sentence);
 				System.out.println("Advice: " + ca.getTweetAdvice());
@@ -70,10 +73,6 @@ public class Test {
 				System.out.println("Geolocation " + cd.getTweetGeoLocation());
 				ontology.addCasualtiesAndDamageReport(cd);
 			}
-
-		}
-		
-
 			
 			ontology.displayStoredTweets();
 			System.out.println();

@@ -141,8 +141,7 @@ public class RuleInductor {
 				
 						if (match) {							
 							extract = new ExtractedInformation();
-							extract.setInformationType(rules.get(ruleIndex)
-									.getAsExtraction());
+							extract.setInformationType(rules.get(ruleIndex).getAsExtraction());
 							extract.setValue(tokens.get(tokenIndex));
 							temp.add(extract);
 							ruleIndex++;
@@ -155,7 +154,7 @@ public class RuleInductor {
 					
 					if(ruleIndex >= rules.size()){
 						if(match){		
-							
+							System.out.println("Rule Match");
 							PostExtractedInformation extractInfo = new PostExtractedInformation();
 							extractInfo.setCompiledInformation(temp);
 							extractedInformation.add(extractInfo);
@@ -169,6 +168,8 @@ public class RuleInductor {
 			} 
 
 		}
+		
+		
 		return extractedInformation;
 	}
 }
