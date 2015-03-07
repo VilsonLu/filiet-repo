@@ -13,7 +13,7 @@ public class InformationExtractionEngine {
 	// paths to resources
 	private String word = "./resources/model/word/ruby-word";
 	private String ngram = "./resources/model/ngram/ruby-ngram";
-	private String modelPath = "./resources/model/classifier/combined-knn5.model";
+	private String modelPath = "./resources/model/classifier/combined-randomforest.model";
 	private String rulePath = "./resources/rules/simple-rules";
 
 	// modules
