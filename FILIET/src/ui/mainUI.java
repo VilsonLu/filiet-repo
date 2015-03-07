@@ -3,6 +3,7 @@ package ui;
 import java.awt.Color;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.ArrayList;
 
 import javax.swing.JButton;
 import javax.swing.JFileChooser;
@@ -17,6 +18,12 @@ import javax.swing.border.LineBorder;
 import javax.swing.filechooser.FileNameExtensionFilter;
 import javax.swing.table.DefaultTableModel;
 
+import ontology.model.CallForHelpTweet;
+import ontology.model.CasualtiesAndDamageTweet;
+import ontology.model.CautionAndAdviceTweet;
+import ontology.model.DonationTweet;
+import ontology.retriever.OntologyRetriever;
+import ontology.retriever.RetrievedTweet;
 import main.Test;
 
 
@@ -36,6 +43,12 @@ public class mainUI extends JPanel {
 	private JTable tblCD;
 	private JTable tblCH;
 	private JTable tblD;
+	public JTable getTblD() {
+		return tblD;
+	}
+	public void setTblD(JTable tblD) {
+		this.tblD = tblD;
+	}
 	private JTextField textField;
 	private JLabel lblNewLabel_1;
 	private JTextField textField_1;
@@ -46,7 +59,10 @@ public class mainUI extends JPanel {
 	private JTextPane textPane_1;
 	private JPanel panel_4;
 	private JLabel lblNewLabel_2;
-	private JFileChooser jchoose;
+	DefaultTableModel modelCA;
+	DefaultTableModel modelCD;
+	DefaultTableModel modelCH;
+	DefaultTableModel modelD;
 	private String path;
 
 	/**
@@ -80,293 +96,71 @@ public class mainUI extends JPanel {
 		spaneCA = new JScrollPane();
 		tpaneCat.addTab("CAUTION AND ADVICE", null, spaneCA, null);
 		
+		modelCA = new DefaultTableModel(
+				new Object[][] {},
+				new String[] {
+					"Tweet Advice"
+				}
+			);
 		tblCA = new JTable();
-		tblCA.setModel(new DefaultTableModel(
-			new Object[][] {
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-			},
-			new String[] {
-				"Tweet Advice"
-			}
-		) {
-			Class[] columnTypes = new Class[] {
-				String.class
-			};
-			public Class getColumnClass(int columnIndex) {
-				return columnTypes[columnIndex];
-			}
-		});
+		tblCA.setModel(modelCA);
+		tblCA.setEnabled(false);
+		tblCA.setRowSelectionAllowed(true);
 		tblCA.getColumnModel().getColumn(0).setResizable(false);
 		tblCA.getTableHeader().setReorderingAllowed(false);
+		tblCA.setCellSelectionEnabled(true);
 		spaneCA.setViewportView(tblCA);
 		
 		spaneCD = new JScrollPane();
 		tpaneCat.addTab("CASUALTIES AND DAMAGE", null, spaneCD, null);
 		
+		modelCD = new DefaultTableModel(
+				new Object[][] {},
+				new String[] {
+					"Victim Name", "Object Name", "Object Details"
+				}
+			);
 		tblCD = new JTable();
-		tblCD.setModel(new DefaultTableModel(
-			new Object[][] {
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-			},
-			new String[] {
-				"Victim Name", "Object Name", "Object Details"
-			}
-		) {
-			boolean[] columnEditables = new boolean[] {
-				false, false, false
-			};
-			public boolean isCellEditable(int row, int column) {
-				return columnEditables[column];
-			}
-		});
+		tblCD.setModel(modelCD);
+		tblCD.setEnabled(false);
+		tblCD.setRowSelectionAllowed(true);
 		tblCD.getColumnModel().getColumn(0).setResizable(false);
 		tblCD.getColumnModel().getColumn(1).setResizable(false);
 		tblCD.getColumnModel().getColumn(2).setResizable(false);
 		tblCD.getTableHeader().setReorderingAllowed(false);
+		tblCD.setCellSelectionEnabled(true);
 		spaneCD.setViewportView(tblCD);
 		
 		spaneCH = new JScrollPane();
 		tpaneCat.addTab("CALL FOR HELP", null, spaneCH, null);
 		
+		modelCH = new DefaultTableModel(
+				new Object[][] {},
+				new String[] {
+					"Victim Name"
+				}
+			);
 		tblCH = new JTable();
-		tblCH.setModel(new DefaultTableModel(
-			new Object[][] {
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-				{null},
-			},
-			new String[] {
-				"Victim Name"
-			}
-		) {
-			boolean[] columnEditables = new boolean[] {
-				false
-			};
-			public boolean isCellEditable(int row, int column) {
-				return columnEditables[column];
-			}
-		});
+		tblCH.setModel(modelCH);
+		tblCH.setEnabled(false);
+		tblCH.setRowSelectionAllowed(true);
 		tblCH.getColumnModel().getColumn(0).setResizable(false);
 		tblCH.getTableHeader().setReorderingAllowed(false);
+		tblCH.setCellSelectionEnabled(true);
 		spaneCH.setViewportView(tblCH);
 		
 		spaneD = new JScrollPane();
 		tpaneCat.addTab("DONATION", null, spaneD, null);
 		
+		modelD = new DefaultTableModel(new Object[][] {},new String[] {"Resource Name", "Resource Details"});
 		tblD = new JTable();
-		tblD.setModel(new DefaultTableModel(
-			new Object[][] {
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-				{null, null, null},
-			},
-			new String[] {
-				"Victim Name", "Resource Name", "Resource Details"
-			}
-		) {
-			boolean[] columnEditables = new boolean[] {
-				false, false, false
-			};
-			public boolean isCellEditable(int row, int column) {
-				return columnEditables[column];
-			}
-		});
+		tblD.setModel(modelD);
+		tblD.setFocusable(false);
+		tblD.setRowSelectionAllowed(true);
 		tblD.getColumnModel().getColumn(0).setResizable(false);
 		tblD.getColumnModel().getColumn(1).setResizable(false);
-		tblD.getColumnModel().getColumn(2).setResizable(false);
 		tblD.getTableHeader().setReorderingAllowed(false);
+		tblD.setCellSelectionEnabled(true);
 		spaneD.setViewportView(tblD);
 		
 		panel_1 = new JPanel();
@@ -474,6 +268,8 @@ public class mainUI extends JPanel {
 		panel.setBorder(new LineBorder(Color.LIGHT_GRAY));
 		panel.setBounds(107, 85, 181, 83);
 		panel_3.add(panel);
+		
+		populateTable();
 	}
 	class importBtnListener implements ActionListener{
 		private JFileChooser chooser;
@@ -508,12 +304,39 @@ public class mainUI extends JPanel {
 			try {
 				test.startIE(path);
 			} catch (Exception e) {
-				// TODO Auto-generated catch block
+				//TODO Auto-generated catch block
 				e.printStackTrace();
 			} finally {
 			}
 		}
 
+	}
+	public void populateTable(){
+		RetrievedTweet rt = new RetrievedTweet();
+		OntologyRetriever or = new OntologyRetriever();
+		try {
+			or.loadOntology("./resources/ontology/FILIET_Ontology2.owl");
+			rt = or.getStoredTweets();
+			or.removeOntologyFromManager();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		ArrayList<CasualtiesAndDamageTweet> CD = rt.getRetrievedCADTweets();
+		ArrayList<CallForHelpTweet> CH = rt.getRetrievedCFHTweets();
+		ArrayList<CautionAndAdviceTweet> CA = rt.getRetrievedCATweets();
+		ArrayList<DonationTweet> D = rt.getRetrievedDTweets();
+		for (DonationTweet d :D){
+			modelD.addRow(new Object[]{d.getResourceName(),d.getResourceDetails()});
+		}
+		for (CautionAndAdviceTweet ca :CA){
+			modelCA.addRow(new Object[]{ca.getTweetAdvice()});
+		}
+		for (CasualtiesAndDamageTweet cd :CD){
+			modelCD.addRow(new Object[]{cd.getVictimName(), cd.getObjectName(), cd.getObjectDetails()});
+		}
+		for (CallForHelpTweet ch :CH){
+			modelCH.addRow(new Object[]{ch.getVictimName()});
+		}
 	}
 }
 

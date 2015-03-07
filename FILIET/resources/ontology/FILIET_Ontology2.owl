@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#"
      xml:base="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5"/>
     
 
@@ -347,16 +347,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_CD-I_residente -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_CD-I_residente">
-        <rdf:type rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#CasualtiesAndDamage"/>
-        <reports_damages_to rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_OBJ-I_residente"/>
-        <reports_damages_to rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_VIC-I_residente"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_CFH-I_pamilya_ng_mga_sundalo -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_CFH-I_pamilya_ng_mga_sundalo">
@@ -381,16 +371,6 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#Object"/>
         <objectDetails rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Binaha ang classrooms.</objectDetails>
         <objectName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ERV Elem School</objectName>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_OBJ-I_residente -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_OBJ-I_residente">
-        <rdf:type rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#Object"/>
-        <objectDetails rdf:datatype="http://www.w3.org/2001/XMLSchema#string">200,000</objectDetails>
-        <objectName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">residente</objectName>
     </owl:NamedIndividual>
     
 
@@ -420,15 +400,6 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_VIC-I_pamilya_ng_mga_sundalo">
         <rdf:type rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#Victim"/>
         <victimName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pamilya ng mga sundalo</victimName>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_VIC-I_residente -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_VIC-I_residente">
-        <rdf:type rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#Victim"/>
-        <victimName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</victimName>
     </owl:NamedIndividual>
     
 
@@ -500,16 +471,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_LI_RT_@gmanews:_VIDEO:_Mahigit_200,000_residente,_lumikas_sa_Sorsogon_dahil_sa_Bagyong_#RubyPH_http://t.co/1SPOOw4WVF_http://t.co/XJerjp7yWk -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_LI_RT_@gmanews:_VIDEO:_Mahigit_200,000_residente,_lumikas_sa_Sorsogon_dahil_sa_Bagyong_#RubyPH_http://t.co/1SPOOw4WVF_http://t.co/XJerjp7yWk">
-        <rdf:type rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#Location"/>
-        <locationInTweet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sorsogon</locationInTweet>
-        <geoLocationOfTweet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</geoLocationOfTweet>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_TI_Ang_mga_pamilya_ng_mga_sundalo_sa_Brgy._Trese_ay_nangangailangan_ng_tulong! -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_TI_Ang_mga_pamilya_ng_mga_sundalo_sa_Brgy._Trese_ay_nangangailangan_ng_tulong!">
@@ -562,19 +523,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_TI_RT_@gmanews:_VIDEO:_Mahigit_200,000_residente,_lumikas_sa_Sorsogon_dahil_sa_Bagyong_#RubyPH_http://t.co/1SPOOw4WVF_http://t.co/XJerjp7yWk -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_TI_RT_@gmanews:_VIDEO:_Mahigit_200,000_residente,_lumikas_sa_Sorsogon_dahil_sa_Bagyong_#RubyPH_http://t.co/1SPOOw4WVF_http://t.co/XJerjp7yWk">
-        <rdf:type rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#Tweet"/>
-        <tweetHandle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JennyRockwell</tweetHandle>
-        <tweetContent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RT @gmanews: VIDEO: Mahigit 200,000 residente, lumikas sa Sorsogon dahil sa Bagyong #RubyPH http://t.co/1SPOOw4WVF http://t.co/XJerjp7yWk</tweetContent>
-        <can_be_of_the_category rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_CD-I_residente"/>
-        <has_this_information rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_LI_RT_@gmanews:_VIDEO:_Mahigit_200,000_residente,_lumikas_sa_Sorsogon_dahil_sa_Bagyong_#RubyPH_http://t.co/1SPOOw4WVF_http://t.co/XJerjp7yWk"/>
-        <has_this_information rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_TSI_RT_@gmanews:_VIDEO:_Mahigit_200,000_residente,_lumikas_sa_Sorsogon_dahil_sa_Bagyong_#RubyPH_http://t.co/1SPOOw4WVF_http://t.co/XJerjp7yWk"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_TSI_Ang_mga_pamilya_ng_mga_sundalo_sa_Brgy._Trese_ay_nangangailangan_ng_tulong! -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_TSI_Ang_mga_pamilya_ng_mga_sundalo_sa_Brgy._Trese_ay_nangangailangan_ng_tulong!">
@@ -611,16 +559,6 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#Timestamp"/>
         <tweetTimestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12/27/2014:00:14:47:24</tweetTimestamp>
         <tweetDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">December 27, 2014</tweetDate>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_TSI_RT_@gmanews:_VIDEO:_Mahigit_200,000_residente,_lumikas_sa_Sorsogon_dahil_sa_Bagyong_#RubyPH_http://t.co/1SPOOw4WVF_http://t.co/XJerjp7yWk -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#_TSI_RT_@gmanews:_VIDEO:_Mahigit_200,000_residente,_lumikas_sa_Sorsogon_dahil_sa_Bagyong_#RubyPH_http://t.co/1SPOOw4WVF_http://t.co/XJerjp7yWk">
-        <rdf:type rdf:resource="http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5#Timestamp"/>
-        <tweetDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</tweetDate>
-        <tweetTimestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</tweetTimestamp>
     </owl:NamedIndividual>
 </rdf:RDF>
 
