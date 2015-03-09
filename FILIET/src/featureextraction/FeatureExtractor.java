@@ -198,11 +198,11 @@ public class FeatureExtractor {
 				headers.add(w);
 			}
 
-			// headers for ngram
-			for (String g : ngramfeatures) {
-				headers.add(g);
-
-			}
+//			// headers for ngram
+//			for (String g : ngramfeatures) {
+//				headers.add(g);
+//
+//			}
 
 			// headers for length
 			headers.add("Length");
@@ -253,11 +253,11 @@ public class FeatureExtractor {
 				}
 
 				// N-gram features
-				entries = extractedNgramFeatures.entrySet();
-				for (Map.Entry<String, Integer> entry : entries) {
-					Integer value = entry.getValue();
-					row.add(value.toString());
-				}
+//				entries = extractedNgramFeatures.entrySet();
+//				for (Map.Entry<String, Integer> entry : entries) {
+//					Integer value = entry.getValue();
+//					row.add(value.toString());
+//				}
 
 				// Other features
 				entries = extractedFeatures.entrySet();
@@ -391,10 +391,10 @@ public class FeatureExtractor {
 
 		extractedFeatures = new HashMap<String, Integer>();
 		extractedWordFeatures = new HashMap<String, Integer>();
-		extractedNgramFeatures = new HashMap<String, Integer>();
+		//extractedNgramFeatures = new HashMap<String, Integer>();
 
 		extractWordFeatures(tokens);
-		extractNgramFeatures(sentence);
+		//extractNgramFeatures(sentence);
 		extractTweetLength(tokens);
 
 	}
@@ -420,7 +420,7 @@ public class FeatureExtractor {
 		extractTweetLength(tokens);
 
 		sentence.setExtractedWordFeatures(extractedWordFeatures);
-		sentence.setExtractedNgramFeatures(extractedNgramFeatures);
+		//sentence.setExtractedNgramFeatures(extractedNgramFeatures);
 		sentence.setExtractedFeatures(extractedFeatures);
 
 	}

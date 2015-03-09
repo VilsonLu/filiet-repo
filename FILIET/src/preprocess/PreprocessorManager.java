@@ -61,7 +61,7 @@ public class PreprocessorManager {
 		String normalizedTweet = normalizer.executeStrategy(text);
 		System.out.println(normalizedTweet);
 
-		String normalizedTweet = text;
+		//String normalizedTweet = text;
 		// Tokenizer
 		
 		tokens = tokenizer.executeStrategy(normalizedTweet);

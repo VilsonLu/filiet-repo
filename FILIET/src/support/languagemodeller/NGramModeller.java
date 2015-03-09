@@ -23,6 +23,7 @@ public class NGramModeller {
 	private HashMap<String, Integer> frequency;
 	private Tokenizer tokenizer;
 
+	private double rate = 0.20;
 	
 	private static String wordAffix = "W_";
 	private static String ngramAffix = "N_";
@@ -70,7 +71,8 @@ public class NGramModeller {
 			}
 		}
 
-		this.getTop(saveFile, topN);
+		int size = (int) (frequency.size() * 0.20);
+		this.getTop(saveFile, size);
 	}
 
 	/*
