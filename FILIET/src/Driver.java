@@ -42,7 +42,7 @@ public class Driver {
 			processedSentences.add(extractorEngine.runExtractor(sentence));
 		}
 		
-		XmlParser.saveXML(processedSentences, "./resources/results/test.xml");
+		//XmlParser.saveXML(processedSentences, "./resources/results/test.xml");
 	
 	}
 }
