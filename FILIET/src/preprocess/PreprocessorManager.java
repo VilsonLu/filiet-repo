@@ -56,21 +56,19 @@ public class PreprocessorManager {
 		System.out.println("Tweet: " + text);
 		System.out.println();
 
-//		// Normalizer
+		// Normalizer
 		System.out.println("Normalizer:");
 		String normalizedTweet = normalizer.executeStrategy(text);
 		System.out.println(normalizedTweet);
 
-		String normalizedTweet = text;
 		// Tokenizer
-		
 		tokens = tokenizer.executeStrategy(normalizedTweet);
 		System.out.println("Tokenizer: ");
 		tokens.toString();
 		System.out.println();
 		
 		// POS Tagger
-		tokens = post.executeStrategy(tokens);			
+		tokens = post.executeStrategy(tokens);		
 		System.out.println("POS Tagger:");
 		tokens.toString();
 		System.out.println();

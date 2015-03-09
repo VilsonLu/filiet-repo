@@ -1,13 +1,12 @@
 package preprocess.normalizer;
 
-import support.model.Sentence;
-import normapi.*;
+import normapi.NormAPI;
 
 public class NormApiImpl implements NormalizerInterface {
 
 	@Override
 	public String execute(String tweet) {
-		return NormAPI.normalizeDSA_Text(tweet);
+		return NormAPI.normalize_Text(tweet);
 	}
 
 }
