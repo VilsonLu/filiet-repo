@@ -18,7 +18,7 @@ import preprocess.tokenizer.Tokenizer;
 import support.model.Sentence;
 
 public class PreprocessorManager {
-
+	
 	private Tokenizer tokenizer;
 	private POSTagger post;
 	private DisasterTagger disasterTagger;
@@ -37,7 +37,7 @@ public class PreprocessorManager {
 	 * Default Implementation
 	 */
 	public void InitializeModules(){
-		//normalizer = new Normalizer(new NormApiImpl());
+		normalizer = new Normalizer(new NormApiImpl());
 		tokenizer = new Tokenizer(new ArkNLPTokenizerImpl());
 		post = new POSTagger(new POSHashLookupImpl());
 		// disasterTagger = new DisasterTagger(new DefaultDisasterTag());
@@ -57,9 +57,9 @@ public class PreprocessorManager {
 		System.out.println();
 
 //		// Normalizer
-//		System.out.println("Normalizer:");
-//		String normalizedTweet = normalizer.executeStrategy(text);
-//		System.out.println(normalizedTweet);
+		System.out.println("Normalizer:");
+		String normalizedTweet = normalizer.executeStrategy(text);
+		System.out.println(normalizedTweet);
 
 		String normalizedTweet = text;
 		// Tokenizer
