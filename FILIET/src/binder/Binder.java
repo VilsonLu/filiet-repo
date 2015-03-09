@@ -13,6 +13,7 @@ import support.model.Tweet;
 
 public class Binder {
 
+	private static String empty = "na";
 	public static CautionAndAdviceTweet bindCA(Sentence sentence) {
 
 		CautionAndAdviceTweet ca = new CautionAndAdviceTweet();

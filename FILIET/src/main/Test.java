@@ -1,3 +1,4 @@
+package main;
 import informationextraction.InformationExtractionEngine;
 
 import java.io.IOException;
@@ -12,25 +13,24 @@ import support.model.PostExtractedInformation;
 import support.model.Sentence;
 import support.other.XmlParser;
 import testing.Testing;
+import ui.mainUI;
 
 public class Test {
 
-	public static void main(String[] args) throws Exception {
+	public void startIE(String filepath) throws Exception {
 		// TODO Auto-generated method stub
-		String testTweets = "./resources/tweets/Testing/Test.csv";
+		String testTweets = filepath;
 		String ontologyPath = "./resources/ontology/FILIET_Ontology3.owl";
 
-		System.out.println("FILIET - Filipino Information Extraction for Twitter");
+		System.out
+				.println("FILIET - Filipino Information Extraction for Twitter");
 		System.out.println("Running: " + testTweets);
 		System.out.println();
 
-		// modules
 		InformationExtractionEngine extractorEngine = new InformationExtractionEngine();
-		//OntologyModule ontology = new OntologyModule();
-		//ontology.loadOntology(ontologyPath);
+		OntologyModule ontology = new OntologyModule();
+		ontology.loadOntology(ontologyPath);
 		
-		
-		// load the dataset
 		List<Sentence> sentences = null;
 		try {
 			sentences = Testing.readTestData(testTweets);
@@ -40,14 +40,15 @@ public class Test {
 		}
 
 		List<Sentence> processedSentences = new ArrayList<Sentence>();
-		// run the information extraction engine
+
+		// String text =
+		// "RT @DZMMTeleRadyo: #walangpasok | Klase sa lahat ng antas sa Mandaluyong City, suspendido bukas (Dec. 8) dahil kay #RubyPH - Mayor Abalos";
 		for (Sentence sentence : sentences) {
 			System.out.println(sentence.getTweets().getTweetID());
 			processedSentences.add(extractorEngine.runExtractor(sentence));
 
 		}
-		
-		// adding the processed sentence instance
+
 		for (Sentence sentence : processedSentences) {
 			if (sentence.getTweets().getCategory().equalsIgnoreCase("CA")) {
 				CautionAndAdviceTweet ca = Binder.bindCA(sentence);
@@ -59,7 +60,6 @@ public class Test {
 				System.out.println("Date " + ca.getTweetDate());
 				System.out.println("Timestamp " + ca.getTweetTimestamp());
 				System.out.println("Geolocation " + ca.getTweetGeoLocation());
-				//ontology.addCautionAndAdviceReport(ca);
 			} else if(sentence.getTweets().getCategory().equalsIgnoreCase("CD")){
 				CasualtiesAndDamageTweet cd = Binder.bindCD(sentence);
 				System.out.println("Detail " + cd.getObjectDetails() );
@@ -71,13 +71,14 @@ public class Test {
 				System.out.println("Date " + cd.getTweetDate());
 				System.out.println("Timestamp " + cd.getTweetTimestamp());
 				System.out.println("Geolocation " + cd.getTweetGeoLocation());
-				//ontology.addCasualtiesAndDamageReport(cd);
+				ontology.addCasualtiesAndDamageReport(cd);
 			}
 			
-			//ontology.displayStoredTweets();
+			ontology.displayStoredTweets();
 			System.out.println();
 		}
-
+		
+		ontology.removeOntologyFromManager();
 	}
 
 }
