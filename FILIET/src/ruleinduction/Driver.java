@@ -16,14 +16,14 @@ import support.model.Token;
 
 public class Driver {
 	public static void main(String[] args) throws IOException {
-		String path = "./resources/rules/simple-rules";
+		String path = "./resources/rules/cd-rules";
 		RuleInductor pm = new RuleInductor(path);
 		try {
 			
 			Tokenizer tokenizer = new Tokenizer(new ArkNLPTokenizerImpl());
 			PreprocessorManager preprocessor = new PreprocessorManager();
 			
-			String tweet = "@DZMMTeleRadyo: PAALALA: #walangpasok ALL LEVELS sa LAGUNA at RIZAL ngayong Sabado, Dec. 6 #RubyPH http://t.co/dMQwAHzo4S";
+			String tweet ="#AksyonSaHagupit | 2 bahay nawasak dahil sa naglalakihang alon at lakas na hangin sa Brgy. Tabunan, Matnog! #RubyPH";
 			Sentence sentence = preprocessor.PreprocessText(tweet);
 
 			pm.loadRules();

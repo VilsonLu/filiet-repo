@@ -1,0 +1,4381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset name="ruby-dataset">
+	<tweet id="1">
+		<user>marrialigaya</user>
+		<tweet>"@ANCALERTS: NDRRMC: 3 dead due to #RubyPH" tsk</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="2">
+		<user>IGMOlayvar</user>
+		<tweet>"@DZMMTeleRadyo: Bubong at kisame ng Tacloban Airport, sinira
+			ni #RubyPH http://t.co/FZHADakW9X http://t.co/0u0ziXbw9e" grabe
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>Tacloban</locationInTweet>
+			<objectName>Bubong at kisame</objectName>
+			<objectDetail>sinira ni #RubyPH</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="3">
+		<user>blujay_chabby</user>
+		<tweet>"@gmanews: #RubyPH update mula sa press briefing ng DILG:
+			Walang naitalang casualty sa Leyte." Good to hear. Sana sa ibang
+			lugar din :)
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>Leyte</locationInTweet>
+			<objectName>casualty</objectName>
+			<objectDetail>wala</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="4">
+		<user>MerryEdear</user>
+		<tweet>"@gmanews: #RubyPH update mula sa press briefing ng DILG:
+			Walang naitalang casualty sa Leyte." Thank you Lord! :)
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>Leyte</locationInTweet>
+			<objectName>casualty</objectName>
+			<objectDetail>wala</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="5">
+		<user>MarkGascon1</user>
+		<tweet>"@gmanews: Bagsak na ang linya ng komunikasyon sa mga bayan sa
+			Northeastern Samar. #RubyPH | via @PeeweeHero @dzbb"
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>Northeastern Samar</locationInTweet>
+			<objectName>linya ng komunikasyon</objectName>
+			<objectDetail>bagsak</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="6">
+		<user>meecatok</user>
+		<tweet>"@gmanews: Bagsak na ang linya ng komunikasyon sa mga bayan sa
+			Northeastern Samar. #RubyPH | via @PeeweeHero @dzbb"
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>Northeastern Samar</locationInTweet>
+			<objectName>linya ng komunikasyon</objectName>
+			<objectDetail>bagsak</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="7">
+		<user>IamTheLawler</user>
+		<tweet>"@gmanews: Bagsak na ang linya ng komunikasyon sa mga bayan sa
+			Northeastern Samar. #RubyPH | via @PeeweeHero @dzbb" keep safe
+			everyone
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>Northeastern Samar</locationInTweet>
+			<objectName>linya ng komunikasyon</objectName>
+			<objectDetail>bagsak</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="8">
+		<user>ariescaringal</user>
+		<tweet>RT @gmanews: ROMBLON — As of 2:30PM, 30,689 na ang total
+			evacuees sa buong probinsya, ayon sa PSWD. #RubyPH via @akosiJaysent
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>Romblon</locationInTweet>
+			<objectName>evacuees</objectName>
+			<objectDetail>30,689</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="9">
+		<user>JholimaGlory</user>
+		<tweet>RT @gmanews: ROMBLON — As of 2:30PM, 30,689 na ang total
+			evacuees sa buong probinsya, ayon sa PSWD. #RubyPH via @akosiJaysent
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>Romblon</locationInTweet>
+			<objectName>evacuees</objectName>
+			<objectDetail>30,689</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="10">
+		<user>chingbee1</user>
+		<tweet>RT @gmanews: ROMBLON — As of 2:30PM, 30,689 na ang total
+			evacuees sa buong probinsya, ayon sa PSWD. #RubyPH via @akosiJaysent
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>Romblon</locationInTweet>
+			<objectName>evacuees</objectName>
+			<objectDetail>30,689</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="11">
+		<user>christheene18</user>
+		<tweet>RT @gmanews: ROMBLON — As of 2:30PM, 30,689 na ang total
+			evacuees sa buong probinsya, ayon sa PSWD. #RubyPH via @akosiJaysent
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>Romblon</locationInTweet>
+			<objectName>evacuees</objectName>
+			<objectDetail>30,689</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="12">
+		<user>KeniticChoy</user>
+		<tweet>RT @gmanews: ROMBLON — As of 2:30PM, 30,689 na ang total
+			evacuees sa buong probinsya, ayon sa PSWD. #RubyPH via @akosiJaysent
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>Romblon</locationInTweet>
+			<objectName>evacuees</objectName>
+			<objectDetail>30,689</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="13">
+		<user>khimfampo_23</user>
+		<tweet>RT @gmanews: ROMBLON — As of 2:30PM, 30,689 na ang total
+			evacuees sa buong probinsya, ayon sa PSWD. #RubyPH via @akosiJaysent
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>Romblon</locationInTweet>
+			<objectName>evacuees</objectName>
+			<objectDetail>30,689</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="14">
+		<user>CyeFruelda</user>
+		<tweet>RT @gmanews: ROMBLON — As of 2:30PM, 30,689 na ang total
+			evacuees sa buong probinsya, ayon sa PSWD. #RubyPH via @akosiJaysent
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>Romblon</locationInTweet>
+			<objectName>evacuees</objectName>
+			<objectDetail>30,689</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="15">
+		<user>MartinXmarin</user>
+		<tweet>RT @gmanews: VIDEO: Bagyong #RubyPH, nagdulot ng malakas na
+			ulan at hangin sa Sorsogon http://t.co/EVRQ1xVvr6
+			http://t.co/BAJbJAO29Z
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>Sorsogon</locationInTweet>
+			<objectName/>
+			<objectDetail>nagdulot ng malawak na pinsala</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="16">
+		<user>iTsmeJamesNero</user>
+		<tweet>RT @gmanews: VIDEO: Bagyong #RubyPH, nagdulot ng malakas na
+			ulan at hangin sa Sorsogon http://t.co/EVRQ1xVvr6
+			http://t.co/BAJbJAO29Z
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>Sorsogon</locationInTweet>
+			<objectName/>
+			<objectDetail>nagdulot ng malawak na pinsala</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="17">
+		<user>Iampicardal</user>
+		<tweet>RT @gmanews: VIDEO: Bagyong #RubyPH, nagdulot ng malakas na
+			ulan at hangin sa Sorsogon http://t.co/EVRQ1xVvr6
+			http://t.co/BAJbJAO29Z
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>Sorsogonr</locationInTweet>
+			<objectName/>
+			<objectDetail>nagdulot ng malawak na pinsala</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="18">
+		<user>nnnikkka</user>
+		<tweet>RT @gmanews: VIDEO: Bagyong #RubyPH, nagdulot ng malakas na
+			ulan at hangin sa Sorsogon http://t.co/EVRQ1xVvr6
+			http://t.co/BAJbJAO29Z
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>Sorsogon</locationInTweet>
+			<objectName/>
+			<objectDetail>nagdulot ng malawak na pinsala</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="19">
+		<user>mikan4ever</user>
+		<tweet>RT @gmanews: VIDEO: Bagyong #RubyPH, nagdulot ng malakas na
+			ulan at hangin sa Sorsogon http://t.co/EVRQ1xVvr6
+			http://t.co/BAJbJAO29Z
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>Sorsogon</locationInTweet>
+			<objectName/>
+			<objectDetail>nagdulot ng malawak na pinsala</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="20">
+		<user>stewartricero</user>
+		<tweet>RT @gmanews: VIDEO: Bagyong #RubyPH, nagdulot ng malakas na
+			ulan at hangin sa Sorsogon http://t.co/EVRQ1xVvr6
+			http://t.co/BAJbJAO29Z
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>Sorsogon</locationInTweet>
+			<objectName/>
+			<objectDetail>nagdulot ng malawak na pinsala</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="21">
+		<user>KeniticChoy</user>
+		<tweet>RT @gmanews: VIDEO: Bagyong #RubyPH, nagdulot ng malakas na
+			ulan at hangin sa Sorsogon http://t.co/EVRQ1xVvr6
+			http://t.co/BAJbJAO29Z
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>Sorsogon</locationInTweet>
+			<objectName/>
+			<objectDetail>nagdulot ng malawak na pinsala</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="22">
+		<user>lovi_143</user>
+		<tweet>RT @gmanews: VIDEO: Bagyong #RubyPH, nagdulot ng malakas na
+			ulan at hangin sa Sorsogon http://t.co/EVRQ1xVvr6
+			http://t.co/BAJbJAO29Z
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>Sorsogon</locationInTweet>
+			<objectName/>
+			<objectDetail>nagdulot ng malawak na pinsala</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="23">
+		<user>JessaJofficial</user>
+		<tweet>RT @gmanews: VIDEO: Bagyong #RubyPH, nagdulot ng malakas na
+			ulan at hangin sa Sorsogon http://t.co/EVRQ1xVvr6
+			http://t.co/BAJbJAO29Z
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>Sorsogon</locationInTweet>
+			<objectName/>
+			<objectDetail>nagdulot ng malawak na pinsala</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="24">
+		<user>heephrodisiac</user>
+		<tweet>RT @gmanews: VIDEO: Bagyong #RubyPH, nagdulot ng malawak na
+			pinsala sa Catbalogan, Samar http://t.co/DfA9ZNhkhL
+			http://t.co/hUOpTVTm2S
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>Catbalogan, Samar</locationInTweet>
+			<objectName/>
+			<objectDetail>nagdulot ng malawak na pinsala</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="25">
+		<user>cassiebabyleigh</user>
+		<tweet>RT @gmanews: VIDEO: Bagyong #RubyPH, nagdulot ng malawak na
+			pinsala sa Catbalogan, Samar http://t.co/DfA9ZNhkhL
+			http://t.co/hUOpTVTm2S
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>Catbalogan, Samar</locationInTweet>
+			</objectName>
+			<objectDetail>nagdulot ng malawak na pinsala</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="26">
+		<user>PurpleMonik</user>
+		<tweet>RT @gmanews: VIDEO: Bagyong #RubyPH, nagdulot ng malawak na
+			pinsala sa Catbalogan, Samar http://t.co/DfA9ZNhkhL
+			http://t.co/hUOpTVTm2S
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>Catbalogan, Samar</locationInTweet>
+			<objectName/>
+			<objectDetail>nagdulot ng malawak na pinsala</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="27">
+		<user>KhryssMalen30</user>
+		<tweet>RT @gmanews: VIDEO: Bagyong #RubyPH, nagdulot ng malawak na
+			pinsala sa Catbalogan, Samar http://t.co/DfA9ZNhkhL
+			http://t.co/hUOpTVTm2S
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>Catbalogan, Samar</locationInTweet>
+			<objectName/>
+			<objectDetail>nagdulot ng malawak na pinsala</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="28">
+		<user>Aeonflus</user>
+		<tweet>RT @gmanews: VIDEO: Bagyong #RubyPH, nagdulot ng malawak na
+			pinsala sa Catbalogan, Samar http://t.co/DfA9ZNhkhL
+			http://t.co/hUOpTVTm2S
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>Catbalogan, Samar</locationInTweet>
+			<objectName/>
+			<objectDetail>nagdulot ng malawak na pinsala</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="29">
+		<user>RubyPHNews1</user>
+		<tweet>RT @gmanews: VIDEO: Bagyong #RubyPH, nagdulot ng malawak na
+			pinsala sa Catbalogan, Samar http://t.co/DfA9ZNhkhL
+			http://t.co/hUOpTVTm2S
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>Catbalogan, Samar</locationInTweet>
+			<objectName/>
+			<objectDetail>nagdulot ng malawak na pinsala</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="30">
+		<user>clarissemado</user>
+		<tweet>RT @gmanews: VIDEO: Bagyong #RubyPH, nagdulot ng malawak na
+			pinsala sa Catbalogan, Samar http://t.co/DfA9ZNhkhL
+			http://t.co/hUOpTVTm2S
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>Catbalogan, Samar</locationInTweet>
+			<objectName/>
+			<objectDetail>nagdulot ng malawak na pinsala</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="31">
+		<user>glennpooot</user>
+		<tweet>RT @gmanews: VIDEO: Bagyong #RubyPH, nagdulot ng malawak na
+			pinsala sa Catbalogan, Samar http://t.co/DfA9ZNhkhL
+			http://t.co/hUOpTVTm2S
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		</extracted>
+	</tweet>
+	<tweet id="32">
+		<user>AnitaKapoor</user>
+		<tweet>RT @gmanews: VIDEO: Bagyong #RubyPH, nagdulot ng malawak na
+			pinsala sa Catbalogan, Samar http://t.co/DfA9ZNhkhL
+			http://t.co/hUOpTVTm2S
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>Catbalogan, Samar</locationInTweet>
+			<objectName/>
+			<objectDetail>nagdulot ng malawak na pinsala</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="33">
+		<user>TUPManila_USG</user>
+		<tweet>RT @gmanews: VIDEO: Bagyong #RubyPH, nagdulot ng malawak na
+			pinsala sa Catbalogan, Samar http://t.co/DfA9ZNhkhL
+			http://t.co/hUOpTVTm2S
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		</extracted>
+	</tweet>
+	<tweet id="34">
+		<user>ellemorre</user>
+		<tweet>RT @gmanews: VIDEO: Bagyong #RubyPH, nagdulot ng malawak na
+			pinsala sa Catbalogan, Samar http://t.co/DfA9ZNhkhL
+			http://t.co/hUOpTVTm2S
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>Catbalogan, Samar</locationInTweet>
+			<objectName/>
+			<objectDetail>nagdulot ng malawak na pinsala</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="35">
+		<user>Liizziiiiieeee</user>
+		<tweet>RT @gmanews: VIDEO: Bagyong #RubyPH, nagdulot ng malawak na
+			pinsala sa Catbalogan, Samar http://t.co/DfA9ZNhkhL
+			http://t.co/hUOpTVTm2S
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>Catbalogan, Samar</locationInTweet>
+			<objectName/>
+			<objectDetail>nagdulot ng malawak na pinsala</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="36">
+		<user>Terri_estupendo</user>
+		<tweet>RT @gmanews: VIDEO: Bagyong #RubyPH, nagdulot ng malawak na
+			pinsala sa Catbalogan, Samar http://t.co/DfA9ZNhkhL
+			http://t.co/hUOpTVTm2S
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>Catbalogan, Samar</locationInTweet>
+			<objectName/>
+			<objectDetail>nagdulot ng malawak na pinsala</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="37">
+		<user>KeniticChoy</user>
+		<tweet>RT @gmanews: VIDEO: Bagyong #RubyPH, nagdulot ng malawak na
+			pinsala sa Catbalogan, Samar http://t.co/DfA9ZNhkhL
+			http://t.co/hUOpTVTm2S
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>Catbalogan, Samar</locationInTweet>
+			<objectName/>
+			<objectDetail>nagdulot ng malawak na pinsala</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="38">
+		<user>jstnmrfl</user>
+		<tweet>RT @gmanews: VIDEO: Bagyong #RubyPH, nagdulot ng malawak na
+			pinsala sa Catbalogan, Samar http://t.co/DfA9ZNhkhL
+			http://t.co/hUOpTVTm2S
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>Catbalogan, Samar</locationInTweet>
+			<objectName/>
+			<objectDetail>nagdulot ng malawak na pinsala</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="39">
+		<user>jayveellage</user>
+		<tweet>RT @gmanews: VIDEO: Baha at mga pinsala sa imprastraktura,
+			iniwan ng Bagyong #RubyPH http://t.co/lv9AkEYIev
+			http://t.co/tpSDNXnrIV
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet />
+			<objectName>imprastraktura</objectName>
+			<objectDetail>baha at mga pinsala</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="40">
+		<user>sexymhel</user>
+		<tweet>RT @gmanews: VIDEO: Baha at mga pinsala sa imprastraktura,
+			iniwan ng Bagyong #RubyPH http://t.co/lv9AkEYIev
+			http://t.co/tpSDNXnrIV
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet />
+			<objectName>imprastraktura</objectName>
+			<objectDetail>baha at mga pinsala</objectDetail>
+			<victimName />
+		</extracted>
+
+	</tweet>
+	<tweet id="41">
+		<user>sotto_fiona</user>
+		<tweet>RT @gmanews: VIDEO: Baha at mga pinsala sa imprastraktura,
+			iniwan ng Bagyong #RubyPH http://t.co/lv9AkEYIev
+			http://t.co/tpSDNXnrIV
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet />
+			<objectName>imprastraktura</objectName>
+			<objectDetail>baha at mga pinsala</objectDetail>
+			<victimName />
+		</extracted>
+
+	</tweet>
+	<tweet id="42">
+		<user>akosidarkcloud</user>
+		<tweet>RT @gmanews: VIDEO: Baha at mga pinsala sa imprastraktura,
+			iniwan ng Bagyong #RubyPH http://t.co/lv9AkEYIev
+			http://t.co/tpSDNXnrIV
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet />
+			<objectName>imprastraktura</objectName>
+			<objectDetail>baha at mga pinsala</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="43">
+		<user>jahstinesurio</user>
+		<tweet>RT @gmanews: VIDEO: Baha at mga pinsala sa imprastraktura,
+			iniwan ng Bagyong #RubyPH http://t.co/lv9AkEYIev
+			http://t.co/tpSDNXnrIV
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet />
+			<objectName>imprastraktura</objectName>
+			<objectDetail>baha at mga pinsala</objectDetail>
+			<victimName />
+		</extracted>
+
+	</tweet>
+	<tweet id="44">
+		<user>itsmeMayetteXD</user>
+		<tweet>RT @gmanews: VIDEO: Baha at mga pinsala sa imprastraktura,
+			iniwan ng Bagyong #RubyPH http://t.co/lv9AkEYIev
+			http://t.co/tpSDNXnrIV
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet />
+			<objectName>imprastraktura</objectName>
+			<objectDetail>baha at mga pinsala</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="45">
+		<user>KeniticChoy</user>
+		<tweet>RT @gmanews: VIDEO: Baha at mga pinsala sa imprastraktura,
+			iniwan ng Bagyong #RubyPH http://t.co/lv9AkEYIev
+			http://t.co/tpSDNXnrIV
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet />
+			<objectName>imprastraktura</objectName>
+			<objectDetail>baha at mga pinsala</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+
+	<tweet id="47">
+		<user>RubyPHNews1</user>
+		<tweet>RT @gmanews: VIDEO: Dalawa, nasawi sa pananalasa ng Bagyong
+			#RubyPH sa Dolores, Eastern Samar http://t.co/Cb0YyL8BdL
+			http://t.co/uw0ITm5npt
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>Dolores, Eastern Samar</locationInTweet>
+			<objectName>nasawi</objectName>
+			<objectDetail>dalawa</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="48">
+		<user>violetagloria</user>
+		<tweet>RT @gmanews: VIDEO: Dalawa, nasawi sa pananalasa ng Bagyong
+			#RubyPH sa Dolores, Eastern Samar http://t.co/Cb0YyL8BdL
+			http://t.co/uw0ITm5npt
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				Dolores, Eastern Samar
+			</locationInTweet>
+			<objectName>nasawi</objectName>
+			<objectDetail>dalawa</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="49">
+		<user>mawexduque</user>
+		<tweet>RT @gmanews: VIDEO: Dalawa, nasawi sa pananalasa ng Bagyong
+			#RubyPH sa Dolores, Eastern Samar http://t.co/Cb0YyL8BdL
+			http://t.co/uw0ITm5npt
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				Dolores, Eastern Samar
+			</locationInTweet>
+			<objectName>nasawi</objectName>
+			<objectDetail>dalawa</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="50">
+		<user>ljr_leigh</user>
+		<tweet>RT @gmanews: VIDEO: Dalawa, nasawi sa pananalasa ng Bagyong
+			#RubyPH sa Dolores, Eastern Samar http://t.co/Cb0YyL8BdL
+			http://t.co/uw0ITm5npt
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				Dolores, Eastern Samar
+			</locationInTweet>
+			<objectName>nasawi</objectName>
+			<objectDetail>dalawa</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="51">
+		<user>vinnmartin</user>
+		<tweet>RT @gmanews: VIDEO: Dalawa, nasawi sa pananalasa ng Bagyong
+			#RubyPH sa Dolores, Eastern Samar http://t.co/Cb0YyL8BdL
+			http://t.co/uw0ITm5npt
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				Dolores, Eastern Samar
+			</locationInTweet>
+			<objectName>nasawi</objectName>
+			<objectDetail>dalawa</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="52">
+		<user>alrenjerome</user>
+		<tweet>RT @gmanews: VIDEO: Dalawa, nasawi sa pananalasa ng Bagyong
+			#RubyPH sa Dolores, Eastern Samar http://t.co/Cb0YyL8BdL
+			http://t.co/uw0ITm5npt
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				Dolores, Eastern Samar
+			</locationInTweet>
+			<objectName>nasawi</objectName>
+			<objectDetail>dalawa</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="53">
+		<user>lalaculala</user>
+		<tweet>RT @gmanews: VIDEO: Dalawa, nasawi sa pananalasa ng Bagyong
+			#RubyPH sa Dolores, Eastern Samar http://t.co/Cb0YyL8BdL
+			http://t.co/uw0ITm5npt
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="54">
+		<user>bebebombia_5sex</user>
+		<tweet>RT @gmanews: VIDEO: Dalawa, nasawi sa pananalasa ng Bagyong
+			#RubyPH sa Dolores, Eastern Samar http://t.co/Cb0YyL8BdL
+			http://t.co/uw0ITm5npt
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				Dolores, Eastern Samar
+			</locationInTweet>
+			<objectName>nasawi</objectName>
+			<objectDetail>dalawa</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="55">
+		<user>haze_gear</user>
+		<tweet>RT @gmanews: VIDEO: Dalawa, nasawi sa pananalasa ng Bagyong
+			#RubyPH sa Dolores, Eastern Samar http://t.co/Cb0YyL8BdL
+			http://t.co/uw0ITm5npt
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				Dolores, Eastern Samar
+			</locationInTweet>
+			<objectName>nasawi</objectName>
+			<objectDetail>dalawa</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="56">
+		<user>erwinmoon</user>
+		<tweet>RT @gmanews: VIDEO: Dalawa, nasawi sa pananalasa ng Bagyong
+			#RubyPH sa Dolores, Eastern Samar http://t.co/Cb0YyL8BdL
+			http://t.co/uw0ITm5npt
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		</extracted>
+		<extracted>
+			<locationInTweet>
+				Dolores, Eastern Samar
+			</locationInTweet>
+			<objectName>nasawi</objectName>
+			<objectDetail>dalawa</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="57">
+		<user>KimVianca</user>
+		<tweet>RT @gmanews: VIDEO: Dalawa, nasawi sa pananalasa ng Bagyong
+			#RubyPH sa Dolores, Eastern Samar http://t.co/Cb0YyL8BdL
+			http://t.co/uw0ITm5npt
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				Dolores, Eastern Samar
+			</locationInTweet>
+			<objectName>nasawi</objectName>
+			<objectDetail>dalawa</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="58">
+		<user>yanxq</user>
+		<tweet>RT @gmanews: VIDEO: Dalawa, nasawi sa pananalasa ng Bagyong
+			#RubyPH sa Dolores, Eastern Samar http://t.co/Cb0YyL8BdL
+			http://t.co/uw0ITm5npt
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				Dolores, Eastern Samar
+			</locationInTweet>
+			<objectName>nasawi</objectName>
+			<objectDetail>dalawa</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="59">
+		<user>KeniticChoy</user>
+		<tweet>RT @gmanews: VIDEO: Dalawa, nasawi sa pananalasa ng Bagyong
+			#RubyPH sa Dolores, Eastern Samar http://t.co/Cb0YyL8BdL
+			http://t.co/uw0ITm5npt
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				Dolores, Eastern Samar
+			</locationInTweet>
+			<objectName>nasawi</objectName>
+			<objectDetail>dalawa</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="60">
+		<user>cyrllbgl</user>
+		<tweet>RT @gmanews: VIDEO: Dalawa, nasawi sa pananalasa ng Bagyong
+			#RubyPH sa Dolores, Eastern Samar http://t.co/Cb0YyL8BdL
+			http://t.co/uw0ITm5npt
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				Dolores, Eastern Samar
+			</locationInTweet>
+			<objectName>nasawi</objectName>
+			<objectDetail>dalawa</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="61">
+		<user>GeraldineBerdan</user>
+		<tweet>RT @gmanews: VIDEO: Dalawa, nasawi sa pananalasa ng Bagyong
+			#RubyPH sa Dolores, Eastern Samar http://t.co/Cb0YyL8BdL
+			http://t.co/uw0ITm5npt
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				Dolores, Eastern Samar
+			</locationInTweet>
+			<objectName>nasawi</objectName>
+			<objectDetail>dalawa</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="62">
+		<user>JennyRockwell</user>
+		<tweet>RT @gmanews: VIDEO: Mahigit 200,000 residente, lumikas sa
+			Sorsogon dahil sa Bagyong #RubyPH http://t.co/1SPOOw4WVF
+			http://t.co/XJerjp7yWk
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				Sorsogon
+			</locationInTweet>
+			<objectName>200,000 residente</objectName>
+			<objectDetail>lumikas</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="63">
+		<user>erwinmoon</user>
+		<tweet>RT @gmanews: VIDEO: Mahigit 200,000 residente, lumikas sa
+			Sorsogon dahil sa Bagyong #RubyPH http://t.co/LrGpUfA9zZ
+			http://t.co/hdrBnLajUj
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		</extracted>
+	</tweet>
+	<tweet id="64">
+		<user>swifTaylor27</user>
+		<tweet>RT @gmanews: VIDEO: Mahigit 200,000 residente, lumikas sa
+			Sorsogon dahil sa Bagyong #RubyPH http://t.co/LrGpUfA9zZ
+			http://t.co/hdrBnLajUj
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				Sorsogon
+			</locationInTweet>
+			<objectName>200,000 residente</objectName>
+			<objectDetail>lumikas</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="65">
+		<user>yujidetorres</user>
+		<tweet>RT @gmanews: VIDEO: Mahigit 200,000 residente, lumikas sa
+			Sorsogon dahil sa Bagyong #RubyPH http://t.co/LrGpUfA9zZ
+			http://t.co/hdrBnLajUj
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				Sorsogon
+			</locationInTweet>
+			<objectName>200,000 residente</objectName>
+			<objectDetail>lumikas</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="66">
+		<user>indayevarona</user>
+		<tweet>RT @gmanews: VIDEO: Mahigit 200,000 residente, lumikas sa
+			Sorsogon dahil sa Bagyong #RubyPH http://t.co/LrGpUfA9zZ
+			http://t.co/hdrBnLajUj
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				Sorsogon
+			</locationInTweet>
+			<objectName>200,000 residente</objectName>
+			<objectDetail>lumikas</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="67">
+		<user>sarca_sam</user>
+		<tweet>RT @gmanews: VIDEO: Mahigit 200,000 residente, lumikas sa
+			Sorsogon dahil sa Bagyong #RubyPH http://t.co/LrGpUfA9zZ
+			http://t.co/hdrBnLajUj
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				Sorsogon
+			</locationInTweet>
+			<objectName>200,000 residente</objectName>
+			<objectDetail>lumikas</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="68">
+		<user>haze_gear</user>
+		<tweet>RT @gmanews: VIDEO: Mahigit 200,000 residente, lumikas sa
+			Sorsogon dahil sa Bagyong #RubyPH http://t.co/LrGpUfA9zZ
+			http://t.co/hdrBnLajUj
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				Sorsogon
+			</locationInTweet>
+			<objectName>200,000 residente</objectName>
+			<objectDetail>lumikas</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="69">
+		<user>MhegMm</user>
+		<tweet>RT @gmanews: VIDEO: Mahigit 200,000 residente, lumikas sa
+			Sorsogon dahil sa Bagyong #RubyPH http://t.co/LrGpUfA9zZ
+			http://t.co/hdrBnLajUj
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				Sorsogon
+			</locationInTweet>
+			<objectName>200,000 residente</objectName>
+			<objectDetail>lumikas</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="70">
+		<user>KeniticChoy</user>
+		<tweet>RT @gmanews: VIDEO: Mahigit 200,000 residente, lumikas sa
+			Sorsogon dahil sa Bagyong #RubyPH http://t.co/LrGpUfA9zZ
+			http://t.co/hdrBnLajUj
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		</extracted>
+	</tweet>
+	<tweet id="71">
+		<user>jay_divina</user>
+		<tweet>RT @gmanews: VIDEO: Mahigit 200,000 residente, lumikas sa
+			Sorsogon dahil sa Bagyong #RubyPH http://t.co/LrGpUfA9zZ
+			http://t.co/hdrBnLajUj
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				Sorsogon
+			</locationInTweet>
+			<objectName>200,000 residente</objectName>
+			<objectDetail>lumikas</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="72">
+		<user>intelcoregeous</user>
+		<tweet>RT @gmanews: VIDEO: Mahigit 200,000 residente, lumikas sa
+			Sorsogon dahil sa Bagyong #RubyPH http://t.co/LrGpUfA9zZ
+			http://t.co/hdrBnLajUj
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				Sorsogon
+			</locationInTweet>
+			<objectName>200,000 residente</objectName>
+			<objectDetail>lumikas</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="73">
+		<user>StevenBaldesco</user>
+		<tweet>RT @IMReadyPH: As of 6:00am, walang naitalang casualty sa
+			Catbalogan City,Samar- ayon kay Mayor Stephanie Uy-Tan. #RubyPH | via
+			@dzbb
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				Catbalogan City,Samar
+			</locationInTweet>
+			<objectName>walang</objectName>
+			<objectDetail>casualty</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="74">
+		<user>JosephDatalio</user>
+		<tweet>RT @IMReadyPH: As of 6:00am, walang naitalang casualty sa
+			Catbalogan City,Samar- ayon kay Mayor Stephanie Uy-Tan. #RubyPH | via
+			@dzbb
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				Catbalogan City,Samar
+			</locationInTweet>
+			<objectName>walang</objectName>
+			<objectDetail>casualty</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="75">
+		<user>gmakf</user>
+		<tweet>RT @IMReadyPH: As of 6:00am, walang naitalang casualty sa
+			Catbalogan City,Samar- ayon kay Mayor Stephanie Uy-Tan. #RubyPH | via
+			@dzbb
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				Catbalogan City,Samar
+			</locationInTweet>
+			<objectName>walang</objectName>
+			<objectDetail>casualty</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="76">
+		<user>YouScoop</user>
+		<tweet>RT @IMReadyPH: As of 6:00am, walang naitalang casualty sa
+			Catbalogan City,Samar- ayon kay Mayor Stephanie Uy-Tan. #RubyPH | via
+			@dzbb
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				Catbalogan City,Samar
+			</locationInTweet>
+			<objectName>walang</objectName>
+			<objectDetail>casualty</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="77">
+		<user>thecrazyCzar</user>
+		<tweet>RT @itsbeben11: "Electric post downed by strong winds in
+			Abucay, Tacloban. #RubyPH (Photo via Zhander Cayabyab) via
+			@ANCALERTS" NKKLK http:…
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				Abucay, Tacloban
+			</locationInTweet>
+			<objectName>electric post</objectName>
+			<objectDetail>downed by strong in winds</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="78">
+		<user>CHRISpylisyus</user>
+		<tweet>RT @itsbeben11: "Electric post downed by strong winds in
+			Abucay, Tacloban. #RubyPH (Photo via Zhander Cayabyab) via
+			@ANCALERTS" NKKLK http:…
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				Abucay, Tacloban
+			</locationInTweet>
+			<objectName>electric post</objectName>
+			<objectDetail>downed by strong in winds</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="79">
+		<user>earvin55</user>
+		<tweet>RT @itsbeben11: "Electric post downed by strong winds in
+			Abucay, Tacloban. #RubyPH (Photo via Zhander Cayabyab) via
+			@ANCALERTS" NKKLK http:…
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				Abucay, Tacloban
+			</locationInTweet>
+			<objectName>electric post</objectName>
+			<objectDetail>downed by strong in winds</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="80">
+		<user>AKAsleepyhead</user>
+		<tweet>RT @itsbeben11: "Electric post downed by strong winds in
+			Abucay, Tacloban. #RubyPH (Photo via Zhander Cayabyab) via
+			@ANCALERTS" NKKLK http:…
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				Abucay, Tacloban
+			</locationInTweet>
+			<objectName>electric post</objectName>
+			<objectDetail>downed by strong in winds</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="81">
+		<user>imDianavalencia</user>
+		<tweet>RT @News5AKSYON: #AksyonSaHagupit: 10 bahay sa dalampasigan ng
+			Albay, tinangay ng malakas na alon #RubyPH | Ulat ni @edlingao
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				dalampasigan ng Albay
+			</locationInTweet>
+			<objectName>10 bahay</objectName>
+			<objectDetail>tinangay ng malakas na alon</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="82">
+		<user>mjmarfori</user>
+		<tweet>RT @News5AKSYON: #AksyonSaHagupit: 10 bahay sa dalampasigan ng
+			Albay, tinangay ng malakas na alon #RubyPH | Ulat ni @edlingao
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				dalampasigan ng Albay
+			</locationInTweet>
+			<objectName>10 bahay</objectName>
+			<objectDetail>tinangay ng malakas na alon</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="83">
+		<user>TechDebit</user>
+		<tweet>RT @News5AKSYON: #AksyonSaHagupit: 10 bahay sa dalampasigan ng
+			Albay, tinangay ng malakas na alon #RubyPH | Ulat ni @edlingao
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				dalampasigan ng Albay
+			</locationInTweet>
+			<objectName>10 bahay</objectName>
+			<objectDetail>tinangay ng malakas na alon</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="84">
+		<user>jozelleanne</user>
+		<tweet>RT @News5AKSYON: #AksyonSaHagupit: Gov. Sharee Ann Tan: Higit
+			28,000 pamilya ang inilikas dahil sa Bagyong #RubyPH
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				dalampasigan ng Albay
+			</locationInTweet>
+			<objectName>10 bahay</objectName>
+			<objectDetail>tinangay ng malakas na alon</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="85">
+		<user>mskeinajane</user>
+		<tweet>RT @News5AKSYON: #AksyonSaHagupit: Gov. Sharee Ann Tan: Higit
+			28,000 pamilya ang inilikas dahil sa Bagyong #RubyPH
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet />
+			<objectName>28,000 pamilya</objectName>
+			<objectDetail>ang inilikas</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="86">
+		<user>mylsvalenciaTV5</user>
+		<tweet>RT @News5AKSYON: #AksyonSaHagupit: Gov. Sharee Ann Tan: Higit
+			28,000 pamilya ang inilikas dahil sa Bagyong #RubyPH
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet />
+			<objectName>28,000 pamilya</objectName>
+			<objectDetail>ang inilikas</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="87">
+		<user>mechelleflorita</user>
+		<tweet>RT @News5AKSYON: ROMBLON: As of 2:30PM, umabot na sa 9,584
+			pamilya o 30,689 katao na ang inilikas sa mga evacuation center.
+			#RubyPH | via @…
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet />
+			<objectName>9,584 pamilya o 30,689 katao</objectName>
+			<objectDetail>ang inilikas</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="88">
+		<user>imamilatencio</user>
+		<tweet>RT @News5AKSYON: ROMBLON: As of 2:30PM, umabot na sa 9,584
+			pamilya o 30,689 katao na ang inilikas sa mga evacuation center.
+			#RubyPH | via @…
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet />
+			<objectName>9,584 pamilya o 30,689 katao</objectName>
+			<objectDetail>ang inilikas</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="89">
+		<user>iamPxMx</user>
+		<tweet>RT @News5AKSYON: ROMBLON: As of 2:30PM, umabot na sa 9,584
+			pamilya o 30,689 katao na ang inilikas sa mga evacuation center.
+			#RubyPH | via @…
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet />
+			<objectName>9,584 pamilya o 30,689 katao</objectName>
+			<objectDetail>ang inilikas</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="90">
+		<user>B13Del</user>
+		<tweet>RT @sunstarcebu: .@dsm_sunstar: #RubyPH topples electrical post
+			in Barangay Talisay, Daanbantayan, #Cebu http://t.co/5BOBcnZYSE
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				Barangay Talisay, Daanbantayan
+			</locationInTweet>
+			<objectName>electric post</objectName>
+			<objectDetail>topples</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="91">
+		<user>rairosell</user>
+		<tweet>RT @sunstarcebu: .@dsm_sunstar: #RubyPH topples electrical post
+			in Barangay Talisay, Daanbantayan, #Cebu http://t.co/5BOBcnZYSE
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				Barangay Talisay, Daanbantayan
+			</locationInTweet>
+			<objectName>electric post</objectName>
+			<objectDetail>topples</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="92">
+		<user>mikelimpag</user>
+		<tweet>RT @sunstarcebu: .@dsm_sunstar: #RubyPH topples electrical post
+			in Barangay Talisay, Daanbantayan, #Cebu http://t.co/5BOBcnZYSE
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				Barangay Talisay, Daanbantayan
+			</locationInTweet>
+			<objectName>electric post</objectName>
+			<objectDetail>topples</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="93">
+		<user>yentot6788</user>
+		<tweet>RT @sunstarcebu: .@dsm_sunstar: #RubyPH topples electrical post
+			in Barangay Talisay, Daanbantayan, #Cebu http://t.co/5BOBcnZYSE
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				Barangay Talisay, Daanbantayan
+			</locationInTweet>
+			<objectName>electric post</objectName>
+			<objectDetail>topples</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="94">
+		<user>News5AKSYON</user>
+		<tweet>#AKSYON: Mga billboard sa EDSA, tinupi na dahil sa banta ng
+			Bagyong #RubyPH | Ulat ni @inazara
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="95">
+		<user>laurencejadea</user>
+		<tweet>RT @News5AKSYON: #AKSYON: Mga billboard sa EDSA, tinupi na
+			dahil sa banta ng Bagyong #RubyPH | Ulat ni @inazara
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="96">
+		<user>TV5manila</user>
+		<tweet>RT @News5AKSYON: #AKSYON: Mga billboard sa EDSA, tinupi na
+			dahil sa banta ng Bagyong #RubyPH | Ulat ni @inazara
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="97">
+		<user>miriamgracego</user>
+		<tweet>Halos lahat nasa Quezon City 12 Metro Manila barangays prone to
+			landslides http://t.co/E1It2HYVgE #RubyPH
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		</extracted>
+	</tweet>
+	<tweet id="98">
+		<user>zhandercayabyab</user>
+		<tweet>Maging mga malalaking kainan sa Tacloban ay maagang isinara at
+			tinakpan ng plywood @DZMMTeleRadyo #RubyPH http://t.co/P7zaGBgruV
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		</extracted>
+	</tweet>
+	<tweet id="99">
+		<user>Gu4rdian4ngelo</user>
+		<tweet>RT @DZMMTeleRadyo: PHOTO: Mga establisimyento sa Tacloban,
+			pinapakuan ng plywood kontra baha at alon #RubyPH
+			http://t.co/kAsVyyCCjD | via @…
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		</extracted>
+	</tweet>
+	<tweet id="100">
+		<user>NonVitalTooth</user>
+		<tweet>RT @zhandercayabyab: Mga establisimyento sa Tacloban,
+			pinapakuan ng plywood para di pasukin ng baha at alon @DZMMTeleRadyo
+			#RubyPH http://t…
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		</extracted>
+	</tweet>
+	<tweet id="101">
+		<user>NonVitalTooth</user>
+		<tweet>RT @zhandercayabyab: Mga establisimyento sa Tacloban,
+			pinapakuan ng plywood para di pasukin ng baha at alon @DZMMTeleRadyo
+			#RubyPH http://t…
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		</extracted>
+	</tweet>
+	<tweet id="102">
+		<user>PIA_NCR</user>
+		<tweet>Mga billboard sa Kamaynilaan, iniligpit muna dahil kay #RubyPH
+			. (Jerome Paunan)
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		</extracted>
+	</tweet>
+	<tweet id="103">
+		<user>AllNews_PH</user>
+		<tweet>[DZMM TeleRadyo] Suplay ng kuryente sa mga sasalantain ni
+			#RubyPH, ipinapuputol http://t.co/zDm85w9kDp...
+			http://t.co/88uUogWT8g
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		</extracted>
+	</tweet>
+	<tweet id="104">
+		<user>iamJOELIEbee</user>
+		<tweet>As of 9:47pm wala ng kuryente dito sa San Roque, Northern
+			Samar. Medyo malakas na din ang hangin @IMReadyPH @ANCALERTS .
+			#RubyPH
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				San Roque, Northern Samar
+			</locationInTweet>
+			<objectName>kuryente</objectName>
+			<objectDetail>wala</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="105">
+		<user>SpeakLlauder</user>
+		<tweet>"@ABSCBNNews: Tacloban Mayor Romualdez: Sa ngayon, wala pa
+			kaming report ng casualty #RubyPH | via @DZMMTeleRadyo" No casualties
+			lng, Lord
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				Tacloban
+			</locationInTweet>
+			<objectName>casualty</objectName>
+			<objectDetail>wala</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="106">
+		<user>marrialigaya</user>
+		<tweet>"@ANCALERTS: NDRRMC: 3 dead due to #RubyPH" tsk</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet />
+			<objectName>dead</objectName>
+			<objectDetail>3</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="107">
+		<user>CaineLian</user>
+		<tweet>"@dzbb : As of 6:00am, walang naitalang casualty sa Catbalogan
+			City,Samar- ayon kay Mayor Stephanie Uy-Tan. #RubyPH" THANK GOD!
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				Catbalogan City, Samar
+			</locationInTweet>
+			<objectName>casualty</objectName>
+			<objectDetail>walang</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="108">
+		<user>gamuederrrrs</user>
+		<tweet>"@DZMMTeleRadyo: 12 barangay sa Laguna, lubog pa rin sa baha
+			#RubyPH http://t.co/VbeZe7Ksld http://t.co/mAQ2hs5YmZ" suspend na
+			this
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				Laguna
+			</locationInTweet>
+			<objectName>12 barangay</objectName>
+			<objectDetail>lubog</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="109">
+		<user>roweecathRPh</user>
+		<tweet>"@DZMMTeleRadyo: 27 patay sa bagsik ni #RubyPH sa Eastern Samar
+			- Red Cross http://t.co/AAxPIbfqQd http://t.co/tnTVxXWf7H"
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				Eastern Samar
+			</locationInTweet>
+			<objectName>patay</objectName>
+			<objectDetail>27</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="110">
+		<user>VAMboyyy</user>
+		<tweet>"@DZMMTeleRadyo: BATANGAS | Wala pang napaulat na nasaktan
+			dahil sa bagyo #RubyPH (ulat ni @arnellozaeta)"
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				Batangas
+			</locationInTweet>
+			<objectName>nasaktan</objectName>
+			<objectDetail>casualty</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="111">
+		<user>Boy_Kulit</user>
+		<tweet>"@DZMMTeleRadyo: BATANGAS | Wala pang napaulat na nasaktan
+			dahil sa bagyo #RubyPH (ulat ni @arnellozaeta)" may bagyo ba?
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				Batangas
+			</locationInTweet>
+			<objectName>nasaktan</objectName>
+			<objectDetail>casualty</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="112">
+		<user>puchepuch</user>
+		<tweet>"@DZMMTeleRadyo: BATANGAS | Wala pang napaulat na nasaktan
+			dahil sa bagyo #RubyPH (ulat ni @arnellozaeta)" SALAMAT PO SAFE LAHAT
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				Batangas
+			</locationInTweet>
+			<objectName>nasaktan</objectName>
+			<objectDetail>casualty</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="113">
+		<user>francorreyes</user>
+		<tweet>"@DZMMTeleRadyo: Batangas, nagpapatupad na ng preemptive
+			evacuation dahil kay #RubyPH http://t.co/QbydNvDf4d
+			http://t.co/3QQBIXUo4I"
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		</extracted>
+	</tweet>
+	<tweet id="114">
+		<user>MharieCastillo</user>
+		<tweet>"@DZMMTeleRadyo: Batangas, nagpapatupad na ng preemptive
+			evacuation dahil kay #RubyPH http://t.co/Tl7Qw1WWgb
+			http://t.co/KVsJrGDdo4"
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		</extracted>
+	</tweet>
+	<tweet id="115">
+		<user>jeannie0722</user>
+		<tweet>"@DZMMTeleRadyo: Borongan, Eastern Samar, matindi nang binabayo
+			ni #RubyPH; signal ng komunikasyon, putol na | via RP37
+			@EdwinSevidal"
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				Borongan, Eastern Samar
+			</locationInTweet>
+			<objectName>signal ng komunikasyon</objectName>
+			<objectDetail>putol</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="116">
+		<user>IGMOlayvar</user>
+		<tweet>"@DZMMTeleRadyo: Bubong at kisame ng Tacloban Airport, sinira
+			ni #RubyPH http://t.co/FZHADakW9X http://t.co/0u0ziXbw9e" grabe
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				Tacloban Airport
+			</locationInTweet>
+			<objectName>Bubong at kisame</objectName>
+			<objectDetail>sinira</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="117">
+		<user>AnaLooovesYou</user>
+		<tweet>"@DZMMTeleRadyo: Gov. Firmalo sa DZMM: Wala nang kuryente sa
+			Romblon subalit maayos pa ang mga linya ng komunikasyon #RubyPH"
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				Romblon
+			</locationInTweet>
+			<objectName>kuryente</objectName>
+			<objectDetail>wala</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="118">
+		<user>iamyourdarling</user>
+		<tweet>"@DZMMTeleRadyo: Poste ng kuryente, bumagsak sa ilang bahay sa
+			Brgy. Pawing, Tacloban #RubyPH http://t.co/hJbqYkpGR3 | via
+			@zhandercayabyab"
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				Barangay Pawing, Tacloban
+			</locationInTweet>
+			<objectName>Poste ng kuryente</objectName>
+			<objectDetail>bumagsak</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="119">
+		<user>mahealanijoy</user>
+		<tweet>"@DZMMTeleRadyo:Brgy. Sagkahan, Tacloban City, binaha #RubyPH
+			via @zhandercayabyab http://t.co/q70gjZOAWr" Wtf... Tacloban... :(
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				Barangay Sagkahan, Tacloban City
+			</locationInTweet>
+			</objectName>
+			<objectDetail>binaha</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="120">
+		<user>blujay_chabby</user>
+		<tweet>"@gmanews: #RubyPH update mula sa press briefing ng DILG:
+			Walang naitalang casualty sa Leyte." Good to hear. Sana sa ibang
+			lugar din :)
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="121">
+		<user>MerryEdear</user>
+		<tweet>"@gmanews: #RubyPH update mula sa press briefing ng DILG:
+			Walang naitalang casualty sa Leyte." Thank you Lord! :)
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="122">
+		<user>jeanomarcayda</user>
+		<tweet>"@gmanews: ALBAY-Hilera ng mga poste ng kuryente, natumba
+			matapos ang malakas na hangin sa Camalig. #RubyPH" wtf.Brownout
+			apocalypse na itu.
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="123">
+		<user>MarkGascon1</user>
+		<tweet>"@gmanews: Bagsak na ang linya ng komunikasyon sa mga bayan sa
+			Northeastern Samar. #RubyPH | via @PeeweeHero @dzbb"
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="124">
+		<user>IamTheLawler</user>
+		<tweet>"@gmanews: Bagsak na ang linya ng komunikasyon sa mga bayan sa
+			Northeastern Samar. #RubyPH | via @PeeweeHero @dzbb" keep safe
+			everyone
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="125">
+		<user>donnavells</user>
+		<tweet>"@gmanews: DOLORES, EASTERN SAMAR - Bagsak na ang linya ng
+			komunikasyon | #RubyPH update via @PeeweeHero"
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="126">
+		<user>alexatine24</user>
+		<tweet>"@gmanews: DOLORES, EASTERN SAMAR - Bagsak na ang linya ng
+			komunikasyon | #RubyPH update via @PeeweeHero"
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="127">
+		<user>JhaMharie</user>
+		<tweet>"@gmanews: MASBATE — Walang kuryente ngayon sa Cataingan,
+			Masbate, ayon kay Mayor Kho. | #RubyPH via @dzbb"
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="128">
+		<user>johnerdz</user>
+		<tweet>"@gmanews: PHOTOS: Pagbaha sa Lope de Vega, Northern Samar.
+			#RubyPH via @PeeweeHero http://t.co/3xfwUIdXsR"
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="129">
+		<user>WalaPongKapaRiZ</user>
+		<tweet>"@gmanews: ROMBLON — Mga puno, nagsitumbahan sa Romblon matapos
+			hagupitin ni #RubyPH. | via @akosiJaysent http://t.co/qPGhTLPOpo"
+			Romblon :(
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="130">
+		<user>Aybilibers</user>
+		<tweet>"@gmanews: ROMBLON — Mga puno, nagsitumbahan sa Romblon matapos
+			hagupitin ni #RubyPH. | via @akosiJaysent http://t.co/QWQfp34fAm"
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="131">
+		<user>DivineStellar</user>
+		<tweet>"@gmanews: SORSOGON — Lubog sa baha ang highway sa bayan ng
+			Rizal. | #RubyPH via @allangatus @dzbb"
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="132">
+		<user>nicxielicious</user>
+		<tweet>"@gmanews: SORSOGON — Lubog sa baha ang highway sa bayan ng
+			Rizal. | #RubyPH via @allangatus @dzbb"
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="133">
+		<user>DivineStellar</user>
+		<tweet>"@gmanews: VIDEO: Zero casualty, naitala sa Albay sa paghagupit
+			ng Bagyong #RubyPH http://t.co/Nmqmj8MMjB http://t.co/6koDnLGxRn"
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="134">
+		<user>synergzm</user>
+		<tweet>"@ANCALERTS: San Pablo City, Laguna now under state of calamity
+			#RubyPH" ooh. Saan kaya specifically?
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="135">
+		<user>OhEmGIL</user>
+		<tweet>"@ANCALERTS: San Pablo City now under state of calamity
+			#RubyPH" --- Really?! Mahina na ulan dito sa San Pablo City..saglit
+			lang lumakas
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="136">
+		<user>NielleisMyName</user>
+		<tweet>"@DZMMTeleRadyo: JUST IN: Masbate, nasa state of calamity na
+			dahil sa bagyo #RubyPH | via @Jok_Magistrado"-@NicolePorras
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="137">
+		<user>DivineStellar</user>
+		<tweet>"@DZMMTeleRadyo: Probinsya ng Cebu, isinailalim na sa state of
+			calamity | via June Perez #RubyPH"
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="138">
+		<user>iamrinylmatugas</user>
+		<tweet>"@sv_simplevie: #RESCUEPH yan po kuha s looc culaba biliran,
+			winasak ni bagyong #RubyPH http://t.co/SOfkKpIFzu" @ANCALERTS
+			@ABSCBNNews
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="139">
+		<user>LeoDoraPongan</user>
+		<tweet>"@TVPatrol: #TVPatrol #RubyPH itinumba ang mga puno sa Samar;
+			ilang bahay wasak. " via @atomaraullo LIVE Catbalogan
+			http://t.co/ObwazvYB7J
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="140">
+		<user>MayleneYenny</user>
+		<tweet>"@TVPatrol: PANOORIN: Ilang bahay, puno pinadapa ng #RubyPH sa
+			Samar. http://t.co/rxS6hMZX3m | Ulat ni @atomaraullo
+			http://t.co/KDUSHieAAI"
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="141">
+		<user>JhaMharie</user>
+		<tweet>"@YouScoop: Pinabagsak ng Bagyong #RubyPH ang bubong ng isang
+			gas station sa Catarman. Ulat ni YouScooper Rio Sosa
+			http://t.co/vHTm5AqO8L"
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="142">
+		<user>itsbeben11</user>
+		<tweet>"Electric post downed by strong winds in Abucay, Tacloban.
+			#RubyPH (Photo via Zhander Cayabyab) via @ANCALERTS" NKKLK
+			http://t.co/R9oUfEsZsj
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="143">
+		<user>inquirerdotnet</user>
+		<tweet>"Patay kay #RubyPH nasa 21 na" @banderainquirer front page
+			today. Full issue: http://t.co/DAsAo1PEio http://t.co/5uaNdmPY22
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="144">
+		<user>banderainquirer</user>
+		<tweet>"Patay kay #RubyPH nasa 21 na" @banderainquirer front page
+			today. Full issue: http://t.co/tc1KihHFw8 http://t.co/PSiZNRbWM5
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="145">
+		<user>News5AKSYON</user>
+		<tweet>#AKSYON: Official tally ng NDRRMC at Red Cross ng mga nasawi
+			dahil kay #RubyPH, magkaiba | Ulat ni @halili_maricel
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="146">
+		<user>News5AKSYON</user>
+		<tweet>#AksyonSaHagupit | 2 bahay nawasak dahil sa naglalakihang alon
+			at lakas na hangin sa Brgy. Tabunan, Matnog! #RubyPH
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="147">
+		<user>News5AKSYON</user>
+		<tweet>#AksyonSaHagupit | 50 porsiyento ng kuryente sa Sorsogon,
+			naibalik na. #RubyPH (via @jeffcaparas)
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="148">
+		<user>News5AKSYON</user>
+		<tweet>#AksyonSaHagupit | 8 katao pa ang kumirmadong patay pero
+			inaantay pa ng NDRRMC ang validation mula sa DOH. #RubyPH (via
+			@AmberPGonzales)
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="149">
+		<user>News5AKSYON</user>
+		<tweet>#AksyonSaHagupit | DPWH: Calbayo, Catarman roads - sarado pa
+			rin dahil mataas pa ang tubig. #RubyPH
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="150">
+		<user>News5AKSYON</user>
+		<tweet>#AksyonSaHagupit | Ilang bayan sa Quezon Province, nawalan na
+			ng suplay ng kuryente! #RubyPH | via @KatherineImson
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="151">
+		<user>News5AKSYON</user>
+		<tweet>#AksyonSaHagupit | Kuryente sa bayan ng Odiongan, Romblon
+			naibalik na. #RubyPH (via @GepeLyle)
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="152">
+		<user>News5AKSYON</user>
+		<tweet>#AksyonSaHagupit | Sa pinakahuling tala ng NDDRMC, 3 ang
+			validated at kumpirmadong namatay sa pananalasa ni #RubyPH (via
+			@AmberPGonzales)
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="153">
+		<user>News5AKSYON</user>
+		<tweet>#AksyonSaHagupit: 10 bahay sa dalampasigan ng Albay, tinangay
+			ng malakas na alon #RubyPH | Ulat ni @edlingao
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="154">
+		<user>News5AKSYON</user>
+		<tweet>#AksyonSaHagupit: Gov. Sharee Ann Tan: Higit 28,000 pamilya ang
+			inilikas dahil sa Bagyong #RubyPH
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="155">
+		<user>News5AKSYON</user>
+		<tweet>#AksyonSaHagupit: Legazpi City, wala nang kuryente #RubyPH |
+			Ulat ni @edlingao
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="156">
+		<user>biliranisland</user>
+		<tweet>#Hagupit #RubyPH Landslide in Inasuyan Kawayan, Biliran</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="157">
+		<user>biliranisland</user>
+		<tweet>#Hagupit #RubyPH Landslide in Looc Cabucgayan Biliran
+			http://t.co/0RiI3xOzsK
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="158">
+		<user>manilaspeak</user>
+		<tweet>#Hagupit ng MRT: Broken Rail Incident AGAIN at Ayala MRT
+			Station http://t.co/PeOkv0bOYJ
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="159">
+		<user>manilaspeak</user>
+		<tweet>#Hagupit ng MRT: Broken Rail Incident AGAIN at Ayala MRT
+			Station http://t.co/sqt6YHhAli
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="160">
+		<user>DZMMTeleRadyo</user>
+		<tweet>#RadyoPatrol 20-anyos na vendor, patay sa landslide sa Puerto
+			Galera | ulat ni Arnel Ozaeta, DZMM Correspondent #RubyPH
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="161">
+		<user>BalitaNgayon</user>
+		<tweet>#RadyoPatrol 20-anyos na vendor, patay sa landslide sa Puerto
+			Galera | ulat ni Arnel Ozaeta, DZMM Correspondent #RubyPH via DZMM
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="162">
+		<user>DZMMTeleRadyo</user>
+		<tweet>#RadyoPatrol Philippine Coast Guard, iniulat na wala nang
+			natitirang stranded na pasahero dahil kay #RubyPH | ulat ni
+			@RadyoPatrol44
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="163">
+		<user>BalitaNgayon</user>
+		<tweet>#RadyoPatrol Philippine Coast Guard, iniulat na wala nang
+			natitirang stranded na pasahero dahil kay #RubyPH | ulat ni
+			RadyoPatrol44 via DZMM
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="164">
+		<user>sv_simplevie</user>
+		<tweet>#RESCUEPH yan po kuha s looc culaba biliran, winasak ni bagyong
+			#RubyPH http://t.co/Tprgb7QB5z
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="165">
+		<user>castrojosh26</user>
+		<tweet>#RubyPH #VOTYNews #updates ORMOC CITY 1. #RubyPH Coverage: Mga
+			evacuees gikan sa barangay Tambulilid gisakay sa...
+			http://t.co/zqoHSZ2pxj
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="166">
+		<user>castrojosh26</user>
+		<tweet>#RubyPH #VOTYNews #updates ORMOC CITY 1. Communication sa
+			Isabel cut-off. Last na update: murag Yolanda, maayu...
+			http://t.co/iZ0Ur6syfS
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="167">
+		<user>UNTVweb</user>
+		<tweet>#RubyPH — 2 nawawalang mangingisda sa Cambulaga, Sorsogon
+			natagpuan na ayon sa ulat ni Sherry Ann Herrera / UNTV...
+			http://t.co/HVVTYbSA93
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				Cambulaga, Sorsogon
+			</locationInTweet>
+			<objectName>nawawalang mangingisda</objectName>
+			<objectDetail>
+				2
+			</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="168">
+		<user>iamRaymondLacsa</user>
+		<tweet>#RubyPH — 2 nawawalang mangingisda sa Cambulaga, Sorsogon
+			natagpuan na ayon sa ulat ni Sherry Ann Herrera / UNTV...
+			http://t.co/lGYUxCSnrK
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				Cambulaga, Sorsogon
+			</locationInTweet>
+			<objectName>nawawalang mangingisda</objectName>
+			<objectDetail>
+				2
+			</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="169">
+		<user>donmoen777</user>
+		<tweet>#RubyPH Casualty Count: 23 (via @philredcross) 16 -Borongan,
+			E.Samar 1 -W.Samar 1 -Hernani, E.Samar 1 -Dolores, E.Samar
+			@HenryRetoriano haha
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				Borongan, E.Samar, W.Samar, Hernani
+			</locationInTweet>
+			<objectName>casualty</objectName>
+			<objectDetail>
+				23
+			</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="170">
+		<user>DZMMTeleRadyo</user>
+		<tweet>#RubyPH Mga sanga ng punongkahoy, nagkalat na sa kalye ng
+			Sorsogon http://t.co/PsAwH9RyqQ via @dennis_datu
+			http://t.co/HdJMYPqBhm
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				Sorsogon
+			</locationInTweet>
+			<objectName>sanga ng punongkahoy</objectName>
+			<objectDetail>
+				nagkalat
+			</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="171">
+		<user>hannagel2012</user>
+		<tweet>#RubyPH nawala na ang kuryente d2 sa lapu-lapu city #Cebu
+			#CebuMustBeReady
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				lapu-lapu city #cebu
+			</locationInTweet>
+			<objectName>kuryente</objectName>
+			<objectDetail>
+				nawala
+			</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="172">
+		<user>UNTVweb</user>
+		<tweet>#RubyPH PHOTO: 683 pamilya sa Quirangay, Camalig, Albay,
+			nanatili sa evacuation center dahil sa pabugso bugsong...
+			http://t.co/LCCamoE1Ya
+		</tweet>
+		<prediction>CD</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				Quirangay, Camalig, Albay
+			</locationInTweet>
+			<objectName>pamilya</objectName>
+			<objectDetail>
+				683
+			</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="173">
+		<user>iamRaymondLacsa</user>
+		<tweet>#RubyPH PHOTO: 683 pamilya sa Quirangay, Camalig, Albay,
+			nanatili sa evacuation center dahil sa pabugso bugsong...
+			http://t.co/LnlHB0m0JS
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				Quirangay, Camalig, Albay
+			</locationInTweet>
+			<objectName>pamilya</objectName>
+			<objectDetail>
+				683
+			</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="174">
+		<user>UNTVweb</user>
+		<tweet>#RubyPH PHOTO: 683 pamilya sa Quirangay, Camalig, Albay,
+			nanatili sa evacuation center dahil sa pabugso bugsong...
+			http://t.co/O3XDfL8ztI
+		</tweet>
+		<prediction>CD</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				Quirangay, Camalig, Albay
+			</locationInTweet>
+			<objectName>pamilya</objectName>
+			<objectDetail>
+				683
+			</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="175">
+		<user>News5AKSYON</user>
+		<tweet>#AksyonSaHagupit Forced Evacuation isinasagawa ngayon sa
+			Odiongan, Romblon sunod sa utos ng Gobernador ng Probinsya #RubyPH
+			(via @GepeLyle)
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted/>
+
+	</tweet>
+	<tweet id="176">
+		<user>PHLEWN</user>
+		<tweet>#AksyonSaHagupit Forced Evacuation isinasagawa ngayon sa
+			Odiongan, Romblon sunod sa utos ng Gobernador ng Probinsya #RubyPH
+			(via @GepeLyle)
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="177">
+		<user>PHIWorldNews</user>
+		<tweet>#AksyonSaHagupit Forced Evacuation isinasagawa ngayon sa
+			Odiongan, Romblon sunod sa utos ng Gobernador ng Probinsya #RubyPH
+			(via @GepeLyle)
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="178">
+		<user>iamRaymondLacsa</user>
+		<tweet>#RubyPH — Preemptive Evacuation patuloy na isinasagawa sa
+			Baseco Compound Port Area, Manila @victorcosare777
+			http://t.co/0y6AYahtXD
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="179">
+		<user>UNTVweb</user>
+		<tweet>#RubyPH — Preemptive Evacuation patuloy na isinasagawa sa
+			Baseco Compound Port Area, Manila @victorcosare777
+			http://t.co/OPPlH44YCz
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="180">
+		<user>jaytayag15</user>
+		<tweet>"@gmanews: Mga residente sa isang isla sa Iloilo, inilikas na
+			bilang paghahanda kay #RubyPH http://t.co/nKrPyrBCri"
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="181">
+		<user>missreyannaaa</user>
+		<tweet>"@saksi: Mahigit 17,000 residente na ang sapilitang pinalikas
+			sa Laguna dahil pa rin sa Bagyong #RubyPH. #Saksi si
+			@cedric_castillo."
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				Iloilo
+			</locationInTweet>
+			</objectName>
+			<objectDetail />
+			<victimName>
+				Erenesto Baylon
+			</victimName>
+		</extracted>
+	</tweet>
+	<tweet id="182">
+		<user>DZMMTeleRadyo</user>
+		<tweet>PHOTO: Mga Taclobanon na nakatira malapit sa dagat, sapilitan
+			nang pinalilikas http://t.co/jRUtiZvMch #RubyPH | via
+			@zhandercayabyab
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="183">
+		<user>laurencejadea</user>
+		<tweet>RT @DZMMTeleRadyo: PHOTO: Mga Taclobanon na nakatira malapit sa
+			dagat, sapilitan nang pinalilikas http://t.co/jRUtiZvMch #RubyPH |
+			via @zha…
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="184">
+		<user>DZMMTeleRadyo</user>
+		<tweet>PHOTO: Mga Taclobanon na nakatira malapit sa dagat, sapilitan
+			nang pinalilikas http://t.co/jRUtiZvMch #RubyPH...
+			http://t.co/c4tpTUYQDy
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="185">
+		<user>annmariebolito</user>
+		<tweet>RT @DZMMTeleRadyo: PHOTO: Mga Taclobanon na nakatira malapit sa
+			dagat, sapilitan nang pinalilikas http://t.co/jRUtiZvMch #RubyPH |
+			via @zha…
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="186">
+		<user>JojoMalig</user>
+		<tweet>RT @DZMMTeleRadyo: PHOTO: Mga Taclobanon na nakatira malapit sa
+			dagat, sapilitan nang pinalilikas http://t.co/jRUtiZvMch #RubyPH |
+			via @zha…
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="187">
+		<user>dashogilbert</user>
+		<tweet>RT @DZMMTeleRadyo: PHOTO: Mga Taclobanon na nakatira malapit sa
+			dagat, sapilitan nang pinalilikas http://t.co/jRUtiZvMch #RubyPH |
+			via @zha…
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="188">
+		<user>NonVitalTooth</user>
+		<tweet>RT @DZMMTeleRadyo: PHOTO: Mga Taclobanon na nakatira malapit sa
+			dagat, sapilitan nang pinalilikas http://t.co/jRUtiZvMch #RubyPH |
+			via @zha…
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="189">
+		<user>DiamanteCalexto</user>
+		<tweet>RT @DZMMTeleRadyo: PHOTO: Mga Taclobanon na nakatira malapit sa
+			dagat, sapilitan nang pinalilikas http://t.co/jRUtiZvMch #RubyPH |
+			via @zha…
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="190">
+		<user>stateofdnation</user>
+		<tweet>Nag-mistulang ghost town ang ilang bahagi ng Tacloban City
+			matapos magsilikas ang mga residente dahil sa banta ng Bagyong
+			#RubyPH.
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="191">
+		<user>dyrirmniloilo</user>
+		<tweet>#RubyPH Update Iloilo City Pwede na makabalik sa ila nga mga
+			puluy-an kag barangay evacuation centers ang mga...
+			http://t.co/ALPDN88lhw
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="192">
+		<user>dyrirmniloilo</user>
+		<tweet>#RubyPH Update List of Causalities in Iloilo Estancia, Iloilo -
+			Ernesto Baylon, 65 years old Agbobolo, Ajuy -...
+			http://t.co/4NtOqQMA0I
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				Iloilo
+			</locationInTweet>
+			</objectName>
+			<objectDetail />
+			<victimName>
+				Erenesto Baylon
+			</victimName>
+		</extracted>
+	</tweet>
+	<tweet id="193">
+		<user>dyrirmniloilo</user>
+		<tweet>#RubyPH Update List of Causalities in Iloilo Estancia, Iloilo -
+			Ernesto Baylon, 65 years old Agbobolo, Ajuy -...
+			http://t.co/PzDodT0zBq
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				Iloilo
+			</locationInTweet>
+			</objectName>
+			<objectDetail />
+			<victimName>
+				Erenesto Baylon
+			</victimName>
+		</extracted>
+	</tweet>
+	<tweet id="194">
+		<user>dyrirmniloilo</user>
+		<tweet>#RubyPH Update List of Causalities in Iloilo Estancia, Iloilo -
+			Ernesto Baylon, 65 years old Agbobolo, Ajuy... http://t.co/dGBPEUuqKE
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				Iloilo
+			</locationInTweet>
+			</objectName>
+			<objectDetail />
+			<victimName>
+				Erenesto Baylon
+			</victimName>
+		</extracted>
+	</tweet>
+	<tweet id="195">
+		<user>Padics</user>
+		<tweet>#RubyPh Update... Brgy San esteban, San Jose, flooded nabuaCS.
+			diversion road passable to Legazpi via Nabua. @CamSurPPO @PRO5React
+			@pnppio
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted>
+			<locationInTweet>
+				Barangay San esteban, San Jose
+			</locationInTweet>
+			<objectName>diversion road</objectName>
+			<objectDetail>passable</objectDetail>
+			<victimName />
+		</extracted>
+	</tweet>
+	<tweet id="196">
+		<user>TVPatrol</user>
+		<tweet>#TVPatrol #RubyPH itinumba ang mga puno sa Samar; ilang bahay
+			wasak. Ulat ni @atomaraullo LIVE mula sa Calbayog
+			http://t.co/ocN2K8jMLH
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="197">
+		<user>TVPatrol</user>
+		<tweet>#TVPatrol #RubyPH nanalasa sa Tacloban, ilang bahay at tent
+			winalis ng bagyo. Ulat ni @rongagalac mula sa Tacloban
+			http://t.co/muFIoUHaL1
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="198">
+		<user>TVPatrol</user>
+		<tweet>#TVPatrol Sanggol sa Iriga City patay dahil sa hypothermia sa
+			kasagsagan ng #RubyPH
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="199">
+		<user>hihidco</user>
+		<tweet>#Typhoon #Hagupit #leaves #at #least #2 #dead: LEGAZPI,
+			Philippines – Typhoon Hagupit… http://t.co/LeiTqHip50
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="200">
+		<user>IAmDaryllReyes</user>
+		<tweet>#TyphoonRuby #24Oras anu na po lates update dito sa province of
+			cavite wala na pu kasing kuryente ang ibang lugar dito #RubyPH
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="201">
+		<user>BalitaNgayon</user>
+		<tweet>(UPDATE) NDRRMC: Death toll sa Bagyong #RubyPH, 3 na via DZMM
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="202">
+		<user>sunstarcebu</user>
+		<tweet>.@dsm_sunstar: #RubyPH topples electrical post in Barangay
+			Talisay, Daanbantayan, #Cebu http://t.co/5BOBcnZYSE
+		</tweet>
+		<prediction>O</prediction>
+		<actual>CD</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="203">
+		<user>Prieenkles</user>
+		<tweet>Gutom nako at baha dito sa españa!!! Baha ba jan sa taft :(((
+			@ojlovesmiley
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="204">
+		<user>Xxcyriltan</user>
+		<tweet>Baha</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="205">
+		<user>mortelia03</user>
+		<tweet>RT @Amphigong: Baha daw sa... Ateneo: "Go Ateneo! One Big
+			Flood!" UST: "Go USTE! Over Flow UST!" UP: "UP Naming Baha!" La
+			Salle: "D! L-S! …
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="206">
+		<user>charmcrescini</user>
+		<tweet>@iMShielaYZM kaya nga ehh. Baha pa rin ataa.</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="207">
+		<user>KeithPasco</user>
+		<tweet>@_KrloGrcia baha ba dyan bro?</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="208">
+		<user>gemkristel</user>
+		<tweet>@GoodGuyBenj mygoodness haha baha na ba dyan?</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="209">
+		<user>FerreriDeniel</user>
+		<tweet>RT @itsnaughtylie: yung baha napapansin mo eh yung pagmamahal
+			kong umaapaw para sayo?
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="210">
+		<user>ughaixee</user>
+		<tweet>@cebumadenise baha ba?? haha</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="211">
+		<user>IndividNoellism</user>
+		<tweet>RT @Caaaaabs: kung ganito lang sana ang baha magtatampisaw
+			talaga ako hahaha #MarioPH #HugotSaTagUlan http://t.co/OfSSapDFHz
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="212">
+		<user>boybaba00</user>
+		<tweet>@ichanbaekworld kaya nga pepe . Baha na ba jan sainyo ?? Stay
+			safe pepe .
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="213">
+		<user>KaeOfficial</user>
+		<tweet>Ssuper baha simula pa kagabi dito sa Sampaloc. Well, just what
+			do i expect. Timing ubos na grocery ko kaya itlog lang kinain ko
+			buong araw.
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="214">
+		<user>gabdarez</user>
+		<tweet>RT @YouScoop: Ilang rescuer, umiikot sa Quezon City para
+			tulungan ang mga residente na na-stranded sa baha. #MarioPH
+			http://t.co/P5KShvdv2T
+		</tweet>
+		<prediction>CD</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="215">
+		<user>jennifernunez4</user>
+		<tweet>Hanggang Leeg na baha kila SG?!!! Maaattttteeeooo!!! Languyin
+			mo naaaa!! Hahahahaha
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="216">
+		<user>thisisdomsdg</user>
+		<tweet>Nagpalibreng sakay ang manda pero L300 ang gamit hahaha eh abot
+			hanggang dibdib ang baha sa ibang part hahaha ngangamey
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="217">
+		<user>jayveedistajo</user>
+		<tweet>Jgh @SuperShabbie kahit baha gumagala kmi haha :)
+			http://t.co/epphG52lHZ
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="218">
+		<user>beDANakoo</user>
+		<tweet>Below knee level nga yung baha. G naba to? Hahaha</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="219">
+		<user>instapraying</user>
+		<tweet>RT @BLINK_joseph: Wala pa din tigil ang ulan! Baha na sa mga
+			daanan, Ingat po tayong lahat . Godbless... #Pray
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="220">
+		<user>imjanmariel</user>
+		<tweet>"@dnjrrlcaps: "@Caaaaabs: kung ganito lang sana ang baha
+			magtatampisaw talaga ako hahaha #MarioPH #HugotSaTagUlan
+			http://t.co/bT3ROPbgwu""
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="221">
+		<user>checachicadora</user>
+		<tweet>@joyie_inthecity oo nga akalIn mo yun? Naka taxi ako kanina
+			kaya nalaman ko lang na sobrang baha nung sa quezon ave mataas na
+			yung water.
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="222">
+		<user>SupFazkogwin</user>
+		<tweet>Ready na ako sumulong sa baha e hahaha</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="223">
+		<user>marcocoyII</user>
+		<tweet>RT @TheUSTF: Hindi pa rin humuhupa yung ulan at baha. Tulad ng
+			feelings ko sayo. #HugotSaTagUlan
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="224">
+		<user>YumiValdenarro</user>
+		<tweet>@SuperSaurx baha sa dadaanan :((((((</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="225">
+		<user>larakristel_</user>
+		<tweet>@Doughteee nanunuod kasi siya news daming baha. Mattrap din daw
+			kami di na daw kami makakalabas bumili na daw kami ng pagkain nag oa
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="226">
+		<user>reginacruz21</user>
+		<tweet>RT @athangarcia: Oo bro baha na. Lampas pinto na tubig sa bahay
+			haha @JeremiahTrajano http://t.co/VfG3UmSZNX
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="227">
+		<user>Sapphireee04</user>
+		<tweet>@Prinsesiiitaaa Siguro next week, talaga baha na nga dito sa de
+			castro e hanggang tuhod na!
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="228">
+		<user>iLykaWams</user>
+		<tweet>Alurin sana ng baha, lahat ng mga paasa diyan!</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="229">
+		<user>NorbertKeen</user>
+		<tweet>"@ogiediaz: Nag-txt si Mahal. Hanggang leeg na raw niya ang
+			baha sa kanilang lugar." Lol
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="230">
+		<user>migueladvincula</user>
+		<tweet>@pqocampo Baha taft, di ka makakatawid =))</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="231">
+		<user>Geeeepsh</user>
+		<tweet>RT @Amphigong: Baha daw sa... Ateneo: "Go Ateneo! One Big
+			Flood!" UST: "Go USTE! Over Flow UST!" UP: "UP Naming Baha!" La
+			Salle: "D! L-S! …
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="232">
+		<user>chayen19</user>
+		<tweet>RT @TheUSTF: Yang baha at ulan? Parang feelings ko. Ngayon lang
+			yan. Bukas makalawa, wala na rin to. Maghintay ka lang!
+			#HugotSaTagUlan
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="233">
+		<user>MightyAmbengers</user>
+		<tweet>RT @ogiediaz: Nag-txt si Mahal. Hanggang leeg na raw niya ang
+			baha sa kanilang lugar.
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="234">
+		<user>felrose_2</user>
+		<tweet>@MMDA Baha po sa monumento tsaka sa Balintawak? Thanks po!
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="235">
+		<user>red_4th</user>
+		<tweet>Pag di pa tumigil ang ulan, i'll die. Like die of boredom.
+			Lalakarin ko ang baha makapunta lang ng cash and carry.
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="236">
+		<user>MontyMangahas</user>
+		<tweet>@imjezayley baha eh... di ako makababa. Pero nakapagpadeliver
+			na kami haha http://t.co/Jr29X5hmqG
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="237">
+		<user>AWE24</user>
+		<tweet>Atrobe e hefboom di tram ta bolbe baha riba otro vehiculo, e
+			biaha aki ta un truck http://t.co/lWlLrPJxbd
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="238">
+		<user>jgobsa</user>
+		<tweet>@mmda baha po ba sa acacia lane? Saka po sa circle sa
+			mandaluyong?
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="239">
+		<user>Ireeeeeeesh</user>
+		<tweet>"@TheUSTF: Hindi pa rin humuhupa yung ulan at baha. Tulad ng
+			feelings ko sayo. #HugotSaTagUlan" �?��?�
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="240">
+		<user>JMMirandaaaa</user>
+		<tweet>Tangina baha na sa tumana :/</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="241">
+		<user>lalalovepop</user>
+		<tweet>@theacarpiojang Di rin kasi tumigil yung ulan e. Sa loob ba?
+			Baha na din? ;~;
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="242">
+		<user>bomatienza_</user>
+		<tweet>@MACsaddddddd baha sa kanto namin</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="243">
+		<user>HenzelKalugdan</user>
+		<tweet>Grabe baha sa nadaanan namin may abot na hanggang dibdib bh3.
+			&lt;/3 #MarioPH</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="244">
+		<user>IamLouISH</user>
+		<tweet>Lumusong sila sa baha para mabilhan ako ng pagkain XD ILoveYou
+			Tito XD
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="245">
+		<user>zupnicole</user>
+		<tweet>"@PhBagyongmario: @zupnicole hindi talaga huhupa ang baha dahil
+			lalakasan ko pa lalo!" ANSAMA NI MARIO HUHU ANO BANG GINAWA NAMEN
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="246">
+		<user>schaimc</user>
+		<tweet>@LuiLiton hahaha mas baha pa ata jan e</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="247">
+		<user>MTongsonJ</user>
+		<tweet>RT @sheenasanorjo: Bigyan ng tubig baha!! Napaka uhaw!</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="248">
+		<user>aylaalee</user>
+		<tweet>RT @TheUSTF: Hindi pa rin humuhupa yung ulan at baha. Tulad ng
+			feelings ko sayo. #HugotSaTagUlan
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="249">
+		<user>jandisputed</user>
+		<tweet>Baha sa minamahal kong Marikina. ingat friends :)</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="250">
+		<user>mwachooo</user>
+		<tweet>Daming nakatayo ngayong mga panahon na to. @paulrosalinas Baha
+			ba sainyo? Mag papagupit ako eh, yung buhok ko nakatayo na, di ko na
+			gusto :)
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="251">
+		<user>y0nis</user>
+		<tweet>RT @Amphigong: Baha daw sa... Ateneo: "Go Ateneo! One Big
+			Flood!" UST: "Go USTE! Over Flow UST!" UP: "UP Naming Baha!" La
+			Salle: "D! L-S! …
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="252">
+		<user>Atrchy</user>
+		<tweet>RT @govph: Mga dapat gawin kung may inaasahang baha sa inyong
+			lugar: http://t.co/pIvUdLtgEy #MarioPH http://t.co/KghPRfL1fa
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="253">
+		<user>aanneeroxx</user>
+		<tweet>"@TheUSTF: Hindi pa rin humuhupa yung ulan at baha. Tulad ng
+			feelings ko sayo. #HugotSaTagUlan"
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="254">
+		<user>sniperdope</user>
+		<tweet>Babes pati si Aleck nagwo-worry na sa baha. Hinahanap ka!
+			sleeping_beauty28 http://t.co/F7eQIELx2J
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="255">
+		<user>IamPaulValles</user>
+		<tweet>MAS MATAAS PA YUN BAHA KAYSA SA GRADES KO! PUTA</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="256">
+		<user>marojjx</user>
+		<tweet>#LasallianKaKung D-L-S-U! ANIMO BAHA!!! hahahaha #MarioPH
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="257">
+		<user>maxinedenise1</user>
+		<tweet>#KapagMayBagyo may baha -_-</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="258">
+		<user>foreveRaine</user>
+		<tweet>RT @PrincessFrance: Wala pa ata akong nakikitang nagse-selfie
+			sa baha? #BeyondDisappointed #Charot
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="259">
+		<user>NorbertKeen</user>
+		<tweet>RT @ogiediaz: Nag-txt si Mahal. Hanggang leeg na raw niya ang
+			baha sa kanilang lugar.
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="260">
+		<user>YdadCarcer</user>
+		<tweet>natatawa lang ako,minsan talaga yng isip ng mga tao,d
+			maintindihan nakapayong hanggang dibdib ang tubig baha,hahaha
+			nakakatawa lang kc:-):-)
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="261">
+		<user>_Bricarlos</user>
+		<tweet>@NeilsonGardose yup!! hahaha baha na sa inyo? =))</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="262">
+		<user>jatcaintic</user>
+		<tweet>Medj namiss ko lumusong sa baha. Hahaha</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="263">
+		<user>TwayLeeem</user>
+		<tweet>MAGINGAT PO ANG LAHAT TAS YUNG MAHAHAROT DYAN PATANGAY NA LANG
+			KAYO SA BAHA &lt;3 HAHAHAHA</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="264">
+		<user>jnhlynnrqz</user>
+		<tweet>RT @Senyora: Ingat sa baha yung mga walang dede. Wala kayong
+			floaters
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="265">
+		<user>makristinajoie</user>
+		<tweet>Grabe yung agos nung baha haaay</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="266">
+		<user>grace_delavega</user>
+		<tweet>Baha pa din... http://t.co/umu5aZ9RoH</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="267">
+		<user>immellenex</user>
+		<tweet>RT @YansIgnacio: BUTI KA PA HINDI MALULUNOD SA BAHA HIPON KA EH
+			:(
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="268">
+		<user>Cody_Men</user>
+		<tweet>Keep safe everyone esp sa mga lugar na baha na.</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="269">
+		<user>alexisadricula</user>
+		<tweet>gusto ko ng piattos kaso putangina baha sa labas</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="270">
+		<user>niallxcoldplay</user>
+		<tweet>RT @Amphigong: Baha daw sa... Ateneo: "Go Ateneo! One Big
+			Flood!" UST: "Go USTE! Over Flow UST!" UP: "UP Naming Baha!" La
+			Salle: "D! L-S! …
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="271">
+		<user>junoabanilla</user>
+		<tweet>ayoko na palang pumasok sa manila laging baha. hahahaha</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="272">
+		<user>Bathroomhymns</user>
+		<tweet>@TheHamSammich @pbandjellybeans kamusta na baha diyan sam?
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="273">
+		<user>venicemndz</user>
+		<tweet>RT @Iyyamazing: Napakaliit na bagay kinakagalit mo. Mas mababaw
+			kapa sa baha.
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="274">
+		<user>chesterbest</user>
+		<tweet>"@DZMMTeleRadyo: PANAYAM sa DZMM | 'Be Careful with My Heart'
+			actor Marlo Mortel, naistranded dahil sa baha." - is this
+			news-worthy?!
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="275">
+		<user>paulanavata</user>
+		<tweet>Baha na po ba sa ortigas??</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="276">
+		<user>NicoleObina</user>
+		<tweet>@_ellejacinto sige teka pati pala si vien hays baha daw sa
+			savemore sabi nung driver ko
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="277">
+		<user>eevonsexy</user>
+		<tweet>RT @Amphigong: Baha daw sa... Ateneo: "Go Ateneo! One Big
+			Flood!" UST: "Go USTE! Over Flow UST!" UP: "UP Naming Baha!" La
+			Salle: "D! L-S! …
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="278">
+		<user>TRBalgat</user>
+		<tweet>WHAAAAT LUMABAS AKO AT NAGLAKAD SA BAHA HAHAHAH SAYA SAYA
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="279">
+		<user>cachupupoy</user>
+		<tweet>Ingat sa baha yung mga walang dede. Wala kayong floaters
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="280">
+		<user>naivethoughts</user>
+		<tweet>The heck. Tataas na naman ang tubig-baha. -_-</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="281">
+		<user>hemmingzshx_</user>
+		<tweet>RT @TheUSTF: Hindi pa rin humuhupa yung ulan at baha. Tulad ng
+			feelings ko sayo. #HugotSaTagUlan
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="282">
+		<user>_sheinanichole</user>
+		<tweet>RT @Amphigong: Baha daw sa... Ateneo: "Go Ateneo! One Big
+			Flood!" UST: "Go USTE! Over Flow UST!" UP: "UP Naming Baha!" La
+			Salle: "D! L-S! …
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="283">
+		<user>chengbnfc</user>
+		<tweet>RT @junsabayton: Sana mag
+			#DonateNgBenchUnderwearAngMgaArtistaNaKasaliSaBench #TheNakedTruth
+			#FashionShow sa mga na #baha ng #habagat ni #M…
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="284">
+		<user>imjasperramos</user>
+		<tweet>@biancadorableee hahah. Kasing lalim ng baha.</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="285">
+		<user>alnrrrr</user>
+		<tweet>@faaatcells hahaha kakagaling ko lang din :) baha pa ba yun?
+			haha
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="286">
+		<user>FKayeee</user>
+		<tweet>Malapit na yung baha huhuhu shet wag pls</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="287">
+		<user>nicxieeee</user>
+		<tweet>RT @biancaaaakee: "@Caaaaabs: kung ganito lang sana ang baha
+			magtatampisaw talaga ako hahaha #MarioPH #HugotSaTagUlan
+			http://t.co/K7DqoSZk…
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="288">
+		<user>apolloverse</user>
+		<tweet>Sana magtuloy tuloy na yung pagtila ng ulan so give or take in
+			2/3 hrs wala na yung baha, yeah?
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="289">
+		<user>mmaandion</user>
+		<tweet>RT @Amphigong: Baha daw sa... Ateneo: "Go Ateneo! One Big
+			Flood!" UST: "Go USTE! Over Flow UST!" UP: "UP Naming Baha!" La
+			Salle: "D! L-S! …
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="290">
+		<user>chelsnerralph</user>
+		<tweet>@zZen_Malik kuya may baha diyan?</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="291">
+		<user>xxnicoleyyy</user>
+		<tweet>@imauuuu hahahaahahaha ilublubo sa baha!</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="292">
+		<user>monchiaooo</user>
+		<tweet>RT @Amphigong: Baha daw sa... Ateneo: "Go Ateneo! One Big
+			Flood!" UST: "Go USTE! Over Flow UST!" UP: "UP Naming Baha!" La
+			Salle: "D! L-S! …
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="293">
+		<user>StunningJheng</user>
+		<tweet>@jyceanneprz pag d n malakas ulan. lampas tao n nga daw baha
+			dun ngaun ee! potekk
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="294">
+		<user>bilbilasco</user>
+		<tweet>RT @Paodeluna_: Friday- baha Saturday-baha Sunday-onting
+			baha/putek Monday-putek na makapal Tuesday-putek Wednesday-putek na
+			pwede na daan…
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="295">
+		<user>JohnGoRegalado</user>
+		<tweet>Wala na sanang baha bukaaaas! 50 nalang pera koo! ahhahaha
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="296">
+		<user>nezasdfghjkl8</user>
+		<tweet>Pls ingatan nyo po yung mga nasa labas at nagsasuffer sa baha!
+			Magpray po tayong lahat!
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="297">
+		<user>iamkelescueta</user>
+		<tweet>Ayan nagalit na si MARIO...dahil sya ang sinisisi sa Ulan at
+			baha!! http://t.co/tfzKJD7JMN
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="298">
+		<user>ecbeltran</user>
+		<tweet>@kayeendii haha hindi ko naman sinabing umulan gusto ko lang ng
+			suspensyon kasi baha bukas sa mga dadaan ko :)))
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="299">
+		<user>camvitalista</user>
+		<tweet>@jinelaramos im fine and im starving hahaha baha ba jan sa
+			inyo?
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="300">
+		<user>alminaaadenisee</user>
+		<tweet>@mikhaeloyola @deguzman0019 baha din ata sa Pampanga. kawawa si
+			bobby
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="301">
+		<user>JeremiahTrajano</user>
+		<tweet>RT @athangarcia: Oo bro baha na. Lampas pinto na tubig sa bahay
+			haha @JeremiahTrajano http://t.co/VfG3UmSZNX
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="302">
+		<user>OfficialLRTA</user>
+		<tweet>@HeyAlvinFhorest LRT is still operating at this time. Walang
+			baha po sa Central
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="303">
+		<user>Chrispatron56</user>
+		<tweet>sinong malapit sa Kalentong tanong lang baha pa ba?</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="304">
+		<user>dianneduallo</user>
+		<tweet>Grabe Baha na sa cartimar tapos sinarado na daan papuntang
+			metropoint
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="305">
+		<user>dianamnnsla</user>
+		<tweet>RT @TheUSTF: Hindi pa rin humuhupa yung ulan at baha. Tulad ng
+			feelings ko sayo. #HugotSaTagUlan
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="306">
+		<user>KatSanMiguel</user>
+		<tweet>Baha na dito sa may terrace namen hahaha</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="307">
+		<user>joshabelle</user>
+		<tweet>RT @TheUSTF: Hindi pa rin humuhupa yung ulan at baha. Tulad ng
+			feelings ko sayo. #HugotSaTagUlan
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="308">
+		<user>Paodeluna_</user>
+		<tweet>Friday- baha Saturday-baha Sunday-onting baha/putek
+			Monday-putek na makapal Tuesday-putek Wednesday-putek na pwede na
+			daanan
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="309">
+		<user>junesantoss</user>
+		<tweet>RT @TheUSTF: Yang baha at ulan? Parang feelings ko. Ngayon lang
+			yan. Bukas makalawa, wala na rin to. Maghintay ka lang!
+			#HugotSaTagUlan
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="310">
+		<user>paolo1399</user>
+		<tweet>@jaccirochaa jogging na habang baha pa para heavy!!</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="311">
+		<user>migzcabral</user>
+		<tweet>RT @Amphigong: Baha daw sa... Ateneo: "Go Ateneo! One Big
+			Flood!" UST: "Go USTE! Over Flow UST!" UP: "UP Naming Baha!" La
+			Salle: "D! L-S! …
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="312">
+		<user>iamaskeylegend</user>
+		<tweet>@mariahhxxx Baha na hanggang leeg. tapos yung bubong natin
+			nagbakasyon daw muna. hahaha joke okay lang kami
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="313">
+		<user>iamRrreizel</user>
+		<tweet>@Gavankenny @markgabriellef @IammeKCL #Bonjoy sup MCBOYZ ayos
+			lang ba kayo? nasa talampakan na yung baha samin hahaha :)
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="314">
+		<user>grldnanne</user>
+		<tweet>@Junsanity07 oo buset pag baha pa din dalawang gabi na ko dto
+			sa kaibigan ko hahaha :) ayy sayang! Ingat kayo later! :))
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="315">
+		<user>Layb0osh09</user>
+		<tweet>Grabe BAHA na sa Paligid namin :(( Keep Safe Everyone :3
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="316">
+		<user>cathyvillaflor</user>
+		<tweet>RT @Amphigong: Baha daw sa... Ateneo: "Go Ateneo! One Big
+			Flood!" UST: "Go USTE! Over Flow UST!" UP: "UP Naming Baha!" La
+			Salle: "D! L-S! …
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="317">
+		<user>crisellevc</user>
+		<tweet>Kapag taga-Malabon sanay agad sa baha eh 'no?</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="318">
+		<user>yaanyoung</user>
+		<tweet>So sweet ♡ ♡ ♡ Pinasan niya ko palabas sakanila wag lang mabasa
+			ng baha yung paa ko.. ♡ ♡ ♡
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="319">
+		<user>kweyniiee</user>
+		<tweet>@shabondoc_ malalim naman talaga yung baha sa españa ee!!
+			Hahaha
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="320">
+		<user>_Padillasophia</user>
+		<tweet>@_Sebastiaann tien? Baha sainyo?</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="321">
+		<user>jsmnesgrr</user>
+		<tweet>RT @Amphigong: Baha daw sa... Ateneo: "Go Ateneo! One Big
+			Flood!" UST: "Go USTE! Over Flow UST!" UP: "UP Naming Baha!" La
+			Salle: "D! L-S! …
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="322">
+		<user>YZAbeluh</user>
+		<tweet>RT @Amphigong: Baha daw sa... Ateneo: "Go Ateneo! One Big
+			Flood!" UST: "Go USTE! Over Flow UST!" UP: "UP Naming Baha!" La
+			Salle: "D! L-S! …
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="323">
+		<user>lagkitkat</user>
+		<tweet>Bumaba ka na baha! I forgot to buy my dinner!</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="324">
+		<user>HelloBABE08</user>
+		<tweet>tsskkkkkk pumasok yung tubig sa kwarto ko :( baha tuloy!! tskk
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		</extracted>
+	</tweet>
+	<tweet id="325">
+		<user>DelishaStyles</user>
+		<tweet>Jgh solid baha pauwi ge sm pa kasi eh hahaha</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="326">
+		<user>sanji20142</user>
+		<tweet>@sanji nag pabuhat nalang sa taas ng baha</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="327">
+		<user>Markiefeller</user>
+		<tweet>@BlackandGelowww @kennsantoss @alfredtheodored @karlsyyyy naka
+			dehado anyan pre, mga 2 weeks bago mawala baha na ganyang kalala
+			hahaha
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="328">
+		<user>eysonic</user>
+		<tweet>@michhyyyy kayo din dyan! Grabe din ang baha dyan sa v.mapa ah!
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="329">
+		<user>GabbyPrecilla</user>
+		<tweet>RT @Amphigong: Baha daw sa... Ateneo: "Go Ateneo! One Big
+			Flood!" UST: "Go USTE! Over Flow UST!" UP: "UP Naming Baha!" La
+			Salle: "D! L-S! …
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="330">
+		<user>myprincesssica</user>
+		<tweet>Nakakainis!! Bakit ba kase baha sa may masinag!!! Gusto kooo
+			manuod! Wala naman ako madadaanan!! NAKAKAIYAK!
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="331">
+		<user>Kharenecocruz</user>
+		<tweet>Akala ko baha. Swimming pool lng pla na chocolate flavor
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="332">
+		<user>julliagnzga</user>
+		<tweet>Baha na kela Isabel pero text pa rin ng text hahahaha</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="333">
+		<user>Jamessshhh</user>
+		<tweet>Grabe yung baha sa Maynila.... Lagpas ulo na... Lagpas ulo ni
+			Sam Chan hahaha @ifyuseekay
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="334">
+		<user>overjoie</user>
+		<tweet>@ILHOONYOOK @Gryffindor009 gusto ko matuloy sana bukas di na
+			maulan tska wala na baha dyan,
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="335">
+		<user>JoannaSicat</user>
+		<tweet>@elishakimchee Baha daw hanggang bubong sa pasig eh. Di naman
+			nagtetext si jhe kaasar
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="336">
+		<user>ItsHazelUmadac</user>
+		<tweet>RT @Masayowk: gusto mo palanguyin natin sa baha ung maga
+			naninirasayo!!!? @imdanielpadilla hahaha @KevinPadillaFTW
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="337">
+		<user>BManares</user>
+		<tweet>Kung kailan baha dun ko gusto magpadeliver -.- Tanga lang ih
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="338">
+		<user>etaenity</user>
+		<tweet>@kreesteenlee RTU nga eh huhu baha nga dun :-(</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="339">
+		<user>alcantaranicc</user>
+		<tweet>@unknownBianca_ eew no way I will not lusong lusong sa baha.
+			It's kadiri na unlike kanina hehehehehe
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="340">
+		<user>supermesi</user>
+		<tweet>RT @pacoevangelista: Cuddle weather? Sige nga, cuddle nga kayo
+			sa baha.
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="341">
+		<user>MarryHee</user>
+		<tweet>last rt was actually near my house. tangina wag naman sana
+			abutin ng baha yung subdivision namin :&lt;</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="342">
+		<user>vncntmln</user>
+		<tweet>Grabe kanina na stranded kami sa super market tas ang taas na
+			ng baha! Yung lumusong kami sa hanggang dib dib na baha
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="343">
+		<user>chaaraught</user>
+		<tweet>Sana tumigil na po yung ulan. Bahang baha na dto. :( keep safe
+			everyone!! Pray.
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="344">
+		<user>reyeskarr</user>
+		<tweet>May way po ba sa magcommute moa to antipolo? #FloodPH #RescuePH
+			#DahilMayBagyoNgayon #mmda #metromanilafloods @MMDA
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="345">
+		<user>WowoWillieTV</user>
+		<tweet>KAPATID UPDATE LOLO SA ARANETA AVE., AYAW MAGPA-RESCUE DAHIL
+			MAIIWAN ANG KARITON NIYA SA BAHA... http://t.co/s7vuTxaKhE
+			#WowoWillie
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="346">
+		<user>imnicolebnzn</user>
+		<tweet>pinasok kami ng baha guys hahahahahaha (cto)
+			http://t.co/xlSnmklnsZ
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="347">
+		<user>jncrq</user>
+		<tweet>@oohglysibug hanggang talampakan pamo yung baha</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="348">
+		<user>gelarellano</user>
+		<tweet>@shaira_ma okay naman. humupa na baha sa may samen. =)))
+			sumasakit lang talaga sugat ko hahaa
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="349">
+		<user>aircranditioner</user>
+		<tweet>RT @Amphigong: Baha daw sa... Ateneo: "Go Ateneo! One Big
+			Flood!" UST: "Go USTE! Over Flow UST!" UP: "UP Naming Baha!" La
+			Salle: "D! L-S! …
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="350">
+		<user>partiallystars</user>
+		<tweet>RT @tweetienidickie: "Forward Ever, Backward Never, Baha
+			Forever" dat ganyan ang slogan ng Manila @PresidentErap @MMDA
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="351">
+		<user>shynethhabana</user>
+		<tweet>First time kong sumugod sa baha kanina &gt;.&lt;</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="352">
+		<user>camsdelacruz</user>
+		<tweet>@privaterianne malapit sa fatima. Di naman sa min baha, sa
+			tapat lang talaga ng fatima baha. Sa inyo ba? Obando ka di ba? Ingat,
+			ingat :-)
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="353">
+		<user>athangarcia</user>
+		<tweet>Oo bro baha na. Lampas pinto na tubig sa bahay haha
+			@JeremiahTrajano http://t.co/VfG3UmSZNX
+		</tweet>
+		<prediction>CA</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="354">
+		<user>KNBuenaventura</user>
+		<tweet>@Cedrick4twenty hindi daw baha pre sabi ni mama. Kakauwe niya
+			lang galing palengke
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="355">
+		<user>jbtiamson95</user>
+		<tweet>RT @Amphigong: Baha daw sa... Ateneo: "Go Ateneo! One Big
+			Flood!" UST: "Go USTE! Over Flow UST!" UP: "UP Naming Baha!" La
+			Salle: "D! L-S! …
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="356">
+		<user>ImRoyceanne</user>
+		<tweet>@MMDA Baha po ba sa may SM North?</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="357">
+		<user>Heymarsmars</user>
+		<tweet>RT @TheUSTF: Yang baha at ulan? Parang feelings ko. Ngayon lang
+			yan. Bukas makalawa, wala na rin to. Maghintay ka lang!
+			#HugotSaTagUlan
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="358">
+		<user>cosmiclia</user>
+		<tweet>RT @Amphigong: Baha daw sa... Ateneo: "Go Ateneo! One Big
+			Flood!" UST: "Go USTE! Over Flow UST!" UP: "UP Naming Baha!" La
+			Salle: "D! L-S! …
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="359">
+		<user>norhainawavesss</user>
+		<tweet>RT @Amphigong: Baha daw sa... Ateneo: "Go Ateneo! One Big
+			Flood!" UST: "Go USTE! Over Flow UST!" UP: "UP Naming Baha!" La
+			Salle: "D! L-S! …
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="360">
+		<user>YansIgnacio</user>
+		<tweet>BUTI KA PA HINDI MALULUNOD SA BAHA HIPON KA EH :(</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="361">
+		<user>asdfghjkimxx</user>
+		<tweet>RT @UbieLovesPurple: Bkit ngayon pagnkakakita ng baha, unang
+			ginagawa ay picturan?
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="362">
+		<user>schaimc</user>
+		<tweet>im hungry, lalabas ako kahit baha hahaha</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="363">
+		<user>rhonacny</user>
+		<tweet>@tLEKmnksyn Di ko alam. Bukas sana kung di na baha. Pero sabi
+			nila matagal daw bago umupa omg no magswimming ku knyan :(
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="364">
+		<user>PatrickHugals</user>
+		<tweet>@MarggmallowPH Dnt worry. Hahaha kmusta ka dyn bes, bka nag
+			sswimming kna dyan sa baha ahh? XD
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="365">
+		<user>Geenaxion</user>
+		<tweet>Grabe pala baha sa ibang lugar. Ingat kayo.</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="366">
+		<user>lykaalykees</user>
+		<tweet>9/19/14 My first baha experience. Lampas tuhod. Hindi pala
+			talaga biro. Keep safe everyone pls!!!!!!
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="367">
+		<user>skyescusa</user>
+		<tweet>Haha laughtrip si kuya. Naka life jacket kahit hanggang tuhod
+			lang baha. Adik lol
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="368">
+		<user>heyitsrail</user>
+		<tweet>@iamtanyalouise baha na jan sa bahay?</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="369">
+		<user>mikayla_qg00</user>
+		<tweet>RT @ilovebobong: Wag kang lumusong sa baha baka lumutang ka,
+			plastic ka pa naman.
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="370">
+		<user>ShairaLee28</user>
+		<tweet>RT @UlolWagAko: May bagyo at baha na, puro ka pa rin kalandian.
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="371">
+		<user>SP01_CJ</user>
+		<tweet>@Sirrecklessy haha ok naman, baha narin dto sa cavite ehh.
+			musta dyan bro?
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="372">
+		<user>john202011</user>
+		<tweet>Baha na po ba sa iba o botolan?</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="373">
+		<user>lalaluhraine</user>
+		<tweet>Keepsafe everyone, tangayin na sana ng baha yung kumuha ng
+			phone ko. leche ka.
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="374">
+		<user>Jyaack</user>
+		<tweet>@iamdanieeel oo nakakakinis gutom na ako hahaha. Baka na anod
+			na yun sa baha di na makarating sakin HAHA
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="375">
+		<user>Jenbercilla</user>
+		<tweet>Wag kang lalabas, baka tangayin ka ng Baha. Plastik ka pa
+			naman. #KeepSafe
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="376">
+		<user>miguelborja16</user>
+		<tweet>Kulay putik na ung baha fak</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="377">
+		<user>jncrq</user>
+		<tweet>@oohglysibug ingat ka baka malunod ka sa baha :o hehe</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="378">
+		<user>retomanica</user>
+		<tweet>@Ynuhhh @TonQuitoriano Huhu baha na tita!!!!!!! Uwi na punta ko
+			dyan!
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="379">
+		<user>TheFlyingD26</user>
+		<tweet>RT @WagTamad: Buti pa yung baha, tumataas. Eh yung grade mo?
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="380">
+		<user>AlzatRoi</user>
+		<tweet>Kanina baha sa labas!! Ngaun humupa na pero merong hangin! :)
+			http://t.co/LIWVAgTTa1
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="381">
+		<user>IamSophiaLimit</user>
+		<tweet>RT @ogiediaz: Nag-txt si Mahal. Hanggang leeg na raw niya ang
+			baha sa kanilang lugar.
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="382">
+		<user>mariell_cruz</user>
+		<tweet>RT @RodgeRiveraaa: sana yung baha hindi abot sa bahay namin :((
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="383">
+		<user>mikaaatuazon</user>
+		<tweet>@mallarybird HAHA ready na ako magswimming sa baha =)))</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="384">
+		<user>itsnaughtylie</user>
+		<tweet>yung baha napapansin mo eh yung pagmamahal kong umaapaw para
+			sayo?
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="385">
+		<user>imichydiaz</user>
+		<tweet>@Kevi_Tan hassle di ba puta kahit saan baha</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="386">
+		<user>jenniferrrdilan</user>
+		<tweet>6hrs. na daw silang nakababad sa baha tapos ako natutulog lang
+			:(
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="387">
+		<user>jcdtan</user>
+		<tweet>@reichsy543 baha na sa inyo twitter ka pa din</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="388">
+		<user>itsmeElvinne</user>
+		<tweet>“@TheUSTF: Hindi pa rin humuhupa yung ulan at baha. Tulad ng
+			feelings ko sayo. #HugotSaTagUlan�?
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="389">
+		<user>elyannahlim</user>
+		<tweet>“@Wesleyology: Maligo tayo sa baha�? tapos kasabay mo
+			magswimming yung daga!:)
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="390">
+		<user>claireeemeow</user>
+		<tweet>Baha, bagyo, terorismo, corruption, krimen. Ano pa? Ano pa yung
+			mga rason para iwan ng mga pinoy ang sariling bansa nila? Tsk!
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="391">
+		<user>Lozolpls</user>
+		<tweet>RT @Amphigong: Baha daw sa... Ateneo: "Go Ateneo! One Big
+			Flood!" UST: "Go USTE! Over Flow UST!" UP: "UP Naming Baha!" La
+			Salle: "D! L-S! …
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="392">
+		<user>ptrcgarcia</user>
+		<tweet>sana tangayin na ng baha yung feelings ko para sayo choz arte
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="393">
+		<user>HitMeGreendel</user>
+		<tweet>@erkamanics lagpas coco na ba ang baha sa Spain?</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="394">
+		<user>AJHOjojo</user>
+		<tweet>Super lagpas na sa ulo ko yung baha. Lagpas na sa bewang eh. :/
+			:D #MindShit
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="395">
+		<user>jmrys</user>
+		<tweet>@ninadaspa Baha pa rin? Tumigil na ulan dito eh</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="396">
+		<user>IAMSEOKJINS</user>
+		<tweet>@sarca_sam dapat??? hahahaha pero baha na yung dadaanan ko and
+			ayaw na ako payagan ng parents ko :((((((
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="397">
+		<user>rancejude</user>
+		<tweet>Unti unting tumataas ang baha sa aming eskinita. Paano ito
+			bukas, hanggang hagdanan na namin?
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="398">
+		<user>Rzl_Guan</user>
+		<tweet>Sana di na baha gusto kong bumili sa savemore ng kahit anong
+			pagkain tas bili ng Emong's pandesal woohoo
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="399">
+		<user>kmbrlyabn</user>
+		<tweet>@gyeoulbw_ tutuloy ka na sa araneta? Lubog sa baha yung daanan.
+			Hahahaha
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="400">
+		<user>TyEllice</user>
+		<tweet>@katrinaacamacho namo , umuulan it's not able to pass through
+			marcos highway hahaha ! Baha na teh ! Bahaaa !
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="401">
+		<user>jeonpls</user>
+		<tweet>RT @suhotherich: rt this for nonsense message mula saken wag
+			i'rt kung di pinoy ok kundi papainom ko sayo yung baha dito basta
+			dyosa parin …
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="402">
+		<user>BernieCadao</user>
+		<tweet>@ilda_talk @whycani dapat araw araw meron baha sa MM para
+			maalis Ang mga basura
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="403">
+		<user>princesslunas</user>
+		<tweet>RT @janellayap: “@TheUSTF: Yang baha at ulan? Parang feelings
+			ko. Ngayon lang yan. Bukas makalawa, wala na rin to. Maghintay ka
+			lang! #Hugo…
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+	<tweet id="404">
+		<user>OfficialAllyza</user>
+		<tweet>RT @Senyora: Wag ka lumusong sa baha. Baka mapagkamalan kitang
+			lumulutang na daga
+		</tweet>
+		<prediction>O</prediction>
+		<actual>O</actual>
+		<extracted/>
+	</tweet>
+</dataset>
+

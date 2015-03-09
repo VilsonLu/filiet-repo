@@ -56,7 +56,7 @@ public class InformationExtractionEngine {
 		System.out.println("Predicted: " + extractedTweet.getCategory());
 		System.out.println("Actual: " + extractedTweet.getTweets().getCategory());
 		
-		if(extractedTweet.getCategory() != "O"){
+		if(extractedTweet.getTweets().getCategory() != "O"){
 			System.out.println("Rule Induction Module");
 			extractedTweet.setExtractedInformation(ruleInductor.match(extractedTweet));
 		}

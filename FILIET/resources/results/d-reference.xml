@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset name="ruby-dataset">
+  <tweet id="1">
+    <user>RubyPHNews1</user>
+    <tweet>RT @gmanews: RIZAL — Inihahanda na ang gym sa San Mateo sakaling muling ilikas ang mga preso. | #RubyPH via @VargasMannysen http://t.co/xcK…</tweet>
+    <prediction>CA</prediction>
+    <actual>D</actual>
+    <extracted>
+        <locationInTweet>RIZAL, San Mateo</locationInTweet>
+        <resourceName>gym</resourceName>
+        <resourceDetail/>
+        <victimName/>
+    </extracted>
+  </tweet>
+  <tweet id="2">
+    <user>UdchenC</user>
+    <tweet>RT @gmanews: RIZAL — Inihahanda na ang gym sa San Mateo sakaling muling ilikas ang mga preso. | #RubyPH via @VargasMannysen http://t.co/xcK…</tweet>
+    <prediction>CA</prediction>
+    <actual>D</actual>
+    <extracted>
+        <locationInTweet>RIZAL, San Mateo</locationInTweet>
+        <resourceName>gym</resourceName>
+        <resourceDetail/>
+        <victimName/>
+    </extracted>
+  </tweet>
+  <tweet id="3">
+    <user>deniseclarity</user>
+    <tweet>RT @gmanews: RIZAL — Inihahanda na ang gym sa San Mateo sakaling muling ilikas ang mga preso. | #RubyPH via @VargasMannysen http://t.co/xcK…</tweet>
+    <prediction>CA</prediction>
+    <actual>D</actual>
+    <extracted>
+        <locationInTweet>RIZAL, San Mateo</locationInTweet>
+        <resourceName>gym</resourceName>
+        <resourceDetail/>
+        <victimName/>
+    </extracted>
+  </tweet>
+  <tweet id="4">
+    <user>MicaaaELLAf</user>
+    <tweet>RT @gmanews: RIZAL — Inihahanda na ang gym sa San Mateo sakaling muling ilikas ang mga preso. | #RubyPH via @VargasMannysen http://t.co/xcK…</tweet>
+    <prediction>CA</prediction>
+    <actual>D</actual>
+    <extracted>
+        <locationInTweet>RIZAL, San Mateo</locationInTweet>
+        <resourceName>gym</resourceName>
+        <resourceDetail/>
+        <victimName/>
+    </extracted>
+  </tweet>
+  <tweet id="5">
+    <user>KeniticChoy</user>
+    <tweet>RT @gmanews: RIZAL — Inihahanda na ang gym sa San Mateo sakaling muling ilikas ang mga preso. | #RubyPH via @VargasMannysen http://t.co/xcK…</tweet>
+    <prediction>CA</prediction>
+    <actual>D</actual>
+    <extracted>
+        <locationInTweet>RIZAL, San Mateo</locationInTweet>
+        <resourceName>gym</resourceName>
+        <resourceDetail/>
+        <victimName/>
+    </extracted>
+  </tweet>
+  <tweet id="6">
+    <user>my_aya08</user>
+    <tweet>RT @gmanews: RIZAL — Inihahanda na ang gym sa San Mateo sakaling muling ilikas ang mga preso. | #RubyPH via @VargasMannysen http://t.co/xcK…</tweet>
+    <prediction>CA</prediction>
+    <actual>D</actual>
+    <extracted>
+        <locationInTweet>RIZAL, San Mateo</locationInTweet>
+        <resourceName>gym</resourceName>
+        <resourceDetail/>
+        <victimName/>
+    </extracted>
+  </tweet>
+  <tweet id="7">
+    <user>mariajessapadua</user>
+    <tweet>RT @govph: PHOTO: @PN_Speak personnel of PS36 in Palawan transported relief goods to Cuyo, Agutaya and Magsaysay towns. #RubyPH http://t.co…</tweet>
+    <prediction>CA</prediction>
+    <actual>D</actual>
+    <extracted>
+        <locationInTweet>Palawan, Cuyo, Agutaya, Magsaysay</locationInTweet>
+        <resourceName>relief goods</resourceName>
+        <resourceDetail/>
+        <victimName/>
+    </extracted>
+  </tweet>
+  <tweet id="8">
+    <user>itsbeckxoxo</user>
+    <tweet>RT @govph: PHOTO: @PN_Speak personnel of PS36 in Palawan transported relief goods to Cuyo, Agutaya and Magsaysay towns. #RubyPH http://t.co…</tweet>
+    <prediction>CA</prediction>
+    <actual>D</actual>
+    <extracted>
+        <locationInTweet>Palawan, Cuyo, Agutaya, Magsaysay</locationInTweet>
+        <resourceName>relief goods</resourceName>
+        <resourceDetail/>
+        <victimName/>
+    </extracted>
+  </tweet>
+  <tweet id="9">
+    <user>AparriPolSta</user>
+    <tweet>RT @govph: PHOTO: @PN_Speak personnel of PS36 in Palawan transported relief goods to Cuyo, Agutaya and Magsaysay towns. #RubyPH http://t.co…</tweet>
+    <prediction>CA</prediction>
+    <actual>D</actual>
+    <extracted>
+        <locationInTweet>Palawan, Cuyo, Agutaya, Magsaysay</locationInTweet>
+        <resourceName>relief goods</resourceName>
+        <resourceDetail/>
+        <victimName/>
+    </extracted>
+  </tweet>
+  <tweet id="10">
+    <user>PTVph</user>
+    <tweet>RT @govph: PHOTO: @PN_Speak personnel of PS36 in Palawan transported relief goods to Cuyo, Agutaya and Magsaysay towns. #RubyPH http://t.co…</tweet>
+    <prediction>CA</prediction>
+    <actual>D</actual>
+    <extracted>
+        <locationInTweet>Palawan, Cuyo, Agutaya, Magsaysay</locationInTweet>
+        <resourceName>relief goods</resourceName>
+        <resourceDetail/>
+        <victimName/>
+    </extracted>
+  </tweet>
+  <tweet id="11">
+    <user>jarlego_td14</user>
+    <tweet>RT @govph: PHOTO: @PN_Speak personnel of PS36 in Palawan transported relief goods to Cuyo, Agutaya and Magsaysay towns. #RubyPH http://t.co…</tweet>
+    <prediction>CA</prediction>
+    <actual>D</actual>
+    <extracted>
+        <locationInTweet>Palawan, Cuyo, Agutaya, Magsaysay</locationInTweet>
+        <resourceName>relief goods</resourceName>
+        <resourceDetail/>
+        <victimName/>
+    </extracted>
+  </tweet>
+  <tweet id="12">
+    <user>manilena50</user>
+    <tweet>RT @govph: PHOTO: @PN_Speak personnel of PS36 in Palawan transported relief goods to Cuyo, Agutaya and Magsaysay towns. #RubyPH http://t.co…</tweet>
+    <prediction>CA</prediction>
+    <actual>D</actual>
+    <extracted>
+        <locationInTweet>Palawan, Cuyo, Agutaya, Magsaysay</locationInTweet>
+        <resourceName>relief goods</resourceName>
+        <resourceDetail/>
+        <victimName/>
+    </extracted>
+  </tweet>
+  <tweet id="13">
+    <user>LGiUSAchapter</user>
+    <tweet>RT @govph: PHOTO: @PN_Speak personnel of PS36 in Palawan transported relief goods to Cuyo, Agutaya and Magsaysay towns. #RubyPH http://t.co…</tweet>
+    <prediction>CA</prediction>
+    <actual>D</actual>
+    <extracted>
+        <locationInTweet>Palawan, Cuyo, Agutaya, Magsaysay</locationInTweet>
+        <resourceName>relief goods</resourceName>
+        <resourceDetail/>
+        <victimName/>
+    </extracted>
+  </tweet>
+  <tweet id="14">
+    <user>jlpvillanueva</user>
+    <tweet>RT @govph: PHOTO: @PN_Speak personnel of PS36 in Palawan transported relief goods to Cuyo, Agutaya and Magsaysay towns. #RubyPH http://t.co…</tweet>
+    <prediction>CA</prediction>
+    <actual>D</actual>
+    <extracted>
+        <locationInTweet>Palawan, Cuyo, Agutaya, Magsaysay</locationInTweet>
+        <resourceName>relief goods</resourceName>
+        <resourceDetail/>
+        <victimName/>
+    </extracted>
+  </tweet>
+  <tweet id="15">
+    <user>TropangMARangal</user>
+    <tweet>RT @govph: Via @dswdserves: As of 11:30 am, the NROC has 311 volunteers. Maraming salamat sa tulong! #ReliefPH #RubyPH http://t.co/OQ8RW7JW…</tweet>
+    <prediction>CA</prediction>
+    <actual>D</actual>
+    <extracted>
+        <locationInTweet/>
+        <resourceName>volunteers</resourceName>
+        <resourceDetail>311</resourceDetail>
+        <victimName/>
+    </extracted>
+  </tweet>
+  <tweet id="16">
+    <user>serbisyoaccess</user>
+    <tweet>RT @govph: Via @dswdserves: As of 11:30 am, the NROC has 311 volunteers. Maraming salamat sa tulong! #ReliefPH #RubyPH http://t.co/OQ8RW7JW…</tweet>
+    <prediction>CA</prediction>
+    <actual>D</actual>
+    <extracted>
+        <locationInTweet/>
+        <resourceName>volunteers</resourceName>
+        <resourceDetail>311</resourceDetail>
+        <victimName/>
+    </extracted>
+  </tweet>
+  <tweet id="17">
+    <user>leahnavarro</user>
+    <tweet>RT @PN_Speak: Navy personnel of PS36 in Palawan transported relief goods for Cuyo, Agutaya and Magsaysay municipality. #RubyPH http://t.co/…</tweet>
+    <prediction>CA</prediction>
+    <actual>D</actual>
+    <extracted>
+        <locationInTweet>Palawan, Cuyo, Agutaya, Magsaysay</locationInTweet>
+        <resourceName>relief goods</resourceName>
+        <resourceDetail/>
+        <victimName/>
+    </extracted>
+  </tweet>
+  <tweet id="18">
+    <user>Foxshane</user>
+    <tweet>RT @PN_Speak: Navy personnel of PS36 in Palawan transported relief goods for Cuyo, Agutaya and Magsaysay municipality. #RubyPH http://t.co/…</tweet>
+    <prediction>CA</prediction>
+    <actual>D</actual>
+    <extracted>
+        <locationInTweet>Palawan, Cuyo, Agutaya, Magsaysay</locationInTweet>
+        <resourceName>relief goods</resourceName>
+        <resourceDetail/>
+        <victimName/>
+    </extracted>
+  </tweet>
+  <tweet id="19">
+    <user>News5AKSYON</user>
+    <tweet>RT @PN_Speak: Navy personnel of PS36 in Palawan transported relief goods for Cuyo, Agutaya and Magsaysay municipality. #RubyPH http://t.co/…</tweet>
+    <prediction>CA</prediction>
+    <actual>D</actual>
+    <extracted>
+        <locationInTweet>Palawan, Cuyo, Agutaya, Magsaysay</locationInTweet>
+        <resourceName>relief goods</resourceName>
+        <resourceDetail/>
+        <victimName/>
+    </extracted>
+  </tweet>
+  <tweet id="20">
+    <user>TropangMARangal</user>
+    <tweet>RT @PN_Speak: Navy personnel of PS36 in Palawan transported relief goods for Cuyo, Agutaya and Magsaysay municipality. #RubyPH http://t.co/…</tweet>
+    <prediction>CA</prediction>
+    <actual>D</actual>
+    <extracted>
+        <locationInTweet>Palawan, Cuyo, Agutaya, Magsaysay</locationInTweet>
+        <resourceName>relief goods</resourceName>
+        <resourceDetail/>
+        <victimName/>
+    </extracted>
+  </tweet>
+  <tweet id="21">
+    <user>yvan_zenith</user>
+    <tweet>RT @PN_Speak: Navy personnel of PS36 in Palawan transported relief goods for Cuyo, Agutaya and Magsaysay municipality. #RubyPH http://t.co/…</tweet>
+    <prediction>CA</prediction>
+    <actual>D</actual>
+    <extracted>
+        <locationInTweet>Palawan, Cuyo, Agutaya, Magsaysay</locationInTweet>
+        <resourceName>relief goods</resourceName>
+        <resourceDetail/>
+        <victimName/>
+    </extracted>
+  </tweet>
+  <tweet id="22">
+    <user>cocoy</user>
+    <tweet>RT @PN_Speak: Navy personnel of PS36 in Palawan transported relief goods for Cuyo, Agutaya and Magsaysay municipality. #RubyPH http://t.co/…</tweet>
+    <prediction>CA</prediction>
+    <actual>D</actual>
+    <extracted>
+        <locationInTweet>Palawan, Cuyo, Agutaya, Magsaysay</locationInTweet>
+        <resourceName>relief goods</resourceName>
+        <resourceDetail/>
+        <victimName/>
+    </extracted>
+  </tweet>
+  <tweet id="23">
+    <user>enjayneer</user>
+    <tweet>RT @PN_Speak: Navy personnel of PS36 in Palawan transported relief goods for Cuyo, Agutaya and Magsaysay municipality. #RubyPH http://t.co/…</tweet>
+    <prediction>CA</prediction>
+    <actual>D</actual>
+    <extracted>
+        <locationInTweet>Palawan, Cuyo, Agutaya, Magsaysay</locationInTweet>
+        <resourceName>relief goods</resourceName>
+        <resourceDetail/>
+        <victimName/>
+    </extracted>
+  </tweet>
+  <tweet id="24">
+    <user>UnangHirit</user>
+    <tweet>Mahigit 200,000 family food packs, inihahanda na ng DSWD para maapektuhan ng Bagyong #RubyPH #UnangHirit</tweet>
+    <prediction>O</prediction>
+    <actual>D</actual>
+    <extracted>
+        <locationInTweet/>
+        <resourceName>family food packs</resourceName>
+        <resourceDetail>200,000</resourceDetail>
+        <victimName/>
+    </extracted>
+  </tweet>
+  <tweet id="25">
+    <user>Lizzy99677068</user>
+    <tweet>RT @UnangHirit: Mahigit 200,000 family food packs, inihahanda na ng DSWD para maapektuhan ng Bagyong #RubyPH #UnangHirit</tweet>
+    <prediction>O</prediction>
+    <actual>D</actual>
+    <extracted>
+        <locationInTweet/>
+        <resourceName>family food packs</resourceName>
+        <resourceDetail>200,000</resourceDetail>
+        <victimName/>
+    </extracted>
+  </tweet>
+  <tweet id="26">
+    <user>gmanews</user>
+    <tweet>Inihahanda na ng @dswdserves ang mahigit 200,000 family food packs para sa maapektuhan ng Bagyong #RubyPH. | via @UnangHirit</tweet>
+    <prediction>CA</prediction>
+    <actual>D</actual>
+    <extracted>
+        <locationInTweet/>
+        <resourceName>family food packs</resourceName>
+        <resourceDetail>200,000</resourceDetail>
+        <victimName/>
+    </extracted>
+  </tweet>
+  <tweet id="27">
+    <user>romeoalltheway</user>
+    <tweet>RT @gmanews: Inihahanda na ng @dswdserves ang mahigit 200,000 family food packs para sa maapektuhan ng Bagyong #RubyPH. | via @UnangHirit</tweet>
+    <prediction>CA</prediction>
+    <actual>D</actual>
+    <extracted>
+        <locationInTweet/>
+        <resourceName>family food packs</resourceName>
+        <resourceDetail>200,000</resourceDetail>
+        <victimName/>
+    </extracted>
+  </tweet>
+  <tweet id="28">
+    <user>UnangHirit</user>
+    <tweet>Mahigit 200,000 family food packs, inihanda na ng @dswdserves #UnangHirit #RubyPH</tweet>
+    <prediction>O</prediction>
+    <actual>D</actual>
+    <extracted>
+        <locationInTweet/>
+        <resourceName>family food packs</resourceName>
+        <resourceDetail>200,000</resourceDetail>
+        <victimName/>
+    </extracted>
+  </tweet>
+  <tweet id="29">
+    <user>DZMMTeleRadyo</user>
+    <tweet>PHOTO: Mga paaralan, gym, at court sa Tacloban, ginawa munang evacuation center http://t.co/gXmhMd1VDN #RubyPH | via @zhandercayabyab</tweet>
+    <prediction>CA</prediction>
+    <actual>D</actual>
+    <extracted>
+        <locationInTweet>Tacloban</locationInTweet>
+        <resourceName>paaralan, gym, at court</resourceName>
+        <resourceDetail/>
+        <victimName/>
+    </extracted>
+  </tweet>
+  <tweet id="30">
+    <user>_jamesagustin</user>
+    <tweet>509,620 katao o 102,714 na pamilya, nailikas na sa mga evacuation center sa Regions 5, 6, 7 at 8 ayon sa NDRRMC. #RubyPH @dzbb</tweet>
+    <prediction>O</prediction>
+    <actual>D</actual>
+    <extracted>
+        <locationInTweet>Regions 5, 6, 7 at 8</locationInTweet>
+        <resourceName>katao, pamilya</resourceName>
+        <resourceDetail>509,620, 102,714</resourceDetail>
+        <victimName/>
+    </extracted>
+  </tweet>
+  <tweet id="31">
+    <user>ohhhace</user>
+    <tweet>"@9newsph: SM Supermalls in Metro Manila to offer free overnight parking due to #RubyPH #9newsph" Eh sa Shang ako naka park -_-</tweet>
+    <prediction>O</prediction>
+    <actual>D</actual>
+    <extracted>
+        <locationInTweet>SM Supermalls, Metro Manila</locationInTweet>
+        <resourceName/>
+        <resourceDetail/>
+        <victimName/>
+    </extracted>
+  </tweet>
+  <tweet id="32">
+    <user>margaerydesu</user>
+    <tweet>"@ANCALERTS: Globe offers free calls from 8 countries to PH http://t.co/UXoxlzq0Gg #RubyPH" tapos hanggang ngayon walang signal salamat -.-</tweet>
+    <prediction>O</prediction>
+    <actual>D</actual>
+    <extracted>
+        <locationInTweet/>
+        <resourceName>free calls</resourceName>
+        <resourceDetail/>
+        <victimName/>
+    </extracted>
+  </tweet>
+  <tweet id="33">
+    <user>ryanph23</user>
+    <tweet>"@dzbb: United Nations (@UN), nangako ng tulong para sa mga naging biktima ng Bagyong #RubyPH. " Grabe na ngiti ng mgs pulitiko ngayon</tweet>
+    <prediction>CA</prediction>
+    <actual>D</actual>
+    <extracted>
+   		<locationInTweet/>
+        <resourceName/>
+        <resourceDetail/>
+        <victimName/>
+    </extracted>
+  </tweet>
+  <tweet id="34">
+    <user>msagapinan</user>
+    <tweet>"@DZMMTeleRadyo: Sagip Kapamilya, tumatanggap na ng donasyon para sa mga apektado ni #RubyPH http://t.co/QVY6jnKxH9 http://t.co/pvAFoWwgSv"</tweet>
+    <prediction>CA</prediction>
+    <actual>D</actual>
+    <extracted>
+   		<locationInTweet/>
+        <resourceName>donasyon</resourceName>
+        <resourceDetail/>
+        <victimName/>
+    </extracted>
+  </tweet>
+  <tweet id="35">
+    <user>dailygasms</user>
+    <tweet>"@gmanews: Australia providing 800 tons rice for #RubyPH victims http://t.co/6YaL5Qiftr" - baka naman masira lang ulit ha.</tweet>
+    <prediction>CA</prediction>
+    <actual>D</actual>
+    <extracted>
+   		<locationInTweet>Australia</locationInTweet>
+        <resourceName>rice</resourceName>
+        <resourceDetail>800 tons</resourceDetail>
+        <victimName/>
+    </extracted>
+  </tweet>
+  <tweet id="36">
+    <user>PIANewsDesk</user>
+    <tweet>#DSWD sending 900 family food packs to Cuyo, Agutaya, Magsaysay. #RubyPH #reliefPH | via @PiaPalawan #mediangbayan</tweet>
+    <prediction>O</prediction>
+    <actual>D</actual>
+    <extracted>
+   		<locationInTweet>Cuyo, Agutaya, Magsaysay</locationInTweet>
+        <resourceName>family food packs</resourceName>
+        <resourceDetail>900</resourceDetail>
+        <victimName/>
+    </extracted>
+  </tweet>
+  <tweet id="37">
+    <user>dzrhnews</user>
+    <tweet>#RubyPH:Maguindanao Gov. Toto Mangudadatu, handang magbigay ng bangus sa mga mabibiktima ng bagyo via Jun Dimacutac RH19</tweet>
+    <prediction>O</prediction>
+    <actual>D</actual>
+    <extracted>
+    	<locationInTweet/>
+        <resourceName>bangus</resourceName>
+        <resourceDetail/>
+        <victimName/>
+    </extracted>
+  </tweet>
+  <tweet id="38">
+    <user>aidenatapaz</user>
+    <tweet>#TulongKabataan Manila Drop-off point: @anakbayan_ph @LFSphilippines Offices, 444 M.F. Jhocson St., Sampaloc, Manila City. #ReliefPH #RubyPH</tweet>
+    <prediction>O</prediction>
+    <actual>D</actual>
+    <extracted>
+   		<locationInTweet>Manila, 444 M.F. Jhocson St., Sampaloc, Manila City</locationInTweet>
+        <resourceName/>
+        <resourceDetail/>
+        <victimName/>
+    </extracted>
+  </tweet>
+  <tweet id="39">
+    <user>TulongKabataan</user>
+    <tweet>#TulongKabataan Manila Drop-off point: @anakbayan_ph @LFSphilippines Offices, 444 M.F. Jhocson St., Sampaloc, Manila City. #ReliefPH #RubyPH</tweet>
+    <prediction>O</prediction>
+    <actual>D</actual>
+    <extracted>
+   		<locationInTweet>Manila, 444 M.F. Jhocson St., Sampaloc, Manila City</locationInTweet>
+        <resourceName/>
+        <resourceDetail/>
+        <victimName/>
+    </extracted>
+  </tweet>
+  <tweet id="40">
+    <user>ABSCBNNews</user>
+    <tweet>(1/3) Bilang paghahanda sa maaaring maging epekto ng #RubyPH, hinihikayat ang ating tulong...</tweet>
+    <prediction>O</prediction>
+    <actual>D</actual>
+    <extracted>
+   		<locationInTweet/>
+        <resourceName/>
+        <resourceDetail/>
+        <victimName/>
+    </extracted>
+  </tweet>
+  <tweet id="41">
+    <user>ABSCBNNews</user>
+    <tweet>(2/3) ...lalo na para sa mga pangunahing pangangailangan, gaya ng bigas, canned goods, at noodles para sa ating mga Kapamilya... #RubyPH</tweet>
+    <prediction>O</prediction>
+    <actual>D</actual>
+    <extracted>
+   		<locationInTweet/>
+        <resourceName>bigas, canned goods at noodles</resourceName>
+        <resourceDetail/>
+        <victimName/>
+    </extracted>
+  </tweet>
+  <tweet id="42">
+    <user>ABSCBNNews</user>
+    <tweet>(3/3) Maaari po nating dalhin ang ating tulong simula December 6 (Sabado), 1 p.m., sa PBB House, Quezon City. Salamat po. #RubyPH</tweet>
+    <prediction>O</prediction>
+    <actual>D</actual>
+    <extracted>
+   		<locationInTweet>PBB House, Quezon City</locationInTweet>
+        <resourceName/>
+        <resourceDetail/>
+        <victimName/>
+    </extracted>
+  </tweet>
+  <tweet id="43">
+    <user>miriamgracego</user>
+    <tweet>(3/4) @enjoyGLOBE free phone charging in Tacloban, 8am-6pm, Dec 9-10: Benloi Grocery, Bgy 94, Lower Nula-tula Palo Public Market #RubyPH</tweet>
+    <prediction>O</prediction>
+    <actual>D</actual>
+    <extracted>
+   		<locationInTweet>Tacloban, Benloi Grocery, Bgy 94, Lower Nula-tula Palo Public Market</locationInTweet>
+        <resourceName>phone charging</resourceName>
+        <resourceDetail/>
+        <victimName/>
+    </extracted>
+  </tweet>
+  <tweet id="44">
+    <user>AldrinYumul1</user>
+    <tweet>Yung baby ko lumusong pa sa baha makabili lang. tangina ng boyfriend niya walang kwenta!</tweet>
+    <prediction>O</prediction>
+    <actual>O</actual>
+    </extracted>
+  </tweet>
+  <tweet id="45">
+    <user>Jnnlyngongora</user>
+    <tweet>Bat ganon, ginagawang swimming pool ng mga tambay sa labas yung baha? Nagda-dive pa sila</tweet>
+    <prediction>O</prediction>
+    <actual>O</actual>
+    <extracted/>
+  </tweet>
+  <tweet id="46">
+    <user>MJQuierrez</user>
+    <tweet>hirap ng buhay pag baha ang loob ng bahay ayaw magsilusong pistii! hahaha</tweet>
+    <prediction>O</prediction>
+    <actual>O</actual>
+    <extracted/>
+  </tweet>
+  <tweet id="47">
+    <user>haliiiberry</user>
+    <tweet>RT @ogiediaz: Nag-txt si Mahal. Hanggang leeg na raw niya ang baha sa kanilang lugar.</tweet>
+    <prediction>O</prediction>
+    <actual>O</actual>
+    <extracted/>
+  </tweet>
+  <tweet id="48">
+    <user>empsnombrefia</user>
+    <tweet>@JCavida  mag alabang ka nlng .. wlang baha dun</tweet>
+    <prediction>O</prediction>
+    <actual>O</actual>
+    <extracted/>
+  </tweet>
+  <tweet id="49">
+    <user>kenzo_official</user>
+    <tweet>may nakita akong taga-pharma/CRS student kanina na lumulusong sa baha :O</tweet>
+    <prediction>O</prediction>
+    <actual>O</actual>
+    <extracted/>
+  </tweet>
+  <tweet id="50">
+    <user>DyooshwaaH</user>
+    <tweet>#DahilMayBagyoNgayon , Utang na loob itigil mo na ang pagkanta! Hahaha :D Baha na O! Hahaha :D #HugotSaTagUlan</tweet>
+    <prediction>O</prediction>
+    <actual>O</actual>
+    </extracted>
+  </tweet>
+  <tweet id="51">
+    <user>graciellemarfal</user>
+    <tweet>sana hangang dyan na lang yung baha http://t.co/0PhNT4Q0mV</tweet>
+    <prediction>O</prediction>
+    <actual>O</actual>
+    <extracted/>
+  </tweet>
+  <tweet id="52">
+    <user>rannahraymundo</user>
+    <tweet>Ahang baha pa rin.</tweet>
+    <prediction>O</prediction>
+    <actual>O</actual>
+    <extracted/>
+  </tweet>
+  <tweet id="53">
+    <user>landerddizon</user>
+    <tweet>Kahit na malakas ulan yung baha samin di na tumas bagkus bumababa pa. God is Good. :)</tweet>
+    <prediction>O</prediction>
+    <actual>O</actual>
+    <extracted/>
+  </tweet>
+  <tweet id="54">
+    <user>ailaroleeeene</user>
+    <tweet>@hotflamequeen mas buwis buhay akin juskoday mabasa basa na ko ng baha</tweet>
+    <prediction>O</prediction>
+    <actual>O</actual>
+    <extracted/>
+  </tweet>
+  <tweet id="55">
+    <user>TGIFritz</user>
+    <tweet>RT @ogiediaz: Nag-txt si Mahal. Hanggang leeg na raw niya ang baha sa kanilang lugar.</tweet>
+    <prediction>O</prediction>
+    <actual>O</actual>
+    <extracted/>
+  </tweet>
+  <tweet id="56">
+    <user>BLINK_joseph</user>
+    <tweet>Wala pa din tigil ang ulan! Baha na sa mga daanan, Ingat po tayong lahat . Godbless... #Pray</tweet>
+    <prediction>O</prediction>
+    <actual>O</actual>
+    <extracted/>
+  </tweet>
+  <tweet id="57">
+    <user>CabzLhen</user>
+    <tweet>@KrystalReyes08 nakow tong batang to,bawal lumusong sa baha.</tweet>
+    <prediction>O</prediction>
+    <actual>O</actual>
+    <extracted/>
+  </tweet>
+  <tweet id="58">
+    <user>wilengg</user>
+    <tweet>RT @Crushandra: @wilengg Inamo Carla! Hahahaha. Di ka pala tatangayin ng baha lulutang ka lang. Sakto may salbabida na si Robert XD Jk. Lab…</tweet>
+    <prediction>O</prediction>
+    <actual>O</actual>
+    <extracted/>
+  </tweet>
+  <tweet id="59">
+    <user>neiosep</user>
+    <tweet>"@TheUSTF: Hindi pa rin humuhupa yung ulan at baha. Tulad ng feelings ko sayo. #HugotSaTagUlan"</tweet>
+    <prediction>O</prediction>
+    <actual>O</actual>
+    <extracted/>
+  </tweet>
+  <tweet id="60">
+    <user>batangshane</user>
+    <tweet>@imFourthPagotan kuya, wala bang baha dyan?</tweet>
+    <prediction>O</prediction>
+    <actual>O</actual>
+    <extracted/>
+  </tweet>
+  <tweet id="61">
+    <user>Jendesuu</user>
+    <tweet>“@FunnyPinoyQuote: Wag kang lumusong sa baha baka lumutang ka, plastic ka pa naman.�? Ayy</tweet>
+    <prediction>O</prediction>
+    <actual>O</actual>
+    <extracted/>
+  </tweet>
+  <tweet id="62">
+    <user>James08080808</user>
+    <tweet>@zoletamarianne baha hanggang tuhod .pati yung pagmamahal ko nadala na ng baha -__-</tweet>
+    <prediction>O</prediction>
+    <actual>O</actual>
+    <extracted/>
+  </tweet>
+  <tweet id="63">
+    <user>RusselLopezzz</user>
+    <tweet>RT @Caaaaabs: kung ganito lang sana ang baha magtatampisaw talaga ako hahaha  #MarioPH #HugotSaTagUlan http://t.co/OfSSapDFHz</tweet>
+    <prediction>O</prediction>
+    <actual>O</actual>
+    <extracted/>
+  </tweet>
+  <tweet id="64">
+    <user>jhecai21</user>
+    <tweet>1 hour to go!  Please sana tumigilan na yung ulan  How can we go home?  Baha Wlang masakyan Kung walkng trip... http://t.co/BPSIqyGDs9</tweet>
+    <prediction>O</prediction>
+    <actual>O</actual>
+    <extracted/>
+  </tweet>
+  <tweet id="65">
+    <user>jamie_aniza199</user>
+    <tweet>Prayers work♥I prayed Psalm 91 ng 5 or 6 times then humupa yung baha at ambon na lang yung napaka lakas na ulan kanina :) #ThankGod #MarioPH</tweet>
+    <prediction>O</prediction>
+    <actual>O</actual>
+    <extracted/>
+  </tweet>
+  <tweet id="66">
+    <user>faayefort</user>
+    <tweet>@CHESKAA_x baha :(</tweet>
+    <prediction>O</prediction>
+    <actual>O</actual>
+    <extracted/>
+  </tweet>
+  <tweet id="67">
+    <user>yeolificent</user>
+    <tweet>RT @SOUKOR: "Bhe hanggang dibdib na yung baha dito samin!" "Wag mo kong lokohin wala kang dibdib!"</tweet>
+    <prediction>O</prediction>
+    <actual>O</actual>
+    <extracted/>
+  </tweet>
+  <tweet id="68">
+    <user>tuunggg</user>
+    <tweet>watching news... bahang baha na sa ibang lugar</tweet>
+    <prediction>O</prediction>
+    <actual>O</actual>
+    </extracted>
+  </tweet>
+  <tweet id="69">
+    <user>fartingfaust</user>
+    <tweet>MALUNOD KA SANA SA BAHA ! HAYUP!</tweet>
+    <prediction>O</prediction>
+    <actual>O</actual>
+    <extracted/>
+  </tweet>
+  <tweet id="70">
+    <user>trishannee</user>
+    <tweet>@joistxxi oo baha na jan</tweet>
+    <prediction>O</prediction>
+    <actual>O</actual>
+    <extracted/>
+  </tweet>
+  <tweet id="71">
+    <user>cleodlpz_</user>
+    <tweet>RT @Caaaaabs: kung ganito lang sana ang baha magtatampisaw talaga ako hahaha  #MarioPH #HugotSaTagUlan http://t.co/OfSSapDFHz</tweet>
+    <prediction>O</prediction>
+    <actual>O</actual>
+    <extracted/>
+  </tweet>
+  <tweet id="72">
+    <user>crankygrande</user>
+    <tweet>@ariwantspizza oh, hahaha. :) di pa naman baha dito. eh sa inyo?</tweet>
+    <prediction>O</prediction>
+    <actual>O</actual>
+    <extracted/>
+  </tweet>
+  <tweet id="73">
+    <user>jeriminion</user>
+    <tweet>Baha pa ba sa buendia..</tweet>
+    <prediction>O</prediction>
+    <actual>O</actual>
+    <extracted/>
+  </tweet>
+  <tweet id="74">
+    <user>thmxzsiieeyyy</user>
+    <tweet>medyo bumababa na yung baha sa mga lugar (based sa live telecast on tv) #HaySalamat #ThankYouLord</tweet>
+    <prediction>O</prediction>
+    <actual>O</actual>
+    <extracted/>
+  </tweet>
+  <tweet id="75">
+    <user>helloadimiguel</user>
+    <tweet>Naglalabas na ng sama ng loob si Mario nagselfie ka pa din sa baha, b3h? Ano 'to, b3h?</tweet>
+    <prediction>O</prediction>
+    <actual>O</actual>
+    <extracted/>
+  </tweet>
+  <tweet id="76">
+    <user>xMMxi_</user>
+    <tweet>Ang hirap umuwi .. Sumuuong na kami ng baha sa Espana ..nakakaiyak na experience tong araw na to ..</tweet>
+    <prediction>O</prediction>
+    <actual>O</actual>
+    <extracted/>
+  </tweet>
+  <tweet id="77">
+    <user>MaeBave18</user>
+    <tweet>grabi mn day ang baha sa manila ngee.wa jd ko na inform x hahays</tweet>
+    <prediction>O</prediction>
+    <actual>O</actual>
+    <extracted/>
+  </tweet>
+  <tweet id="78">
+    <user>Immchaelcarag</user>
+    <tweet>saan ba my baha dito? .tututlong na ako  :) &lt;3 http://t.co/497ZBhl5QM</tweet>
+    <prediction>O</prediction>
+    <actual>O</actual>
+    <extracted/>
+  </tweet>
+  <tweet id="79">
+    <user>_auieballss</user>
+    <tweet>@itugotDMD @lexzxc pero forced evacuation na sa bacoor. Baha na sa palico and bayanan.</tweet>
+    <prediction>O</prediction>
+    <actual>O</actual>
+    <extracted/>
+  </tweet>
+  <tweet id="80">
+    <user>plenkylor</user>
+    <tweet>di kami makabili ng food kasi baha pa.  puro delata naman nakikita kong pagkain dito. huhu</tweet>
+    <prediction>O</prediction>
+    <actual>O</actual>
+    <extracted/>
+  </tweet>
+  <tweet id="81">
+    <user>smnthpatio</user>
+    <tweet>"@TheUSTF: Hindi pa rin humuhupa yung ulan at baha. Tulad ng feelings ko sayo. #HugotSaTagUlan"</tweet>
+    <prediction>O</prediction>
+    <actual>O</actual>
+    <extracted/>
+  </tweet>
+  <tweet id="82">
+    <user>KhailSenpai</user>
+    <tweet>RT @TheUSTF: Hindi pa rin humuhupa yung ulan at baha. Tulad ng feelings ko sayo. #HugotSaTagUlan</tweet>
+    <prediction>O</prediction>
+    <actual>O</actual>
+    <extracted/>
+  </tweet>
+  <tweet id="83">
+    <user>iheart003</user>
+    <tweet>@roetan hala. grabe nga daw baha jan. ingat sir.</tweet>
+    <prediction>O</prediction>
+    <actual>O</actual>
+    <extracted/>
+  </tweet>
+  <tweet id="84">
+    <user>keBONGGGGG</user>
+    <tweet>@NathanTheSatan hahahaha puta malamang hindi umabot baha jan noh?</tweet>
+    <prediction>O</prediction>
+    <actual>O</actual>
+    <extracted/>
+  </tweet>
+  <tweet id="85">
+    <user>yevocals</user>
+    <tweet>HALA YUNG BAHAY NAMIN SARIZAL NAPASOK NG BAHA SHET YUNG TV!!!!!</tweet>
+    <prediction>O</prediction>
+    <actual>O</actual>
+    <extracted/>
+  </tweet>
+  <tweet id="86">
+    <user>aierandmiggy_</user>
+    <tweet>@autumnganda Baha sa baba ng bahay nyo?</tweet>
+    <prediction>O</prediction>
+    <actual>O</actual>
+    <extracted/>
+  </tweet>
+</dataset>
+

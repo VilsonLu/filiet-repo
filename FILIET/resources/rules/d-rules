@@ -1,4 +1,6 @@
+<Category>: D
 <ner:LOCATION>[as]LOCATION
 <pos:VOBF> <pos:NA> <pos:NA> <pos:NN>[as]DONATION
 <number:ANY> <ner:UNIT>[as]UNIT
 <number:ANY> <pos:NN:UN> <ner:UNIT>[as]UNIT <string:packs>
+<end>
