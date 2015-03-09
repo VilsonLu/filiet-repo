@@ -18,9 +18,9 @@ public class Driver {
 		String category = "combined";
 		String tweets = "./resources/tweets/ruby-datasets/original/ruby-"+category+".csv";
 		String ngram = "./resources/model/ngram/ruby-ngram";
-		String word = "./resources/model/word/ruby-word";
+		String word = "./resources/model/TFIDF-Scores/features-10/combined-features-10";
 		//String saveModel = "./resources/tweets/test-extracted/mario-tfidf/mario-rubytrained-combined.csv";
-		String saveModel = "./resources/tweets/test-extracted/ruby-tfidf/ruby-"+category+".csv";
+		String saveModel = "./resources/tweets/test-extracted/ruby-tfidf/ruby-"+category+"-10.csv";
 		String testTweets = "./resources/tweets/ruby-datasets/original/combined-bin-d.csv";
 
 		

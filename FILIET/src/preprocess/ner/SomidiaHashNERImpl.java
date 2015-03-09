@@ -35,13 +35,18 @@ public class SomidiaHashNERImpl implements NERInterface {
 			} else if (line.contains("MONTH")) {
 				category = "month";
 			} else {
-				lookup.put(line, category);
+				lookup.put(line.toLowerCase(), category);
 			}
 		}
 
 		s.close();
 	}
 
+	public void test(String text){
+		String result = lookup.get(text);
+		System.out.println(result+" " +text);
+	}
+	
 	@Override
 	public Sentence execute(Sentence tweet) {
 		// TODO Auto-generated method stub
@@ -50,7 +55,6 @@ public class SomidiaHashNERImpl implements NERInterface {
 			String ner = lookup.get(token.getWord().toLowerCase());
 			if (ner != null) {
 				token.setNERTag(ner);
-				token.setPOSTag("NN");
 				tweet.replaceToken(i, token);
 			}
 		}

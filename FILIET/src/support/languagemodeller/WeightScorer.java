@@ -189,6 +189,10 @@ public class WeightScorer {
 		writer.close();
 		System.out.println("Saving successful...");
 	}
+	
+	public int computeSize(){
+		return weights.size();
+	}
 
 	class CustomComparator implements Comparator<Map.Entry<String, Double>> {
 		@Override

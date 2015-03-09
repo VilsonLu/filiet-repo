@@ -61,6 +61,10 @@ public class PreprocessorManager {
 		String normalizedTweet = normalizer.executeStrategy(text);
 		System.out.println(normalizedTweet);
 
+<<<<<<< HEAD
+=======
+		//String normalizedTweet = text;
+>>>>>>> e4ae494d1c24580b9a42741a4751fa34dedafbd4
 		// Tokenizer
 		tokens = tokenizer.executeStrategy(normalizedTweet);
 		System.out.println("Tokenizer: ");

@@ -11,6 +11,7 @@ import support.model.Sentence;
 import support.other.XmlParser;
 import testing.Testing;
 import crawler.TwitterCrawler;
+import evaluate.Evaluator;
 import featureextraction.FeatureExtractor;
 
 
@@ -18,7 +19,7 @@ public class Driver {
 
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
-		String testTweets = "./resources/tweets/ruby-datasets/original/ruby-combined.csv";
+		String testTweets = "./resources/tweets/ruby-datasets/original/combined-bin-ca.csv";
 		
 		System.out.println("FILIET - Filipino Information Extraction for Twitter");
 		System.out.println("Running: " + testTweets);
@@ -42,7 +43,10 @@ public class Driver {
 			processedSentences.add(extractorEngine.runExtractor(sentence));
 		}
 		
-		//XmlParser.saveXML(processedSentences, "./resources/results/test.xml");
+
+		XmlParser.saveXML(processedSentences, "./resources/results/ca-reference.xml");
+	//	Evaluator evaluator = new Evaluator();
+	//	evaluator.evaluateDatasetCD(processedSentences, "./resources/results/test/cd-testreference.xml");
 	
 	}
 }

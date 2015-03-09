@@ -122,7 +122,7 @@ public class Binder {
 		if (objectDetail != null) {
 			cd.setObjectDetails(objectDetail);
 		} else {
-			cd.setObjectName("null");
+			cd.setObjectDetails("null");
 		}
 		
 		if(locationInTweet != null){
@@ -164,8 +164,8 @@ public class Binder {
 			for (ExtractedInformation i : eInfo) {
 				if (i.getInformationType() != null) {
 					if (i.getInformationType().equalsIgnoreCase("DETAIL")) {
-						resourceDetail = i.getValue().getWord();
-					} else if (i.getInformationType().equalsIgnoreCase("UNIT")) {
+						resourceDetail += i.getValue().getWord();
+					} else if (i.getInformationType().equalsIgnoreCase("UNIT") || i.getInformationType().equalsIgnoreCase("NUMBER")) {
 						resourceName = i.getValue().getWord();
 					} else if (i.getInformationType()
 							.equalsIgnoreCase("VICTIM")) {
@@ -174,7 +174,7 @@ public class Binder {
 						if (locationInTweet == null) {
 							locationInTweet = i.getValue().getWord();
 						} else {
-							locationInTweet += ", " + i.getValue().getWord();
+							locationInTweet += i.getValue().getWord();
 						}
 					}
 				}

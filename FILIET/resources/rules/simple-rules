@@ -12,16 +12,25 @@
 <string:#walangpasok> <string:sa> <pos:PIDP> <pos:NA> <string:antas>
 <end>
 <Category>: CD
-<number:ANY>[as]DETAIL <pos:NA> <pos:NA> <string:ANY> <ner:UNIT>[as]UNIT
+<number:ANY>[as]NUMBER <pos:NA> <pos:NA> <string:ANY> <ner:UNIT>[as]UNIT
 <pos:NA> <pos:NCOM> <pos:NA> <pos:NCOM>
-<pos:NCOM> <ner:LOCATION>[as]LOCATION
-<number:ANY>[as]DETAIL <ner:UNIT>[as]UNIT
-<ner:LOCATION>[as]LOCATION <pos:PSNS>
+<number:ANY>[as]NUMBER <ner:UNIT>[as]UNIT
+<ner:LOCATION>[as]LOCATION
 <pos:NCOM> <pos:NA> <pos:NCOM>[as]OBJECT
 <string:sa> <pos:PINP> <pos:NN>
 <string:sa> <pos:JJ> <ner:LOCATION>[as]LOCATION
-<string:state> <string:of> <string:calamity>
+<string:state>[as]DETAIL <string:of>[as]DETAIL <string:calamity>[as]DETAIL
 <pos:JJ> <ner:LOCATION>[as]LOCATION
+<ner:LOCATION>[as]LOCATION <pos:NN>[as]LOCATION
+<pos:VOBF>[as]DETAIL <pos:NA> <string:#RubyPH>[as]DETAIL
+<pos:NA> <pos:NCOM>[as]OBJECT
+<pos:ADUN>[as]DETAIL <pos:NCOM> <pos:NCOM>[as]DETAIL
+<pos:NA> <pos:NN>[as]OBJECT
+<pos:ADOT> <pos:NCOM>
+<number:ANY>[as]DETAIL <string:na> <string:ang> <pos:JJ> <ner:UNIT>[as]OBJECT
+<number:ANY>[as]DETAIL <pos:NNS>[as]UNIT
+<pos:NCOM>[as]DETAIL <string:at>[as]DETAIL <pos:NCOM>[as]DETAIL
+<string:walang>[as]DETAIL <string:naitalang> <ner:UNIT>[as]UNIT
 <end>
 <Category>: CH
 <pos:MANH> <pos:CONG> <pos:NCOM>

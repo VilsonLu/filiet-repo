@@ -34,14 +34,15 @@ public class Grammar {
 	}
 
 	public void printRules(){
+		String print = "";
 		for(Rule r: rules){
-			System.out.println("Left: " + r.getType());
-			System.out.println("Right: " + r.getValue());
-			System.out.println("Extraction: " + r.getAsExtraction());
+			print += "<"+r.getType()+":"+r.getValue()+">";
 			if(r.getAsExtraction() != null){
-				System.out.println(r.getAsExtraction());
+				print+="[as]"+r.getAsExtraction()+" ";
 			}
-			System.out.println();
+			
+			
 		}
+		System.out.println(print);
 	}
 }
