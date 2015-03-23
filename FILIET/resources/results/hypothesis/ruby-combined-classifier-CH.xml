@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset name="ruby-dataset">
+  <tweet id="1232">
+    <user>earl_ezpeleta</user>
+    <tweet>Sana naman ipriority talaga ng local government lalo na sa Visayas yung pagtulong sa mga maaapektuhan ng Bagyo. #RubyPH</tweet>
+    <prediction>CD</prediction>
+    <actual>CH</actual>
+    <extracted />
+  </tweet>
+  <tweet id="1254">
+    <user>mariangavalon</user>
+    <tweet>News update: Di pa rin tapos sa pamimigay ng relief goods and paglilista kung ilang mga households ang nag evacuate #RubyPH</tweet>
+    <prediction>CA</prediction>
+    <actual>CH</actual>
+    <extracted />
+  </tweet>
+  <tweet id="1262">
+    <user>JoshAne_Ashmatt</user>
+    <tweet>"@DZMMTeleRadyo: Taft, E. Samar Mayor Libanan: Kailangan talaga namin ng food supply, mauubusan na po kami rito #RubyPH"</tweet>
+    <prediction>CA</prediction>
+    <actual>CH</actual>
+    <extracted />
+  </tweet>
+  <tweet id="1381">
+    <user>TheWingedImago</user>
+    <tweet>RT @philredcross @RescuePH @MarikinaPIO @MMDA Aquilino Silva, Blk 66 Roga Compound, Tumana, Marikina. 09267777459. #RescuePH</tweet>
+    <prediction>CD</prediction>
+    <actual>CH</actual>
+    <extracted />
+  </tweet>
+  <tweet id="1398">
+    <user>maphnie</user>
+    <tweet>More than 2k families na yung nasa Sto. Domingo Church. Hindi na nila kaya iaccommodate lahat. Need food &amp; water. #ReliefPH</tweet>
+    <prediction>CD</prediction>
+    <actual>CH</actual>
+    <extracted />
+  </tweet>
+  <tweet id="1402">
+    <user>MattLeeShoots</user>
+    <tweet>RT @maphnie: More than 2k families na yung nasa Sto. Domingo Church. Hindi na nila kaya iaccommodate lahat. Need food &amp; water. #ReliefPH</tweet>
+    <prediction>CD</prediction>
+    <actual>CH</actual>
+    <extracted />
+  </tweet>
+  <tweet id="1404">
+    <user>SheWantsTheDIM</user>
+    <tweet>RT @maphnie: More than 2k families na yung nasa Sto. Domingo Church. Hindi na nila kaya iaccommodate lahat. Need food &amp; water. #ReliefPH</tweet>
+    <prediction>CD</prediction>
+    <actual>CH</actual>
+    <extracted />
+  </tweet>
+  <tweet id="1405">
+    <user>icohizon</user>
+    <tweet>RT @maphnie: More than 2k families na yung nasa Sto. Domingo Church. Hindi na nila kaya iaccommodate lahat. Need food &amp; water. #ReliefPH</tweet>
+    <prediction>CD</prediction>
+    <actual>CH</actual>
+    <extracted />
+  </tweet>
+  <tweet id="1445">
+    <user>cincodeziall</user>
+    <tweet>Purok 5, Indigo Phase 1, Malanday, Marikina, Muntinlupa, Metro Manila #RescuePH</tweet>
+    <prediction>CD</prediction>
+    <actual>CH</actual>
+    <extracted />
+  </tweet>
+</dataset>
+

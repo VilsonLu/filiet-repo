@@ -83,7 +83,6 @@ public class WeightScorer {
 		System.out.println(vocabularies.size());
 		for (String word : vocabularies) {
 			weights.put(word, computeTFIDF(word));
-			System.out.println(word + ":" + weights.get(word));
 		}
 
 		return weights;
@@ -116,9 +115,7 @@ public class WeightScorer {
 					}
 				}
 
-			} else {
-				System.out.println("Else stopword " + entry.getKey());
-			}
+			} 
 		}
 
 		// Sort the list into ascending order
@@ -147,12 +144,23 @@ public class WeightScorer {
 			return false;
 		}
 
+		if(Filter.hasSpecialCharacters(word)){
+			return false;
+		}
+		
+		if(Filter.hasDiacritic(word)){
+			return false;
+		}
+		
 		// removes urls
-		String url = "\\b(?:http|https):\\/{2}\\S+\\b";
-		if (word.matches(url)) {
+		if (word.contains("http")) {
 			return false;
 		}
 
+		if(Filter.isNumeric(word)){
+			return false;
+		}
+		
 		// removes numbers
 		if (word.matches("[0-9]+")) {
 			return false;

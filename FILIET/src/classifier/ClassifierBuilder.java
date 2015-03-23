@@ -20,27 +20,48 @@ import weka.filters.unsupervised.attribute.Remove;
 
 public class ClassifierBuilder {
 
-	private String wordPath = "./resources/model/word/ruby-word";
-	private String ngramPath = "./resources/model/ngram/ruby-ngram";
+	public final static String CA = "CA";
+	public final static String CD = "CD";
+	public final static String CH = "CH";
+	public final static String D = "D";
+	public final static String ANY = "ANY";
+	
+	private String wordPath = null;
+	private String ngramPath = null;
 
 	private FastVector wekaAttributes;
+	private FastVector classLabel;
 	private Instances dataset;
 	
-	public ClassifierBuilder() throws Exception {
+	private int wordCount = 0;;
+	private int ngramCount = 0;
+	
+	public ClassifierBuilder(FastVector classLabel) throws Exception {
 		initialize();
 	}
 
-	public ClassifierBuilder(String word, String ngram) throws Exception {
+	/**
+	 * 
+	 * @param word
+	 *            - word path
+	 * @param ngram
+	 *            - ngram path
+	 * @param classLabel
+	 *            - class labels
+	 * @throws Exception
+	 */
+	public ClassifierBuilder(String word, String ngram, FastVector classLabel)
+			throws Exception {
 		this.wordPath = word;
-		this.ngramPath = ngram;
+		this.classLabel = classLabel;
 		initialize();
 	}
-	
-	public void initialize() throws Exception{
+
+	public void initialize() throws Exception {
 		buildFeatures();
 		createInstances();
 	}
-	
+
 	/**
 	 * @return the wekaAttributes
 	 */
@@ -49,13 +70,13 @@ public class ClassifierBuilder {
 	}
 
 	/**
-	 * @param wekaAttributes the wekaAttributes to set
+	 * @param wekaAttributes
+	 *            the wekaAttributes to set
 	 */
 	public void setWekaAttributes(FastVector wekaAttributes) {
 		this.wekaAttributes = wekaAttributes;
 	}
-	
-	
+
 	/**
 	 * @return the dataset
 	 */
@@ -64,7 +85,8 @@ public class ClassifierBuilder {
 	}
 
 	/**
-	 * @param dataset the dataset to set
+	 * @param dataset
+	 *            the dataset to set
 	 */
 	public void setDataset(Instances dataset) {
 		this.dataset = dataset;
@@ -76,178 +98,162 @@ public class ClassifierBuilder {
 	@SuppressWarnings("resource")
 	private void buildFeatures() {
 		// Attributes
-		Attribute tweetID = new Attribute("tweetID");
-		Attribute user = new Attribute("user",(FastVector) null);
-		Attribute tweet = new Attribute("tweet",(FastVector) null);
-		Attribute longitude = new Attribute("longitude");
-		Attribute latitude = new Attribute("latitude");
 		Attribute isURL = new Attribute("isURL");
 		Attribute isHashtag = new Attribute("isHashtag");
 		Attribute isRetweet = new Attribute("isRetweet");
 		Attribute length = new Attribute("length");
-		FastVector languageVector = new FastVector();
-		languageVector.addElement("tl");
-		languageVector.addElement("en");
-		languageVector.addElement("pt");
-		languageVector.addElement("in");
-		languageVector.addElement("tr");
-		languageVector.addElement("es");
-		Attribute language = new Attribute("language",languageVector);
 
-		// N-Word
-
+		// Word
 		File file = null;
 		FileReader fr = null;
 		BufferedReader br = null;
 		List<Attribute> words = null;
 
-		try {
+		if (wordPath != null) {
+			try {
 
-			file = new File(wordPath);
-			fr = new FileReader(file);
-			br = new BufferedReader(fr);
+				file = new File(wordPath);
+				fr = new FileReader(file);
+				br = new BufferedReader(fr);
 
-			words = new ArrayList<Attribute>();
-			String line = null;
-			while ((line = br.readLine()) != null) {
-				String name = line.split(" ")[0];
-				Attribute attribute = new Attribute(name);
-				words.add(attribute);
+				words = new ArrayList<Attribute>();
+				String line = null;
+				while ((line = br.readLine()) != null) {
+					String name = line.split("\t")[0];
+					Attribute attribute = new Attribute(name);
+					words.add(attribute);
+					wordCount++;
+				}
+
+				br.close();
+			} catch (FileNotFoundException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
 			}
-
-			br.close();
-		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
 		}
 
-		// Word
+		// Ngram
 		List<Attribute> ngrams = null;
-		try {
-			file = new File(ngramPath);
-			fr = new FileReader(file);
-			br = new BufferedReader(fr);
-			ngrams = new ArrayList<Attribute>();
-			String line = null;
-			while ((line = br.readLine()) != null) {
-				String name = line.split(" ")[0];
-				Attribute attribute = new Attribute(name);
-				ngrams.add(attribute);
-			}
+		if (ngramPath != null) {
+			try {
+				file = new File(ngramPath);
+				fr = new FileReader(file);
+				br = new BufferedReader(fr);
+				ngrams = new ArrayList<Attribute>();
+				String line = null;
+				while ((line = br.readLine()) != null) {
+					String name = line.split("\t")[0];
+					Attribute attribute = new Attribute(name);
+					ngrams.add(attribute);
+					ngramCount++;
+				}
 
-			br.close();
-		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+				br.close();
+			} catch (FileNotFoundException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 		}
 
 		// Class
-		FastVector classAttribute = new FastVector();
-		classAttribute.addElement("CA");
-		classAttribute.addElement("CD");
-		classAttribute.addElement("CH");
-		classAttribute.addElement("D");
-		classAttribute.addElement("O");
-		Attribute category = new Attribute("category", classAttribute);
+		Attribute category = new Attribute("category", classLabel);
 
 		wekaAttributes = new FastVector();
-		wekaAttributes.addElement(tweetID);
-		wekaAttributes.addElement(user);
-		wekaAttributes.addElement(tweet);
-		wekaAttributes.addElement(longitude);
-		wekaAttributes.addElement(latitude);
 		wekaAttributes.addElement(isURL);
 		wekaAttributes.addElement(isHashtag);
 		wekaAttributes.addElement(isRetweet);
 		wekaAttributes.addElement(length);
-		wekaAttributes.addElement(language);
-		
 
-		for (Attribute word : words) {
-			wekaAttributes.addElement(word);
+		if (words != null) {
+			for (Attribute word : words) {
+				wekaAttributes.addElement(word);
+			}
 		}
 
-		for (Attribute ngram : ngrams) {
-			wekaAttributes.addElement(ngram);
+		if (ngrams != null) {
+			for (Attribute ngram : ngrams) {
+				wekaAttributes.addElement(ngram);
+			}
 		}
 
 		wekaAttributes.addElement(category);
-		
-	}
-	
-	private void createInstances() throws Exception{
-		dataset = new Instances("rel", wekaAttributes, 1);
-		
-		// Remove the tweetID (do not include in the computation)
-//		Remove rm = new Remove();
-//		rm.setAttributeIndices("1");
-//		rm.setInputFormat(dataset);
-//		dataset = Filter.useFilter(dataset, rm);
-		
-		// Remove the TweetID in the list of attribute
-		//wekaAttributes.removeElementAt(0);
 
-		dataset.setClassIndex(dataset.numAttributes()-1);
 	}
-	
-	public Instance setInstance(Sentence sentence){
-		
+
+	private void createInstances() throws Exception {
+		dataset = new Instances("rel", wekaAttributes, 1);
+		dataset.setClassIndex(dataset.numAttributes() - 1);
+	}
+
+	public Instance setInstance(Sentence sentence, String classifierType) {
+
 		Instance instance = new Instance(dataset.numAttributes());
-		Map<String,Integer> wordValues = sentence.getExtractedWordFeatures();
-		Map<String,Integer> ngramValues = sentence.getExtractedNgramFeatures();
+		Map<String, Integer> wordValues = sentence.getExtractedWordFeatures();
+		Map<String, Integer> ngramValues = sentence.getExtractedNgramFeatures();
 		Tweet tweet = sentence.getTweets();
-		instance.setValue(((Attribute) wekaAttributes.elementAt(0)), tweet.getTweetID());
-		instance.setValue(((Attribute) wekaAttributes.elementAt(1)), tweet.getUser());
-		instance.setValue(((Attribute) wekaAttributes.elementAt(2)), tweet.getTweet());
-		
-		if(tweet.getLatitude() != null){
-			instance.setValue(((Attribute) wekaAttributes.elementAt(3)), tweet.getLatitude());
-		} else {
-			instance.setMissing(((Attribute) wekaAttributes.elementAt(3)));
-		}
-		if(tweet.getLongitude() != null){
-			instance.setValue(((Attribute) wekaAttributes.elementAt(4)), tweet.getLongitude());
-		} else {
-			instance.setMissing(((Attribute) wekaAttributes.elementAt(4)));
-		}
-		
-		instance.setValue(((Attribute) wekaAttributes.elementAt(5)), getBooleanValue(tweet.getURL()));
-		instance.setValue(((Attribute) wekaAttributes.elementAt(6)), getBooleanValue(tweet.getHashtag()));
-		instance.setValue(((Attribute) wekaAttributes.elementAt(7)), getBooleanValue(tweet.getHashtag()));
-		instance.setValue(((Attribute) wekaAttributes.elementAt(8)), sentence.getExtractedFeatures().get("Length"));
-		instance.setValue(((Attribute) wekaAttributes.elementAt(9)), tweet.getLanguage());
-		
+
+		instance.setValue(((Attribute) wekaAttributes.elementAt(0)),
+				getBooleanValue(tweet.getURL()));
+		instance.setValue(((Attribute) wekaAttributes.elementAt(1)),
+				getBooleanValue(tweet.getHashtag()));
+		instance.setValue(((Attribute) wekaAttributes.elementAt(2)),
+				getBooleanValue(tweet.getHashtag()));
+		instance.setValue(((Attribute) wekaAttributes.elementAt(3)), sentence
+				.getExtractedFeatures().get("Length"));
+
 		// Word Features
 		// To keep track of the current index
-		int currentIndex = 10 ;
-		int wordsize = wordValues.size() + currentIndex;
-		for(int i=currentIndex; i<wordsize; i++){
-			String attributeName = ((Attribute) wekaAttributes.elementAt(i)).name();
-			instance.setValue(((Attribute) wekaAttributes.elementAt(i)), wordValues.get(attributeName));
-			currentIndex++;
-		}
+		int currentIndex = 4;
+		int wordsize = wordCount + currentIndex;
+
+		if (wordPath != null) {
+			for (int i = currentIndex; i < wordsize; i++) {
+				String attributeName = null;
+				attributeName = ((Attribute) wekaAttributes.elementAt(i)).name();
+
+				if (wordValues.get(attributeName) != null) {
+					
+					instance.setValue(
+							((Attribute) wekaAttributes.elementAt(i)),
+							wordValues.get(attributeName));
+					
+					currentIndex++;
+				}
 		
+			}
+		}
+
 		// N-Gram Features
-		int ngramsize = ngramValues.size() + currentIndex;
-		for(int i=currentIndex; i<ngramsize; i++){
-			String attributeName = ((Attribute) wekaAttributes.elementAt(i)).name();
-			instance.setValue(((Attribute) wekaAttributes.elementAt(i)), ngramValues.get(attributeName));
-			currentIndex++;
+		if (ngramPath != null) {
+			int ngramsize = ngramCount + currentIndex;
+			for (int i = currentIndex; i < ngramsize; i++) {
+				String attributeName = ((Attribute) wekaAttributes.elementAt(i))
+						.name();
+				instance.setValue(((Attribute) wekaAttributes.elementAt(i)),
+						ngramValues.get(attributeName));
+				currentIndex++;
+			}
+		}
+
+		// Class Attribute
+		String category = tweet.getCategory();
+		
+		if(!tweet.getCategory().equalsIgnoreCase(classifierType)){
+			category = "O";
 		}
 		
-		// Class Attribute
-		instance.setValue(((Attribute) wekaAttributes.lastElement()), tweet.getCategory());
+//		instance.setValue(((Attribute) wekaAttributes.lastElement()),category);
 		instance.setDataset(dataset);
+			
 		return instance;
 	}
-	
-	
+
 	// Support method
 	private int getBooleanValue(Boolean value) {
 		if (value)

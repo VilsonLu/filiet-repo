@@ -14,6 +14,7 @@ import support.model.Tweet;
 public class Binder {
 
 	private static String empty = "na";
+
 	public static CautionAndAdviceTweet bindCA(Sentence sentence) {
 
 		CautionAndAdviceTweet ca = new CautionAndAdviceTweet();
@@ -21,42 +22,30 @@ public class Binder {
 				.getExtractedInformation();
 
 		// Get the location in tweet
-		String locationInTweet = null;
-		String advice = null;
+		String locationInTweet = "";
+		String advice = "";
 		for (PostExtractedInformation post : extract) {
 			List<ExtractedInformation> eInfo = post.getCompiledInformation();
 			for (ExtractedInformation e : eInfo) {
 				// location
 				if (e.getInformationType() != null) {
 					if (e.getInformationType().equalsIgnoreCase("location")) {
-						if (locationInTweet == null) {
-							locationInTweet = e.getValue().getWord();
-						} else {
-							locationInTweet += ", " + e.getValue().getWord();
-						}
+						locationInTweet += e.getValue().getWord() + " ";
+					} else if (e.getInformationType()
+							.equalsIgnoreCase("ADVICE")) {
+						advice += e.getValue().getWord() + " ";
 					}
-				} else {
-					if (advice != null)
-						advice += " " + e.getValue().getWord();
-					else
-						advice = e.getValue().getWord();
-				}
+				} 
 			}
 		}
-		System.out.println(locationInTweet);
-		System.out.println(advice);
-		
+
 		// Caution and Advice
-		if(locationInTweet != null)
+		if (locationInTweet != null)
 			ca.setLocationInTweet(locationInTweet);
-		else 
-			ca.setLocationInTweet("null");
-		
-		if(advice != null)
+
+		if (advice != null)
 			ca.setTweetAdvice(advice);
-		else
-			ca.setTweetAdvice("null");
-		
+
 		// Tweet
 		Tweet tweet = sentence.getTweets();
 		ca.setTweetContent(sentence.getRawTweet());
@@ -76,34 +65,41 @@ public class Binder {
 	public static CasualtiesAndDamageTweet bindCD(Sentence sentence) {
 		CasualtiesAndDamageTweet cd = new CasualtiesAndDamageTweet();
 
-		String victimName = null;
-		String objectDetail = null;
-		String objectName = null;
-		String locationInTweet = null;
+		String victimName = "";
+		String objectDetail = "";
+		String objectName = "";
+		String locationInTweet = "";
 
 		List<PostExtractedInformation> extract = sentence
 				.getExtractedInformation();
+		if (extract != null) {
+			for (PostExtractedInformation post : extract) {
+				List<ExtractedInformation> eInfo = post
+						.getCompiledInformation();
+				for (ExtractedInformation i : eInfo) {
+					if (i.getInformationType() != null) {
+						if (i.getInformationType().equalsIgnoreCase("DETAIL")) {
+							objectDetail += i.getValue().getWord() + " ";
+						} else if (i.getInformationType().equalsIgnoreCase(
+								"UNIT")
+								|| i.getInformationType().equalsIgnoreCase(
+										"NUMBER")
+								|| i.getInformationType().equalsIgnoreCase(
+										"OBJECT")) {
+							objectName += i.getValue().getWord() + " ";
+						} else if (i.getInformationType().equalsIgnoreCase(
+								"VICTIM")) {
+							victimName = i.getValue().getWord();
+						} else if (i.getInformationType().equalsIgnoreCase(
+								"LOCATION")) {
 
-		for (PostExtractedInformation post : extract) {
-			List<ExtractedInformation> eInfo = post.getCompiledInformation();
-			for (ExtractedInformation i : eInfo) {
-				if (i.getInformationType() != null) {
-					if (i.getInformationType().equalsIgnoreCase("DETAIL")) {
-						objectDetail = i.getValue().getWord();
-					} else if (i.getInformationType().equalsIgnoreCase("UNIT")) {
-						objectName = i.getValue().getWord();
-					} else if (i.getInformationType()
-							.equalsIgnoreCase("VICTIM")) {
-						victimName = i.getValue().getWord();
-					} else if (i.getInformationType().equalsIgnoreCase("LOCATION")){
-						if (locationInTweet == null) {
-							locationInTweet = i.getValue().getWord();
-						} else {
-							locationInTweet += ", " + i.getValue().getWord();
+							locationInTweet += i.getValue().getWord() + " ";
+
 						}
 					}
 				}
 			}
+
 		}
 
 		// Casualties And Damage
@@ -124,8 +120,8 @@ public class Binder {
 		} else {
 			cd.setObjectDetails("null");
 		}
-		
-		if(locationInTweet != null){
+
+		if (locationInTweet != null) {
 			cd.setLocationInTweet(locationInTweet);
 		} else {
 			cd.setLocationInTweet("null");
@@ -147,14 +143,14 @@ public class Binder {
 		return cd;
 
 	}
-	
+
 	public static DonationTweet bindD(Sentence sentence) {
 		DonationTweet d = new DonationTweet();
 
-		String victimName = null;
-		String resourceDetail = null;
-		String resourceName = null;
-		String locationInTweet = null;
+		String victimName = "";
+		String resourceDetail = "";
+		String resourceName = "";
+		String locationInTweet = "";
 
 		List<PostExtractedInformation> extract = sentence
 				.getExtractedInformation();
@@ -163,19 +159,18 @@ public class Binder {
 			List<ExtractedInformation> eInfo = post.getCompiledInformation();
 			for (ExtractedInformation i : eInfo) {
 				if (i.getInformationType() != null) {
-					if (i.getInformationType().equalsIgnoreCase("DETAIL")) {
-						resourceDetail += i.getValue().getWord();
-					} else if (i.getInformationType().equalsIgnoreCase("UNIT") || i.getInformationType().equalsIgnoreCase("NUMBER")) {
-						resourceName = i.getValue().getWord();
+					if (i.getInformationType().equalsIgnoreCase("DETAIL") || i.getInformationType().equalsIgnoreCase("NUMBER")) {
+						resourceDetail += i.getValue().getWord() + " ";
+					} else if (i.getInformationType().equalsIgnoreCase("RESOURCE")) {
+						resourceName += i.getValue().getWord() + " ";
 					} else if (i.getInformationType()
 							.equalsIgnoreCase("VICTIM")) {
-						victimName = i.getValue().getWord();
-					} else if (i.getInformationType().equalsIgnoreCase("LOCATION")){
-						if (locationInTweet == null) {
-							locationInTweet = i.getValue().getWord();
-						} else {
-							locationInTweet += i.getValue().getWord();
-						}
+						victimName += i.getValue().getWord() +" ";
+					} else if (i.getInformationType().equalsIgnoreCase(
+							"LOCATION")) {
+
+						locationInTweet += i.getValue().getWord() + " ";
+
 					}
 				}
 			}
@@ -184,26 +179,17 @@ public class Binder {
 		// Casualties And Damage
 		if (victimName != null) {
 			d.setVictimName(victimName);
-		} else {
-			d.setVictimName("null");
 		}
 
 		if (resourceName != null) {
 			d.setResourceName(resourceName);
-		} else {
-			d.setResourceName("null");
 		}
-
 		if (resourceDetail != null) {
 			d.setResourceDetails(resourceDetail);
-		} else {
-			d.setResourceName("null");
 		}
-		
-		if(locationInTweet != null){
+
+		if (locationInTweet != null) {
 			d.setLocationInTweet(locationInTweet);
-		} else {
-			d.setLocationInTweet("null");
 		}
 
 		// Tweet
@@ -222,12 +208,12 @@ public class Binder {
 		return d;
 
 	}
-	
+
 	public static CallForHelpTweet bindCH(Sentence sentence) {
 		CallForHelpTweet ch = new CallForHelpTweet();
 
-		String victimName = null;
-		String locationInTweet = null;
+		String victimName = "";
+		String locationInTweet = "";
 		List<PostExtractedInformation> extract = sentence
 				.getExtractedInformation();
 
@@ -235,15 +221,12 @@ public class Binder {
 			List<ExtractedInformation> eInfo = post.getCompiledInformation();
 			for (ExtractedInformation i : eInfo) {
 				if (i.getInformationType() != null) {
-					if (i.getInformationType()
-							.equalsIgnoreCase("VICTIM")) {
+					if (i.getInformationType().equalsIgnoreCase("VICTIM")) {
 						victimName = i.getValue().getWord();
-					} else if (i.getInformationType().equalsIgnoreCase("LOCATION")){
-						if (locationInTweet == null) {
-							locationInTweet = i.getValue().getWord();
-						} else {
-							locationInTweet += ", " + i.getValue().getWord();
-						}
+					} else if (i.getInformationType().equalsIgnoreCase(
+							"LOCATION")) {
+						locationInTweet += i.getValue().getWord();
+					
 					}
 				}
 			}
@@ -255,8 +238,8 @@ public class Binder {
 		} else {
 			ch.setVictimName("null");
 		}
-		
-		if(locationInTweet != null){
+
+		if (locationInTweet != null) {
 			ch.setLocationInTweet(locationInTweet);
 		} else {
 			ch.setLocationInTweet("null");
@@ -278,5 +261,5 @@ public class Binder {
 		return ch;
 
 	}
-	
+
 }

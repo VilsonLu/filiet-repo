@@ -24,61 +24,23 @@ public class NGramModeller {
 	private Tokenizer tokenizer;
 
 	private double rate = 0.20;
-	
+
 	private static String wordAffix = "W_";
 	private static String ngramAffix = "N_";
-	
+
 	private String quote = "\"";
 	private char colon = ':';
 	private char period = '.';
 	private char empty = ' ';
+
 	public NGramModeller() {
 		frequency = new HashMap<>();
 	}
 
 	/*
-	 * This method counts the frequency of each word in a collection of tweets
-	 * 
-	 * @param path - this is the path to the csv file
-	 * 
-	 * @param saveFile - this is the path where the output will be saved
-	 * 
-	 * @param topN - gets the n-highest frequency
-	 */
-	public void countWordFrequency(String path, String saveFile, int topN)
-			throws IOException {
-		frequency = new HashMap<>();
-		File file = new File(path);
-		FileReader fr = new FileReader(file);
-		BufferedReader br = new BufferedReader(fr);
-
-		String line = null;
-		String split = ";";
-
-		while ((line = br.readLine()) != null) {
-			String[] column = line.split(split);
-			String tempTweet = column[2].replace("\"", "");
-			//tempTweet = column[2].replace(colon, empty);
-			//tempTweet = column[2].replace(period, empty);
-			List<String> tokens = Twokenize.tokenizeRawTweetText(tempTweet);
-			for (String token : tokens) {
-				String tempToken = wordAffix+token.toLowerCase();
-				if (frequency.get(tempToken) == null) {
-					frequency.put(tempToken, 1);
-				} else {
-					frequency.put(tempToken, frequency.get(tempToken) + 1);
-				}
-			}
-		}
-
-		int size = (int) (frequency.size() * 0.20);
-		this.getTop(saveFile, size);
-	}
-
-	/*
 	 * This method counts the frequency of n-gram
 	 */
-	public void CharNGram(int ngram, int topN, String saveFile, String path)
+	public void CharNGram(int ngram, double topN, String saveFile, String path)
 			throws IOException {
 		frequency = new HashMap<>();
 		File file = new File(path);
@@ -101,11 +63,13 @@ public class NGramModeller {
 		while (it.hasNext()) {
 			StringList temp = it.next();
 			String tempString = temp.getToken(0).replace(' ', '_');
-			frequency.put(ngramAffix+tempString, modeller.getCount(temp));
+			frequency.put(ngramAffix + tempString, modeller.getCount(temp));
 
 		}
 
-		this.getTop(saveFile, topN);
+		System.out.println("Size: " + modeller.size());
+
+		this.getTop(saveFile, (int) (modeller.size() * topN));
 	}
 
 	/*
@@ -130,27 +94,26 @@ public class NGramModeller {
 		List<Map.Entry<String, Integer>> entries = new ArrayList<>();
 		int i = 0;
 
-		//String punctuations = "";
-		String punctuations = "\".,\'!?:-()|";
-		for (Map.Entry<String, Integer> entry : frequency.entrySet()) {
-			if (!punctuations.contains(entry.getKey())) {
-				if (i < n) {
-					entries.add(entry);
-					i++;
-				} else {
-					int min = -1;
-					for (int j = 0; j < n; j++) {
-						if (entries.get(j).getValue() < entry.getValue()) {
-							min = j;
-						}
-					}
+		// String punctuations = "";
 
-					if (min > -1) {
-						entries.remove(min);
-						entries.add(entry);
+		for (Map.Entry<String, Integer> entry : frequency.entrySet()) {
+			String ngram = entry.getKey().split("N_")[1];
+
+			if (i < n) {
+				entries.add(entry);
+				i++;
+			} else {
+				int min = -1;
+				for (int j = 0; j < n; j++) {
+					if (entries.get(j).getValue() < entry.getValue()) {
+						min = j;
 					}
 				}
 
+				if (min > -1) {
+					entries.remove(min);
+					entries.add(entry);
+				}
 			}
 
 		}

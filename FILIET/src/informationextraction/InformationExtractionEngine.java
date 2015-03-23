@@ -1,8 +1,10 @@
 package informationextraction;
 
+import classifier.ClassifierBuilder;
 import classifier.implementations.Classifier;
 import classifier.implementations.ClassifierImpl;
 import classifier.implementations.ClassifierInterface;
+import classifier.implementations.MultiClassifierImpl;
 import preprocess.PreprocessorManager;
 import ruleinduction.RuleInductor;
 import support.model.Sentence;
@@ -11,9 +13,9 @@ import featureextraction.FeatureExtractor;
 public class InformationExtractionEngine {
 
 	// paths to resources
-	private String word = "./resources/model/word/ruby-word";
-	private String ngram = "./resources/model/ngram/ruby-ngram";
-	private String modelPath = "./resources/model/classifier/combined-randomforest.model";
+	private String word = "./resources/model/TFIDF-Scores/mario-ruby/marioruby-word-combined-30.txt";
+	//private String ngram = "./resources/model/ngram/ruby-ngram";
+	private String modelPath = "./resources/model/classifier/r-randomforest-20.model";
 	private String rulePath = "./resources/rules/simple-rules";
 
 	// modules
@@ -24,8 +26,8 @@ public class InformationExtractionEngine {
 
 	public InformationExtractionEngine() throws Exception {
 		preprocessor = new PreprocessorManager();
-		feature = new FeatureExtractor(word, ngram);
-		classifier = new Classifier(new ClassifierImpl());
+		feature = new FeatureExtractor(word,null);
+		classifier = new Classifier(new MultiClassifierImpl());
 		ruleInductor = new RuleInductor(rulePath);
 	}
 
@@ -42,6 +44,41 @@ public class InformationExtractionEngine {
 		this.classifier = classifier;
 	}
 	
+	/**
+	 * @param modelPath the modelPath to set
+	 */
+	public void setModelPath(String modelPath) {
+		this.modelPath = modelPath;
+	}
+
+	/**
+	 * @param preprocessor the preprocessor to set
+	 */
+	public void setPreprocessor(PreprocessorManager preprocessor) {
+		this.preprocessor = preprocessor;
+	}
+
+	/**
+	 * @param feature the feature to set
+	 */
+	public void setFeature(FeatureExtractor feature) {
+		this.feature = feature;
+	}
+
+	/**
+	 * @param classifier the classifier to set
+	 */
+	public void setClassifier(Classifier classifier) {
+		this.classifier = classifier;
+	}
+
+	/**
+	 * @param ruleInductor the ruleInductor to set
+	 */
+	public void setRuleInductor(RuleInductor ruleInductor) {
+		this.ruleInductor = ruleInductor;
+	}
+
 	public Sentence runExtractor(Sentence tweet){
 		
 		System.out.println("Preprocessor Module");

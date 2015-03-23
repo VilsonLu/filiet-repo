@@ -1,6 +1,10 @@
 <Category>: D
-<ner:LOCATION>[as]LOCATION
-<pos:VOBF> <pos:NA> <pos:NA> <pos:NN>[as]DONATION
-<number:ANY> <ner:UNIT>[as]UNIT
-<number:ANY> <pos:NN:UN> <ner:UNIT>[as]UNIT <string:packs>
+<pos:IN> <ner:LOCATION>[as]LOCATION
+<string:ang> <pos:NN>[as]RESOURCE
+<number:ANY>[as]NUMBER <ner:UNIT>[as]RESOURCE
+<number:ANY>[as]NUMBER <pos:NN:UN>[as]RESOURCE <ner:UNIT>[as]RESOURCE <string:packs>[as]RESOURCE
+<number:ANY>[as]DETAIL <pos:NNS>[as]DETAIL <pos:VBP>[as]RESOURCE
+<pos:JJ> <pos:VBP> <pos:VBG> 
+<number:ANY>[as]NUMBER <string:na> <ner:UNIT>[as]RESOURCE
+<pos:NN:UN>[as]RESOURCE <pos:NNS>[as]RESOURCE
 <end>

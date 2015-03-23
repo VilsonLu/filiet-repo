@@ -34,25 +34,5 @@ public class ExtractedInformation {
 	public void setValue(Token value) {
 		this.value = value;
 	}
-	
-	public void setTemplate(String informationType, Token value, String category){
-		if(category.equalsIgnoreCase("ca")){
-			if(informationType.equals("MONTH")){
-				
-			} else if(informationType.equals("DATE")){
-				
-			} else if(informationType.equals("ADVICE")){
-				
-			} else if(informationType.equals("LOCATION")){
-				
-			}
-		} else if(category.equalsIgnoreCase("d")){
-			// code later
-		} else if(category.equalsIgnoreCase("ch")){
-			// code later
-		} else if(category.equalsIgnoreCase("cd")){
-			// code later
-		}
-	}
-	
+		
 }

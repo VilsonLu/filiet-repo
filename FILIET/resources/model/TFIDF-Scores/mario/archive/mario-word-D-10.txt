@@ -1,0 +1,9 @@
+W_gusto	11.86238326
+W_magvolunteer	11.86238326
+W_mabasa	11.86238326
+W_more	12.69391489
+W_ngayon	13.34645357
+W_open	13.62874487
+W_contact	13.62874487
+W_just	13.62874487
+W_rescuer	14.55976712

@@ -1,6 +1,7 @@
 package classifier.implementations;
 
 import support.model.Sentence;
+import weka.core.FastVector;
 import weka.core.Instance;
 import classifier.ClassifierBuilder;
 
@@ -10,6 +11,8 @@ public class ClassifierImpl implements ClassifierInterface{
 	private String pathModel;
 	private weka.classifiers.Classifier classifier;
 	private ClassifierBuilder builder;
+	
+	private String featuresPath;
 	
 	public ClassifierImpl() throws Exception{
 		this.pathModel = "./resources/model/classifier/testmodel2.model";
@@ -22,26 +25,23 @@ public class ClassifierImpl implements ClassifierInterface{
 		initialize();
 	}
 	
-	public ClassifierImpl(String pathModel, ClassifierBuilder builder) throws Exception{
-		this.pathModel = pathModel;
-		initialize(builder);
-	}
 	
 	private void initialize() throws Exception{
 		classifier = (weka.classifiers.Classifier) weka.core.SerializationHelper.read(pathModel);
-		builder = new ClassifierBuilder();
+		FastVector classLabel = new FastVector();
+		classLabel.addElement("CA");
+		classLabel.addElement("CD");
+		classLabel.addElement("CH");
+		classLabel.addElement("D");
+		classLabel.addElement("O");
+		builder = new ClassifierBuilder(classLabel);
 	}
 	
-	private void initialize(ClassifierBuilder builder) throws Exception{
-		classifier = (weka.classifiers.Classifier) weka.core.SerializationHelper.read(pathModel);
-		this.builder = builder;
-	}
 	
 	@Override
 	public Sentence classify(Sentence text) {
 		// TODO Auto-generated method stub
-		Instance instance = builder.setInstance(text);
-		
+		Instance instance = builder.setInstance(text,ClassifierBuilder.ANY);
 		String label = null;
 		try {
 			double value = classifier.classifyInstance(instance);

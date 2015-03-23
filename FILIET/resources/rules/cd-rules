@@ -1,20 +1,29 @@
 <Category>: CD
+<string:ng> <ner:LOCATION>[as]LOCATION 
 <number:ANY>[as]NUMBER <pos:NA> <pos:NA> <string:ANY> <ner:UNIT>[as]UNIT
 <pos:NA> <pos:NCOM> <pos:NA> <pos:NCOM>
 <pos:NCOM> <ner:LOCATION>[as]LOCATION
 <number:ANY>[as]NUMBER <ner:UNIT>[as]UNIT
-<ner:LOCATION>[as]LOCATION <pos:PSNS>
-<pos:NCOM> <pos:NA> <pos:NCOM>[as]OBJECT
 <string:sa> <pos:PINP> <pos:NN>
-<string:sa> <pos:JJ> <ner:LOCATION>[as]LOCATION
-<string:state>[as]DETAIL <string:of>[DETAIL] <string:calamity>[DETAIL]
-<pos:JJ> <ner:LOCATION>[as]LOCATION
-<pos:NCOM> <string:at> <pos:NCOM>
-<ner:LOCATION>[as]LOCATION <pos:NN>[as]LOCATION
+<string:state>[as]DETAIL <string:of>[as]DETAIL <string:calamity>[as]DETAIL
+<pos:JJ>[as]LOCATION <ner:LOCATION>[as]LOCATION
+<pos:NCOM>[as]OBJECT <string:at> <pos:NCOM>[as]OBJECT
+<ner:LOCATION>[as]LOCATION <pos:NN>
 <pos:VOBF>[as]DETAIL <pos:NA> <string:#RubyPH>[as]DETAIL
-<pos:NA> <pos:NCOM>[as]OBJECT
 <pos:ADUN>[as]DETAIL <pos:NCOM> <pos:NCOM>[as]DETAIL
 <pos:NA> <pos:NN>[as]OBJECT
 <pos:ADOT> <pos:NCOM>
 <number:ANY> <string:na> <string:ang> <pos:JJ> <ner:UNIT>
+<string:mga> <pos:NCOM>[as]DETAIL <string:sa> <string:imprastraktura>[as]OBJECT
+<string:linya>[as]OBJECT <pos:NA>[as]OBJECT <pos:NCOM>[as]OBJECT
+<string::> <ner:LOCATION>[as]LOCATION
+<pos:MANH>[as]NUMBER <string:ANY> <ner:UNIT>[as]UNIT
+<pos:MANH>[as]NUMBER <ner:UNIT>[as]UNIT
+<string:walang>[as]NUMBER <string:ANY> <ner:UNIT>[as]UNIT
+<ner:LOCATION>[as]LOCATION <pos:PSNS> <ner:LOCATION>[as]LOCATION
+<number:ANY>[as]NUMBER <pos:NNS>[as]UNIT
+<string:zero>[as]NUMBER <ner:UNIT>[as]UNIT
+<pos:MANH>[as]DETAIL <string:ANY> <pos:NCOM>[as]DETAIL
+<pos:VACF>[as]DETAIL <string:ANY> <pos:NCOM>[as]DETAIL
+<pos:VACF>[as]DETAIL <string:ANY> <string:ANY> <pos:NCOM>[as]DETAIL
 <end>

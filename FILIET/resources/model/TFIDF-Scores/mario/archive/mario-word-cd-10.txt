@@ -1,0 +1,13 @@
+W_cuyab	10.25502678
+W_mahigit	12.79362126
+W_mario	12.85478157
+W_bagyo	13.41685182
+W_dulot	13.41685182
+W_estero	13.41685182
+W_apektado	14.11529561
+W_bagyong	14.36078807
+W_camnorte	14.55976712
+W_dist	14.55976712
+W_tulay	14.75979591
+W_tinatayang	14.88147922
+W_pamilya	14.97850549
