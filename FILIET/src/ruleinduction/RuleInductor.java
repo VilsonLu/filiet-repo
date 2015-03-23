@@ -118,7 +118,7 @@ public class RuleInductor {
 
 		// temporary
 		// String category = sentence.getCategory();
-		String category = "CA";
+		String category = "CD";
 		List<Grammar> extractionRules = categorizeRule.get(category);
 
 		// for successfully matched rules

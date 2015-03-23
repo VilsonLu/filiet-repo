@@ -46,7 +46,7 @@ public class Driver {
 			System.out.println(sentence.getTweets().getTweetID());
 			Sentence s = extractorEngine.runExtractor(sentence);
 		
-			if(sentence.getTweets().getCategory().equalsIgnoreCase("CA")){
+			if(sentence.getTweets().getCategory().equalsIgnoreCase("CD")){
 				processedSentences.add(s);
 			}
 		
@@ -56,10 +56,10 @@ public class Driver {
 			e.printStackTrace();
 		}
 		
-		XmlParser.saveXMLCA(processedSentences, "./resources/results/hypothesis/ruby-combined-classifier-CA.xml");
+		XmlParser.saveXMLCD(processedSentences, "./resources/results/hypothesis/ruby-combined-classifier-CD.xml");
 		Evaluator evaluator = new Evaluator();
 //		evaluator.evaluateClassifier(processedSentences);
-		evaluator.evaluateDatasetCA(processedSentences, "./resources/results/annotations/Annotation-CA.csv");
+		evaluator.evaluateDatasetCD(processedSentences, "./resources/results/annotations/Annotation-CD.csv");
 //	
 	}
 }

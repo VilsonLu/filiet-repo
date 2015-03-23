@@ -25,7 +25,7 @@ public class Driver {
 			
 			PreprocessorManager preprocessor = new PreprocessorManager();
 			
-			String tweet = "Probinsya ng Cebu, isinailalim na sa state of calamity";
+			String tweet = "Malanday, Marikina, Muntinlupa, Metro Manila";
 			Sentence sentence = preprocessor.PreprocessText(tweet);
 
 			pm.loadRules();
