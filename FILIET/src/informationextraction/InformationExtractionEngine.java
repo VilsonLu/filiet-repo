@@ -5,6 +5,7 @@ import classifier.implementations.Classifier;
 import classifier.implementations.ClassifierImpl;
 import classifier.implementations.ClassifierInterface;
 import classifier.implementations.MultiClassifierImpl;
+import classifier.implementations.TestClassifierImpl;
 import preprocess.PreprocessorManager;
 import ruleinduction.RuleInductor;
 import support.model.Sentence;
@@ -14,8 +15,6 @@ public class InformationExtractionEngine {
 
 	// paths to resources
 	private String word = "./resources/model/TFIDF-Scores/mario-ruby/marioruby-word-combined-30.txt";
-	//private String ngram = "./resources/model/ngram/ruby-ngram";
-	private String modelPath = "./resources/model/classifier/r-randomforest-20.model";
 	private String rulePath = "./resources/rules/simple-rules";
 
 	// modules
@@ -44,13 +43,6 @@ public class InformationExtractionEngine {
 		this.classifier = classifier;
 	}
 	
-	/**
-	 * @param modelPath the modelPath to set
-	 */
-	public void setModelPath(String modelPath) {
-		this.modelPath = modelPath;
-	}
-
 	/**
 	 * @param preprocessor the preprocessor to set
 	 */
@@ -93,7 +85,7 @@ public class InformationExtractionEngine {
 		System.out.println("Predicted: " + extractedTweet.getCategory());
 		System.out.println("Actual: " + extractedTweet.getTweets().getCategory());
 		
-		if(extractedTweet.getTweets().getCategory() != "O"){
+		if(extractedTweet.getCategory() != "O"){
 			System.out.println("Rule Induction Module");
 			extractedTweet.setExtractedInformation(ruleInductor.match(extractedTweet));
 		}

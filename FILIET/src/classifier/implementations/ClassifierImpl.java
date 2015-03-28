@@ -1,6 +1,7 @@
 package classifier.implementations;
 
 import support.model.Sentence;
+import weka.classifiers.trees.RandomForest;
 import weka.core.FastVector;
 import weka.core.Instance;
 import classifier.ClassifierBuilder;
@@ -9,42 +10,39 @@ import classifier.ClassifierBuilder;
 public class ClassifierImpl implements ClassifierInterface{
 
 	private String pathModel;
-	private weka.classifiers.Classifier classifier;
 	private ClassifierBuilder builder;
-	
+	private RandomForest classifier;
 	private String featuresPath;
 	
 	public ClassifierImpl() throws Exception{
-		this.pathModel = "./resources/model/classifier/testmodel2.model";
-		initialize();
-	}
-	
-	public ClassifierImpl(String pathModel) throws Exception{
-		System.out.println("Classifier Model: " + pathModel);
-		this.pathModel = pathModel;
+		this.featuresPath = "./resources/model/TFIDF-Scores/mario-ruby/marioruby-word-combined-30.txt";
+		this.pathModel = "./resources/model/classifier/multiclassifier/mario-marioruby-randomforest-30-model.model";
 		initialize();
 	}
 	
 	
 	private void initialize() throws Exception{
-		classifier = (weka.classifiers.Classifier) weka.core.SerializationHelper.read(pathModel);
+		classifier = (RandomForest) weka.core.SerializationHelper.read(pathModel);
 		FastVector classLabel = new FastVector();
 		classLabel.addElement("CA");
 		classLabel.addElement("CD");
 		classLabel.addElement("CH");
 		classLabel.addElement("D");
 		classLabel.addElement("O");
-		builder = new ClassifierBuilder(classLabel);
+		builder = new ClassifierBuilder(featuresPath,null,classLabel);
 	}
 	
 	
 	@Override
 	public Sentence classify(Sentence text) {
 		// TODO Auto-generated method stub
+		
 		Instance instance = builder.setInstance(text,ClassifierBuilder.ANY);
 		String label = null;
 		try {
+			
 			double value = classifier.classifyInstance(instance);
+			System.out.println("Classifier Value: " + value);
 			label = instance.dataset().classAttribute().value((int) value);
 			text.setCategory(label);
 		} catch (Exception e) {

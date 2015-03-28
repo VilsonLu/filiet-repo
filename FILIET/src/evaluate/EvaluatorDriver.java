@@ -4,7 +4,7 @@ public class EvaluatorDriver {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Evaluator evaluate = new Evaluator();
+		EvaluatorIE evaluate = new EvaluatorIE();
 		String reference = "";
 		String hypothesis = "";
 		

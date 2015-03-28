@@ -36,266 +36,171 @@ import support.model.Tweet;
 
 public class XmlParser {
 
-	public static void saveXMLCD(List<Sentence> sentences, String outputPath)
-			throws FileNotFoundException, XMLStreamException {
+	public static void saveXML(List<Sentence> sentences, String outputPath) {
 		try {
 			Element dataset = new Element("dataset");
 			dataset.setAttribute(new Attribute("name", "ruby-dataset"));
 			Document doc = new Document(dataset);
 			doc.setRootElement(dataset);
-			for (Sentence s : sentences) {
-				Tweet t = s.getTweets();
-
+			for (Sentence sentence : sentences) {
+				Tweet t = sentence.getTweets();
 				Element tweet = new Element("tweet");
-				tweet.setAttribute(new Attribute("id", Long.toString(t
-						.getTweetID())));
+				tweet.setAttribute(new Attribute("id", Long.toString(t.getTweetID())));
 				tweet.addContent(new Element("user").setText(t.getUser()));
-				tweet.addContent(new Element("tweet").setText(s.getRawTweet()));
-
-				tweet.addContent(new Element("prediction").setText(s
-						.getCategory()));
+				tweet.addContent(new Element("tweet").setText(sentence.getRawTweet()));
+				tweet.addContent(new Element("prediction").setText(sentence.getCategory()));
 				tweet.addContent(new Element("actual").setText(t.getCategory()));
 
-				Element extracted = new Element("extracted");
-
-				if (t.getCategory().equalsIgnoreCase("CD")) {
-					CasualtiesAndDamageTweet cd = Binder.bindCD(s);
-
-					Element locationInTweet = new Element("locationInTweet");
-					if (!cd.getLocationInTweet().equalsIgnoreCase("null")) {
-
-						locationInTweet.addContent(cd.getLocationInTweet());
-					}
-
-					Element objectDetails = new Element("objectDetails");
-					if (cd.getObjectDetails() == null) {
-						System.out.println("IM NULL");
-					}
-					if (!cd.getObjectDetails().equalsIgnoreCase("null")) {
-
-						objectDetails.addContent(cd.getObjectDetails());
-					}
-
-					Element objectName = new Element("objectName");
-					if (!cd.getObjectName().equalsIgnoreCase("null")) {
-
-						objectName.addContent(cd.getObjectName());
-					}
-
-					Element victimName = new Element("victimName");
-					if (!cd.getObjectName().equalsIgnoreCase("null")) {
-
-						victimName.addContent(cd.getVictimName());
-					}
-
-					extracted.addContent(locationInTweet);
-					extracted.addContent(objectName);
-					extracted.addContent(objectDetails);
-					extracted.addContent(victimName);
+				String category = sentence.getCategory();
+				if (category.equalsIgnoreCase("CA")) {
+					tweet.addContent(saveXMLCA(sentence));
+				} else if (category.equalsIgnoreCase("CD")) {
+					tweet.addContent(saveXMLCD(sentence));
+				} else if (category.equalsIgnoreCase("CH")) {
+					tweet.addContent(saveXMLCH(sentence));
+				} else if (category.equalsIgnoreCase("D")) {
+					tweet.addContent(saveXMLD(sentence));
 				}
 
-				tweet.addContent(extracted);
-
-				doc.getRootElement().addContent(tweet);
+				dataset.addContent(tweet);
 			}
+
 			XMLOutputter xmlOutput = new XMLOutputter();
 
 			// display
 			xmlOutput.setFormat(Format.getPrettyFormat());
 			xmlOutput.output(doc, new FileWriter(outputPath));
 		} catch (IOException e) {
-
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
 	}
-	
-	public static void saveXMLCA(List<Sentence> sentences, String outputPath)
-			throws FileNotFoundException, XMLStreamException {
-		try {
-			Element dataset = new Element("dataset");
-			dataset.setAttribute(new Attribute("name", "ruby-dataset"));
-			Document doc = new Document(dataset);
-			doc.setRootElement(dataset);
-			for (Sentence s : sentences) {
-				Tweet t = s.getTweets();
 
-				Element tweet = new Element("tweet");
-				tweet.setAttribute(new Attribute("id", Long.toString(t
-						.getTweetID())));
-				tweet.addContent(new Element("user").setText(t.getUser()));
-				tweet.addContent(new Element("tweet").setText(s.getRawTweet()));
+	private static Element saveXMLCD(Sentence sentence) {
+		Element extracted = new Element("extracted");
 
-				tweet.addContent(new Element("prediction").setText(s
-						.getCategory()));
-				tweet.addContent(new Element("actual").setText(t.getCategory()));
+		CasualtiesAndDamageTweet cd = Binder.bindCD(sentence);
 
-				Element extracted = new Element("extracted");
+		Element locationInTweet = new Element("locationInTweet");
+		if (!cd.getLocationInTweet().equalsIgnoreCase("null")) {
 
-				if (t.getCategory().equalsIgnoreCase("CA")) {
-					CautionAndAdviceTweet ca = Binder.bindCA(s);
-
-					Element locationInTweet = new Element("locationInTweet");
-					if (!ca.getLocationInTweet().equalsIgnoreCase("null")) {
-
-						locationInTweet.addContent(ca.getLocationInTweet());
-					}
-
-					Element advice = new Element("advice");
-	
-					if (!ca.getTweetAdvice().equalsIgnoreCase("null")) {
-						System.out.println(ca.getTweetAdvice());
-						advice.addContent(ca.getTweetAdvice());
-					}
-
-
-					extracted.addContent(locationInTweet);
-					extracted.addContent(advice);
-				
-				}
-
-				tweet.addContent(extracted);
-
-				doc.getRootElement().addContent(tweet);
-			}
-			XMLOutputter xmlOutput = new XMLOutputter();
-
-			// display
-			xmlOutput.setFormat(Format.getPrettyFormat());
-			xmlOutput.output(doc, new FileWriter(outputPath));
-		} catch (IOException e) {
-
+			locationInTweet.addContent(cd.getLocationInTweet());
 		}
-	}
-	
-	public static void saveXMLCH(List<Sentence> sentences, String outputPath)
-			throws FileNotFoundException, XMLStreamException {
-		try {
-			Element dataset = new Element("dataset");
-			dataset.setAttribute(new Attribute("name", "ruby-dataset"));
-			Document doc = new Document(dataset);
-			doc.setRootElement(dataset);
-			for (Sentence s : sentences) {
-				Tweet t = s.getTweets();
 
-				Element tweet = new Element("tweet");
-				tweet.setAttribute(new Attribute("id", Long.toString(t
-						.getTweetID())));
-				tweet.addContent(new Element("user").setText(t.getUser()));
-				tweet.addContent(new Element("tweet").setText(s.getRawTweet()));
+		Element objectDetails = new Element("objectDetails");
+		if (!cd.getObjectDetails().equalsIgnoreCase("null")) {
 
-				tweet.addContent(new Element("prediction").setText(s
-						.getCategory()));
-				tweet.addContent(new Element("actual").setText(t.getCategory()));
-
-				Element extracted = new Element("extracted");
-
-				if (t.getCategory().equalsIgnoreCase("CH")) {
-					CallForHelpTweet ca = Binder.bindCH(s);
-
-					Element locationInTweet = new Element("locationInTweet");
-					if (!ca.getLocationInTweet().equalsIgnoreCase("null")) {
-
-						locationInTweet.addContent(ca.getLocationInTweet());
-					}
-
-					Element victim = new Element("victimName");
-	
-					if (!ca.getVictimName().equalsIgnoreCase("null")) {
-		
-						victim.addContent(ca.getVictimName());
-					}
-
-
-					extracted.addContent(locationInTweet);
-					extracted.addContent(victim);
-				
-				}
-
-				tweet.addContent(extracted);
-
-				doc.getRootElement().addContent(tweet);
-			}
-			XMLOutputter xmlOutput = new XMLOutputter();
-
-			// display
-			xmlOutput.setFormat(Format.getPrettyFormat());
-			xmlOutput.output(doc, new FileWriter(outputPath));
-		} catch (IOException e) {
-
+			objectDetails.addContent(cd.getObjectDetails());
 		}
-	}
-	
-	public static void saveXMLD(List<Sentence> sentences, String outputPath)
-			throws FileNotFoundException, XMLStreamException {
-		try {
-			Element dataset = new Element("dataset");
-			dataset.setAttribute(new Attribute("name", "ruby-dataset"));
-			Document doc = new Document(dataset);
-			doc.setRootElement(dataset);
-			for (Sentence s : sentences) {
-				Tweet t = s.getTweets();
 
-				Element tweet = new Element("tweet");
-				tweet.setAttribute(new Attribute("id", Long.toString(t
-						.getTweetID())));
-				tweet.addContent(new Element("user").setText(t.getUser()));
-				tweet.addContent(new Element("tweet").setText(s.getRawTweet()));
+		Element objectName = new Element("objectName");
+		if (!cd.getObjectName().equalsIgnoreCase("null")) {
 
-				tweet.addContent(new Element("prediction").setText(s
-						.getCategory()));
-				tweet.addContent(new Element("actual").setText(t.getCategory()));
-
-				Element extracted = new Element("extracted");
-
-				if (t.getCategory().equalsIgnoreCase("D")) {
-					DonationTweet d = Binder.bindD(s);
-
-					Element locationInTweet = new Element("locationInTweet");
-					if (!d.getLocationInTweet().equalsIgnoreCase("null")) {
-
-						locationInTweet.addContent(d.getLocationInTweet());
-					}
-
-					Element name = new Element("resourceName");
-	
-					if (!d.getResourceName().equalsIgnoreCase("null")) {
-						name.addContent(d.getResourceName());
-					}
-					
-					Element detail = new Element("resourceDetail");
-					
-					if (!d.getResourceDetails().equalsIgnoreCase("null")) {
-						detail.addContent(d.getResourceDetails());
-					}
-					
-					Element victimName = new Element("victimName");
-					if (!d.getVictimName().equalsIgnoreCase("null")) {
-
-						victimName.addContent(d.getVictimName());
-					}
-
-					extracted.addContent(locationInTweet);
-					extracted.addContent(name);
-					extracted.addContent(detail);
-					extracted.addContent(victimName);
-				
-				}
-
-				tweet.addContent(extracted);
-
-				doc.getRootElement().addContent(tweet);
-			}
-			XMLOutputter xmlOutput = new XMLOutputter();
-
-			// display
-			xmlOutput.setFormat(Format.getPrettyFormat());
-			xmlOutput.output(doc, new FileWriter(outputPath));
-		} catch (IOException e) {
-
+			objectName.addContent(cd.getObjectName());
 		}
+
+		Element victimName = new Element("victimName");
+		if (!cd.getObjectName().equalsIgnoreCase("null")) {
+
+			victimName.addContent(cd.getVictimName());
+		}
+
+		extracted.addContent(locationInTweet);
+		extracted.addContent(objectName);
+		extracted.addContent(objectDetails);
+		extracted.addContent(victimName);
+
+		return extracted;
 	}
-	
-	
-	
+
+	private static Element saveXMLCA(Sentence sentence) {
+
+		Element extracted = new Element("extracted");
+
+		CautionAndAdviceTweet ca = Binder.bindCA(sentence);
+
+		Element locationInTweet = new Element("locationInTweet");
+		if (!ca.getLocationInTweet().equalsIgnoreCase("null")) {
+
+			locationInTweet.addContent(ca.getLocationInTweet());
+		}
+
+		Element advice = new Element("advice");
+
+		if (!ca.getTweetAdvice().equalsIgnoreCase("null")) {
+			advice.addContent(ca.getTweetAdvice());
+		}
+
+		extracted.addContent(locationInTweet);
+		extracted.addContent(advice);
+
+		return extracted;
+
+	}
+
+	private static Element saveXMLCH(Sentence sentence) {
+
+		Element extracted = new Element("extracted");
+
+		CallForHelpTweet ca = Binder.bindCH(sentence);
+
+		Element locationInTweet = new Element("locationInTweet");
+		if (!ca.getLocationInTweet().equalsIgnoreCase("null")) {
+
+			locationInTweet.addContent(ca.getLocationInTweet());
+		}
+
+		Element victim = new Element("victimName");
+
+		if (!ca.getVictimName().equalsIgnoreCase("null")) {
+
+			victim.addContent(ca.getVictimName());
+		}
+
+		extracted.addContent(locationInTweet);
+		extracted.addContent(victim);
+
+		return extracted;
+
+	}
+
+	private static Element saveXMLD(Sentence sentence) {
+
+		Element extracted = new Element("extracted");
+
+		DonationTweet d = Binder.bindD(sentence);
+
+		Element locationInTweet = new Element("locationInTweet");
+		if (!d.getLocationInTweet().equalsIgnoreCase("null")) {
+
+			locationInTweet.addContent(d.getLocationInTweet());
+		}
+
+		Element name = new Element("resourceName");
+
+		if (!d.getResourceName().equalsIgnoreCase("null")) {
+			name.addContent(d.getResourceName());
+		}
+
+		Element detail = new Element("resourceDetail");
+
+		if (!d.getResourceDetails().equalsIgnoreCase("null")) {
+			detail.addContent(d.getResourceDetails());
+		}
+
+		Element victimName = new Element("victimName");
+		if (!d.getVictimName().equalsIgnoreCase("null")) {
+
+			victimName.addContent(d.getVictimName());
+		}
+
+		extracted.addContent(locationInTweet);
+		extracted.addContent(name);
+		extracted.addContent(detail);
+		extracted.addContent(victimName);
+
+		return extracted;
+	}
 
 	public static HashMap<Integer, Element> loadXML(String path) {
 		HashMap<Integer, Element> nodes = new HashMap<Integer, Element>();

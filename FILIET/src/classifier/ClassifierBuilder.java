@@ -242,10 +242,12 @@ public class ClassifierBuilder {
 		}
 
 		// Class Attribute
-		String category = tweet.getCategory();
+		String category = null;
 		
 		if(!tweet.getCategory().equalsIgnoreCase(classifierType)){
 			category = "O";
+		} else if(classifierType.equalsIgnoreCase("ANY")){
+			category = tweet.getCategory();
 		}
 		
 //		instance.setValue(((Attribute) wekaAttributes.lastElement()),category);

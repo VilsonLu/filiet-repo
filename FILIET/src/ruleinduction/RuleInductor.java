@@ -118,7 +118,8 @@ public class RuleInductor {
 
 		// temporary
 		// String category = sentence.getCategory();
-		String category = "CD";
+		//String category = sentence.getCategory();
+		String category = "CA";
 		List<Grammar> extractionRules = categorizeRule.get(category);
 
 		// for successfully matched rules
@@ -161,10 +162,10 @@ public class RuleInductor {
 							
 							PostExtractedInformation extractInfo = new PostExtractedInformation();
 							extractInfo.setCompiledInformation(temp);
+							extractInfo.setAppliedRules(rp);
 							extractedInformation.add(extractInfo);
 							extract = null;
 							ruleIndex = 0;
-							sentence.addAppliedRules(rp);
 							temp = null;
 							temp = new ArrayList<ExtractedInformation>();
 						}
@@ -175,6 +176,7 @@ public class RuleInductor {
 			}
 
 		}
+		
 
 		return extractedInformation;
 	}

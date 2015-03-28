@@ -44,10 +44,6 @@ public class FeatureExtractor {
 	private HashMap<String, Integer> extractedNgramFeatures;
 	private HashMap<String, Integer> extractedFeatures;
 
-	/*
-	 * Label Index
-	 */
-	private int classIndex;
 
 	/**
 	 * @param wordModel
@@ -95,20 +91,6 @@ public class FeatureExtractor {
 		this.ngramfeatures = ngramfeatures;
 	}
 
-	/**
-	 * @return the classIndex
-	 */
-	public int getClassIndex() {
-		return classIndex;
-	}
-
-	/**
-	 * @param classIndex
-	 *            the classIndex to set
-	 */
-	public void setClassIndex(int classIndex) {
-		this.classIndex = classIndex;
-	}
 
 	/**
 	 * Reads a model file
@@ -174,10 +156,8 @@ public class FeatureExtractor {
 			String removeSingleQuote = "\'";
 
 			// writes the header
-			classIndex = 0;
 			for (String h : header) {
 				headers.add(h);
-				classIndex++;
 
 			}
 

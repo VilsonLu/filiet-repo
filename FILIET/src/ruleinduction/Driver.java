@@ -25,14 +25,13 @@ public class Driver {
 			
 			PreprocessorManager preprocessor = new PreprocessorManager();
 			
-			String tweet = "Malanday, Marikina, Muntinlupa, Metro Manila";
+			String tweet = "RT @gmanews: MARILAO, BULACAN ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬ï† Abot leeg na ang baha sa ilang lugar. Ilang residente ang inilikas. #MarioPH update ni John Consulta.";
 			Sentence sentence = preprocessor.PreprocessText(tweet);
 
 			pm.loadRules();
 			System.out.println();
 			List<PostExtractedInformation> x = pm.match(sentence);
-			System.out.println();
-			System.out.println(x.size());
+
 			for (PostExtractedInformation s : x) {
 				
 				s.printText();

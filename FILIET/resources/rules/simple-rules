@@ -2,7 +2,7 @@
 <string:ng> <ner:LOCATION>[as]LOCATION
 <ner:LOCATION>[as]LOCATION <pos:NN>[as]LOCATION
 <pos:PSNS> <ner:LOCATION>[as]LOCATION
-<pos:NCOM> <ner:LOCATION>[as]LOCATION
+<string:sa> <ner:LOCATION>[as]LOCATION
 <pos:JJ>[as]ADVICE <string:#1>[as]ADVICE
 <pos:JJ>[as]ADVICE <string:#2>[as]ADVICE
 <pos:JJ>[as]ADVICE <string:#3>[as]ADVICE
@@ -20,8 +20,21 @@
 <string:suspendido>[as]ADVICE <string:ang>[as]ADVICE <string:klase>[as]ADVICE
 <pos:JJ> <number:ANY>
 <ner:month>[as]DATE <pos:PSNS> <number:ANY>[as]DATE
-<string:state>[as]ADVICE <string:of>[as]ADVICE <string:calamity>[as]ADVICE
 <pos:JJ>[as]ADVICE <pos:NN:UN>[as]ADVICE <pos:JJ>[as]ADVICE
+<string:state>[as]ADVICE <string:of>[as]ADVICE <string:calamity>[as]ADVICE
+<pos:JJ>[as]ADVICE <pos:VBP>[as]ADVICE
+<pos:VBP>[as]ADVICE <pos:JJ>[as]ADVICE
+<string:lagpas>[as]ADVICE <pos:NCOM>[as]ADVICE 
+<pos:PRTA>[as]ADVICE <pos:NCOM>[as]ADVICE
+<string:lalim>[as]ADVICE <string:ANY> <string:baha>[as]ADVICE
+<string:SM> <ner:LOCATION>[as]LOCATION
+<string:na> <string:baha>[as]ADVICE
+<string:abot>[as]ADVICE <pos:NCOM>[as]ADVICE
+<string:ANY> <string:baha>[as]ADVICE
+<ner:LOCATION>[as]LOCATION <pos:JJ>[as]LOCATION
+<ner:LOCATION>[as]LOCATION <pos:PSNS> <pos:VBN>[as]ADVICE
+<pos:MANH>[as]ADVICE <string:ANY> <string:ANY> <string:baha>[as]ADVICE
+<pos:JJ>[as]ADVICE <pos:VBG>[as]ADVICE
 <end>
 <Category>: CD
 <ner:LOCATION>[as]LOCATION <pos:PSNS>

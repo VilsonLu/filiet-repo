@@ -1,11 +1,10 @@
 <Category>: CD
-<string:ng> <ner:LOCATION>[as]LOCATION 
+<ner:LOCATION>[as]LOCATION <pos:PSNS>
 <number:ANY>[as]NUMBER <pos:NA> <pos:NA> <string:ANY> <ner:UNIT>[as]UNIT
 <pos:NA> <pos:NCOM> <pos:NA> <pos:NCOM>
 <pos:NCOM> <ner:LOCATION>[as]LOCATION
 <number:ANY>[as]NUMBER <ner:UNIT>[as]UNIT
 <string:sa> <pos:PINP> <pos:NN>
-<string:state>[as]DETAIL <string:of>[as]DETAIL <string:calamity>[as]DETAIL
 <pos:JJ>[as]LOCATION <ner:LOCATION>[as]LOCATION
 <pos:NCOM>[as]OBJECT <string:at> <pos:NCOM>[as]OBJECT
 <ner:LOCATION>[as]LOCATION <pos:NN>
@@ -24,6 +23,5 @@
 <number:ANY>[as]NUMBER <pos:NNS>[as]UNIT
 <string:zero>[as]NUMBER <ner:UNIT>[as]UNIT
 <pos:MANH>[as]DETAIL <string:ANY> <pos:NCOM>[as]DETAIL
-<pos:VACF>[as]DETAIL <string:ANY> <pos:NCOM>[as]DETAIL
 <pos:VACF>[as]DETAIL <string:ANY> <string:ANY> <pos:NCOM>[as]DETAIL
 <end>

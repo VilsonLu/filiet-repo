@@ -10,7 +10,7 @@ public class Driver {
 
 	public static void main(String[] args){
 		double nano = 1000000000.0;
-		String message = "U.S.A. :) asan na kayo? bahay-kubo #marioph @ancalert";
+		String message = "RT @MMDA: FLOOD UPDATE: AS OF 9:28 PM Ma.Clara Araneta - Subided. #mmda";
 
 		Tokenizer arknlp = new Tokenizer(new ArkNLPTokenizerImpl());
 		Sentence tweet = arknlp.executeStrategy(message);
