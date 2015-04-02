@@ -26,8 +26,8 @@ public class Test {
 
 		// modules
 		InformationExtractionEngine extractorEngine = new InformationExtractionEngine();
-		OntologyModule ontology = new OntologyModule();
-		ontology.loadOntology(ontologyPath);
+		//OntologyModule ontology = new OntologyModule();
+		//ontology.loadOntology(ontologyPath);
 		
 		
 		// load the dataset
@@ -44,8 +44,11 @@ public class Test {
 		for (Sentence sentence : sentences) {
 			System.out.println(sentence.getTweets().getTweetID());
 			processedSentences.add(extractorEngine.runExtractor(sentence));
-			
-			// store the instance to ontology
+
+		}
+		
+		// adding the processed sentence instance
+		for (Sentence sentence : processedSentences) {
 			if (sentence.getTweets().getCategory().equalsIgnoreCase("CA")) {
 				CautionAndAdviceTweet ca = Binder.bindCA(sentence);
 				System.out.println("Advice: " + ca.getTweetAdvice());
@@ -56,7 +59,7 @@ public class Test {
 				System.out.println("Date " + ca.getTweetDate());
 				System.out.println("Timestamp " + ca.getTweetTimestamp());
 				System.out.println("Geolocation " + ca.getTweetGeoLocation());
-				ontology.addCautionAndAdviceReport(ca);
+				//ontology.addCautionAndAdviceReport(ca);
 			} else if(sentence.getTweets().getCategory().equalsIgnoreCase("CD")){
 				CasualtiesAndDamageTweet cd = Binder.bindCD(sentence);
 				System.out.println("Detail " + cd.getObjectDetails() );
@@ -68,14 +71,10 @@ public class Test {
 				System.out.println("Date " + cd.getTweetDate());
 				System.out.println("Timestamp " + cd.getTweetTimestamp());
 				System.out.println("Geolocation " + cd.getTweetGeoLocation());
-				ontology.addCasualtiesAndDamageReport(cd);
+				//ontology.addCasualtiesAndDamageReport(cd);
 			}
-
-		}
-		
-
 			
-			ontology.displayStoredTweets();
+			//ontology.displayStoredTweets();
 			System.out.println();
 		}
 

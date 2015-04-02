@@ -5,6 +5,21 @@ import java.util.List;
 public class PostExtractedInformation {
 	private String type;
 	private List<ExtractedInformation> compiledInformation;
+	private Grammar appliedRules;
+	
+	
+	/**
+	 * @return the appliedRules
+	 */
+	public Grammar getAppliedRules() {
+		return appliedRules;
+	}
+	/**
+	 * @param appliedRules the appliedRules to set
+	 */
+	public void setAppliedRules(Grammar appliedRules) {
+		this.appliedRules = appliedRules;
+	}
 	/**
 	 * @return the type
 	 */

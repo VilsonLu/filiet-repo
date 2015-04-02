@@ -1,35 +1,79 @@
 <Category>: CA
-<pos:JJ> <pos:NN> <pos:PSNS> <number:ANY>
-<ner:LOCATION>[as]LOCATION
-<pos:JJ> <string:#1>
-<pos:JJ> <string:#2>
-<pos:JJ> <string:#3>
+<string:ng> <ner:LOCATION>[as]LOCATION
+<ner:LOCATION>[as]LOCATION <pos:NN>[as]LOCATION
+<pos:PSNS> <ner:LOCATION>[as]LOCATION
+<string:sa> <ner:LOCATION>[as]LOCATION
+<pos:JJ>[as]ADVICE <string:#1>[as]ADVICE
+<pos:JJ>[as]ADVICE <string:#2>[as]ADVICE
+<pos:JJ>[as]ADVICE <string:#3>[as]ADVICE
 <pos:VBZ> <string:classes> <pos:IN> <pos:JJ> <pos:VBZ>
 <pos:VBP> <string:classes> <pos:IN> <pos:JJ> <pos:VBZ>
-<string:#walangpasok> <pos:JJ> <pos:VBZ>
-<string:signal> <pos:NN> <pos:PSNS> <number:ANY>
-<string:#walangpasok> <pos:PSNS> <string:klase> 
-<string:#walangpasok> <string:sa> <pos:PIDP> <pos:NA> <string:antas>
+<string:#walangpasok>[as]ADVICE <pos:JJ> <pos:VBZ>
+<string:signal>[as]ADVICE <pos:NN> <pos:PSNS> <number:ANY>[as]ADVICE
+<string:#walangpasok>[as]ADVICE <pos:PSNS> <string:ANY> 
+<string:#walangpasok>[as]ADVICE <string:sa> <pos:PIDP> <pos:NA> <string:antas>
+<string:#walangpasok>[as]ADVICE <pos:PSNS> <string:ANY> <pos:NA> <string:ANY>
+<pos:NCOM> <string:@adamsonuni>[as]LOCATION
+<pos:VBP>[as]ADVICE <pos:VBP>[as]ADVICE
+<pos:ADMO>[as]ADVICE <pos:NCOM>[as]ADVICE
+<pos:NCOM> <string:ng> <pos:NCOM>
+<string:suspendido>[as]ADVICE <string:ang>[as]ADVICE <string:klase>[as]ADVICE
+<pos:JJ> <number:ANY>
+<ner:month>[as]DATE <pos:PSNS> <number:ANY>[as]DATE
+<pos:JJ>[as]ADVICE <pos:NN:UN>[as]ADVICE <pos:JJ>[as]ADVICE
+<string:state>[as]ADVICE <string:of>[as]ADVICE <string:calamity>[as]ADVICE
+<pos:JJ>[as]ADVICE <pos:VBP>[as]ADVICE
+<pos:VBP>[as]ADVICE <pos:JJ>[as]ADVICE
+<string:lagpas>[as]ADVICE <pos:NCOM>[as]ADVICE 
+<pos:PRTA>[as]ADVICE <pos:NCOM>[as]ADVICE
+<string:lalim>[as]ADVICE <string:ANY> <string:baha>[as]ADVICE
+<string:SM> <ner:LOCATION>[as]LOCATION
+<string:na> <string:baha>[as]ADVICE
+<string:abot>[as]ADVICE <pos:NCOM>[as]ADVICE
+<string:ANY> <string:baha>[as]ADVICE
+<ner:LOCATION>[as]LOCATION <pos:JJ>[as]LOCATION
+<ner:LOCATION>[as]LOCATION <pos:PSNS> <pos:VBN>[as]ADVICE
+<pos:MANH>[as]ADVICE <string:ANY> <string:ANY> <string:baha>[as]ADVICE
+<pos:JJ>[as]ADVICE <pos:VBG>[as]ADVICE
 <end>
 <Category>: CD
-<number:ANY>[as]DETAIL <pos:NA> <pos:NA> <string:ANY> <ner:UNIT>[as]UNIT
+<ner:LOCATION>[as]LOCATION <pos:PSNS>
+<number:ANY>[as]NUMBER <pos:NA> <pos:NA> <string:ANY> <ner:UNIT>[as]UNIT
 <pos:NA> <pos:NCOM> <pos:NA> <pos:NCOM>
 <pos:NCOM> <ner:LOCATION>[as]LOCATION
-<number:ANY>[as]DETAIL <ner:UNIT>[as]UNIT
-<ner:LOCATION>[as]LOCATION <pos:PSNS>
-<pos:NCOM> <pos:NA> <pos:NCOM>[as]OBJECT
+<number:ANY>[as]NUMBER <ner:UNIT>[as]UNIT
 <string:sa> <pos:PINP> <pos:NN>
-<string:sa> <pos:JJ> <ner:LOCATION>[as]LOCATION
-<string:state> <string:of> <string:calamity>
-<pos:JJ> <ner:LOCATION>[as]LOCATION
+<pos:JJ>[as]LOCATION <ner:LOCATION>[as]LOCATION
+<pos:NCOM>[as]OBJECT <string:at> <pos:NCOM>[as]OBJECT
+<ner:LOCATION>[as]LOCATION <pos:NN>
+<pos:VOBF>[as]DETAIL <pos:NA> <string:#RubyPH>[as]DETAIL
+<pos:ADUN>[as]DETAIL <pos:NCOM> <pos:NCOM>[as]DETAIL
+<pos:NA> <pos:NN>[as]OBJECT
+<pos:ADOT> <pos:NCOM>
+<number:ANY> <string:na> <string:ang> <pos:JJ> <ner:UNIT>
+<string:mga> <pos:NCOM>[as]DETAIL <string:sa> <string:imprastraktura>[as]OBJECT
+<string:linya>[as]OBJECT <pos:NA>[as]OBJECT <pos:NCOM>[as]OBJECT
+<string::> <ner:LOCATION>[as]LOCATION
+<pos:MANH>[as]NUMBER <string:ANY> <ner:UNIT>[as]UNIT
+<pos:MANH>[as]NUMBER <ner:UNIT>[as]UNIT
+<string:walang>[as]NUMBER <string:ANY> <ner:UNIT>[as]UNIT
+<ner:LOCATION>[as]LOCATION <pos:PSNS> <ner:LOCATION>[as]LOCATION
+<number:ANY>[as]NUMBER <pos:NNS>[as]UNIT
+<string:zero>[as]NUMBER <ner:UNIT>[as]UNIT
+<pos:MANH>[as]DETAIL <string:ANY> <pos:NCOM>[as]DETAIL
+<pos:VACF>[as]DETAIL <string:ANY> <string:ANY> <pos:NCOM>[as]DETAIL
 <end>
 <Category>: CH
 <pos:MANH> <pos:CONG> <pos:NCOM>
 <end>
 <Category>: D
-<ner:LOCATION>[as]LOCATION
-<pos:VOBF> <pos:NA> <pos:NA> <pos:NN>[as]DONATION
-<number:ANY> <ner:UNIT>[as]UNIT
-<number:ANY> <pos:NN:UN> <ner:UNIT>[as]UNIT <string:packs>
+<pos:IN> <ner:LOCATION>[as]LOCATION
+<string:ang> <pos:NN>[as]RESOURCE
+<number:ANY>[as]NUMBER <ner:UNIT>[as]RESOURCE
+<number:ANY>[as]NUMBER <pos:NN:UN>[as]RESOURCE <ner:UNIT>[as]RESOURCE <string:packs>[as]RESOURCE
+<number:ANY>[as]DETAIL <pos:NNS>[as]DETAIL <pos:VBP>[as]RESOURCE
+<pos:JJ> <pos:VBP> <pos:VBG> 
+<number:ANY>[as]NUMBER <string:na> <ner:UNIT>[as]RESOURCE
+<pos:NN:UN>[as]RESOURCE <pos:NNS>[as]RESOURCE
 <end>
 

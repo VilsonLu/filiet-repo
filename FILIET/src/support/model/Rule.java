@@ -67,6 +67,7 @@ public class Rule {
 
 	public boolean matchToken(Token token) {
 
+		
 		if (type.equalsIgnoreCase("string")) {
 			if (value.equals("ANY")) {
 				return true;

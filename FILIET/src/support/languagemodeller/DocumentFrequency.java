@@ -65,8 +65,9 @@ public class DocumentFrequency {
 		line = br.readLine();
 		
 		while ((line = br.readLine()) != null) {
+		
 			String[] column = line.split(split);
-			String tempTweet = column[2].replace("\"", "").toLowerCase();
+			String tempTweet = column[2].toLowerCase();
 			documents.add(tempTweet);
 			documentCount++;
 		}
@@ -85,8 +86,14 @@ public class DocumentFrequency {
 			List<Token> tokens = tokenizer.executeStrategy(document).getSentence();
 			for(Token token: tokens){
 				String word = token.getWord();
-				if(wordFrequency.get(token.getWord()) != null){
+				
+				if(word.equals("pahirap")){
+					System.out.println("Hello <" + word  +">");
+				}
+				
+				if(wordFrequency.get(word) != null){
 					wordFrequency.replace(word, wordFrequency.get(word) + 1);
+					
 				} else {
 					wordFrequency.put(word, 1);
 				}

@@ -4,6 +4,8 @@ import java.io.IOException;
 import java.util.Iterator;
 import java.util.List;
 
+import ontology.model.CautionAndAdviceTweet;
+import binder.Binder;
 import preprocess.PreprocessorManager;
 import preprocess.tokenizer.ArkNLPTokenizerImpl;
 import preprocess.tokenizer.OpenNLPTokenizerImpl;
@@ -13,27 +15,28 @@ import support.model.PostExtractedInformation;
 import support.model.Rule;
 import support.model.Sentence;
 import support.model.Token;
+import support.model.Tweet;
 
 public class Driver {
 	public static void main(String[] args) throws IOException {
-		String path = "./resources/rules/simple-rules";
+		String path = "./resources/rules/ca-rules";
 		RuleInductor pm = new RuleInductor(path);
 		try {
 			
-			Tokenizer tokenizer = new Tokenizer(new ArkNLPTokenizerImpl());
 			PreprocessorManager preprocessor = new PreprocessorManager();
 			
-			String tweet = "@DZMMTeleRadyo: PAALALA: #walangpasok ALL LEVELS sa LAGUNA at RIZAL ngayong Sabado, Dec. 6 #RubyPH http://t.co/dMQwAHzo4S";
+			String tweet = "RT @gmanews: MARILAO, BULACAN ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬ï† Abot leeg na ang baha sa ilang lugar. Ilang residente ang inilikas. #MarioPH update ni John Consulta.";
 			Sentence sentence = preprocessor.PreprocessText(tweet);
 
 			pm.loadRules();
-	
+			System.out.println();
 			List<PostExtractedInformation> x = pm.match(sentence);
+
 			for (PostExtractedInformation s : x) {
+				
 				s.printText();
 				System.out.println();
 			}
-			
 		
 			System.out.println();
 		} catch (IOException e) {

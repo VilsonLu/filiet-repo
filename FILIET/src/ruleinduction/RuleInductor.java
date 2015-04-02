@@ -24,7 +24,7 @@ public class RuleInductor {
 	private String path;
 
 	public RuleInductor(String path) throws IOException {
-		categorizeRule = new HashMap<String,List<Grammar>>();
+		categorizeRule = new HashMap<String, List<Grammar>>();
 		this.path = path;
 		loadRules();
 	}
@@ -98,17 +98,16 @@ public class RuleInductor {
 
 		boolean flag = false;
 		while ((line = br.readLine()) != null) {
-			if (line.contains("Category")) {
+			if (line.contains("<Category>:")) {
 				category = line.split(" ")[1];
 				rules = new ArrayList<Grammar>();
-			} else if(line.contains("end")){
+			} else if (line.equals("<end>")) {
 				categorizeRule.put(category, rules);
 			} else {
 				rules.add(extractPatternRule(line));
-				
+
 			}
-			
-			
+
 		}
 
 	}
@@ -116,16 +115,20 @@ public class RuleInductor {
 	public List<PostExtractedInformation> match(Sentence sentence) {
 		List<Token> tokens = sentence.getSentence();
 		int tokenSize = tokens.size();
-		
-		List<Grammar> extractionRules = categorizeRule.get(sentence.getTweets().getCategory());
+
+		// temporary
+		// String category = sentence.getCategory();
+		//String category = sentence.getCategory();
+		String category = "CA";
+		List<Grammar> extractionRules = categorizeRule.get(category);
+
 		// for successfully matched rules
 		List<PostExtractedInformation> extractedInformation = new ArrayList<PostExtractedInformation>();
-	
-		
+
 		List<ExtractedInformation> temp = null;
 		ExtractedInformation extract = null;
 		for (Grammar rp : extractionRules) {
-			
+			rp.printRules();
 			List<Rule> rules = rp.getRules();
 			temp = new ArrayList<ExtractedInformation>();
 			boolean match = false;
@@ -138,8 +141,8 @@ public class RuleInductor {
 					if (ruleIndex < rules.size()) {
 						match = rules.get(ruleIndex).matchToken(
 								tokens.get(tokenIndex));
-				
-						if (match) {							
+
+						if (match) {
 							extract = new ExtractedInformation();
 							extract.setInformationType(rules.get(ruleIndex)
 									.getAsExtraction());
@@ -151,24 +154,30 @@ public class RuleInductor {
 							match = false;
 							temp = new ArrayList<ExtractedInformation>();
 						}
-					} 
-					
-					if(ruleIndex >= rules.size()){
-						if(match){		
+					}
+
+					if (ruleIndex >= rules.size()) {
+						if (match) {
+							System.out.println("Rule Match");
 							
 							PostExtractedInformation extractInfo = new PostExtractedInformation();
 							extractInfo.setCompiledInformation(temp);
+							extractInfo.setAppliedRules(rp);
 							extractedInformation.add(extractInfo);
+							extract = null;
 							ruleIndex = 0;
-							sentence.addAppliedRules(rp);
-						} 
+							temp = null;
+							temp = new ArrayList<ExtractedInformation>();
+						}
 					}
 					tokenIndex++;
 				}
-				
-			} 
+
+			}
 
 		}
+		
+
 		return extractedInformation;
 	}
 }

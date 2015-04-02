@@ -32,7 +32,7 @@ public class SomidiaNERImpl implements NERInterface {
 			}
 
 			while (s.hasNextLine()) {
-				String line = s.nextLine();
+				String line = s.nextLine().trim();
 				if (line.contains("DISASTER")) {
 					category = "disaster";
 				} else if (line.contains("LOCATION")) {
@@ -41,9 +41,7 @@ public class SomidiaNERImpl implements NERInterface {
 					category = "month";
 				} else if (token.getWord().equalsIgnoreCase(line.toString())) {
 					token.setNERTag(category);
-					token.setPOSTag("NN");
 					tweet.replaceToken(i, token);
-					break;
 				}
 			}
 

@@ -24,7 +24,7 @@ public class Driver {
 		try {
 			List<Sentence> sentences = Testing.readTestData(testTweets);
 					
-			Classifier classifier = new Classifier(new ClassifierImpl("./resources/model/classifier/testmodel.model"));
+			Classifier classifier = new Classifier(new ClassifierImpl());
 			//for(Sentence sentence: sentences){
 				
 				Sentence temp = ie.runExtractor(sentences.get(0));

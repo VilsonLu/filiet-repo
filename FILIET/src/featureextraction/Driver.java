@@ -15,17 +15,23 @@ public class Driver {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String category = "combined";
-		String tweets = "./resources/tweets/ruby-datasets/original/ruby-"+category+".csv";
-		String ngram = "./resources/model/ngram/ruby-ngram";
-		String word = "./resources/model/word/ruby-word";
-		//String saveModel = "./resources/tweets/test-extracted/mario-tfidf/mario-rubytrained-combined.csv";
-		String saveModel = "./resources/tweets/test-extracted/ruby-tfidf/ruby-"+category+".csv";
-		String testTweets = "./resources/tweets/ruby-datasets/original/combined-bin-d.csv";
-
+		String category = "Combined";
+		String percent = "10";
+		String tweets = "./resources/tweets/Mario-datasets/original/Mario-"+category+".csv";
+		String ngram = "./resources/model/ngram/mario/2-gram/mario-2gram-ca"+"-"+percent;
+		String word = "./resources/model/TFIDF-Scores/mario-ruby/marioruby-word-"+category+"-"+percent+".txt";
 		
-		FeatureExtractor fe = new FeatureExtractor(word,ngram);
-		fe.extractFeatures(tweets,saveModel);
+		
+		String saveModel = "./resources/tweets/test-extracted/ruby-tfidf/ruby-"+category+"-10.csv";
+		String saveNgram = "./resources/tweets/test-extracted/mario-tfidf/mario-"+category+"-2gram-"+percent+".csv";
+		String saveWord = "./resources/tweets/test-extracted/marioruby-tfidf/Mario-marioruby-"+category+"-word-"+percent+".csv";
+		
+		FeatureExtractor fe = new FeatureExtractor(word,null);
+		System.out.println("Extracting features...");
+		fe.extractFeatures(tweets,saveWord);
+	
+		//fe.extractFeaturesNgram(tweets, saveNgram);
+		System.out.println("Extraction complete!");
 		
 //		List<Sentence> sentences = null;
 //		try {

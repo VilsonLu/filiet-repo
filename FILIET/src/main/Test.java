@@ -20,7 +20,7 @@ public class Test {
 	public void startIE(String filepath) throws Exception {
 		// TODO Auto-generated method stub
 		String testTweets = filepath;
-		String ontologyPath = "./resources/ontology/FILIET_Ontology3.owl";
+		String ontologyPath = "./resources/ontology/FILIET_Ontology2.owl";
 
 		System.out
 				.println("FILIET - Filipino Information Extraction for Twitter");
