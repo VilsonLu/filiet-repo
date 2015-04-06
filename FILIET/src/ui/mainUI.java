@@ -315,7 +315,7 @@ public class mainUI extends JPanel {
 		RetrievedTweet rt = new RetrievedTweet();
 		OntologyRetriever or = new OntologyRetriever();
 		try {
-			or.loadOntology("./resources/ontology/FILIET_Ontology2.owl");
+			or.loadOntology("./resources/ontology/Ruby_OWL.owl");
 			rt = or.getStoredTweets();
 			or.removeOntologyFromManager();
 		} catch (Exception e) {

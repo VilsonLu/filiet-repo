@@ -71,7 +71,7 @@ public class OntologyDriver {
 		
 		OntologyRetriever or = new OntologyRetriever();
 		try {
-			or.loadOntology("./resources/ontology/FILIET_Ontology3.owl");
+			or.loadOntology("./resources/ontology/Ruby_OWL.owl");
 			or.getStoredTweets();
 			or.removeOntologyFromManager();
 		} catch (Exception e) {
