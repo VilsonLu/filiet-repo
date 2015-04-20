@@ -7,36 +7,35 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import support.languagemodeller.Filter;
 import support.model.Sentence;
 import support.model.Tweet;
 
 import com.csvreader.CsvReader;
 
-public class Testing {
-	
-	public static List<Sentence> readTestData(String path) throws IOException{
-		List<Sentence>  sentences = new ArrayList<Sentence>();
+public class Reader {
+
+	public static List<Sentence> readCSVFile(String path) throws IOException {
+		List<Sentence> sentences = new ArrayList<Sentence>();
 		FileReader testData = new FileReader(path);
-		CsvReader reader = new CsvReader(testData,';');
+		CsvReader reader = new CsvReader(testData, ';');
 		reader.readHeaders();
-		String record = "";
-		int i =0;
-		while(reader.readRecord()){
-			
+
+		while (reader.readRecord()) {
+
 			Sentence sentence = new Sentence();
 			Tweet tweet = new Tweet();
 			tweet.setTweetID(Long.valueOf(reader.get(0)));
 			tweet.setUser(reader.get(1));
 			tweet.setTweet(reader.get(2));
-		
-			if(!reader.get(3).equalsIgnoreCase("NULL")){
+
+			if (!reader.get(3).equalsIgnoreCase("NULL")) {
 				tweet.setLatitude(Double.valueOf(reader.get(3)));
 			}
-			if(!reader.get(4).equalsIgnoreCase("NULL")){
+			if (!reader.get(4).equalsIgnoreCase("NULL")) {
 				tweet.setLongitude(Double.valueOf(reader.get(4)));
 			}
-			
-			
+
 			tweet.setHashtag(isBoolean(reader.get(5)));
 			tweet.setURL(isBoolean(reader.get(6)));
 			tweet.setRetweet(isBoolean(reader.get(7)));
@@ -47,11 +46,11 @@ public class Testing {
 		}
 		return sentences;
 	}
-	
-	public static Boolean isBoolean(String value){
-		if(value.equalsIgnoreCase("1"))
+
+	private static Boolean isBoolean(String value) {
+		if (value.equalsIgnoreCase("1"))
 			return true;
-		else 
+		else
 			return false;
 	}
 }

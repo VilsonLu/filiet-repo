@@ -6,14 +6,13 @@ import ontology.model.CallForHelpTweet;
 import ontology.model.CasualtiesAndDamageTweet;
 import ontology.model.CautionAndAdviceTweet;
 import ontology.model.DonationTweet;
+import support.languagemodeller.Filter;
 import support.model.ExtractedInformation;
 import support.model.PostExtractedInformation;
 import support.model.Sentence;
 import support.model.Tweet;
 
 public class Binder {
-
-	private static String empty = "na";
 
 	public static CautionAndAdviceTweet bindCA(Sentence sentence) {
 
@@ -24,34 +23,35 @@ public class Binder {
 		// Get the location in tweet
 		String locationInTweet = "";
 		String advice = "";
-		for (PostExtractedInformation post : extract) {
-			List<ExtractedInformation> eInfo = post.getCompiledInformation();
-			for (ExtractedInformation e : eInfo) {
-				// location
-				if (e.getInformationType() != null) {
-					if (e.getInformationType().equalsIgnoreCase("location")) {
-						locationInTweet += e.getValue().getWord() + " ";
-					} else if (e.getInformationType()
-							.equalsIgnoreCase("ADVICE")) {
-						advice += e.getValue().getWord() + " ";
+		if (extract != null) {
+			for (PostExtractedInformation post : extract) {
+				List<ExtractedInformation> eInfo = post
+						.getCompiledInformation();
+				for (ExtractedInformation e : eInfo) {
+					// location
+					String type = e.getInformationType();
+					if (type != null) {
+						if (type.equalsIgnoreCase("ADVICE")) {
+							advice += e.getValue().getWord() + " ";
+						} else if (type.equalsIgnoreCase("LOCATION")) {
+							locationInTweet += e.getValue().getWord() + " ";
+						}
 					}
-				} 
+				}
 			}
 		}
 
-		// Caution and Advice
-		if (locationInTweet != null)
-			ca.setLocationInTweet(locationInTweet);
+		// Location
+		ca.setLocationInTweet(Filter.removeNonAlphaNumeric(locationInTweet.trim()));
+		// Advice
+		ca.setTweetAdvice(Filter.removeNonAlphaNumeric(advice.trim()));
 
-		if (advice != null)
-			ca.setTweetAdvice(advice);
-
-		// Tweet
+		// Tweet Information
 		Tweet tweet = sentence.getTweets();
-		ca.setTweetContent(sentence.getRawTweet());
+		ca.setTweetContent(Filter.removeNonAlphaNumeric(sentence.getRawTweet()));
 		ca.setTweetHandle(tweet.getUser());
 		if (tweet.getLatitude() != null || tweet.getLongitude() != null) {
-			ca.setTweetGeoLocation(Double.toString(tweet.getLatitude()) + ","
+			ca.setTweetGeoLocation(Double.toString(tweet.getLatitude()) + " "
 					+ Double.toString(tweet.getLongitude()));
 		} else {
 			ca.setTweetGeoLocation("null");
@@ -104,35 +104,27 @@ public class Binder {
 
 		// Casualties And Damage
 		if (victimName != null) {
-			cd.setVictimName(victimName);
-		} else {
-			cd.setVictimName("null");
+			cd.setVictimName(Filter.removeNonAlphaNumeric(victimName));
 		}
 
 		if (objectName != null) {
-			cd.setObjectName(objectName);
-		} else {
-			cd.setObjectName("null");
+			cd.setObjectName(Filter.removeNonAlphaNumeric(objectName));
 		}
 
 		if (objectDetail != null) {
-			cd.setObjectDetails(objectDetail);
-		} else {
-			cd.setObjectDetails("null");
+			cd.setObjectDetails(Filter.removeNonAlphaNumeric(objectDetail));
 		}
 
 		if (locationInTweet != null) {
-			cd.setLocationInTweet(locationInTweet);
-		} else {
-			cd.setLocationInTweet("null");
+			cd.setLocationInTweet(Filter.removeNonAlphaNumeric(locationInTweet));
 		}
 
 		// Tweet
 		Tweet tweet = sentence.getTweets();
-		cd.setTweetContent(sentence.getRawTweet());
+		cd.setTweetContent(Filter.removeNonAlphaNumeric(sentence.getRawTweet()));
 		cd.setTweetHandle(tweet.getUser());
 		if (tweet.getLatitude() != null || tweet.getLongitude() != null) {
-			cd.setTweetGeoLocation(Double.toString(tweet.getLatitude()) + ","
+			cd.setTweetGeoLocation(Double.toString(tweet.getLatitude()) + " "
 					+ Double.toString(tweet.getLongitude()));
 		} else {
 			cd.setTweetGeoLocation("null");
@@ -155,49 +147,55 @@ public class Binder {
 		List<PostExtractedInformation> extract = sentence
 				.getExtractedInformation();
 
-		for (PostExtractedInformation post : extract) {
-			List<ExtractedInformation> eInfo = post.getCompiledInformation();
-			for (ExtractedInformation i : eInfo) {
-				if (i.getInformationType() != null) {
-					if (i.getInformationType().equalsIgnoreCase("DETAIL") || i.getInformationType().equalsIgnoreCase("NUMBER")) {
-						resourceDetail += i.getValue().getWord() + " ";
-					} else if (i.getInformationType().equalsIgnoreCase("RESOURCE")) {
-						resourceName += i.getValue().getWord() + " ";
-					} else if (i.getInformationType()
-							.equalsIgnoreCase("VICTIM")) {
-						victimName += i.getValue().getWord() +" ";
-					} else if (i.getInformationType().equalsIgnoreCase(
-							"LOCATION")) {
+		if (extract != null) {
+			for (PostExtractedInformation post : extract) {
+				List<ExtractedInformation> eInfo = post
+						.getCompiledInformation();
+				for (ExtractedInformation i : eInfo) {
+					if (i.getInformationType() != null) {
+						if (i.getInformationType().equalsIgnoreCase("DETAIL")
+								|| i.getInformationType().equalsIgnoreCase(
+										"NUMBER")) {
+							resourceDetail += i.getValue().getWord() + " ";
+						} else if (i.getInformationType().equalsIgnoreCase(
+								"RESOURCE")) {
+							resourceName += i.getValue().getWord() + " ";
+						} else if (i.getInformationType().equalsIgnoreCase(
+								"VICTIM")) {
+							victimName += i.getValue().getWord() + " ";
+						} else if (i.getInformationType().equalsIgnoreCase(
+								"LOCATION")) {
 
-						locationInTweet += i.getValue().getWord() + " ";
+							locationInTweet += i.getValue().getWord() + " ";
 
+						}
 					}
 				}
 			}
-		}
 
+		}
 		// Casualties And Damage
 		if (victimName != null) {
-			d.setVictimName(victimName);
+			d.setVictimName(Filter.removeNonAlphaNumeric(victimName));
 		}
 
 		if (resourceName != null) {
-			d.setResourceName(resourceName);
+			d.setResourceName(Filter.removeNonAlphaNumeric(resourceName));
 		}
 		if (resourceDetail != null) {
-			d.setResourceDetails(resourceDetail);
+			d.setResourceDetails(Filter.removeNonAlphaNumeric(resourceDetail));
 		}
 
 		if (locationInTweet != null) {
-			d.setLocationInTweet(locationInTweet);
+			d.setLocationInTweet(Filter.removeNonAlphaNumeric(locationInTweet));
 		}
 
 		// Tweet
 		Tweet tweet = sentence.getTweets();
-		d.setTweetContent(sentence.getRawTweet());
+		d.setTweetContent(Filter.removeNonAlphaNumeric(sentence.getRawTweet()));
 		d.setTweetHandle(tweet.getUser());
 		if (tweet.getLatitude() != null || tweet.getLongitude() != null) {
-			d.setTweetGeoLocation(Double.toString(tweet.getLatitude()) + ","
+			d.setTweetGeoLocation(Double.toString(tweet.getLatitude()) + " "
 					+ Double.toString(tweet.getLongitude()));
 		} else {
 			d.setTweetGeoLocation("null");
@@ -217,40 +215,38 @@ public class Binder {
 		List<PostExtractedInformation> extract = sentence
 				.getExtractedInformation();
 
-		for (PostExtractedInformation post : extract) {
-			List<ExtractedInformation> eInfo = post.getCompiledInformation();
-			for (ExtractedInformation i : eInfo) {
-				if (i.getInformationType() != null) {
-					if (i.getInformationType().equalsIgnoreCase("VICTIM")) {
-						victimName = i.getValue().getWord();
-					} else if (i.getInformationType().equalsIgnoreCase(
-							"LOCATION")) {
-						locationInTweet += i.getValue().getWord();
-					
+		if (extract != null) {
+			for (PostExtractedInformation post : extract) {
+				List<ExtractedInformation> eInfo = post
+						.getCompiledInformation();
+				for (ExtractedInformation i : eInfo) {
+					if (i.getInformationType() != null) {
+						if (i.getInformationType().equalsIgnoreCase("VICTIM")) {
+							victimName = i.getValue().getWord();
+						} else if (i.getInformationType().equalsIgnoreCase(
+								"LOCATION")) {
+							locationInTweet += i.getValue().getWord() +" ";
+
+						}
 					}
 				}
 			}
 		}
-
 		// Casualties And Damage
 		if (victimName != null) {
-			ch.setVictimName(victimName);
-		} else {
-			ch.setVictimName("null");
+			ch.setVictimName(Filter.removeNonAlphaNumeric(victimName));
 		}
 
 		if (locationInTweet != null) {
-			ch.setLocationInTweet(locationInTweet);
-		} else {
-			ch.setLocationInTweet("null");
+			ch.setLocationInTweet(Filter.removeNonAlphaNumeric(locationInTweet));
 		}
 
 		// Tweet
 		Tweet tweet = sentence.getTweets();
-		ch.setTweetContent(sentence.getRawTweet());
+		ch.setTweetContent(Filter.removeNonAlphaNumeric(sentence.getRawTweet()));
 		ch.setTweetHandle(tweet.getUser());
 		if (tweet.getLatitude() != null || tweet.getLongitude() != null) {
-			ch.setTweetGeoLocation(Double.toString(tweet.getLatitude()) + ","
+			ch.setTweetGeoLocation(Double.toString(tweet.getLatitude()) + " "
 					+ Double.toString(tweet.getLongitude()));
 		} else {
 			ch.setTweetGeoLocation("null");

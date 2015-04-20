@@ -5,8 +5,6 @@ public class Rule {
 	private String value;
 	private String asExtraction;
 
-	private String NUMBERS = "0123456789";
-
 	/**
 	 * @return the type
 	 */

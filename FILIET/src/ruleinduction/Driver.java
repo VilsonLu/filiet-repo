@@ -25,7 +25,7 @@ public class Driver {
 			
 			PreprocessorManager preprocessor = new PreprocessorManager();
 			
-			String tweet = "RT @gmanews: MARILAO, BULACAN ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬ï† Abot leeg na ang baha sa ilang lugar. Ilang residente ang inilikas. #MarioPH update ni John Consulta.";
+			String tweet = "RT @clingyboypren: Hanggang leeg na ung baha sa Kalentong. Stay safe rizalians! ?? #MarioPH";
 			Sentence sentence = preprocessor.PreprocessText(tweet);
 
 			pm.loadRules();

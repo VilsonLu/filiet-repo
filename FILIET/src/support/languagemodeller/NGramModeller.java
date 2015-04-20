@@ -21,17 +21,7 @@ import edu.berkeley.nlp.tokenizer.Tokenizer;
 
 public class NGramModeller {
 	private HashMap<String, Integer> frequency;
-	private Tokenizer tokenizer;
-
-	private double rate = 0.20;
-
-	private static String wordAffix = "W_";
 	private static String ngramAffix = "N_";
-
-	private String quote = "\"";
-	private char colon = ':';
-	private char period = '.';
-	private char empty = ' ';
 
 	public NGramModeller() {
 		frequency = new HashMap<>();
@@ -40,7 +30,7 @@ public class NGramModeller {
 	/*
 	 * This method counts the frequency of n-gram
 	 */
-	public void CharNGram(int ngram, double topN, String saveFile, String path)
+	public void CharNGram(int ngram, int topN, String saveFile, String path)
 			throws IOException {
 		frequency = new HashMap<>();
 		File file = new File(path);
@@ -67,6 +57,7 @@ public class NGramModeller {
 
 		}
 
+		br.close();
 		System.out.println("Size: " + modeller.size());
 
 		this.getTop(saveFile, (int) (modeller.size() * topN));
@@ -87,7 +78,7 @@ public class NGramModeller {
 	}
 
 	/*
-	 * Get the top N highest word frequency. Result is save to a file.
+	 * Get the top N highest n-gram frequency. Result is save to a file.
 	 */
 	private void getTop(String saveFile, int n) throws IOException {
 
@@ -121,11 +112,7 @@ public class NGramModeller {
 		// Sort the list into ascending order
 		Collections.sort(entries, new CustomComparator());
 
-		/*
-		 * int k = 1; for (Map.Entry<String, Integer> entry : entries) {
-		 * System.out.println(k + " " + entry.getKey() + ": " +
-		 * entry.getValue()); k++; }
-		 */
+
 
 		this.saveFile(entries, saveFile);
 

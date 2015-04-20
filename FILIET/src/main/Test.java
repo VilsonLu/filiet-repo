@@ -12,7 +12,7 @@ import binder.Binder;
 import support.model.PostExtractedInformation;
 import support.model.Sentence;
 import support.other.XmlParser;
-import testing.Testing;
+import testing.Reader;
 import ui.mainUI;
 
 public class Test {
@@ -33,7 +33,7 @@ public class Test {
 		
 		List<Sentence> sentences = null;
 		try {
-			sentences = Testing.readTestData(testTweets);
+			sentences = Reader.readCSVFile(testTweets);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

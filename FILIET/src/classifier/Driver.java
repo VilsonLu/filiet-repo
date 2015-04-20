@@ -9,7 +9,7 @@ import classifier.implementations.Classifier;
 import classifier.implementations.ClassifierImpl;
 import informationextraction.InformationExtractionEngine;
 import support.model.Sentence;
-import testing.Testing;
+import testing.Reader;
 import weka.core.Attribute;
 import weka.core.FastVector;
 import weka.core.Instances;
@@ -18,11 +18,11 @@ public class Driver {
 
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
-		String testTweets = "./resources/tweets/mario-datasets/original/mario-combined.csv";
+		String testTweets = "./resources/tweets/Testing/Test.csv";
 		InformationExtractionEngine ie = new InformationExtractionEngine();
 		double nano = 1000000000.0;
 		try {
-			List<Sentence> sentences = Testing.readTestData(testTweets);
+			List<Sentence> sentences = Reader.readCSVFile(testTweets);
 					
 			Classifier classifier = new Classifier(new ClassifierImpl());
 			//for(Sentence sentence: sentences){

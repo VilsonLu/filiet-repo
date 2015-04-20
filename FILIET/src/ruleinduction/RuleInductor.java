@@ -119,7 +119,7 @@ public class RuleInductor {
 		// temporary
 		// String category = sentence.getCategory();
 		//String category = sentence.getCategory();
-		String category = "CA";
+		String category = sentence.getTweets().getCategory();
 		List<Grammar> extractionRules = categorizeRule.get(category);
 
 		// for successfully matched rules

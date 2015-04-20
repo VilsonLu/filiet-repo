@@ -38,4 +38,8 @@ public class Filter {
 		}
 
 	}
+	
+	public static String removeNonAlphaNumeric(String str){
+		return str.replaceAll("[^A-Za-z0-9 ]", "");
+	}
 }

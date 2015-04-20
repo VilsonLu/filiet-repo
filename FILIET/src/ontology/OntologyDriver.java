@@ -1,5 +1,7 @@
 package ontology;
 
+import org.semanticweb.owlapi.model.OWLOntologyCreationException;
+
 import ontology.model.CallForHelpTweet;
 import ontology.model.CasualtiesAndDamageTweet;
 import ontology.model.CautionAndAdviceTweet;
@@ -52,30 +54,26 @@ public class OntologyDriver {
 		oCH.setTweetGeoLocation("418.582912321, 102.51084911");
 		oCH.setLocationInTweet("Brgy. Trese");
 		oCH.setTweetTimestamp("03/21/2015:03:27:00:34");
-		oCH.setTweetDate("March 21, 2015");
-		oCH.setVictimName("pamilya ng mga sundalo");
+		oCH.setTweetDate("March 21, 2015~!");
+		oCH.setVictimName(null);
 		
-//		try {
-//			oModule.loadOntology();
-//			
-//			oModule.addCautionAndAdviceReport(oCA);
-//			oModule.addCasualtiesAndDamageReport(oCD);
-//			oModule.addDonationReport(oD);
-//			oModule.addCallForHelpReport(oCH);
-//			
-//			oModule.displayStoredTweets();
-//			oModule.removeOntologyFromManager();
-//		} catch (OWLOntologyCreationException e) {
-//			e.printStackTrace();
-//		}
-		
-		OntologyRetriever or = new OntologyRetriever();
 		try {
-			or.loadOntology("./resources/ontology/FILIET_Ontology3.owl");
-			or.getStoredTweets();
-			or.removeOntologyFromManager();
-		} catch (Exception e) {
+			oModule.loadOntology("./resources/ontology/FILIET_Ontology2.owl");
+			
+			
+			oModule.displayStoredTweets();
+			oModule.removeOntologyFromManager();
+		} catch (OWLOntologyCreationException e) {
 			e.printStackTrace();
 		}
+		
+//		OntologyRetriever or = new OntologyRetriever();
+//		try {
+//			or.loadOntology("./resources/ontology/FILIET_Ontology2.owl");
+//			or.getStoredTweets();
+//			or.removeOntologyFromManager();
+//		} catch (Exception e) {
+//			e.printStackTrace();
+//		}
 	}
 }

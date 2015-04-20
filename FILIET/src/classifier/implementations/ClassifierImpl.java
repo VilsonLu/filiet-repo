@@ -1,7 +1,12 @@
 package classifier.implementations;
 
+import java.io.FileInputStream;
+import java.io.ObjectInputStream;
+import java.util.Enumeration;
+
 import support.model.Sentence;
 import weka.classifiers.trees.RandomForest;
+import weka.core.Attribute;
 import weka.core.FastVector;
 import weka.core.Instance;
 import classifier.ClassifierBuilder;
@@ -11,7 +16,7 @@ public class ClassifierImpl implements ClassifierInterface{
 
 	private String pathModel;
 	private ClassifierBuilder builder;
-	private RandomForest classifier;
+	private weka.classifiers.Classifier classifier;
 	private String featuresPath;
 	
 	public ClassifierImpl() throws Exception{
@@ -22,14 +27,16 @@ public class ClassifierImpl implements ClassifierInterface{
 	
 	
 	private void initialize() throws Exception{
-		classifier = (RandomForest) weka.core.SerializationHelper.read(pathModel);
+		ObjectInputStream modelInObjectFile =   new ObjectInputStream(new FileInputStream(pathModel));
+		classifier = (weka.classifiers.Classifier) modelInObjectFile.readObject();
 		FastVector classLabel = new FastVector();
-		classLabel.addElement("CA");
 		classLabel.addElement("CD");
+		classLabel.addElement("CA");
 		classLabel.addElement("CH");
 		classLabel.addElement("D");
 		classLabel.addElement("O");
 		builder = new ClassifierBuilder(featuresPath,null,classLabel);
+		modelInObjectFile.close();
 	}
 	
 	

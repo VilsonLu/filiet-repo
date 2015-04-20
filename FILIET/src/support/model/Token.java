@@ -50,14 +50,10 @@ public class Token {
 		}
 		
 		if(this.NERTag != null){
-			word = "<"+this.NERTag+":"+this.Word + "/>";
+			word += "<"+this.NERTag+":"+word + "/>";
 		}	
 	
 		System.out.print("\""+word+"\",");
 	}
-	
-	public void TokenXML(){
-		
-	}
-	
+
 }

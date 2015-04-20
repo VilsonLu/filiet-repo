@@ -57,9 +57,7 @@ public class EvaluatorClassifier {
 				matrix[3][3]++;
 			else if (hypothesis.equalsIgnoreCase("O"))
 				matrix[3][4]++;
-		}
-
-		if (actual.equalsIgnoreCase("O")) {
+		} else if (actual.equalsIgnoreCase("O")) {
 			if (hypothesis.equalsIgnoreCase("CA"))
 				matrix[4][0]++;
 			else if (hypothesis.equalsIgnoreCase("CD"))

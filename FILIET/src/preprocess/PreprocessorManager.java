@@ -36,7 +36,7 @@ public class PreprocessorManager {
 	/*
 	 * Default Implementation
 	 */
-	public void InitializeModules(){
+	private void InitializeModules(){
 		normalizer = new Normalizer(new NormApiImpl());
 		tokenizer = new Tokenizer(new ArkNLPTokenizerImpl());
 		post = new POSTagger(new POSHashLookupImpl());

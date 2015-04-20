@@ -33,7 +33,7 @@ public class ClassifierBuilder {
 	private FastVector classLabel;
 	private Instances dataset;
 	
-	private int wordCount = 0;;
+	private int wordCount = 0;
 	private int ngramCount = 0;
 	
 	public ClassifierBuilder(FastVector classLabel) throws Exception {
@@ -203,7 +203,7 @@ public class ClassifierBuilder {
 		instance.setValue(((Attribute) wekaAttributes.elementAt(1)),
 				getBooleanValue(tweet.getHashtag()));
 		instance.setValue(((Attribute) wekaAttributes.elementAt(2)),
-				getBooleanValue(tweet.getHashtag()));
+				getBooleanValue(tweet.getRetweet()));
 		instance.setValue(((Attribute) wekaAttributes.elementAt(3)), sentence
 				.getExtractedFeatures().get("Length"));
 
@@ -218,11 +218,8 @@ public class ClassifierBuilder {
 				attributeName = ((Attribute) wekaAttributes.elementAt(i)).name();
 
 				if (wordValues.get(attributeName) != null) {
-					
-					instance.setValue(
-							((Attribute) wekaAttributes.elementAt(i)),
-							wordValues.get(attributeName));
-					
+					double value = wordValues.get(attributeName);
+					instance.setValue((Attribute) wekaAttributes.elementAt(i), value);				
 					currentIndex++;
 				}
 		
@@ -249,10 +246,9 @@ public class ClassifierBuilder {
 		} else if(classifierType.equalsIgnoreCase("ANY")){
 			category = tweet.getCategory();
 		}
-		
-//		instance.setValue(((Attribute) wekaAttributes.lastElement()),category);
+
 		instance.setDataset(dataset);
-			
+
 		return instance;
 	}
 

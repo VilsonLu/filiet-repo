@@ -93,10 +93,10 @@ public class FeatureExtractor {
 
 
 	/**
-	 * Reads a model file
+	 * Reads the text file that contained the features to be used
 	 * 
 	 * @param path
-	 *            - the path to the model
+	 *            - the path to the features
 	 * @param type
 	 *            - tells if it is a word model or n-gram model
 	 */
@@ -269,24 +269,8 @@ public class FeatureExtractor {
 		}
 	}
 
-	/**
-	 * This extracts the hashtag feature from a tokenized text
-	 * 
-	 * @param tokens
-	 */
 
-	public void extractHashTag(List<Token> tokens) {
-		int isHashtag = 0;
 
-		for (Token token : tokens) {
-			String temp = token.getWord();
-			if (temp.startsWith("#")) {
-				isHashtag = 1;
-				break;
-			}
-		}
-
-	}
 
 	/**
 	 * This extracts the word features from a tokenized text
@@ -311,7 +295,7 @@ public class FeatureExtractor {
 	}
 
 	/**
-	 * This extracts the n-gram features from a tokenized text
+	 * This extracts the n-gram features from a text
 	 * 
 	 * @param sentence
 	 *            - untokenized tweet

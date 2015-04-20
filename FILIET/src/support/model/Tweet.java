@@ -29,7 +29,6 @@ public class Tweet {
 	private String Category;
 	private Status Status;
 	
-	
 	public Tweet(){}
 	
 	public Tweet(Status status){

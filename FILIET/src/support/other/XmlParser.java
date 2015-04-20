@@ -51,7 +51,7 @@ public class XmlParser {
 				tweet.addContent(new Element("prediction").setText(sentence.getCategory()));
 				tweet.addContent(new Element("actual").setText(t.getCategory()));
 
-				String category = sentence.getCategory();
+				String category = sentence.getTweets().getCategory();
 				if (category.equalsIgnoreCase("CA")) {
 					tweet.addContent(saveXMLCA(sentence));
 				} else if (category.equalsIgnoreCase("CD")) {
@@ -120,14 +120,14 @@ public class XmlParser {
 		CautionAndAdviceTweet ca = Binder.bindCA(sentence);
 
 		Element locationInTweet = new Element("locationInTweet");
-		if (!ca.getLocationInTweet().equalsIgnoreCase("null")) {
+		if (ca.getLocationInTweet() != null) {
 
 			locationInTweet.addContent(ca.getLocationInTweet());
 		}
 
 		Element advice = new Element("advice");
 
-		if (!ca.getTweetAdvice().equalsIgnoreCase("null")) {
+		if (ca.getTweetAdvice()!= null) {
 			advice.addContent(ca.getTweetAdvice());
 		}
 
@@ -202,30 +202,6 @@ public class XmlParser {
 		return extracted;
 	}
 
-	public static HashMap<Integer, Element> loadXML(String path) {
-		HashMap<Integer, Element> nodes = new HashMap<Integer, Element>();
-		SAXBuilder builder = new SAXBuilder();
-		File xmlFile = new File(path);
-		System.out.println("Loading XML");
-		try {
 
-			Document document = (Document) builder.build(xmlFile);
-			Element rootNode = document.getRootElement();
-			List list = rootNode.getChildren("tweet");
-
-			for (int i = 0; i < list.size(); i++) {
-				Element node = (Element) list.get(i);
-				String child = node.getAttributeValue("id");
-				nodes.put(Integer.valueOf(child), node);
-			}
-
-		} catch (IOException io) {
-			System.out.println(io.getMessage());
-		} catch (JDOMException jdomex) {
-			System.out.println(jdomex.getMessage());
-		}
-
-		return nodes;
-	}
 
 }
