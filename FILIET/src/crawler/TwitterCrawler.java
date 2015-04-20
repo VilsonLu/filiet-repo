@@ -1,14 +1,18 @@
 package crawler;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Properties;
 
 import org.apache.log4j.BasicConfigurator;
@@ -45,7 +49,7 @@ public class TwitterCrawler {
 	private String AccessSecret;
 	private TwitterStreamFactory twitterStreamFactory;
 	
-	private PreprocessorManager manager;
+	private String[] keywords;
 	
 	public TwitterCrawler(){
 			try {
@@ -82,6 +86,21 @@ public class TwitterCrawler {
 			.setOAuthAccessTokenSecret(AccessSecret);
 		
 		twitterStreamFactory = new TwitterStreamFactory(cb.build());
+	}
+	
+	public void InitializeKeywords() throws IOException{
+		File file = new File("./resources/keywords.txt");
+		List<String> kw = new ArrayList<String>();
+		BufferedReader br = new BufferedReader(new FileReader(file));
+		
+		String line = null;
+		while((line=br.readLine()) != null){
+			kw.add(line);
+		}
+		
+		br.close();
+		
+		keywords = kw.toArray(new String[kw.size()]);
 	}
 
 	public void CrawlTweet() {
@@ -247,7 +266,6 @@ public class TwitterCrawler {
 		};
 		
 		FilterQuery fq = new FilterQuery();
-		String keywords[] = {"#reliefPH","#nopower", "#nowater", "#roadalert", "#tracingPH", "#rescuePH", "#floodPH", "#chedengph"};
 		fq.track(keywords);
 		
 		TwitterStream tweetStream = twitterStreamFactory.getInstance();
