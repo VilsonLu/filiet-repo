@@ -58,12 +58,12 @@ public class OntologyDriver {
 		oCH.setVictimName(null);
 		
 		try {
-			oModule.loadOntology("./resources/ontology/FILIET_Ontology2.owl");
-			
-			
+			oModule.loadOntology("./resources/ontology/Ruby_OWL.owl");		
 			oModule.displayStoredTweets();
 			oModule.removeOntologyFromManager();
 		} catch (OWLOntologyCreationException e) {
+
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 		

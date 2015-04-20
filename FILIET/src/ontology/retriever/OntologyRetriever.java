@@ -2,6 +2,7 @@ package ontology.retriever;
 
 import java.io.File;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
@@ -52,6 +53,56 @@ public class OntologyRetriever {
 		System.out.println("<+> FILIET ONTOLOGY MODULE: Loading Ontology...");
 		System.out.println("    > Ontology loaded successfully: " + filietOntology);
 	}
+	
+	// RETRIEVER PRE-REQUISITE METHOD: Ontology Location Retriever
+		public ArrayList<String> getLocationInstances() {
+			// PREPARE THE REASONER AND PREREQUISITE STUFF
+			OWLDataFactory dataFactory = manager.getOWLDataFactory();
+			OWLReasonerFactory reasonerFactory = new StructuralReasonerFactory();
+			ConsoleProgressMonitor progressMonitor = new ConsoleProgressMonitor();
+			OWLReasonerConfiguration config = new SimpleConfiguration(progressMonitor);
+			OWLReasoner reasoner = reasonerFactory.createReasoner(filietOntology,config);
+
+			OWLClass locationClass = dataFactory.getOWLClass(IRI.create(BASE_IRI + "Location"));
+			ArrayList<String> locList = new ArrayList<String>();
+			
+			// THIS IS THE LIST THAT CONTAINS THE INSTANCES OF THE TWEET CLASS
+			NodeSet<OWLNamedIndividual> locIndividualsNodeSet = reasoner.getInstances(locationClass, true);
+			Set<OWLNamedIndividual> loc = locIndividualsNodeSet.getFlattened();
+			ArrayList<OWLNamedIndividual> locIndividuals = new ArrayList<OWLNamedIndividual>(loc);
+			
+			// ITERATE THROUGH THE LIST OF INSTANCES OF THE TWEET CLASS
+			for(OWLNamedIndividual l : locIndividuals) {
+				// GET THE DATA PROPERTIES OF THE TWEET INSTANCE
+				ArrayList<DPVPair> locationInfo = getDataPropertyValues(l);
+				
+				for(DPVPair dpv : locationInfo) {
+					if(dpv.getDataProperty().equalsIgnoreCase("locationintweet")) {
+						if(!(dpv.getDataValue().equalsIgnoreCase(""))) {
+							if(!(locList.contains(dpv.getDataValue()))) {
+								locList.add(dpv.getDataValue());
+								System.out.println("  >> Location in Tweet: " + dpv.getDataValue());
+							}
+						}
+					}
+				}
+				
+//				if(!(locationInfo.get(0).getDataValue().equalsIgnoreCase(""))) {
+//					locList.add(locationInfo.get(0).getDataValue().toUpperCase());
+//					System.out.println("  >>  Location In Tweet: " + locationInfo.get(0).getDataValue());
+//				}
+		
+				//for(DPVPair lInfo : locationInfo) {
+				//	System.out.println("> " + lInfo.getDataProperty() + ": " + lInfo.getDataValue());
+				//}
+			}
+			
+			Collections.sort(locList);
+			System.out.println("Size of loclist: " + locList.size());
+			
+			return locList;
+		}
+
 	
 	// RETRIEVER PRE-REQUISITE METHOD: Ontology Remover
 	public void removeOntologyFromManager() {
