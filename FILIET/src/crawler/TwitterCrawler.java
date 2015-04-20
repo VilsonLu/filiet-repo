@@ -53,9 +53,10 @@ public class TwitterCrawler {
 	
 	public TwitterCrawler(){
 			try {
-				//BasicConfigurator.configure();
+				BasicConfigurator.configure();
 				InitializeKey();
 				InitializeTwitter();
+				InitializeKeywords();
 			} catch (IOException | TwitterException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
