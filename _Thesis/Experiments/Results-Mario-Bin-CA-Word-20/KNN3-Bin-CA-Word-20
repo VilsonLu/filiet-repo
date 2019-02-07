@@ -1,0 +1,112 @@
+=== Run information ===
+
+Scheme:weka.classifiers.lazy.IBk -K 3 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Relation:     Mario-Bin-CA-word-20-weka.filters.unsupervised.attribute.Remove-R1-5,9
+Instances:    1161
+Attributes:   71
+              IsUrl
+              IsHashtag
+              IsRetweet
+              Category
+              W_abo
+              W_agos
+              W_along
+              W_araw
+              W_area
+              W_bago
+              W_bagong
+              W_bandang
+              W_bewang
+              W_binti
+              W_blvd
+              W_bubong
+              W_building
+              W_bus
+              W_condo
+              W_davao
+              W_declares
+              W_fifth
+              W_flight
+              W_flood
+              W_floods
+              W_floor
+              W_gma
+              W_habang
+              W_hala
+              W_handa
+              W_humupa
+              W_ilang
+              W_inyong
+              W_isla
+              W_kahit
+              W_kanina
+              W_kanto
+              W_labas
+              W_lalim
+              W_lipa
+              W_mahabang
+              W_makita
+              W_marami
+              W_mataas
+              W_may
+              W_motorista
+              W_namin
+              W_ngaun
+              W_ngyon
+              W_of
+              W_out
+              W_padala
+              W_pahirap
+              W_point
+              W_pumasok
+              W_question
+              W_raw
+              W_road
+              W_sainyo
+              W_sasakyan
+              W_sasakyang
+              W_scout
+              W_severe
+              W_stop
+              W_swimming
+              W_tahanan
+              W_tska
+              W_uhod
+              W_weather
+              W_yellow
+              Length
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+IB1 instance-based classifier
+using 3 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         855               73.6434 %
+Incorrectly Classified Instances       306               26.3566 %
+Kappa statistic                          0.4688
+Mean absolute error                      0.2954
+Root mean squared error                  0.4225
+Relative absolute error                 59.969  %
+Root relative squared error             85.1338 %
+Total Number of Instances             1161     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.739     0.267      0.78      0.739     0.759      0.817    CA
+                 0.733     0.261      0.688     0.733     0.71       0.817    O
+Weighted Avg.    0.736     0.264      0.739     0.736     0.737      0.817
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 481 170 |   a = CA
+ 136 374 |   b = O
+

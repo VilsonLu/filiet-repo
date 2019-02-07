@@ -1,0 +1,190 @@
+=== Run information ===
+
+Scheme:weka.classifiers.bayes.BayesNet -D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 1 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5
+Relation:     Mario-Bin-CA-word-20-weka.filters.unsupervised.attribute.Remove-R1-5,9
+Instances:    1161
+Attributes:   71
+              IsUrl
+              IsHashtag
+              IsRetweet
+              Category
+              W_abo
+              W_agos
+              W_along
+              W_araw
+              W_area
+              W_bago
+              W_bagong
+              W_bandang
+              W_bewang
+              W_binti
+              W_blvd
+              W_bubong
+              W_building
+              W_bus
+              W_condo
+              W_davao
+              W_declares
+              W_fifth
+              W_flight
+              W_flood
+              W_floods
+              W_floor
+              W_gma
+              W_habang
+              W_hala
+              W_handa
+              W_humupa
+              W_ilang
+              W_inyong
+              W_isla
+              W_kahit
+              W_kanina
+              W_kanto
+              W_labas
+              W_lalim
+              W_lipa
+              W_mahabang
+              W_makita
+              W_marami
+              W_mataas
+              W_may
+              W_motorista
+              W_namin
+              W_ngaun
+              W_ngyon
+              W_of
+              W_out
+              W_padala
+              W_pahirap
+              W_point
+              W_pumasok
+              W_question
+              W_raw
+              W_road
+              W_sainyo
+              W_sasakyan
+              W_sasakyang
+              W_scout
+              W_severe
+              W_stop
+              W_swimming
+              W_tahanan
+              W_tska
+              W_uhod
+              W_weather
+              W_yellow
+              Length
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Bayes Network Classifier
+not using ADTree
+#attributes=71 #classindex=3
+Network structure (nodes followed by parents)
+IsUrl(2): Category 
+IsHashtag(2): Category 
+IsRetweet(2): Category 
+Category(2): 
+W_abo(1): Category 
+W_agos(1): Category 
+W_along(1): Category 
+W_araw(1): Category 
+W_area(1): Category 
+W_bago(1): Category 
+W_bagong(1): Category 
+W_bandang(1): Category 
+W_bewang(1): Category 
+W_binti(1): Category 
+W_blvd(1): Category 
+W_bubong(1): Category 
+W_building(1): Category 
+W_bus(1): Category 
+W_condo(1): Category 
+W_davao(2): Category 
+W_declares(1): Category 
+W_fifth(1): Category 
+W_flight(1): Category 
+W_flood(1): Category 
+W_floods(1): Category 
+W_floor(1): Category 
+W_gma(1): Category 
+W_habang(1): Category 
+W_hala(1): Category 
+W_handa(1): Category 
+W_humupa(1): Category 
+W_ilang(1): Category 
+W_inyong(1): Category 
+W_isla(1): Category 
+W_kahit(1): Category 
+W_kanina(1): Category 
+W_kanto(1): Category 
+W_labas(1): Category 
+W_lalim(2): Category 
+W_lipa(1): Category 
+W_mahabang(2): Category 
+W_makita(1): Category 
+W_marami(1): Category 
+W_mataas(1): Category 
+W_may(1): Category 
+W_motorista(1): Category 
+W_namin(1): Category 
+W_ngaun(1): Category 
+W_ngyon(1): Category 
+W_of(1): Category 
+W_out(1): Category 
+W_padala(1): Category 
+W_pahirap(1): Category 
+W_point(1): Category 
+W_pumasok(1): Category 
+W_question(1): Category 
+W_raw(1): Category 
+W_road(1): Category 
+W_sainyo(1): Category 
+W_sasakyan(1): Category 
+W_sasakyang(1): Category 
+W_scout(1): Category 
+W_severe(1): Category 
+W_stop(1): Category 
+W_swimming(1): Category 
+W_tahanan(1): Category 
+W_tska(1): Category 
+W_uhod(1): Category 
+W_weather(1): Category 
+W_yellow(1): Category 
+Length(2): Category 
+LogScore Bayes: -4057.4394490926566
+LogScore BDeu: -4069.4647521813677
+LogScore MDL: -4079.5931905179973
+LogScore ENTROPY: -4026.6654131552636
+LogScore AIC: -4041.6654131552636
+
+
+Time taken to build model: 0.04 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         849               73.1266 %
+Incorrectly Classified Instances       312               26.8734 %
+Kappa statistic                          0.4554
+Mean absolute error                      0.3278
+Root mean squared error                  0.4338
+Relative absolute error                 66.5462 %
+Root relative squared error             87.3993 %
+Total Number of Instances             1161     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.754     0.298      0.764     0.754     0.759      0.789    CA
+                 0.702     0.246      0.691     0.702     0.696      0.789    O
+Weighted Avg.    0.731     0.275      0.732     0.731     0.731      0.789
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 491 160 |   a = CA
+ 152 358 |   b = O
+

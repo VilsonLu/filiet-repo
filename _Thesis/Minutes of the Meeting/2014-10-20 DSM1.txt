@@ -1,0 +1,14 @@
+DAILY SCRUM MEETING
+October 20, 2014
+12:30 NN
+Gox Lobby
+
+A. Updates
+	- TinTin: Organized Dropbox
+	- JP: Has 2k+ annotated tweets
+	- Kyle: Classes are already translated
+	- Vilson: Already has the product backlog (minor issue: not sure for the acceptance criteria)
+
+B. To-do
+	- Send JP the tweets
+	- Vilson will modify the classifier and feature extraction
