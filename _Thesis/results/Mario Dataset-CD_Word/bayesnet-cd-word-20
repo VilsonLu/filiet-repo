@@ -1,0 +1,100 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.BayesNet -D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 1 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5
+Relation:     Mario-Bin-CD-word-20-weka.filters.unsupervised.attribute.Remove-R1-5,9
+Instances:    116
+Attributes:   25
+              IsUrl
+              IsHashtag
+              IsRetweet
+              Category
+              W_quiteria
+              W_ilikas
+              W_volunteers
+              W_in
+              W_pagbaha
+              W_kabuluan
+              W_compound
+              W_brgy
+              W_ay
+              W_mahigit
+              W_bagyo
+              W_dulot
+              W_estero
+              W_apektado
+              W_district
+              W_bagyong
+              W_dist
+              W_tulay
+              W_tinatayang
+              W_pamilya
+              Length
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Bayes Network Classifier
+not using ADTree
+#attributes=25 #classindex=3
+Network structure (nodes followed by parents)
+IsUrl(2): Category 
+IsHashtag(1): Category 
+IsRetweet(2): Category 
+Category(2): 
+W_quiteria(1): Category 
+W_ilikas(2): Category 
+W_volunteers(2): Category 
+W_in(2): Category 
+W_pagbaha(1): Category 
+W_kabuluan(1): Category 
+W_compound(2): Category 
+W_brgy(1): Category 
+W_ay(2): Category 
+W_mahigit(2): Category 
+W_bagyo(1): Category 
+W_dulot(1): Category 
+W_estero(1): Category 
+W_apektado(1): Category 
+W_district(2): Category 
+W_bagyong(1): Category 
+W_dist(1): Category 
+W_tulay(1): Category 
+W_tinatayang(2): Category 
+W_pamilya(1): Category 
+Length(2): Category 
+LogScore Bayes: -611.9790776309733
+LogScore BDeu: -630.8759824846587
+LogScore MDL: -646.2186528638294
+LogScore ENTROPY: -591.5523656661063
+LogScore AIC: -614.5523656661063
+
+
+Time taken to build model: 0.03 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          98               84.4828 %
+Incorrectly Classified Instances        18               15.5172 %
+Kappa statistic                          0.6897
+Mean absolute error                      0.1563
+Root mean squared error                  0.3371
+Relative absolute error                 31.2461 %
+Root relative squared error             67.3991 %
+Coverage of cases (0.95 level)          97.4138 %
+Mean rel. region size (0.95 level)      65.0862 %
+Total Number of Instances              116     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.690    0.000    1.000      0.690    0.816      0.725    0.957     0.967     CD
+                 1.000    0.310    0.763      1.000    0.866      0.725    0.957     0.935     O
+Weighted Avg.    0.845    0.155    0.882      0.845    0.841      0.725    0.957     0.951     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 40 18 |  a = CD
+  0 58 |  b = O
+

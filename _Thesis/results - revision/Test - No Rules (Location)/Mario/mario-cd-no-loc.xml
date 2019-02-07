@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset name="ruby-dataset">
+  <tweet id="2">
+    <user>USTRCYCENG</user>
+    <tweet>RT @varsitarianust: Evacuees at Sto. Domingo Church in QC have reached 2.5k. @UST_CSC calling for volunteers tomorrow, 6am call time. #ReliÅ â€�?_</tweet>
+    <prediction>O</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet>Domingo Church</locationInTweet>
+      <objectName />
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="103">
+    <user>YoItsEllaoiG</user>
+    <tweet>RT @DZMMTeleRadyo: Tulay sa CamNorte, nawasak ng baha; Quirino Hiway ang daan pa-Daet (Photo from @PRO5React) http://t.co/l9AopM1Zmy httpÅ â€�?_</tweet>
+    <prediction>O</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet>Quirino</locationInTweet>
+      <objectName />
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="272">
+    <user>CitizenPatrol</user>
+    <tweet>Mahigit 3,000 pamilya, apektado ng baha sa Candaba, Pampanga. #MarioPH #FloodPH</tweet>
+    <prediction>O</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet>Pampanga</locationInTweet>
+      <objectName>3000 pamilya</objectName>
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="289">
+    <user>sanjuncssr</user>
+    <tweet>RT @CitizenPatrol: ilang residente sa marikina inilikas na sa Malanday Elem. School. #MarioPH #ReliefPH</tweet>
+    <prediction>O</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet>marikina School</locationInTweet>
+      <objectName />
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="290">
+    <user>sanjuncssr</user>
+    <tweet>RT @CitizenPatrol: ilang residente sa marikina inilikas na sa din sa pilipinas at sampaguita village . #MarioPH #ReliefPH</tweet>
+    <prediction>O</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet>marikina sampaguita</locationInTweet>
+      <objectName />
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="437">
+    <user>CitizenPatrol</user>
+    <tweet>Sa dist. 4 brgy. 576 d. santiago ay tinatayang 50 pamilya ang apektado ng bagyong mario. #MarioPH #FloodPH</tweet>
+    <prediction>O</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet>santiago</locationInTweet>
+      <objectName>50 pamilya</objectName>
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="725">
+    <user>CitizenPatrol</user>
+    <tweet>Sa muntinlupa may 60 pamilya sa cupang at 50 sa tunasan (cuyab) ay apektado dulot ng bagyo.#MarioPH #FloodPH</tweet>
+    <prediction>O</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet>muntinlupa may</locationInTweet>
+      <objectName>60 pamilya</objectName>
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="734">
+    <user>CitizenPatrol</user>
+    <tweet>Sa paranaque, 60 pamilya ang inilikas sa silverio creek at 30 sa fastrack. #MarioPH #ReliefPH</tweet>
+    <prediction>O</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet>paranaque creek</locationInTweet>
+      <objectName>60 pamilya</objectName>
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="735">
+    <user>CitizenPatrol</user>
+    <tweet>15 pamilya sa Pasay,brgy 184 ang kasalukuyang nasa brgy.hall at 15 naman ang nasa daycare . #MarioPH #ReliefPH</tweet>
+    <prediction>O</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet>Pasay</locationInTweet>
+      <objectName>15 pamilya</objectName>
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1223">
+    <user>katolikongpinoy</user>
+    <tweet>RT @varsitarianust: 2.5k evacuees in Sto. Domingo Church, QC as of of 8PM. SOURCE: DOMNET #MarioPH #ReliefPH</tweet>
+    <prediction>O</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet>Domingo Church</locationInTweet>
+      <objectName />
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1224">
+    <user>CitizenPatrol</user>
+    <tweet>Sa brgy 162 sta.Quiteria ay tinatayang may 148 at gayun din sa brgy 164 na may 101 na pamilya ang apektado dulot ng bagyo. #MarioPH</tweet>
+    <prediction>O</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet>may may</locationInTweet>
+      <objectName />
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1225">
+    <user>KeniticChoy</user>
+    <tweet>RT @stateofdnation: Mahigit limandaang pamilya ang kinailangang ilikas sa Malabon dahil sa matinding baha. LIVE si @tinapperez.</tweet>
+    <prediction>O</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet>Malabon</locationInTweet>
+      <objectName />
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1228">
+    <user>QMCMags</user>
+    <tweet>Å â€�?â€œ@DZMMTeleRadyo: Tulay sa CamNorte, nawasak ng baha http://t.co/BbC25XjXx4Å â€�?Â�? #HugotSaTagUlan @QueenAngeH @DearAtiSayii</tweet>
+    <prediction>O</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet />
+      <objectName />
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1230">
+    <user>gabdarez</user>
+    <tweet>RT @YouScoop: Tulay sa Brgy. Kabuluan, Sta Elena sa Camarines Norte, winasak ng baha. #MarioPH http://t.co/DOG7B2jJVH</tweet>
+    <prediction>O</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet>Elena Camarines</locationInTweet>
+      <objectName />
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1231">
+    <user>DZMMTeleRadyo</user>
+    <tweet>Tulay sa CamNorte, nawasak ng baha http://t.co/l9AopM1Zmy http://t.co/nVoZrD9Ibd</tweet>
+    <prediction>O</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet />
+      <objectName />
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1232">
+    <user>kawaiirobeni</user>
+    <tweet>RT @DZMMTeleRadyo: Tulay sa CamNorte, nawasak ng baha http://t.co/l9AopM1Zmy http://t.co/nVoZrD9Ibd</tweet>
+    <prediction>O</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet />
+      <objectName />
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1233">
+    <user>badillo_kevin</user>
+    <tweet>RT @DZMMTeleRadyo: Tulay sa CamNorte, nawasak ng baha http://t.co/l9AopM1Zmy http://t.co/nVoZrD9Ibd</tweet>
+    <prediction>O</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet />
+      <objectName />
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1234">
+    <user>badillo_kevin</user>
+    <tweet>RT @DZMMTeleRadyo: Tulay sa CamNorte, nawasak ng baha http://t.co/l9AopM1Zmy http://t.co/nVoZrD9Ibd</tweet>
+    <prediction>O</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet />
+      <objectName />
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1235">
+    <user>nnnikkka</user>
+    <tweet>RT @DZMMTeleRadyo: Tulay sa CamNorte, nawasak ng baha http://t.co/l9AopM1Zmy http://t.co/nVoZrD9Ibd</tweet>
+    <prediction>O</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet />
+      <objectName />
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1236">
+    <user>chantaleco</user>
+    <tweet>RT @CitizenPatrol: Sa Kalaw roxas compound ay tinatayang may 300 na pamilya ang apektado dulot ng bagyo. #MarioPH #FloodPH</tweet>
+    <prediction>O</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet>Kalaw roxas may</locationInTweet>
+      <objectName />
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1238">
+    <user>chantaleco</user>
+    <tweet>RT @CitizenPatrol: S dist. 5 baseco,inilikas n ilang mga residente s atienza elem. at aquino elem. n tinatayang hndi bababa sa limang libo.Ã¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet>aquino</locationInTweet>
+      <objectName />
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1239">
+    <user>chantaleco</user>
+    <tweet>RT @CitizenPatrol: Sa dist. 4 brgy. 576 d. santiago ay tinatayang 50 pamilya ang apektado ng bagyong mario. #MarioPH #FloodPH</tweet>
+    <prediction>O</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet>santiago</locationInTweet>
+      <objectName>50 pamilya</objectName>
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1240">
+    <user>kawaiirobeni</user>
+    <tweet>RT @DZMMTeleRadyo: Tulay sa CamNorte, nawasak ng baha http://t.co/l9AopM1Zmy http://t.co/nVoZrD9Ibd</tweet>
+    <prediction>O</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet />
+      <objectName />
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1241">
+    <user>DZMMTeleRadyo</user>
+    <tweet>Tulay sa CamNorte, nawasak ng baha http://t.co/l9AopM1Zmy http://t.co/nVoZrD9Ibd</tweet>
+    <prediction>O</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet />
+      <objectName />
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1242">
+    <user>gabdarez</user>
+    <tweet>RT @YouScoop: Tulay sa Brgy. Kabuluan, Sta Elena sa Camarines Norte, winasak ng baha. #MarioPH http://t.co/DOG7B2jJVH</tweet>
+    <prediction>O</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet>Elena Camarines</locationInTweet>
+      <objectName />
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1244">
+    <user>JhelRonquillo</user>
+    <tweet>833 pamilya/2,833 indibidwal inilikas mula sa iba't ibang distrito ng Maynila dahil parin sa baha #MarioPH</tweet>
+    <prediction>O</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet />
+      <objectName />
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1245">
+    <user>CitizenPatrol</user>
+    <tweet>S dist. 5 baseco,inilikas n ilang mga residente s atienza elem. at aquino elem. n tinatayang hndi bababa sa limang libo. #MarioPH #ReliefPH</tweet>
+    <prediction>O</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet>aquino</locationInTweet>
+      <objectName />
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1246">
+    <user>CitizenPatrol</user>
+    <tweet>Sa Kalaw roxas compound ay tinatayang may 300 na pamilya ang apektado dulot ng bagyo. #MarioPH #FloodPH</tweet>
+    <prediction>O</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet>Kalaw roxas may</locationInTweet>
+      <objectName />
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1247">
+    <user>CitizenPatrol</user>
+    <tweet>24 families, 81 individual mula sa Brgy. Bagumbayan, Taguig City ang lumikas sa Cayetano Sports Complex. #MarioPH #ReliefPH</tweet>
+    <prediction>O</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet>Bagumbayan Taguig Cayetano</locationInTweet>
+      <objectName>24 families</objectName>
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1248">
+    <user>katolikongpinoy</user>
+    <tweet>RT @CitizenPatrol: S dist. 3,parola binondo s bgy. 275 ay tinatayang 400 pmilya ang apektado at 292 kbahayan ang nsira dulot ng bgyong mariÃ¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet>parola</locationInTweet>
+      <objectName />
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1249">
+    <user>chantaleco</user>
+    <tweet>RT @CitizenPatrol: S dist. 3,parola binondo s bgy. 275 ay tinatayang 400 pmilya ang apektado at 292 kbahayan ang nsira dulot ng bgyong mariÃ¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet>parola</locationInTweet>
+      <objectName />
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1251">
+    <user>KJDumapit</user>
+    <tweet>RT @CitizenPatrol: ilang pamilya sa Brgy San Pedro West, Frisco, QC, ay nastuck na sa 2nd floor at patuloy pa din ang lakas ulan. #MarioPH Ã¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet>Pedro West lakas</locationInTweet>
+      <objectName />
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1252">
+    <user>KJDumapit</user>
+    <tweet>RT @CitizenPatrol: Lumikas na sa covered court ng barangay ang mga taga Bulelak, Marikina. #MarioPH #ReliefPH</tweet>
+    <prediction>O</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet>barangay Bulelak Marikina</locationInTweet>
+      <objectName />
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1253">
+    <user>KJDumapit</user>
+    <tweet>RT @CitizenPatrol: Sa kalaw roxas compound ay tinatayang 300 na pamilya ang apektado ng patuloy na pag ulan at pagbaha. #MarioPH #FloodPH</tweet>
+    <prediction>O</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet>kalaw roxas</locationInTweet>
+      <objectName />
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1254">
+    <user>KJDumapit</user>
+    <tweet>RT @CitizenPatrol: Sa district. 1 brgy. 93 estero ay tinatayang 50 pamilya ang apektado sa bagyong mario. #MarioPH #FloodPH</tweet>
+    <prediction>O</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet />
+      <objectName>50 pamilya</objectName>
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1255">
+    <user>KJDumapit</user>
+    <tweet>RT @CitizenPatrol: Sa district 2 mayhaligue estero brgy. 257 ay tinatayang 60 pamilya ang apektado sa bagyong mario. #MarioPH #FloodPH</tweet>
+    <prediction>O</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet>mayhaligue</locationInTweet>
+      <objectName>60 pamilya</objectName>
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1256">
+    <user>KJDumapit</user>
+    <tweet>RT @CitizenPatrol: umabot s mahigit 10,000 ang mga residente s marikina ang nilikas dhil ptuloy n pgtaas ng baha s Marikina river n ngyon aÃ¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet>marikina Marikina</locationInTweet>
+      <objectName />
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1257">
+    <user>KJDumapit</user>
+    <tweet>RT @CitizenPatrol: Sa district 2 ,felix de leon brgy. 256 ay tinatayang 100 pamilya ang apektado sa bagyong mario. #MarioPH #FloodPH</tweet>
+    <prediction>O</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet>felix</locationInTweet>
+      <objectName>100 pamilya</objectName>
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1259">
+    <user>KJDumapit</user>
+    <tweet>RT @CitizenPatrol: Sa district 2 ,felix de leon brgy. 264 ay tinatayang 50 pamilya naman ang apektado sa bagyong mario. #MarioPH #FloodPH</tweet>
+    <prediction>O</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet>felix</locationInTweet>
+      <objectName>50 pamilya</objectName>
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1260">
+    <user>KJDumapit</user>
+    <tweet>RT @CitizenPatrol: district 2,estero narcisa bgy. 259 tinatayang 150 at 200 n pmilya nman s estero de magdalena ang apektado s bagyong marÃ¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet>magdalena</locationInTweet>
+      <objectName />
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1261">
+    <user>KJDumapit</user>
+    <tweet>RT @CitizenPatrol: 2,200 pmilya s Caloocan inilikas at 1,278 pamilya naman inilikas mula sa mga bgys malapit sa Tullahan river sa ValenzuelÃ¢â‚¬Â¦</tweet>
+    <prediction>D</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet>Caloocan</locationInTweet>
+      <objectName>1278 pamilya</objectName>
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1262">
+    <user>KJDumapit</user>
+    <tweet>RT @CitizenPatrol: S dist. 3,parola binondo s bgy. 275 ay tinatayang 400 pmilya ang apektado at 292 kbahayan ang nsira dulot ng bgyong mariÃ¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet>parola</locationInTweet>
+      <objectName />
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1263">
+    <user>KJDumapit</user>
+    <tweet>RT @CitizenPatrol: Sa dist. 4 brgy. 576 d. santiago ay tinatayang 50 pamilya ang apektado ng bagyong mario. #MarioPH #FloodPH</tweet>
+    <prediction>O</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet>santiago</locationInTweet>
+      <objectName>50 pamilya</objectName>
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1279">
+    <user>Mauilorezca</user>
+    <tweet>RT @ryanmacatulad: Ã¢â‚¬Å“@gmanews: MARILAO, BULACAN Ã¢â‚¬â€�? Abot leeg na ang baha sa ilang lugar. Ilang residente ang inilikas. #MarioPH update ni JohÃ¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet>BULACAN</locationInTweet>
+      <objectName />
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1280">
+    <user>chantaleco</user>
+    <tweet>RT @CitizenPatrol: 2,200 pmilya s Caloocan inilikas at 1,278 pamilya naman inilikas mula sa mga bgys malapit sa Tullahan river sa ValenzuelÃ¢â‚¬Â¦</tweet>
+    <prediction>D</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet>Caloocan</locationInTweet>
+      <objectName>1278 pamilya</objectName>
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1281">
+    <user>CitizenPatrol</user>
+    <tweet>S dist. 3,parola binondo s bgy. 275 ay tinatayang 400 pmilya ang apektado at 292 kbahayan ang nsira dulot ng bgyong mario. #MarioPH #FloodPH</tweet>
+    <prediction>O</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet>parola</locationInTweet>
+      <objectName />
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1282">
+    <user>katolikongpinoy</user>
+    <tweet>RT @CitizenPatrol: Sa district. 1 brgy. 93 estero ay tinatayang 50 pamilya ang apektado sa bagyong mario. #MarioPH #FloodPH</tweet>
+    <prediction>O</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet />
+      <objectName>50 pamilya</objectName>
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1284">
+    <user>letmillete</user>
+    <tweet>RT @BalitaNgayon: 113 preso sa Meycauayan Municipal Jail, inilipat sa Sta. Maria Municipal Jail dahil sa hanggang dibdib na baha #MarioPH |Ã¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet>Maria</locationInTweet>
+      <objectName />
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1285">
+    <user>CitizenPatrol</user>
+    <tweet>2,200 pmilya s Caloocan inilikas at 1,278 pamilya naman inilikas mula sa mga bgys malapit sa Tullahan river sa Valenzuela. #MarioPH #FloodPH</tweet>
+    <prediction>O</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet>Caloocan Valenzuela</locationInTweet>
+      <objectName>1278 pamilya</objectName>
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1286">
+    <user>chantaleco</user>
+    <tweet>RT @CitizenPatrol: district 2,estero narcisa bgy. 259 tinatayang 150 at 200 n pmilya nman s estero de magdalena ang apektado s bagyong marÃ¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet>magdalena</locationInTweet>
+      <objectName />
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1287">
+    <user>chantaleco</user>
+    <tweet>RT @CitizenPatrol: Sa district 2 ,felix de leon brgy. 264 ay tinatayang 50 pamilya naman ang apektado sa bagyong mario. #MarioPH #FloodPH</tweet>
+    <prediction>O</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet>felix</locationInTweet>
+      <objectName>50 pamilya</objectName>
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1289">
+    <user>chantaleco</user>
+    <tweet>RT @CitizenPatrol: Sa district 2 ,felix de leon brgy. 256 ay tinatayang 100 pamilya ang apektado sa bagyong mario. #MarioPH #FloodPH</tweet>
+    <prediction>O</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet>felix</locationInTweet>
+      <objectName>100 pamilya</objectName>
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1290">
+    <user>chantaleco</user>
+    <tweet>RT @CitizenPatrol: umabot s mahigit 10,000 ang mga residente s marikina ang nilikas dhil ptuloy n pgtaas ng baha s Marikina river n ngyon aÃ¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet>marikina Marikina</locationInTweet>
+      <objectName />
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1291">
+    <user>chantaleco</user>
+    <tweet>RT @CitizenPatrol: Sa district 2 mayhaligue estero brgy. 257 ay tinatayang 60 pamilya ang apektado sa bagyong mario. #MarioPH #FloodPH</tweet>
+    <prediction>O</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet>mayhaligue</locationInTweet>
+      <objectName>60 pamilya</objectName>
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1292">
+    <user>chantaleco</user>
+    <tweet>RT @CitizenPatrol: Sa district. 1 brgy. 93 estero ay tinatayang 50 pamilya ang apektado sa bagyong mario. #MarioPH #FloodPH</tweet>
+    <prediction>O</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet />
+      <objectName>50 pamilya</objectName>
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1293">
+    <user>chantaleco</user>
+    <tweet>RT @CitizenPatrol: Sa kalaw roxas compound ay tinatayang 300 na pamilya ang apektado ng patuloy na pag ulan at pagbaha. #MarioPH #FloodPH</tweet>
+    <prediction>O</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet>kalaw roxas</locationInTweet>
+      <objectName />
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1294">
+    <user>CitizenPatrol</user>
+    <tweet>district 2,estero narcisa bgy. 259 tinatayang 150 at 200 n pmilya nman s estero de magdalena ang apektado s bagyong mario.#MarioPH #FloodPH</tweet>
+    <prediction>O</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet>magdalena</locationInTweet>
+      <objectName />
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1363">
+    <user>CitizenPatrol</user>
+    <tweet>Sa muntinlupa may 60 pamilya sa cupang at 50 sa tunasan (cuyab) ay apektado dulot ng bagyo.#MarioPH #FloodPH</tweet>
+    <prediction>O</prediction>
+    <actual>CD</actual>
+    <extracted>
+      <locationInTweet>muntinlupa may</locationInTweet>
+      <objectName>60 pamilya</objectName>
+      <objectDetails />
+      <victimName />
+    </extracted>
+  </tweet>
+</dataset>
+

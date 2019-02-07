@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset name="ruby-dataset">
+  <tweet id="1">
+    <user>emmidejesus</user>
+    <tweet>Donate &amp; Volunteer, click link for details https://t.co/aTZ01tnOUn Lingap Gabriela for #ReliefPH drive for #MarioPH flood victims in Manila</tweet>
+    <prediction>O</prediction>
+    <actual>D</actual>
+    <extracted>
+      <locationInTweet>Manila</locationInTweet>
+      <resourceName />
+      <resourceDetail />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="22">
+    <user>beachysheng</user>
+    <tweet>"You can also donate via Paypal. Click here http://t.co/wt07Yjlfax #TulongKabataan #ReliefPH #MarioPH"</tweet>
+    <prediction>O</prediction>
+    <actual>D</actual>
+    <extracted>
+      <locationInTweet />
+      <resourceName />
+      <resourceDetail />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="23">
+    <user>BonitoAlentajan</user>
+    <tweet>RT @smsupermalls: PUBLIC SERVICE ADVISORY: Free overnight parking in SM malls for those affected by #MarioPH #ReliefPH http://t.co/7pMYcZzÃ¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>D</actual>
+    <extracted>
+      <locationInTweet>SERVICE</locationInTweet>
+      <resourceName />
+      <resourceDetail />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="24">
+    <user>margeemateo</user>
+    <tweet>RT @smsupermalls: PUBLIC SERVICE ADVISORY: Free overnight parking in SM malls for those affected by #MarioPH #ReliefPH http://t.co/7pMYcZzÃ¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>D</actual>
+    <extracted>
+      <locationInTweet>SERVICE</locationInTweet>
+      <resourceName />
+      <resourceDetail />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="25">
+    <user>LaoMamba</user>
+    <tweet>To those affected by #MarioPH you can go to PSBA-QC. Bukas ang schoo na ito para masilungan ng mga apektado. #FloodPH #RescuePH</tweet>
+    <prediction>O</prediction>
+    <actual>D</actual>
+    <extracted>
+      <locationInTweet />
+      <resourceName />
+      <resourceDetail />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="26">
+    <user>LaoMamba</user>
+    <tweet>OPEN ANG PSBA-QC PARA MASILUNGAN NGAYON. Just contact 09272214969 for more info #FloodPH #RescuePH #MarioPH</tweet>
+    <prediction>CA</prediction>
+    <actual>D</actual>
+    <extracted>
+      <locationInTweet />
+      <resourceName />
+      <resourceDetail />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="32">
+    <user>erwinmappatao88</user>
+    <tweet>Ã¢â‚¬Å“@LaoMamba: OPEN ANG PSBA-QC PARA MASILUNGAN NGAYON. Just contact 09272214969 for more info #FloodPH #RescuePH #MarioPHÃ¢â‚¬Â�?</tweet>
+    <prediction>CA</prediction>
+    <actual>D</actual>
+    <extracted>
+      <locationInTweet />
+      <resourceName />
+      <resourceDetail />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="33">
+    <user>akbayanyouth</user>
+    <tweet>RT: .@LaoMamba OPEN ANG PSBA-QC PARA MASILUNGAN NGAYON. Just contact 09272214969 for more info #FloodPH #RescuePH #MarioPH</tweet>
+    <prediction>CA</prediction>
+    <actual>D</actual>
+    <extracted>
+      <locationInTweet />
+      <resourceName />
+      <resourceDetail />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="34">
+    <user>risahontiveros</user>
+    <tweet>RT @akbayanyouth: RT: .@LaoMamba OPEN ANG PSBA-QC PARA MASILUNGAN NGAYON. Just contact 09272214969 for more info #FloodPH #RescuePH #MarioPH</tweet>
+    <prediction>CA</prediction>
+    <actual>D</actual>
+    <extracted>
+      <locationInTweet />
+      <resourceName />
+      <resourceDetail />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="35">
+    <user>leahnavarro</user>
+    <tweet>RT @akbayanyouth: RT: .@LaoMamba OPEN ANG PSBA-QC PARA MASILUNGAN NGAYON. Just contact 09272214969 for more info #FloodPH #RescuePH #MarioPH</tweet>
+    <prediction>CA</prediction>
+    <actual>D</actual>
+    <extracted>
+      <locationInTweet />
+      <resourceName />
+      <resourceDetail />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="36">
+    <user>pinoymommy</user>
+    <tweet>RT @akbayanyouth: RT: .@LaoMamba OPEN ANG PSBA-QC PARA MASILUNGAN NGAYON. Just contact 09272214969 for more info #FloodPH #RescuePH #MarioPH</tweet>
+    <prediction>CA</prediction>
+    <actual>D</actual>
+    <extracted>
+      <locationInTweet />
+      <resourceName />
+      <resourceDetail />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="37">
+    <user>pol_abreu</user>
+    <tweet>RT @akbayanyouth: RT: .@LaoMamba OPEN ANG PSBA-QC PARA MASILUNGAN NGAYON. Just contact 09272214969 for more info #FloodPH #RescuePH #MarioPH</tweet>
+    <prediction>CA</prediction>
+    <actual>D</actual>
+    <extracted>
+      <locationInTweet />
+      <resourceName />
+      <resourceDetail />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="38">
+    <user>kentdelasalas</user>
+    <tweet>RT @akbayanyouth: RT: .@LaoMamba OPEN ANG PSBA-QC PARA MASILUNGAN NGAYON. Just contact 09272214969 for more info #FloodPH #RescuePH #MarioPH</tweet>
+    <prediction>CA</prediction>
+    <actual>D</actual>
+    <extracted>
+      <locationInTweet />
+      <resourceName />
+      <resourceDetail />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="39">
+    <user>MsMichellPineda</user>
+    <tweet>RT @akbayanyouth: RT: .@LaoMamba OPEN ANG PSBA-QC PARA MASILUNGAN NGAYON. Just contact 09272214969 for more info #FloodPH #RescuePH #MarioPH</tweet>
+    <prediction>CA</prediction>
+    <actual>D</actual>
+    <extracted>
+      <locationInTweet />
+      <resourceName />
+      <resourceDetail />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="40">
+    <user>itsmitsu</user>
+    <tweet>RT @YouScoop: Nagpabuhat ang ilang residente para hindi mabasa ng baha sa Ortigas Extension. Kuha ni YouScooper Carlo #MarioPH http://t.co/Ã¢â‚¬Â¦</tweet>
+    <prediction>D</prediction>
+    <actual>D</actual>
+    <extracted>
+      <locationInTweet>Ortigas</locationInTweet>
+      <resourceName />
+      <resourceDetail />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="41">
+    <user>lonecrescent</user>
+    <tweet>RT @YouScoop: Nagpabuhat ang ilang residente para hindi mabasa ng baha sa Ortigas Extension. Kuha ni YouScooper Carlo #MarioPH http://t.co/Ã¢â‚¬Â¦</tweet>
+    <prediction>D</prediction>
+    <actual>D</actual>
+    <extracted>
+      <locationInTweet>Ortigas</locationInTweet>
+      <resourceName />
+      <resourceDetail />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="67">
+    <user>PelitaPeraltaUy</user>
+    <tweet>Sa Lahat ng patuloy na naninilbihan sa ating mga kaba bayan, salamat sa inyo . God Bless all of you abundantly . #MarioPH #RescuePH</tweet>
+    <prediction>D</prediction>
+    <actual>D</actual>
+    <extracted>
+      <locationInTweet>salamat</locationInTweet>
+      <resourceName />
+      <resourceDetail />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="78">
+    <user>ReliefPHcom</user>
+    <tweet>Metro Manila, Rizal: relief operations #MarioPHÃ‚Â #reliefPH http://t.co/U5y5cyz9oL</tweet>
+    <prediction>O</prediction>
+    <actual>D</actual>
+    <extracted>
+      <locationInTweet>Manila Rizal</locationInTweet>
+      <resourceName>relief operations</resourceName>
+      <resourceDetail />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="82">
+    <user>def_filipino</user>
+    <tweet>Sa mga gusto pong magvolunteer. #ReliefPH http://t.co/8xttWXr5gR</tweet>
+    <prediction>O</prediction>
+    <actual>D</actual>
+    <extracted>
+      <locationInTweet />
+      <resourceName />
+      <resourceDetail />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="192">
+    <user>karess</user>
+    <tweet>RT @TweetupMNL: Be a #RescuePH volunteer and help save our kababayans! (Pls. RT and share) http://t.co/hK162DKsYg</tweet>
+    <prediction>O</prediction>
+    <actual>D</actual>
+    <extracted>
+      <locationInTweet />
+      <resourceName />
+      <resourceDetail />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="193">
+    <user>moncorpuz</user>
+    <tweet>RT @TweetupMNL: Be a #RescuePH volunteer and help save our kababayans! (Pls. RT and share) http://t.co/hK162DKsYg</tweet>
+    <prediction>O</prediction>
+    <actual>D</actual>
+    <extracted>
+      <locationInTweet />
+      <resourceName />
+      <resourceDetail />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="287">
+    <user>CitizenPatrol</user>
+    <tweet>Ginawa na ding Evacuation center ang Aglipay,IFI Church at Bulelak cover court. #MarioPH #ReliefPH</tweet>
+    <prediction>O</prediction>
+    <actual>D</actual>
+    <extracted>
+      <locationInTweet>Aglipay Church Bulelak</locationInTweet>
+      <resourceName />
+      <resourceDetail />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="291">
+    <user>sanjuncssr</user>
+    <tweet>RT @CitizenPatrol: Ginawa na ding Evacuation center ang Aglipay,IFI Church at Bulelak cover court. #MarioPH #ReliefPH</tweet>
+    <prediction>O</prediction>
+    <actual>D</actual>
+    <extracted>
+      <locationInTweet>Aglipay Church Bulelak</locationInTweet>
+      <resourceName />
+      <resourceDetail />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="588">
+    <user>MariaRoann</user>
+    <tweet>RT @YouScoop: Ilang rescuer, umiikot sa Quezon City para tulungan ang mga residente na na-stranded sa baha. #MarioPH http://t.co/P5KShvdv2T</tweet>
+    <prediction>O</prediction>
+    <actual>D</actual>
+    <extracted>
+      <locationInTweet>Quezon</locationInTweet>
+      <resourceName />
+      <resourceDetail />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="603">
+    <user>swish41_20</user>
+    <tweet>RT @YouScoop: Ilang rescuer, umiikot sa Quezon City para tulungan ang mga residente na na-stranded sa baha. #MarioPH http://t.co/P5KShvdv2T</tweet>
+    <prediction>O</prediction>
+    <actual>D</actual>
+    <extracted>
+      <locationInTweet>Quezon</locationInTweet>
+      <resourceName />
+      <resourceDetail />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="611">
+    <user>peachygf</user>
+    <tweet>RT @YouScoop: Ilang rescuer, umiikot sa Quezon City para tulungan ang mga residente na na-stranded sa baha. #MarioPH http://t.co/P5KShvdv2T</tweet>
+    <prediction>O</prediction>
+    <actual>D</actual>
+    <extracted>
+      <locationInTweet>Quezon</locationInTweet>
+      <resourceName />
+      <resourceDetail />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="613">
+    <user>wanwulf</user>
+    <tweet>RT @YouScoop: Ilang rescuer, umiikot sa Quezon City para tulungan ang mga residente na na-stranded sa baha. #MarioPH http://t.co/P5KShvdv2T</tweet>
+    <prediction>O</prediction>
+    <actual>D</actual>
+    <extracted>
+      <locationInTweet>Quezon</locationInTweet>
+      <resourceName />
+      <resourceDetail />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="615">
+    <user>AweSAMpyo</user>
+    <tweet>RT @YouScoop: Ilang rescuer, umiikot sa Quezon City para tulungan ang mga residente na na-stranded sa baha. #MarioPH http://t.co/P5KShvdv2T</tweet>
+    <prediction>O</prediction>
+    <actual>D</actual>
+    <extracted>
+      <locationInTweet>Quezon</locationInTweet>
+      <resourceName />
+      <resourceDetail />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="617">
+    <user>JosephDatalio</user>
+    <tweet>RT @YouScoop: Ilang rescuer, umiikot sa Quezon City para tulungan ang mga residente na na-stranded sa baha. #MarioPH http://t.co/P5KShvdv2T</tweet>
+    <prediction>O</prediction>
+    <actual>D</actual>
+    <extracted>
+      <locationInTweet>Quezon</locationInTweet>
+      <resourceName />
+      <resourceDetail />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="622">
+    <user>BillTufts</user>
+    <tweet>RT @YouScoop: Ilang rescuer, umiikot sa Quezon City para tulungan ang mga residente na na-stranded sa baha. #MarioPH http://t.co/P5KShvdv2T</tweet>
+    <prediction>O</prediction>
+    <actual>D</actual>
+    <extracted>
+      <locationInTweet>Quezon</locationInTweet>
+      <resourceName />
+      <resourceDetail />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="628">
+    <user>pearlgemjean</user>
+    <tweet>RT @YouScoop: Ilang rescuer, umiikot sa Quezon City para tulungan ang mga residente na na-stranded sa baha. #MarioPH http://t.co/P5KShvdv2T</tweet>
+    <prediction>O</prediction>
+    <actual>D</actual>
+    <extracted>
+      <locationInTweet>Quezon</locationInTweet>
+      <resourceName />
+      <resourceDetail />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="630">
+    <user>jclyn5254</user>
+    <tweet>RT @YouScoop: Ilang rescuer, umiikot sa Quezon City para tulungan ang mga residente na na-stranded sa baha. #MarioPH http://t.co/P5KShvdv2T</tweet>
+    <prediction>O</prediction>
+    <actual>D</actual>
+    <extracted>
+      <locationInTweet>Quezon</locationInTweet>
+      <resourceName />
+      <resourceDetail />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="678">
+    <user>PelitaPeraltaUy</user>
+    <tweet>Sa Lahat ng patuloy na naninilbihan sa ating mga kaba bayan, salamat sa inyo . God Bless all of you abundantly . #MarioPH #RescuePH</tweet>
+    <prediction>D</prediction>
+    <actual>D</actual>
+    <extracted>
+      <locationInTweet>salamat</locationInTweet>
+      <resourceName />
+      <resourceDetail />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="689">
+    <user>ReliefPHcom</user>
+    <tweet>Metro Manila, Rizal: relief operations #MarioPHÃ‚Â #reliefPH http://t.co/U5y5cyz9oL</tweet>
+    <prediction>O</prediction>
+    <actual>D</actual>
+    <extracted>
+      <locationInTweet>Manila Rizal</locationInTweet>
+      <resourceName>relief operations</resourceName>
+      <resourceDetail />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="693">
+    <user>def_filipino</user>
+    <tweet>Sa mga gusto pong magvolunteer. #ReliefPH http://t.co/8xttWXr5gR</tweet>
+    <prediction>O</prediction>
+    <actual>D</actual>
+    <extracted>
+      <locationInTweet />
+      <resourceName />
+      <resourceDetail />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="703">
+    <user>mariajclm</user>
+    <tweet>RT @TweetupMNL: Tara na. Bayanihan na. #ReliefPH http://t.co/utwVq7K20M</tweet>
+    <prediction>O</prediction>
+    <actual>D</actual>
+    <extracted>
+      <locationInTweet />
+      <resourceName />
+      <resourceDetail />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="724">
+    <user>asil0250</user>
+    <tweet>RT @gmanetwork: Para sa mga weather question o #RescuePH requests at iba pa, tumawag sa aming I M Ready helpdesk. http://t.co/pXDHIIaM4U</tweet>
+    <prediction>O</prediction>
+    <actual>D</actual>
+    <extracted>
+      <locationInTweet>iba</locationInTweet>
+      <resourceName />
+      <resourceDetail />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="760">
+    <user>KeniticChoy</user>
+    <tweet>RT @gmanews: Para sa mga weather question o #RescuePH requests at iba pa, tumawag sa aming @IMReadyPH help desk: 333-7161. http://t.co/UG5TÃ¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>D</actual>
+    <extracted>
+      <locationInTweet>iba</locationInTweet>
+      <resourceName />
+      <resourceDetail />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="798">
+    <user>jennybieable</user>
+    <tweet>RT @gmanews: Para sa mga weather question o #RescuePH requests at iba pa, tumawag sa aming @IMReadyPH help desk: 333-7161. http://t.co/UG5TÃ¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>D</actual>
+    <extracted>
+      <locationInTweet>iba</locationInTweet>
+      <resourceName />
+      <resourceDetail />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="829">
+    <user>ReliefPHcom</user>
+    <tweet>Manila: evacuation centers #MarioPHÃ‚Â #reliefPH http://t.co/MP1VxcTwpi</tweet>
+    <prediction>O</prediction>
+    <actual>D</actual>
+    <extracted>
+      <locationInTweet>Manila</locationInTweet>
+      <resourceName />
+      <resourceDetail />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="831">
+    <user>BernieCadao</user>
+    <tweet>RT @tonyocruz: Sa mga nasa bahay, oras na para linisin ang cabinet. Ihiwalay ang mga damit na pwedeng i-donate para sa #ReliefPH.</tweet>
+    <prediction>O</prediction>
+    <actual>D</actual>
+    <extracted>
+      <locationInTweet />
+      <resourceName />
+      <resourceDetail />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="835">
+    <user>ChaseCustodio</user>
+    <tweet>RT @tonyocruz: Sa mga nasa bahay, oras na para linisin ang cabinet. Ihiwalay ang mga damit na pwedeng i-donate para sa #ReliefPH.</tweet>
+    <prediction>O</prediction>
+    <actual>D</actual>
+    <extracted>
+      <locationInTweet />
+      <resourceName />
+      <resourceDetail />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1274">
+    <user>Neil8588</user>
+    <tweet>RT @YouScoop: Nagpabuhat ang ilang residente para hindi mabasa ng baha sa Ortigas Extension. Kuha ni YouScooper Carlo #MarioPH http://t.co/Ã¢â‚¬Â¦</tweet>
+    <prediction>D</prediction>
+    <actual>D</actual>
+    <extracted>
+      <locationInTweet>Ortigas</locationInTweet>
+      <resourceName />
+      <resourceDetail />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1327">
+    <user>ReliefPHcom</user>
+    <tweet>Metro Manila, Rizal: relief operations #MarioPHÃ‚Â #reliefPH http://t.co/U5y5cyz9oL</tweet>
+    <prediction>O</prediction>
+    <actual>D</actual>
+    <extracted>
+      <locationInTweet>Manila Rizal</locationInTweet>
+      <resourceName>relief operations</resourceName>
+      <resourceDetail />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1331">
+    <user>def_filipino</user>
+    <tweet>Sa mga gusto pong magvolunteer. #ReliefPH http://t.co/8xttWXr5gR</tweet>
+    <prediction>O</prediction>
+    <actual>D</actual>
+    <extracted>
+      <locationInTweet />
+      <resourceName />
+      <resourceDetail />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1341">
+    <user>mariajclm</user>
+    <tweet>RT @TweetupMNL: Tara na. Bayanihan na. #ReliefPH http://t.co/utwVq7K20M</tweet>
+    <prediction>O</prediction>
+    <actual>D</actual>
+    <extracted>
+      <locationInTweet />
+      <resourceName />
+      <resourceDetail />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1362">
+    <user>asil0250</user>
+    <tweet>RT @gmanetwork: Para sa mga weather question o #RescuePH requests at iba pa, tumawag sa aming I M Ready helpdesk. http://t.co/pXDHIIaM4U</tweet>
+    <prediction>O</prediction>
+    <actual>D</actual>
+    <extracted>
+      <locationInTweet>iba</locationInTweet>
+      <resourceName />
+      <resourceDetail />
+      <victimName />
+    </extracted>
+  </tweet>
+</dataset>
+

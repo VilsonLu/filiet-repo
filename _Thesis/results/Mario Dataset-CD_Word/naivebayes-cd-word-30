@@ -1,0 +1,265 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes 
+Relation:     Mario-Bin-CD-word-30-weka.filters.unsupervised.attribute.Remove-R1-5,9
+Instances:    116
+Attributes:   32
+              IsUrl
+              IsHashtag
+              IsRetweet
+              Category
+              W_quiteria
+              W_ilikas
+              W_volunteers
+              W_limandaang
+              W_in
+              W_ilang
+              W_pagbaha
+              W_sto
+              W_church
+              W_patuloy
+              W_inilikas
+              W_kabuluan
+              W_cupang
+              W_compound
+              W_brgy
+              W_ay
+              W_mahigit
+              W_bagyo
+              W_dulot
+              W_estero
+              W_apektado
+              W_district
+              W_bagyong
+              W_dist
+              W_tulay
+              W_tinatayang
+              W_pamilya
+              Length
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                 Class
+Attribute           CD       O
+                 (0.5)   (0.5)
+===============================
+IsUrl
+  mean           0.8103   0.431
+  std. dev.       0.392  0.4952
+  weight sum         58      58
+  precision           1       1
+
+IsHashtag
+  mean           0.1552  0.1034
+  std. dev.      0.3621  0.3045
+  weight sum         58      58
+  precision           1       1
+
+IsRetweet
+  mean           0.6724  0.0862
+  std. dev.      0.4693  0.2807
+  weight sum         58      58
+  precision           1       1
+
+W_quiteria
+  mean           0.0172       0
+  std. dev.      0.1667  0.1667
+  weight sum         58      58
+  precision           1       1
+
+W_ilikas
+  mean           0.4138       0
+  std. dev.      0.4925  0.1667
+  weight sum         58      58
+  precision           1       1
+
+W_volunteers
+  mean           0.0172       0
+  std. dev.      0.1667  0.1667
+  weight sum         58      58
+  precision           1       1
+
+W_limandaang
+  mean           0.0345       0
+  std. dev.      0.1825  0.1667
+  weight sum         58      58
+  precision           1       1
+
+W_in
+  mean           0.0345       0
+  std. dev.      0.1825  0.1667
+  weight sum         58      58
+  precision           1       1
+
+W_ilang
+  mean           0.1552       0
+  std. dev.      0.3621  0.1667
+  weight sum         58      58
+  precision           1       1
+
+W_pagbaha
+  mean           0.0172       0
+  std. dev.      0.1667  0.1667
+  weight sum         58      58
+  precision           1       1
+
+W_sto
+  mean           0.0345       0
+  std. dev.      0.1825  0.1667
+  weight sum         58      58
+  precision           1       1
+
+W_church
+  mean           0.0517       0
+  std. dev.      0.2215  0.1667
+  weight sum         58      58
+  precision           1       1
+
+W_patuloy
+  mean           0.0172       0
+  std. dev.      0.1667  0.1667
+  weight sum         58      58
+  precision           1       1
+
+W_inilikas
+  mean           0.0345       0
+  std. dev.      0.1825  0.1667
+  weight sum         58      58
+  precision           1       1
+
+W_kabuluan
+  mean           0.0862       0
+  std. dev.      0.2807  0.1667
+  weight sum         58      58
+  precision           1       1
+
+W_cupang
+  mean           0.4655       0
+  std. dev.      0.4988  0.1667
+  weight sum         58      58
+  precision           1       1
+
+W_compound
+  mean           0.1897       0
+  std. dev.      0.5071  0.1667
+  weight sum         58      58
+  precision           1       1
+
+W_brgy
+  mean           0.0345       0
+  std. dev.      0.1825  0.1667
+  weight sum         58      58
+  precision           1       1
+
+W_ay
+  mean           0.2069       0
+  std. dev.      0.4051  0.1667
+  weight sum         58      58
+  precision           1       1
+
+W_mahigit
+  mean           0.1897       0
+  std. dev.       0.392  0.1667
+  weight sum         58      58
+  precision           1       1
+
+W_bagyo
+  mean           0.1552       0
+  std. dev.      0.3621  0.1667
+  weight sum         58      58
+  precision           1       1
+
+W_dulot
+  mean           0.4483       0
+  std. dev.      0.4973  0.1667
+  weight sum         58      58
+  precision           1       1
+
+W_estero
+  mean           0.4655       0
+  std. dev.      0.4988  0.1667
+  weight sum         58      58
+  precision           1       1
+
+W_apektado
+  mean           0.0345       0
+  std. dev.      0.1825  0.1667
+  weight sum         58      58
+  precision           1       1
+
+W_district
+  mean           0.2586       0
+  std. dev.      0.4379  0.1667
+  weight sum         58      58
+  precision           1       1
+
+W_bagyong
+  mean            0.069       0
+  std. dev.      0.2534  0.1667
+  weight sum         58      58
+  precision           1       1
+
+W_dist
+  mean           0.3448  0.0172
+  std. dev.       0.543  0.1667
+  weight sum         58      58
+  precision           1       1
+
+W_tulay
+  mean           0.2241       0
+  std. dev.      0.5266  0.1667
+  weight sum         58      58
+  precision           1       1
+
+W_tinatayang
+  mean           0.1207       0
+  std. dev.       0.375  0.1667
+  weight sum         58      58
+  precision           1       1
+
+W_pamilya
+  mean            0.069       0
+  std. dev.      0.2534  0.1667
+  weight sum         58      58
+  precision           1       1
+
+Length
+  mean          22.3034 15.6221
+  std. dev.       5.539  6.4989
+  weight sum         58      58
+  precision        1.12    1.12
+
+
+
+Time taken to build model: 0.02 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         102               87.931  %
+Incorrectly Classified Instances        14               12.069  %
+Kappa statistic                          0.7586
+Mean absolute error                      0.1148
+Root mean squared error                  0.3007
+Relative absolute error                 22.947  %
+Root relative squared error             60.1235 %
+Coverage of cases (0.95 level)          96.5517 %
+Mean rel. region size (0.95 level)      56.8966 %
+Total Number of Instances              116     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.759    0.000    1.000      0.759    0.863      0.782    0.990     0.991     CD
+                 1.000    0.241    0.806      1.000    0.892      0.782    0.990     0.990     O
+Weighted Avg.    0.879    0.121    0.903      0.879    0.878      0.782    0.990     0.990     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 44 14 |  a = CD
+  0 58 |  b = O
+

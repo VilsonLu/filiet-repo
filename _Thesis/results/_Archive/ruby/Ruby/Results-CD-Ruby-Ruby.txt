@@ -1,0 +1,134 @@
+CD Binary Classifier
+
+Instances
+CD 202
+O 202
+
+Test mode: 10 cross-fold validation
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+J48
+=== Summary ===
+
+Correctly Classified Instances         400               99.0099 %
+Incorrectly Classified Instances         4                0.9901 %
+Kappa statistic                          0.9802
+Mean absolute error                      0.0126
+Root mean squared error                  0.0994
+Relative absolute error                  2.5164 %
+Root relative squared error             19.8724 %
+Total Number of Instances              404     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.99      0.01       0.99      0.99      0.99       0.99     CD
+                 0.99      0.01       0.99      0.99      0.99       0.99     O
+Weighted Avg.    0.99      0.01       0.99      0.99      0.99       0.99 
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 200   2 |   a = CD
+   2 200 |   b = O
+
+Random Forest
+=== Summary ===
+
+Correctly Classified Instances         404              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0.0863
+Root mean squared error                  0.1097
+Relative absolute error                 17.2687 %
+Root relative squared error             21.9451 %
+Total Number of Instances              404     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 1         0          1         1         1          1        CD
+                 1         0          1         1         1          1        O
+Weighted Avg.    1         0          1         1         1          1    
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 202   0 |   a = CD
+   0 202 |   b = O
+
+kNN 3
+ === Summary ===
+
+Correctly Classified Instances         397               98.2673 %
+Incorrectly Classified Instances         7                1.7327 %
+Kappa statistic                          0.9653
+Mean absolute error                      0.0192
+Root mean squared error                  0.1018
+Relative absolute error                  3.842  %
+Root relative squared error             20.3501 %
+Total Number of Instances              404     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.985     0.02       0.98      0.985     0.983      0.999    CD
+                 0.98      0.015      0.985     0.98      0.983      0.999    O
+Weighted Avg.    0.983     0.017      0.983     0.983     0.983      0.999
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 199   3 |   a = CD
+   4 198 |   b = O
+
+kNN 5
+=== Summary ===
+
+Correctly Classified Instances         397               98.2673 %
+Incorrectly Classified Instances         7                1.7327 %
+Kappa statistic                          0.9653
+Mean absolute error                      0.0276
+Root mean squared error                  0.1105
+Relative absolute error                  5.5195 %
+Root relative squared error             22.0995 %
+Total Number of Instances              404     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.975     0.01       0.99      0.975     0.983      0.999    CD
+                 0.99      0.025      0.976     0.99      0.983      0.999    O
+Weighted Avg.    0.983     0.017      0.983     0.983     0.983      0.999
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 197   5 |   a = CD
+   2 200 |   b = O
+
+kNN 7
+=== Summary ===
+
+Correctly Classified Instances         397               98.2673 %
+Incorrectly Classified Instances         7                1.7327 %
+Kappa statistic                          0.9653
+Mean absolute error                      0.0345
+Root mean squared error                  0.1183
+Relative absolute error                  6.9043 %
+Root relative squared error             23.659  %
+Total Number of Instances              404     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.965     0          1         0.965     0.982      1        CD
+                 1         0.035      0.967     1         0.983      1        O
+Weighted Avg.    0.983     0.017      0.983     0.983     0.983      1    
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 195   7 |   a = CD
+   0 202 |   b = O

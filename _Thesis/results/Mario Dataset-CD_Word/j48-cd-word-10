@@ -1,0 +1,76 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     Mario-Bin-CD-word-10-weka.filters.unsupervised.attribute.Remove-R1-5,9
+Instances:    116
+Attributes:   18
+              IsUrl
+              IsHashtag
+              IsRetweet
+              Category
+              W_cuyab
+              W_mahigit
+              W_mario
+              W_bagyo
+              W_dulot
+              W_estero
+              W_apektado
+              W_bagyong
+              W_camnorte
+              W_dist
+              W_tulay
+              W_tinatayang
+              W_pamilya
+              Length
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+W_dulot <= 0
+|   W_mahigit <= 0
+|   |   W_tinatayang <= 0
+|   |   |   IsRetweet <= 0: O (57.0/4.0)
+|   |   |   IsRetweet > 0
+|   |   |   |   Length <= 22: O (8.0/3.0)
+|   |   |   |   Length > 22: CD (6.0)
+|   |   W_tinatayang > 0: CD (7.0)
+|   W_mahigit > 0: CD (11.0)
+W_dulot > 0: CD (27.0)
+
+Number of Leaves  : 	6
+
+Size of the tree : 	11
+
+
+Time taken to build model: 0.13 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         104               89.6552 %
+Incorrectly Classified Instances        12               10.3448 %
+Kappa statistic                          0.7931
+Mean absolute error                      0.1172
+Root mean squared error                  0.2673
+Relative absolute error                 23.4388 %
+Root relative squared error             53.4462 %
+Coverage of cases (0.95 level)          99.1379 %
+Mean rel. region size (0.95 level)      75.8621 %
+Total Number of Instances              116     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.862    0.069    0.926      0.862    0.893      0.795    0.947     0.964     CD
+                 0.931    0.138    0.871      0.931    0.900      0.795    0.947     0.900     O
+Weighted Avg.    0.897    0.103    0.898      0.897    0.896      0.795    0.947     0.932     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 50  8 |  a = CD
+  4 54 |  b = O
+

@@ -1,0 +1,62 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     ruby-Bin-CH-word-10-weka.filters.unsupervised.attribute.Remove-R1-5,9
+Instances:    18
+Attributes:   12
+              IsUrl
+              IsHashtag
+              IsRetweet
+              Category
+              W_than
+              W_need
+              W_nila
+              W_church
+              W_more
+              W_iaccommodate
+              W_yung
+              Length
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+W_than <= 0
+|   IsRetweet <= 0: CH (5.0/1.0)
+|   IsRetweet > 0: O (8.0)
+W_than > 0: CH (5.0)
+
+Number of Leaves  : 	3
+
+Size of the tree : 	5
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          17               94.4444 %
+Incorrectly Classified Instances         1                5.5556 %
+Kappa statistic                          0.8889
+Mean absolute error                      0.1111
+Root mean squared error                  0.2635
+Relative absolute error                 22.093  %
+Root relative squared error             52.3911 %
+Total Number of Instances               18     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 1         0.111      0.9       1         0.947      0.92     CH
+                 0.889     0          1         0.889     0.941      0.92     O
+Weighted Avg.    0.944     0.056      0.95      0.944     0.944      0.92 
+
+=== Confusion Matrix ===
+
+ a b   <-- classified as
+ 9 0 | a = CH
+ 1 8 | b = O
+

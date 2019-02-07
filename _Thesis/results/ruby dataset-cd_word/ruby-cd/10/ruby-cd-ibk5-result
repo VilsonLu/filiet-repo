@@ -1,0 +1,93 @@
+=== Run information ===
+
+Scheme:weka.classifiers.lazy.IBk -K 5 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Relation:     ruby-Bin-CD-word-10-weka.filters.unsupervised.attribute.Remove-R1-5,9
+Instances:    490
+Attributes:   52
+              IsUrl
+              IsHashtag
+              IsRetweet
+              Category
+              W_northeastern
+              W_downed
+              W_dead
+              W_natuklapan
+              W_katao
+              W_barangay
+              W_lumikas
+              W_nagdulot
+              W_bayan
+              W_linya
+              W_mahigit
+              W_sagkahan
+              W_pswd
+              W_imprastraktura
+              W_total
+              W_iniwan
+              W_bagsak
+              W_sinira
+              W_video
+              W_residente
+              W_kahoy
+              W_tindahang
+              W_yero
+              W_yari
+              W_alon
+              W_evacuees
+              W_highway
+              W_post
+              W_lines
+              W_lubog
+              W_winasak
+              W_damages
+              W_power
+              W_ngcp
+              W_pananalasa
+              W_bubong
+              W_casualty
+              W_bunkhouses
+              W_malawak
+              W_umakyat
+              W_nasawi
+              W_patay
+              W_istruktura
+              W_pinsala
+              W_nasira
+              W_naitalang
+              W_youscooper
+              Length
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+IB1 instance-based classifier
+using 5 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         434               88.5714 %
+Incorrectly Classified Instances        56               11.4286 %
+Kappa statistic                          0.7714
+Mean absolute error                      0.1265
+Root mean squared error                  0.2673
+Relative absolute error                 25.2921 %
+Root relative squared error             53.4648 %
+Total Number of Instances              490     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.955     0.184      0.839     0.955     0.893      0.973    O
+                 0.816     0.045      0.948     0.816     0.877      0.973    CD
+Weighted Avg.    0.886     0.114      0.893     0.886     0.885      0.973
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 234  11 |   a = O
+  45 200 |   b = CD
+

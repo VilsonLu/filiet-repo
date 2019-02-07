@@ -1,0 +1,62 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomForest -I 10 -K 0 -S 1 -num-slots 1
+Relation:     Mario-Bin-CD-word-10-weka.filters.unsupervised.attribute.Remove-R1-5,9
+Instances:    116
+Attributes:   18
+              IsUrl
+              IsHashtag
+              IsRetweet
+              Category
+              W_cuyab
+              W_mahigit
+              W_mario
+              W_bagyo
+              W_dulot
+              W_estero
+              W_apektado
+              W_bagyong
+              W_camnorte
+              W_dist
+              W_tulay
+              W_tinatayang
+              W_pamilya
+              Length
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Random forest of 10 trees, each constructed while considering 5 random features.
+Out of bag error: 0.0948
+
+
+
+Time taken to build model: 0.19 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         108               93.1034 %
+Incorrectly Classified Instances         8                6.8966 %
+Kappa statistic                          0.8621
+Mean absolute error                      0.1122
+Root mean squared error                  0.2522
+Relative absolute error                 22.4423 %
+Root relative squared error             50.4187 %
+Coverage of cases (0.95 level)          98.2759 %
+Mean rel. region size (0.95 level)      65.5172 %
+Total Number of Instances              116     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.897    0.034    0.963      0.897    0.929      0.864    0.966     0.972     CD
+                 0.966    0.103    0.903      0.966    0.933      0.864    0.966     0.955     O
+Weighted Avg.    0.931    0.069    0.933      0.931    0.931      0.864    0.966     0.964     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 52  6 |  a = CD
+  2 56 |  b = O
+

@@ -1,0 +1,133 @@
+CH Binary Classifier
+Instances
+CH 63
+O 63
+
+Test mode: 10 cross-fold validation
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+J48
+=== Summary ===
+
+Correctly Classified Instances         126              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0     
+Root mean squared error                  0     
+Relative absolute error                  0      %
+Root relative squared error              0      %
+Total Number of Instances              126     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 1         0          1         1         1          1        CH
+                 1         0          1         1         1          1        O
+Weighted Avg.    1         0          1         1         1          1    
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 63  0 |  a = CH
+  0 63 |  b = O
+
+Random Forest
+=== Summary ===
+
+Correctly Classified Instances         126              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0.095 
+Root mean squared error                  0.1301
+Relative absolute error                 18.9878 %
+Root relative squared error             26.0071 %
+Total Number of Instances              126     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 1         0          1         1         1          1        CH
+                 1         0          1         1         1          1        O
+Weighted Avg.    1         0          1         1         1          1    
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 63  0 |  a = CH
+  0 63 |  b = O
+
+kNN 3
+=== Summary ===
+
+Correctly Classified Instances         119               94.4444 %
+Incorrectly Classified Instances         7                5.5556 %
+Kappa statistic                          0.8889
+Mean absolute error                      0.0662
+Root mean squared error                  0.2119
+Relative absolute error                 13.2261 %
+Root relative squared error             42.3545 %
+Total Number of Instances              126     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.889     0          1         0.889     0.941      0.977    CH
+                 1         0.111      0.9       1         0.947      0.977    O
+Weighted Avg.    0.944     0.056      0.95      0.944     0.944      0.977
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 56  7 |  a = CH
+  0 63 |  b = O
+
+kNN 5
+=== Summary ===
+
+Correctly Classified Instances         116               92.0635 %
+Incorrectly Classified Instances        10                7.9365 %
+Kappa statistic                          0.8413
+Mean absolute error                      0.0738
+Root mean squared error                  0.2157
+Relative absolute error                 14.758  %
+Root relative squared error             43.1204 %
+Total Number of Instances              126     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.841     0          1         0.841     0.914      0.995    CH
+                 1         0.159      0.863     1         0.926      0.995    O
+Weighted Avg.    0.921     0.079      0.932     0.921     0.92       0.995
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 53 10 |  a = CH
+  0 63 |  b = O
+
+ kNN 7
+ === Summary ===
+
+Correctly Classified Instances         117               92.8571 %
+Incorrectly Classified Instances         9                7.1429 %
+Kappa statistic                          0.8571
+Mean absolute error                      0.0911
+Root mean squared error                  0.2347
+Relative absolute error                 18.2113 %
+Root relative squared error             46.9096 %
+Total Number of Instances              126     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.857     0          1         0.857     0.923      0.995    CH
+                 1         0.143      0.875     1         0.933      0.995    O
+Weighted Avg.    0.929     0.071      0.938     0.929     0.928      0.995
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 54  9 |  a = CH
+  0 63 |  b = O

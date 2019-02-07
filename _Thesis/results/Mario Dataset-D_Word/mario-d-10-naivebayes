@@ -1,0 +1,139 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes 
+Relation:     Mario-Bin-D-word-10-weka.filters.unsupervised.attribute.Remove-R1-5,9
+Instances:    94
+Attributes:   14
+              IsUrl
+              IsHashtag
+              IsRetweet
+              Category
+              W_gusto
+              W_magvolunteer
+              W_mabasa
+              W_more
+              W_ngayon
+              W_open
+              W_contact
+              W_just
+              W_rescuer
+              Length
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                   Class
+Attribute              D       O
+                   (0.5)   (0.5)
+=================================
+IsUrl
+  mean                  1  0.3404
+  std. dev.        0.1667  0.4739
+  weight sum           47      47
+  precision             1       1
+
+IsHashtag
+  mean             0.2766  0.0213
+  std. dev.        0.4473  0.1667
+  weight sum           47      47
+  precision             1       1
+
+IsRetweet
+  mean             0.6596       1
+  std. dev.        0.4739  0.1667
+  weight sum           47      47
+  precision             1       1
+
+W_gusto
+  mean             0.1915       0
+  std. dev.        0.3935  0.1667
+  weight sum           47      47
+  precision             1       1
+
+W_magvolunteer
+  mean             0.0638       0
+  std. dev.        0.2444  0.1667
+  weight sum           47      47
+  precision             1       1
+
+W_mabasa
+  mean             0.1915       0
+  std. dev.        0.3935  0.1667
+  weight sum           47      47
+  precision             1       1
+
+W_more
+  mean             0.0638  0.2766
+  std. dev.        0.2444  0.4473
+  weight sum           47      47
+  precision             1       1
+
+W_ngayon
+  mean             0.1915       0
+  std. dev.        0.3935  0.1667
+  weight sum           47      47
+  precision             1       1
+
+W_open
+  mean             0.1915       0
+  std. dev.        0.3935  0.1667
+  weight sum           47      47
+  precision             1       1
+
+W_contact
+  mean             0.1915       0
+  std. dev.        0.3935  0.1667
+  weight sum           47      47
+  precision             1       1
+
+W_just
+  mean             0.1915       0
+  std. dev.        0.3935  0.1667
+  weight sum           47      47
+  precision             1       1
+
+W_rescuer
+  mean             0.0638       0
+  std. dev.        0.2444  0.1667
+  weight sum           47      47
+  precision             1       1
+
+Length
+  mean            19.6641 20.2464
+  std. dev.         5.498  5.1026
+  weight sum           47      47
+  precision        1.0526  1.0526
+
+
+
+Time taken to build model: 0.01 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          84               89.3617 %
+Incorrectly Classified Instances        10               10.6383 %
+Kappa statistic                          0.7872
+Mean absolute error                      0.1373
+Root mean squared error                  0.2929
+Relative absolute error                 27.4301 %
+Root relative squared error             58.5388 %
+Coverage of cases (0.95 level)          98.9362 %
+Mean rel. region size (0.95 level)      64.3617 %
+Total Number of Instances               94     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.809    0.021    0.974      0.809    0.884      0.799    0.945     0.947     D
+                 0.979    0.191    0.836      0.979    0.902      0.799    0.945     0.948     O
+Weighted Avg.    0.894    0.106    0.905      0.894    0.893      0.799    0.945     0.948     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 38  9 |  a = D
+  1 46 |  b = O
+

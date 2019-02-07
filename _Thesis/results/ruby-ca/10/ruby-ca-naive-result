@@ -1,0 +1,606 @@
+=== Run information ===
+
+Scheme:weka.classifiers.bayes.NaiveBayes 
+Relation:     ruby-Bin-CA-word-10-weka.filters.unsupervised.attribute.Remove-R1-5,9
+Instances:    2292
+Attributes:   81
+              IsUrl
+              IsHashtag
+              IsRetweet
+              Category
+              W_ahensya
+              W_aksidente
+              W_alalahanin
+              W_area
+              W_bago
+              W_bandang
+              W_bilang
+              W_bilis
+              W_biyernes
+              W_breaker
+              W_bukas
+              W_calamity
+              W_circuit
+              W_dagat
+              W_daluyong
+              W_dapat
+              W_delata
+              W_delikado
+              W_group
+              W_habang
+              W_hagupit
+              W_handa
+              W_hanggang
+              W_iba
+              W_imbak
+              W_itinaas
+              W_kapilya
+              W_klase
+              W_kph
+              W_kung
+              W_lalawigan
+              W_loob
+              W_lugar
+              W_lumabas
+              W_lumakas
+              W_lunes
+              W_mag
+              W_makaiwas
+              W_mamayang
+              W_may
+              W_muling
+              W_nagkansela
+              W_nakapasok
+              W_nang
+              W_nasa
+              W_news
+              W_ninyo
+              W_northern
+              W_number
+              W_numero
+              W_paalala
+              W_pagbaha
+              W_par
+              W_patayin
+              W_pinalilikas
+              W_posibleng
+              W_question
+              W_responsibility
+              W_sakaling
+              W_sapat
+              W_sibuyan
+              W_simbahan
+              W_storm
+              W_sumusunod
+              W_surge
+              W_tandaan
+              W_tsansang
+              W_tulad
+              W_tumawag
+              W_tumutok
+              W_tuwing
+              W_typhoon
+              W_ulan
+              W_village
+              W_weather
+              W_yellow
+              Length
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                     Class
+Attribute               CA       O
+                    (0.56)  (0.44)
+===================================
+IsUrl
+  mean               0.9937  0.3248
+  std. dev.          0.1667  0.4683
+  weight sum           1279    1013
+  precision               1       1
+
+IsHashtag
+  mean                0.104  0.0612
+  std. dev.          0.3052  0.2397
+  weight sum           1279    1013
+  precision               1       1
+
+IsRetweet
+  mean               0.8796  0.3129
+  std. dev.          0.3254  0.4637
+  weight sum           1279    1013
+  precision               1       1
+
+W_ahensya
+  mean               0.0055   0.002
+  std. dev.          0.1667  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_aksidente
+  mean               0.0391       0
+  std. dev.          0.1938  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_alalahanin
+  mean                0.007       0
+  std. dev.          0.1667  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_area
+  mean               0.0352  0.0602
+  std. dev.          0.1925  0.2578
+  weight sum           1279    1013
+  precision               1       1
+
+W_bago
+  mean               0.0117  0.0642
+  std. dev.          0.1667   0.245
+  weight sum           1279    1013
+  precision               1       1
+
+W_bandang
+  mean               0.0156   0.003
+  std. dev.          0.1667  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_bilang
+  mean                0.007       0
+  std. dev.          0.1667  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_bilis
+  mean               0.0321  0.0099
+  std. dev.          0.1761  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_biyernes
+  mean               0.0133       0
+  std. dev.          0.1667  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_breaker
+  mean               0.0328       0
+  std. dev.          0.1782  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_bukas
+  mean               0.0227  0.0079
+  std. dev.          0.1667  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_calamity
+  mean               0.0086  0.0109
+  std. dev.          0.1667  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_circuit
+  mean               0.0047       0
+  std. dev.          0.1667  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_dagat
+  mean               0.0063   0.001
+  std. dev.          0.1667  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_daluyong
+  mean               0.0352   0.003
+  std. dev.          0.1842  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_dapat
+  mean               0.0133       0
+  std. dev.          0.1667  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_delata
+  mean               0.0086   0.001
+  std. dev.          0.1667  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_delikado
+  mean               0.0328   0.002
+  std. dev.          0.1782  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_group
+  mean               0.0133       0
+  std. dev.          0.1667  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_habang
+  mean               0.0235       0
+  std. dev.          0.1667  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_hagupit
+  mean               0.0524       0
+  std. dev.          0.2228  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_handa
+  mean               0.0297       0
+  std. dev.          0.1698  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_hanggang
+  mean               0.0438       0
+  std. dev.          0.2494  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_iba
+  mean               0.0086       0
+  std. dev.          0.1667  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_imbak
+  mean               0.0133   0.003
+  std. dev.          0.1667  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_itinaas
+  mean               0.0109  0.0069
+  std. dev.          0.1667  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_kapilya
+  mean                0.007       0
+  std. dev.          0.1667  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_klase
+  mean               0.0485  0.0207
+  std. dev.          0.2148  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_kph
+  mean               0.0328       0
+  std. dev.          0.1782  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_kung
+  mean               0.0102       0
+  std. dev.          0.1667  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_lalawigan
+  mean               0.0133   0.001
+  std. dev.          0.1667  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_loob
+  mean               0.0133       0
+  std. dev.          0.1667  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_lugar
+  mean               0.0063   0.001
+  std. dev.          0.1667  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_lumabas
+  mean               0.0047       0
+  std. dev.          0.1667  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_lumakas
+  mean               0.0149  0.0296
+  std. dev.          0.1667  0.1695
+  weight sum           1279    1013
+  precision               1       1
+
+W_lunes
+  mean               0.0063       0
+  std. dev.          0.1667  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_mag
+  mean               0.0375       0
+  std. dev.          0.1901  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_makaiwas
+  mean               0.0141  0.0059
+  std. dev.          0.1667  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_mamayang
+  mean                0.025  0.0118
+  std. dev.          0.1667  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_may
+  mean               0.0102       0
+  std. dev.          0.1667  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_muling
+  mean               0.0328       0
+  std. dev.          0.1782  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_nagkansela
+  mean               0.0172   0.002
+  std. dev.          0.1667  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_nakapasok
+  mean               0.0242       0
+  std. dev.          0.2409  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_nang
+  mean               0.0094  0.0622
+  std. dev.          0.1667  0.2456
+  weight sum           1279    1013
+  precision               1       1
+
+W_nasa
+  mean               0.0078       0
+  std. dev.          0.1667  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_news
+  mean               0.0086       0
+  std. dev.          0.1667  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_ninyo
+  mean               0.0086   0.001
+  std. dev.          0.1667  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_northern
+  mean               0.0086       0
+  std. dev.          0.1667  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_number
+  mean               0.0149   0.002
+  std. dev.          0.1667  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_numero
+  mean               0.0047       0
+  std. dev.          0.1667  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_paalala
+  mean               0.0063       0
+  std. dev.          0.1667  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_pagbaha
+  mean               0.0461       0
+  std. dev.          0.2098  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_par
+  mean               0.0149       0
+  std. dev.          0.1667  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_patayin
+  mean               0.0242       0
+  std. dev.          0.1667  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_pinalilikas
+  mean               0.0383   0.003
+  std. dev.          0.1919  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_posibleng
+  mean               0.0117  0.0049
+  std. dev.          0.1667  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_question
+  mean               0.0086       0
+  std. dev.          0.1667  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_responsibility
+  mean               0.0274  0.0049
+  std. dev.          0.1667  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_sakaling
+  mean               0.0532  0.0326
+  std. dev.          0.2244  0.1775
+  weight sum           1279    1013
+  precision               1       1
+
+W_sapat
+  mean               0.0086   0.003
+  std. dev.          0.1667  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_sibuyan
+  mean               0.0078  0.0039
+  std. dev.          0.1667  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_simbahan
+  mean               0.0086       0
+  std. dev.          0.1667  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_storm
+  mean               0.0227   0.002
+  std. dev.          0.1667  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_sumusunod
+  mean               0.0633       0
+  std. dev.          0.2436  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_surge
+  mean               0.0086       0
+  std. dev.          0.1667  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_tandaan
+  mean               0.0086  0.0276
+  std. dev.          0.1667  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_tsansang
+  mean               0.0078   0.002
+  std. dev.          0.1667  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_tulad
+  mean               0.0047       0
+  std. dev.          0.1667  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_tumawag
+  mean                0.018       0
+  std. dev.          0.1667  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_tumutok
+  mean               0.0195  0.0069
+  std. dev.          0.1667  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_tuwing
+  mean                0.007       0
+  std. dev.          0.1667  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_typhoon
+  mean               0.0274       0
+  std. dev.          0.1667  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_ulan
+  mean               0.0117   0.003
+  std. dev.          0.1667  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_village
+  mean               0.0133       0
+  std. dev.          0.1667  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_weather
+  mean               0.0086   0.001
+  std. dev.          0.1667  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+W_yellow
+  mean                0.025       0
+  std. dev.          0.1667  0.1667
+  weight sum           1279    1013
+  precision               1       1
+
+Length
+  mean              25.4064 16.3361
+  std. dev.          5.9936  7.2777
+  weight sum           1279    1013
+  precision          1.0526  1.0526
+
+
+
+Time taken to build model: 0.02 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        2027               88.438  %
+Incorrectly Classified Instances       265               11.562  %
+Kappa statistic                          0.7649
+Mean absolute error                      0.1274
+Root mean squared error                  0.2918
+Relative absolute error                 25.8218 %
+Root relative squared error             58.7645 %
+Total Number of Instances             2292     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.909     0.146      0.887     0.909     0.898      0.962    CA
+                 0.854     0.091      0.881     0.854     0.867      0.962    O
+Weighted Avg.    0.884     0.122      0.884     0.884     0.884      0.962
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1162  117 |    a = CA
+  148  865 |    b = O
+

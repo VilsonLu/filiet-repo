@@ -1,0 +1,85 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     Mario-Bin-D-word-30-weka.filters.unsupervised.attribute.Remove-R1-5,9
+Instances:    94
+Attributes:   33
+              IsUrl
+              IsHashtag
+              IsRetweet
+              Category
+              W_metro
+              W_lahat
+              W_you
+              W_ating
+              W_extension
+              W_weather
+              W_requests
+              W_parking
+              W_ginawa
+              W_advisory
+              W_kaba
+              W_malls
+              W_service
+              W_volunteer
+              W_affected
+              W_pong
+              W_ilang
+              W_gusto
+              W_nagpabuhat
+              W_magvolunteer
+              W_mabasa
+              W_more
+              W_ngayon
+              W_open
+              W_contact
+              W_just
+              W_masilungan
+              W_rescuer
+              Length
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+IsUrl <= 0: O (31.0)
+IsUrl > 0
+|   Length <= 26: D (58.0/11.0)
+|   Length > 26: O (5.0)
+
+Number of Leaves  : 	3
+
+Size of the tree : 	5
+
+
+Time taken to build model: 0.03 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          80               85.1064 %
+Incorrectly Classified Instances        14               14.8936 %
+Kappa statistic                          0.7021
+Mean absolute error                      0.1908
+Root mean squared error                  0.3544
+Relative absolute error                 38.1251 %
+Root relative squared error             70.8155 %
+Coverage of cases (0.95 level)          94.6809 %
+Mean rel. region size (0.95 level)      71.8085 %
+Total Number of Instances               94     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.894    0.191    0.824      0.894    0.857      0.705    0.887     0.862     D
+                 0.809    0.106    0.884      0.809    0.844      0.705    0.887     0.906     O
+Weighted Avg.    0.851    0.149    0.854      0.851    0.851      0.705    0.887     0.884     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 42  5 |  a = D
+  9 38 |  b = O
+

@@ -1,0 +1,49 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.RandomForest -I 100 -K 0 -S 1
+Relation:     mario-combined-word-10-weka.filters.unsupervised.attribute.Remove-R1-5,9
+Instances:    1365
+Attributes:   114
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Random forest of 100 trees, each constructed while considering 7 random features.
+Out of bag error: 0.1853
+
+
+
+Time taken to build model: 2.61 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1110               81.3187 %
+Incorrectly Classified Instances       255               18.6813 %
+Kappa statistic                          0.7011
+Mean absolute error                      0.0993
+Root mean squared error                  0.2325
+Relative absolute error                 39.6988 %
+Root relative squared error             65.7749 %
+Total Number of Instances             1365     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.787     0.009      0.755     0.787     0.771      0.966    D
+                 0.759     0.005      0.863     0.759     0.807      0.918    CD
+                 0.747     0.015      0.796     0.747     0.771      0.944    CH
+                 0.803     0.126      0.853     0.803     0.828      0.912    CA
+                 0.847     0.149      0.773     0.847     0.808      0.924    O
+Weighted Avg.    0.813     0.117      0.816     0.813     0.813      0.921
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+  37   0   0   5   5 |   a = D
+   0  44   4   8   2 |   b = CD
+   0   5  74  12   8 |   c = CH
+   7   0   9 523 112 |   d = CA
+   5   2   6  65 432 |   e = O
+

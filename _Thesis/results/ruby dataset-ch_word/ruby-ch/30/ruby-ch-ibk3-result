@@ -1,0 +1,68 @@
+=== Run information ===
+
+Scheme:weka.classifiers.lazy.IBk -K 3 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Relation:     ruby-Bin-CH-word-30-weka.filters.unsupervised.attribute.Remove-R1-5,9
+Instances:    18
+Attributes:   27
+              IsUrl
+              IsHashtag
+              IsRetweet
+              Category
+              W_namin
+              W_mauubusan
+              W_ipriority
+              W_kailangan
+              W_phase
+              W_pamimigay
+              W_indigo
+              W_maaapektuhan
+              W_purok
+              W_paglilista
+              W_local
+              W_nasa
+              W_talaga
+              W_hindi
+              W_water
+              W_than
+              W_need
+              W_nila
+              W_church
+              W_more
+              W_iaccommodate
+              W_yung
+              Length
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+IB1 instance-based classifier
+using 3 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          13               72.2222 %
+Incorrectly Classified Instances         5               27.7778 %
+Kappa statistic                          0.4444
+Mean absolute error                      0.2373
+Root mean squared error                  0.4047
+Relative absolute error                 47.1821 %
+Root relative squared error             80.4508 %
+Total Number of Instances               18     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.444     0          1         0.444     0.615      0.895    CH
+                 1         0.556      0.643     1         0.783      0.895    O
+Weighted Avg.    0.722     0.278      0.821     0.722     0.699      0.895
+
+=== Confusion Matrix ===
+
+ a b   <-- classified as
+ 4 5 | a = CH
+ 0 9 | b = O
+

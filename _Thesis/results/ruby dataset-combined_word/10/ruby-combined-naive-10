@@ -1,0 +1,946 @@
+=== Run information ===
+
+Scheme:weka.classifiers.bayes.NaiveBayes 
+Relation:     ruby-Combined-word-10-weka.filters.unsupervised.attribute.Remove-R1-5,9
+Instances:    2583
+Attributes:   150
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                     Class
+Attribute               CA       O      CD      CH       D
+                    (0.49)  (0.39)   (0.1)     (0)  (0.01)
+===========================================================
+IsUrl
+  mean               0.9937  0.3248       1       1       1
+  std. dev.          0.1667  0.4683  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+IsHashtag
+  mean                0.104  0.0612  0.3551       0  0.0811
+  std. dev.          0.3052  0.2397  0.4785  0.1667   0.273
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+IsRetweet
+  mean               0.8796  0.3129   0.698  0.3333  0.5405
+  std. dev.          0.3254  0.4637  0.4591  0.4714  0.4984
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_ahensya
+  mean                    0       0  0.0286       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_aksidente
+  mean               0.0391       0       0       0       0
+  std. dev.          0.1938  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_alalahanin
+  mean                    0       0  0.0286       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_alon
+  mean               0.0117  0.0642       0       0       0
+  std. dev.          0.1667   0.245  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_area
+  mean               0.0008       0  0.0286       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_bago
+  mean                    0       0       0       0  0.0541
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.2261
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_bagsak
+  mean                    0       0  0.0327       0       0
+  std. dev.          0.1667  0.1667  0.1777  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_bandang
+  mean                0.007       0       0       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_barangay
+  mean                    0       0  0.0204       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_bayan
+  mean                    0       0   0.098       0       0
+  std. dev.          0.1667  0.1667  0.2973  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_bilang
+  mean                    0       0  0.0612       0       0
+  std. dev.          0.1667  0.1667  0.2397  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_bilis
+  mean               0.0321  0.0099       0       0       0
+  std. dev.          0.1761  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_biyernes
+  mean                    0       0  0.0898       0       0
+  std. dev.          0.1667  0.1667  0.2859  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_breaker
+  mean               0.0133       0       0       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_bubong
+  mean               0.0328       0       0       0       0
+  std. dev.          0.1782  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_bukas
+  mean                    0       0  0.0286       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_bunkhouses
+  mean               0.0047       0       0       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_calamity
+  mean                    0       0       0       0  0.2432
+  std. dev.          0.1667  0.1667  0.1667  0.1667   0.429
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_casualty
+  mean               0.0133       0       0       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_church
+  mean               0.0086   0.001       0       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_circuit
+  mean                    0  0.0039  0.0408       0       0
+  std. dev.          0.1667  0.1667  0.1979  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_dagat
+  mean               0.0235       0       0       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_daluyong
+  mean                    0       0  0.0408       0       0
+  std. dev.          0.1667  0.1667  0.1979  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_damages
+  mean                    0       0  0.0612       0       0
+  std. dev.          0.1667  0.1667  0.2397  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_dapat
+  mean               0.0438       0       0       0       0
+  std. dev.          0.2494  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_dead
+  mean               0.0063  0.0039  0.0571       0       0
+  std. dev.          0.1667  0.1667  0.2321  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_delata
+  mean               0.0485  0.0207       0       0       0
+  std. dev.          0.2148  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_delikado
+  mean               0.0328       0       0       0       0
+  std. dev.          0.1782  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_downed
+  mean                    0       0  0.0327       0       0
+  std. dev.          0.1667  0.1667  0.1777  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_dswd
+  mean               0.0133   0.001       0       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_evacuee
+  mean               0.0008       0       0  0.1111  0.4054
+  std. dev.          0.1667  0.1667  0.1667  0.3143   0.491
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_evacuees
+  mean               0.0047       0  0.0449       0       0
+  std. dev.          0.1667  0.1667  0.2071  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_family
+  mean               0.0133       0       0       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_food
+  mean               0.0063   0.001       0       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_goods
+  mean               0.0149  0.0296  0.0122       0       0
+  std. dev.          0.1667  0.1695  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_group
+  mean               0.0375       0       0       0       0
+  std. dev.          0.1901  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_habang
+  mean                    0       0  0.0286       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_hagupit
+  mean                    0       0  0.0204       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_handa
+  mean                    0   0.002  0.0367       0       0
+  std. dev.          0.1667  0.1667  0.1881  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_hanggang
+  mean                    0       0  0.0286       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_highway
+  mean               0.0102       0       0       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_iaccommodate
+  mean               0.0328       0       0       0       0
+  std. dev.          0.1782  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_iba
+  mean               0.0242       0       0       0       0
+  std. dev.          0.2409  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_imbak
+  mean               0.0078       0       0       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_imprastraktura
+  mean                    0   0.003  0.0449       0       0
+  std. dev.          0.1667  0.1667  0.2071  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_inihahanda
+  mean                    0       0       0  0.1111  0.4324
+  std. dev.          0.1667  0.1667  0.1667  0.3143  0.4954
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_iniwan
+  mean                    0  0.2221       0  0.5556       0
+  std. dev.          0.1667  0.4521  0.1667  0.4969  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_istruktura
+  mean                    0       0       0  0.4444       0
+  std. dev.          0.1667  0.1667  0.1667  0.4969  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_itinaas
+  mean               0.0149   0.002       0  0.1111       0
+  std. dev.          0.1667  0.1667  0.1667  0.3143  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_kahoy
+  mean                    0   0.002       0  0.4444       0
+  std. dev.          0.1667  0.1667  0.1667  0.4969  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_kapilya
+  mean                    0       0       0       0  0.0811
+  std. dev.          0.1667  0.1667  0.1667  0.1667   0.273
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_katao
+  mean               0.0047       0       0       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_klase
+  mean               0.0063       0       0       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_kph
+  mean               0.0117  0.0049       0       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_kung
+  mean               0.0274  0.0049       0       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_lalawigan
+  mean                    0       0  0.0204       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_lines
+  mean               0.0532  0.0326       0  0.1111       0
+  std. dev.          0.2244  0.1775  0.1667  0.3143  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_linya
+  mean               0.0078  0.0039       0       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_loob
+  mean                    0       0  0.0408       0       0
+  std. dev.          0.1667  0.1667  0.1979  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_lubog
+  mean                    0   0.002  0.0408       0       0
+  std. dev.          0.1667  0.1667  0.1979  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_lugar
+  mean               0.0086       0       0       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_lumabas
+  mean               0.0227   0.002  0.0041       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_lumakas
+  mean               0.0633       0       0       0       0
+  std. dev.          0.2436  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_lumikas
+  mean                    0       0       0  0.4444       0
+  std. dev.          0.1667  0.1667  0.1667  0.4969  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_lunes
+  mean               0.0086       0       0       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_mag
+  mean               0.0086  0.0276       0       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_mahigit
+  mean               0.0078   0.002       0       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_makaiwas
+  mean               0.0195  0.0069       0       0  0.0541
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.2261
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_malawak
+  mean               0.0117   0.003       0       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_mamayang
+  mean                    0       0  0.0898       0       0
+  std. dev.          0.1667  0.1667  0.2859  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_may
+  mean               0.0008       0   0.049       0  0.1351
+  std. dev.          0.1667  0.1667  0.2158  0.1667  0.3419
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_more
+  mean               0.0133       0       0       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_muling
+  mean                    0       0       0       0  0.1892
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.3917
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_municipality
+  mean               0.0086   0.001       0       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_nagdulot
+  mean                    0       0  0.0694       0       0
+  std. dev.          0.1667  0.1667  0.2541  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_nagkansela
+  mean               0.0055   0.002       0       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_naitalang
+  mean                    0   0.002  0.0408       0       0
+  std. dev.          0.1667  0.1667  0.1979  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_nakapasok
+  mean                0.007       0       0       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_nang
+  mean               0.0352  0.0602  0.0082       0       0
+  std. dev.          0.1925  0.2578  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_nasa
+  mean               0.0016       0  0.1837       0       0
+  std. dev.          0.1667  0.1667  0.3872  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_nasawi
+  mean                    0       0  0.0898       0       0
+  std. dev.          0.1667  0.1667  0.2859  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_nasira
+  mean               0.0008       0  0.1265       0       0
+  std. dev.          0.1667  0.1667  0.3324  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_natuklapan
+  mean               0.0156   0.003       0       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_navy
+  mean                    0       0  0.0204       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_need
+  mean                    0       0       0       0  0.1892
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.3917
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_news
+  mean                0.007   0.001  0.2041       0       0
+  std. dev.          0.1667  0.1667   0.403  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_ngcp
+  mean               0.0016   0.001  0.0286       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_nila
+  mean               0.0227  0.0079       0       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_ninyo
+  mean               0.0086  0.0109       0       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_northeastern
+  mean                    0  0.0039       0  0.4444       0
+  std. dev.          0.1667  0.1667  0.1667  0.4969  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_northern
+  mean                    0   0.002   0.049       0       0
+  std. dev.          0.1667  0.1667  0.2158  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_number
+  mean               0.0063   0.001       0       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_numero
+  mean               0.0352   0.003       0       0       0
+  std. dev.          0.1842  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_paalala
+  mean                    0   0.002  0.0408       0       0
+  std. dev.          0.1667  0.1667  0.1979  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_packs
+  mean                    0  0.0039       0  0.5556  0.2432
+  std. dev.          0.1667  0.1667  0.1667  0.4969   0.429
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_pagbaha
+  mean                0.007       0  0.0612       0       0
+  std. dev.          0.1667  0.1667  0.2397  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_pananalasa
+  mean               0.0328   0.002       0       0       0
+  std. dev.          0.1782  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_par
+  mean               0.0133       0       0       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_patay
+  mean               0.0524       0       0       0       0
+  std. dev.          0.2228  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_patayin
+  mean               0.0297       0       0       0       0
+  std. dev.          0.1698  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_personnel
+  mean                    0       0  0.0286       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_pinalilikas
+  mean               0.0086       0       0       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_pinsala
+  mean               0.0133   0.003  0.0041       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_point
+  mean               0.0109  0.0069       0       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_posibleng
+  mean                0.007       0       0       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_post
+  mean               0.0102       0       0       0   0.027
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_power
+  mean               0.0008  0.0049  0.0041       0  0.1081
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.3105
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_pswd
+  mean                    0   0.002  0.0327       0       0
+  std. dev.          0.1667  0.1667  0.1777  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_question
+  mean               0.0023       0   0.049       0       0
+  std. dev.          0.1667  0.1667  0.2158  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_relief
+  mean                    0  0.0049       0  0.4444       0
+  std. dev.          0.1667  0.1667  0.1667  0.4969  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_residente
+  mean               0.0008       0  0.0327       0       0
+  std. dev.          0.1667  0.1667  0.1777  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_responsibility
+  mean                    0       0       0       0  0.1892
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.3917
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_sagkahan
+  mean               0.0047       0       0       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_sakaling
+  mean               0.0063       0       0       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_salamat
+  mean                    0       0  0.0204       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_sapat
+  mean               0.0141  0.0059       0       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_sibuyan
+  mean                    0       0       0       0  0.2162
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.4117
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_simbahan
+  mean                0.025  0.0118  0.0082  0.4444  0.0541
+  std. dev.          0.1667  0.1667  0.1667  0.4969  0.2261
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_sinira
+  mean               0.0172   0.002       0       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_storm
+  mean               0.0094  0.0622       0       0   0.027
+  std. dev.          0.1667  0.2456  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_sumusunod
+  mean                    0       0  0.0327       0       0
+  std. dev.          0.1667  0.1667  0.1777  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_surge
+  mean               0.0086       0       0       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_tandaan
+  mean               0.0086   0.001       0       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_than
+  mean               0.0086       0       0       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_tindahang
+  mean                    0       0  0.0327       0       0
+  std. dev.          0.1667  0.1667  0.1777  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_total
+  mean               0.0461       0       0       0       0
+  std. dev.          0.2098  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_towns
+  mean               0.0149       0       0       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_transported
+  mean               0.0242       0       0       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_tsansang
+  mean                    0   0.002       0  0.4444       0
+  std. dev.          0.1667  0.1667  0.1667  0.4969  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_tulad
+  mean                    0       0  0.0939       0       0
+  std. dev.          0.1667  0.1667  0.2917  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_tumawag
+  mean                    0       0  0.0531       0       0
+  std. dev.          0.1667  0.1667  0.2242  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_tumutok
+  mean               0.0383   0.003       0       0       0
+  std. dev.          0.1919  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_tuwing
+  mean               0.0086       0       0       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_typhoon
+  mean               0.0047       0       0       0  0.1081
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.3105
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_ulan
+  mean               0.0086   0.003       0       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_umakyat
+  mean                    0       0  0.0327       0       0
+  std. dev.          0.1667  0.1667  0.1777  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_video
+  mean                    0       0       0       0  0.4054
+  std. dev.          0.1667  0.1667  0.1667  0.1667   0.491
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_village
+  mean                    0       0  0.0408       0       0
+  std. dev.          0.1667  0.1667  0.1979  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_weather
+  mean               0.0016       0       0       0  0.0541
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.2261
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_winasak
+  mean                    0       0       0       0  0.4054
+  std. dev.          0.1667  0.1667  0.1667  0.1667   0.491
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_yari
+  mean               0.0047       0       0       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_yellow
+  mean                0.018       0       0       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_yero
+  mean                0.007       0       0       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_youscooper
+  mean               0.0274       0       0       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+W_yung
+  mean                0.025       0       0       0       0
+  std. dev.          0.1667  0.1667  0.1667  0.1667  0.1667
+  weight sum           1279    1013     245       9      37
+  precision               1       1       1       1       1
+
+Length
+  mean              25.4064 16.3361  20.623 23.5088 22.1337
+  std. dev.          5.9936  7.2777  4.1875  4.2397  3.6749
+  weight sum           1279    1013     245       9      37
+  precision          1.0526  1.0526  1.0526  1.0526  1.0526
+
+
+
+Time taken to build model: 0.07 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        2217               85.8304 %
+Incorrectly Classified Instances       366               14.1696 %
+Kappa statistic                          0.756 
+Mean absolute error                      0.0625
+Root mean squared error                  0.2057
+Relative absolute error                 26.3701 %
+Root relative squared error             59.7994 %
+Total Number of Instances             2583     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.913     0.159      0.849     0.913     0.88       0.959    CA
+                 0.847     0.075      0.879     0.847     0.863      0.965    O
+                 0.665     0.016      0.811     0.665     0.731      0.963    CD
+                 0.444     0.001      0.667     0.444     0.533      0.875    CH
+                 0.649     0          0.96      0.649     0.774      0.983    D
+Weighted Avg.    0.858     0.11       0.858     0.858     0.856      0.962
+
+=== Confusion Matrix ===
+
+    a    b    c    d    e   <-- classified as
+ 1168   87   24    0    0 |    a = CA
+  140  858   13    2    0 |    b = O
+   58   24  163    0    0 |    c = CD
+    1    3    0    4    1 |    d = CH
+    8    4    1    0   24 |    e = D
+

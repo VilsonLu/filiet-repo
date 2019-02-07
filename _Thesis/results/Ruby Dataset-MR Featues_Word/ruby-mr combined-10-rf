@@ -1,0 +1,51 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomForest -I 10 -K 0 -S 1 -num-slots 1
+Relation:     Ruby-marioruby-Combined-word-10-weka.filters.unsupervised.attribute.Remove-R1-5,9
+Instances:    2583
+Attributes:   243
+              [list of attributes omitted]
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Random forest of 10 trees, each constructed while considering 8 random features.
+Out of bag error: 0.0654
+
+
+
+Time taken to build model: 2.87 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        2439               94.4251 %
+Incorrectly Classified Instances       144                5.5749 %
+Kappa statistic                          0.9054
+Mean absolute error                      0.034 
+Root mean squared error                  0.1347
+Relative absolute error                 14.3587 %
+Root relative squared error             39.1392 %
+Coverage of cases (0.95 level)          98.4127 %
+Mean rel. region size (0.95 level)      26.1247 %
+Total Number of Instances             2583     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.953    0.044    0.955      0.953    0.954      0.909    0.984     0.983     CA
+                 0.960    0.040    0.939      0.960    0.949      0.916    0.985     0.970     O
+                 0.898    0.007    0.932      0.898    0.915      0.906    0.987     0.958     CD
+                 0.444    0.001    0.571      0.444    0.500      0.502    0.718     0.424     CH
+                 0.649    0.002    0.857      0.649    0.738      0.743    0.915     0.762     D
+Weighted Avg.    0.944    0.038    0.944      0.944    0.944      0.907    0.983     0.970     
+
+=== Confusion Matrix ===
+
+    a    b    c    d    e   <-- classified as
+ 1219   51    7    0    2 |    a = CA
+   34  972    5    2    0 |    b = O
+   17    6  220    1    1 |    c = CD
+    0    3    1    4    1 |    d = CH
+    7    3    3    0   24 |    e = D
+

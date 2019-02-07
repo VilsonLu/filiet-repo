@@ -1,0 +1,169 @@
+=== Run information ===
+
+Scheme:weka.classifiers.bayes.BayesNet -D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 1 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5
+Relation:     ruby-mario-Combined-word-10-weka.filters.unsupervised.attribute.Remove-R1-5,9
+Instances:    2583
+Attributes:   114
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Bayes Network Classifier
+not using ADTree
+#attributes=114 #classindex=3
+Network structure (nodes followed by parents)
+IsUrl(2): Category 
+IsHashtag(2): Category 
+IsRetweet(2): Category 
+Category(5): 
+W_abo(1): Category 
+W_all(1): Category 
+W_along(1): Category 
+W_amin(1): Category 
+W_apektado(1): Category 
+W_area(1): Category 
+W_as(2): Category 
+W_babala(1): Category 
+W_bagong(2): Category 
+W_bagyo(1): Category 
+W_bagyong(1): Category 
+W_bahagi(1): Category 
+W_bahang(1): Category 
+W_blog(1): Category 
+W_camnorte(1): Category 
+W_city(1): Category 
+W_contact(1): Category 
+W_cor(1): Category 
+W_cuyab(1): Category 
+W_dahil(2): Category 
+W_dapat(2): Category 
+W_deep(1): Category 
+W_dibdib(1): Category 
+W_dist(1): Category 
+W_dito(1): Category 
+W_dry(2): Category 
+W_dulot(1): Category 
+W_estero(2): Category 
+W_follow(2): Category 
+W_food(1): Category 
+W_gawin(1): Category 
+W_going(2): Category 
+W_gusto(1): Category 
+W_hall(1): Category 
+W_hanggang(2): Category 
+W_help(2): Category 
+W_high(1): Category 
+W_highway(1): Category 
+W_hotlines(1): Category 
+W_i(1): Category 
+W_ingat(1): Category 
+W_inyong(1): Category 
+W_ito(2): Category 
+W_just(1): Category 
+W_kahabaan(1): Category 
+W_kami(1): Category 
+W_karangalan(1): Category 
+W_kasi(1): Category 
+W_kong(1): Category 
+W_kuha(1): Category 
+W_kung(1): Category 
+W_labas(1): Category 
+W_lagpas(1): Category 
+W_lalim(1): Category 
+W_limay(1): Category 
+W_live(1): Category 
+W_liwasang(1): Category 
+W_lugar(2): Category 
+W_mabasa(2): Category 
+W_magdulot(1): Category 
+W_magingat(2): Category 
+W_magvolunteer(1): Category 
+W_mahigit(2): Category 
+W_malapit(1): Category 
+W_mario(1): Category 
+W_more(1): Category 
+W_nabaha(2): Category 
+W_naman(1): Category 
+W_namin(1): Category 
+W_nananatiling(2): Category 
+W_need(1): Category 
+W_ngayon(2): Category 
+W_ngayong(1): Category 
+W_not(1): Category 
+W_open(2): Category 
+W_paalala(2): Category 
+W_pahelp(2): Category 
+W_palibot(1): Category 
+W_pamilya(1): Category 
+W_passable(1): Category 
+W_patungong(2): Category 
+W_pero(1): Category 
+W_point(1): Category 
+W_question(1): Category 
+W_rescuer(1): Category 
+W_river(1): Category 
+W_safe(1): Category 
+W_samin(1): Category 
+W_san(1): Category 
+W_sitwasyon(1): Category 
+W_subd(2): Category 
+W_subided(2): Category 
+W_subsided(2): Category 
+W_tayo(1): Category 
+W_tinatayang(1): Category 
+W_tubig(1): Category 
+W_tuhod(2): Category 
+W_tulay(1): Category 
+W_tumana(1): Category 
+W_types(1): Category 
+W_ukol(1): Category 
+W_ulan(2): Category 
+W_umiwas(1): Category 
+W_via(1): Category 
+W_video(1): Category 
+W_village(2): Category 
+W_wala(1): Category 
+W_warning(2): Category 
+W_water(1): Category 
+Length(7): Category 
+LogScore Bayes: -16436.24921094201
+LogScore BDeu: -16837.388363968214
+LogScore MDL: -17083.36703096955
+LogScore ENTROPY: -16321.266472039275
+LogScore AIC: -16515.266472039275
+
+
+Time taken to build model: 0.11 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        2189               84.7464 %
+Incorrectly Classified Instances       394               15.2536 %
+Kappa statistic                          0.738 
+Mean absolute error                      0.0745
+Root mean squared error                  0.2131
+Relative absolute error                 31.4475 %
+Root relative squared error             61.9436 %
+Total Number of Instances             2583     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.901     0.166      0.841     0.901     0.87       0.945    CA
+                 0.882     0.048      0.923     0.882     0.902      0.975    O
+                 0.535     0.041      0.58      0.535     0.556      0.934    CD
+                 0.444     0.001      0.571     0.444     0.5        0.923    CH
+                 0.243     0.002      0.692     0.243     0.36       0.869    D
+Weighted Avg.    0.847     0.105      0.845     0.847     0.844      0.955
+
+=== Confusion Matrix ===
+
+    a    b    c    d    e   <-- classified as
+ 1152   56   71    0    0 |    a = CA
+   92  893   22    3    3 |    b = O
+  102   12  131    0    0 |    c = CD
+    1    3    0    4    1 |    d = CH
+   22    4    2    0    9 |    e = D
+

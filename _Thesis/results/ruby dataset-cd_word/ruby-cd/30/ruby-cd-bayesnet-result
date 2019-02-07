@@ -1,0 +1,174 @@
+=== Run information ===
+
+Scheme:weka.classifiers.bayes.BayesNet -D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 1 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5
+Relation:     ruby-Bin-CD-word-30-weka.filters.unsupervised.attribute.Remove-R1-5,9
+Instances:    490
+Attributes:   125
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Bayes Network Classifier
+not using ADTree
+#attributes=125 #classindex=3
+Network structure (nodes followed by parents)
+IsUrl(2): Category 
+IsHashtag(2): Category 
+IsRetweet(2): Category 
+Category(2): 
+W_airport(1): Category 
+W_alon(1): Category 
+W_ayon(1): Category 
+W_bagsak(1): Category 
+W_bagyo(1): Category 
+W_baha(1): Category 
+W_barangay(2): Category 
+W_bayan(1): Category 
+W_baylon(1): Category 
+W_brgy(2): Category 
+W_brownout(2): Category 
+W_bubong(2): Category 
+W_bugsong(2): Category 
+W_bunkhouses(1): Category 
+W_buong(1): Category 
+W_casualty(1): Category 
+W_city(2): Category 
+W_correspondent(1): Category 
+W_count(1): Category 
+W_cross(1): Category 
+W_dahil(1): Category 
+W_dalampasigan(2): Category 
+W_dalawa(2): Category 
+W_damages(1): Category 
+W_dead(2): Category 
+W_dilg(1): Category 
+W_downed(1): Category 
+W_dulot(1): Category 
+W_dzmm(1): Category 
+W_eastern(1): Category 
+W_electrical(1): Category 
+W_establisimyento(1): Category 
+W_evacuees(1): Category 
+W_front(1): Category 
+W_good(1): Category 
+W_gov(1): Category 
+W_highway(1): Category 
+W_hypothermia(1): Category 
+W_ilang(1): Category 
+W_imprastraktura(1): Category 
+W_inilikas(1): Category 
+W_iniwan(1): Category 
+W_isinara(1): Category 
+W_issue(2): Category 
+W_istruktura(1): Category 
+W_itinumba(1): Category 
+W_kahoy(1): Category 
+W_kasagsagan(1): Category 
+W_kasing(1): Category 
+W_katao(1): Category 
+W_komunikasyon(1): Category 
+W_kuryente(1): Category 
+W_lalake(1): Category 
+W_lates(1): Category 
+W_lines(1): Category 
+W_linya(1): Category 
+W_list(1): Category 
+W_lubog(1): Category 
+W_lumikas(1): Category 
+W_mahigit(2): Category 
+W_malalaking(2): Category 
+W_malawak(1): Category 
+W_mangingisda(2): Category 
+W_mayor(1): Category 
+W_mula(1): Category 
+W_nagdulot(2): Category 
+W_nagsitumbahan(2): Category 
+W_nailikas(2): Category 
+W_naitalang(1): Category 
+W_namatay(2): Category 
+W_nanatili(1): Category 
+W_nasawi(2): Category 
+W_nasira(1): Category 
+W_natuklap(2): Category 
+W_natuklapan(1): Category 
+W_nawasak(1): Category 
+W_nddrmc(1): Category 
+W_ngcp(1): Category 
+W_northeastern(1): Category 
+W_pabugso(1): Category 
+W_pamilya(2): Category 
+W_pananalasa(1): Category 
+W_passable(1): Category 
+W_patay(1): Category 
+W_persons(1): Category 
+W_photo(1): Category 
+W_pinadapa(1): Category 
+W_pinsala(1): Category 
+W_plywood(1): Category 
+W_pm(1): Category 
+W_police(2): Category 
+W_post(1): Category 
+W_poste(2): Category 
+W_power(1): Category 
+W_press(2): Category 
+W_probinsya(2): Category 
+W_pswd(1): Category 
+W_red(1): Category 
+W_residente(1): Category 
+W_sagkahan(1): Category 
+W_san(1): Category 
+W_sana(1): Category 
+W_sinira(1): Category 
+W_sobrang(1): Category 
+W_strong(1): Category 
+W_tala(1): Category 
+W_tan(1): Category 
+W_tindahang(2): Category 
+W_topples(1): Category 
+W_total(2): Category 
+W_ulat(1): Category 
+W_umabot(1): Category 
+W_umakyat(2): Category 
+W_video(1): Category 
+W_winalis(1): Category 
+W_winasak(1): Category 
+W_yari(1): Category 
+W_years(1): Category 
+W_yero(1): Category 
+W_youscooper(1): Category 
+Length(2): Category 
+LogScore Bayes: -3682.4047477817912
+LogScore BDeu: -3735.659661460358
+LogScore MDL: -3815.7667307680845
+LogScore ENTROPY: -3620.6429609482852
+LogScore AIC: -3683.6429609482852
+
+
+Time taken to build model: 0.02 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         423               86.3265 %
+Incorrectly Classified Instances        67               13.6735 %
+Kappa statistic                          0.7265
+Mean absolute error                      0.154 
+Root mean squared error                  0.3084
+Relative absolute error                 30.8012 %
+Root relative squared error             61.6863 %
+Total Number of Instances              490     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.882     0.155      0.85      0.882     0.866      0.952    O
+                 0.845     0.118      0.877     0.845     0.861      0.952    CD
+Weighted Avg.    0.863     0.137      0.864     0.863     0.863      0.952
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 216  29 |   a = O
+  38 207 |   b = CD
+

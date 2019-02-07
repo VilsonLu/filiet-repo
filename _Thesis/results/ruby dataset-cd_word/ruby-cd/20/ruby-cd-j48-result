@@ -1,0 +1,158 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     ruby-Bin-CD-word-20-weka.filters.unsupervised.attribute.Remove-R1-5,9
+Instances:    490
+Attributes:   92
+              IsUrl
+              IsHashtag
+              IsRetweet
+              Category
+              W_abangan
+              W_bahagyang
+              W_balita
+              W_bilis
+              W_bugso
+              W_bumagal
+              W_buong
+              W_calamity
+              W_city
+              W_dagat
+              W_emergency
+              W_forecast
+              W_galaw
+              W_gumagabi
+              W_gym
+              W_halos
+              W_helpdesk
+              W_hydromet
+              W_i
+              W_ilang
+              W_including
+              W_isinasagawa
+              W_islands
+              W_just
+              W_kalupaan
+              W_kanina
+              W_kasunod
+              W_kaysa
+              W_kung
+              W_lahat
+              W_list
+              W_lubang
+              W_lumakas
+              W_lumihis
+              W_maglandfall
+              W_mas
+              W_mataas
+              W_mula
+              W_muling
+              W_nagbago
+              W_nagpapatupad
+              W_nagsimula
+              W_nagsisiksikang
+              W_naibalik
+              W_nakapasok
+              W_nakatutok
+              W_naman
+              W_namataan
+              W_name
+              W_natitirang
+              W_noah
+              W_northeast
+              W_northwest
+              W_pagpasok
+              W_para
+              W_patuloy
+              W_photo
+              W_pinalilikas
+              W_port
+              W_preemptive
+              W_preso
+              W_private
+              W_probinsya
+              W_rainfall
+              W_ready
+              W_regional
+              W_reinforce
+              W_rescueteam
+              W_sana
+              W_silangan
+              W_southern
+              W_state
+              W_super
+              W_suplay
+              W_tatawaging
+              W_teleradyo
+              W_teritoryo
+              W_tinupi
+              W_tsansang
+              W_tumama
+              W_ulat
+              W_update
+              W_utos
+              W_village
+              W_with
+              W_year
+              W_yellow
+              Length
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+IsUrl <= 0: O (147.0)
+IsUrl > 0
+|   W_lumakas <= 0
+|   |   W_i <= 0
+|   |   |   IsHashtag <= 0
+|   |   |   |   Length <= 19
+|   |   |   |   |   W_city <= 0
+|   |   |   |   |   |   W_noah <= 0: O (66.0/21.0)
+|   |   |   |   |   |   W_noah > 0: CD (3.0)
+|   |   |   |   |   W_city > 0: CD (6.0)
+|   |   |   |   Length > 19
+|   |   |   |   |   W_northwest <= 0: CD (103.0/17.0)
+|   |   |   |   |   W_northwest > 0: O (3.0)
+|   |   |   IsHashtag > 0
+|   |   |   |   Length <= 22: CD (86.0/4.0)
+|   |   |   |   Length > 22
+|   |   |   |   |   IsRetweet <= 0: CD (2.0)
+|   |   |   |   |   IsRetweet > 0: O (3.0)
+|   |   W_i > 0: CD (43.0)
+|   W_lumakas > 0: O (28.0/2.0)
+
+Number of Leaves  : 	11
+
+Size of the tree : 	21
+
+
+Time taken to build model: 0.03 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         428               87.3469 %
+Incorrectly Classified Instances        62               12.6531 %
+Kappa statistic                          0.7469
+Mean absolute error                      0.1611
+Root mean squared error                  0.3088
+Relative absolute error                 32.2194 %
+Root relative squared error             61.7473 %
+Total Number of Instances              490     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.837     0.09       0.903     0.837     0.869      0.928    O
+                 0.91      0.163      0.848     0.91      0.878      0.928    CD
+Weighted Avg.    0.873     0.127      0.875     0.873     0.873      0.928
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 205  40 |   a = O
+  22 223 |   b = CD
+

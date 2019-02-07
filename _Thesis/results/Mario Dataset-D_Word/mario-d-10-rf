@@ -1,0 +1,58 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomForest -I 10 -K 0 -S 1 -num-slots 1
+Relation:     Mario-Bin-D-word-10-weka.filters.unsupervised.attribute.Remove-R1-5,9
+Instances:    94
+Attributes:   14
+              IsUrl
+              IsHashtag
+              IsRetweet
+              Category
+              W_gusto
+              W_magvolunteer
+              W_mabasa
+              W_more
+              W_ngayon
+              W_open
+              W_contact
+              W_just
+              W_rescuer
+              Length
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Random forest of 10 trees, each constructed while considering 4 random features.
+Out of bag error: 0.117
+
+
+
+Time taken to build model: 0.13 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          84               89.3617 %
+Incorrectly Classified Instances        10               10.6383 %
+Kappa statistic                          0.7872
+Mean absolute error                      0.1346
+Root mean squared error                  0.2971
+Relative absolute error                 26.9093 %
+Root relative squared error             59.3774 %
+Coverage of cases (0.95 level)          95.7447 %
+Mean rel. region size (0.95 level)      61.7021 %
+Total Number of Instances               94     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.894    0.106    0.894      0.894    0.894      0.787    0.933     0.895     D
+                 0.894    0.106    0.894      0.894    0.894      0.787    0.933     0.934     O
+Weighted Avg.    0.894    0.106    0.894      0.894    0.894      0.787    0.933     0.914     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 42  5 |  a = D
+  5 42 |  b = O
+

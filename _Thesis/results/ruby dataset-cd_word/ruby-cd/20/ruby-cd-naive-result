@@ -1,0 +1,683 @@
+=== Run information ===
+
+Scheme:weka.classifiers.bayes.NaiveBayes 
+Relation:     ruby-Bin-CD-word-20-weka.filters.unsupervised.attribute.Remove-R1-5,9
+Instances:    490
+Attributes:   92
+              IsUrl
+              IsHashtag
+              IsRetweet
+              Category
+              W_abangan
+              W_bahagyang
+              W_balita
+              W_bilis
+              W_bugso
+              W_bumagal
+              W_buong
+              W_calamity
+              W_city
+              W_dagat
+              W_emergency
+              W_forecast
+              W_galaw
+              W_gumagabi
+              W_gym
+              W_halos
+              W_helpdesk
+              W_hydromet
+              W_i
+              W_ilang
+              W_including
+              W_isinasagawa
+              W_islands
+              W_just
+              W_kalupaan
+              W_kanina
+              W_kasunod
+              W_kaysa
+              W_kung
+              W_lahat
+              W_list
+              W_lubang
+              W_lumakas
+              W_lumihis
+              W_maglandfall
+              W_mas
+              W_mataas
+              W_mula
+              W_muling
+              W_nagbago
+              W_nagpapatupad
+              W_nagsimula
+              W_nagsisiksikang
+              W_naibalik
+              W_nakapasok
+              W_nakatutok
+              W_naman
+              W_namataan
+              W_name
+              W_natitirang
+              W_noah
+              W_northeast
+              W_northwest
+              W_pagpasok
+              W_para
+              W_patuloy
+              W_photo
+              W_pinalilikas
+              W_port
+              W_preemptive
+              W_preso
+              W_private
+              W_probinsya
+              W_rainfall
+              W_ready
+              W_regional
+              W_reinforce
+              W_rescueteam
+              W_sana
+              W_silangan
+              W_southern
+              W_state
+              W_super
+              W_suplay
+              W_tatawaging
+              W_teleradyo
+              W_teritoryo
+              W_tinupi
+              W_tsansang
+              W_tumama
+              W_ulat
+              W_update
+              W_utos
+              W_village
+              W_with
+              W_year
+              W_yellow
+              Length
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                     Class
+Attribute                O      CD
+                     (0.5)   (0.5)
+===================================
+IsUrl
+  mean                  0.4       1
+  std. dev.          0.4899  0.1667
+  weight sum            245     245
+  precision               1       1
+
+IsHashtag
+  mean               0.0612  0.3551
+  std. dev.          0.2397  0.4785
+  weight sum            245     245
+  precision               1       1
+
+IsRetweet
+  mean               0.3633   0.698
+  std. dev.          0.4809  0.4591
+  weight sum            245     245
+  precision               1       1
+
+W_abangan
+  mean               0.0204       0
+  std. dev.          0.1667  0.1667
+  weight sum            245     245
+  precision               1       1
+
+W_bahagyang
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_balita
+  mean               0.0082       0
+  std. dev.          0.1667  0.1667
+  weight sum            245     245
+  precision               1       1
+
+W_bilis
+  mean               0.0245       0
+  std. dev.          0.1667  0.1667
+  weight sum            245     245
+  precision               1       1
+
+W_bugso
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_bumagal
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_buong
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_calamity
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_city
+  mean                    0   0.151
+  std. dev.          0.1667  0.3581
+  weight sum            245     245
+  precision               1       1
+
+W_dagat
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_emergency
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_forecast
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_galaw
+  mean               0.0857  0.0082
+  std. dev.          0.2799  0.1667
+  weight sum            245     245
+  precision               1       1
+
+W_gumagabi
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_gym
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_halos
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_helpdesk
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_hydromet
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_i
+  mean               0.0041  0.1755
+  std. dev.          0.1667  0.3804
+  weight sum            245     245
+  precision               1       1
+
+W_ilang
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_including
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_isinasagawa
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_islands
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_just
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_kalupaan
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_kanina
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_kasunod
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_kaysa
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_kung
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_lahat
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_list
+  mean               0.0041       0
+  std. dev.          0.1667  0.1667
+  weight sum            245     245
+  precision               1       1
+
+W_lubang
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_lumakas
+  mean               0.1143  0.0082
+  std. dev.          0.3182  0.1667
+  weight sum            245     245
+  precision               1       1
+
+W_lumihis
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_maglandfall
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_mas
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_mataas
+  mean               0.0041       0
+  std. dev.          0.1667  0.1667
+  weight sum            245     245
+  precision               1       1
+
+W_mula
+  mean                    0  0.0286
+  std. dev.          0.1667  0.1667
+  weight sum            245     245
+  precision               1       1
+
+W_muling
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_nagbago
+  mean                    0  0.1102
+  std. dev.          0.1667  0.3131
+  weight sum            245     245
+  precision               1       1
+
+W_nagpapatupad
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_nagsimula
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_nagsisiksikang
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_naibalik
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_nakapasok
+  mean               0.0041       0
+  std. dev.          0.1667  0.1667
+  weight sum            245     245
+  precision               1       1
+
+W_nakatutok
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_naman
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_namataan
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_name
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_natitirang
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_noah
+  mean                    0  0.0531
+  std. dev.          0.1667  0.2242
+  weight sum            245     245
+  precision               1       1
+
+W_northeast
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_northwest
+  mean                0.102       0
+  std. dev.          0.3027  0.1667
+  weight sum            245     245
+  precision               1       1
+
+W_pagpasok
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_para
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_patuloy
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_photo
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_pinalilikas
+  mean               0.0041       0
+  std. dev.          0.1667  0.1667
+  weight sum            245     245
+  precision               1       1
+
+W_port
+  mean                    0  0.0041
+  std. dev.          0.1667  0.1667
+  weight sum            245     245
+  precision               1       1
+
+W_preemptive
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_preso
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_private
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_probinsya
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_rainfall
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_ready
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_regional
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_reinforce
+  mean                    0  0.0286
+  std. dev.          0.1667  0.1667
+  weight sum            245     245
+  precision               1       1
+
+W_rescueteam
+  mean               0.0204  0.0041
+  std. dev.          0.1667  0.1667
+  weight sum            245     245
+  precision               1       1
+
+W_sana
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_silangan
+  mean                    0  0.0122
+  std. dev.          0.1667  0.1667
+  weight sum            245     245
+  precision               1       1
+
+W_southern
+  mean               0.0122  0.0286
+  std. dev.          0.1667  0.1667
+  weight sum            245     245
+  precision               1       1
+
+W_state
+  mean               0.0367       0
+  std. dev.          0.1881  0.1667
+  weight sum            245     245
+  precision               1       1
+
+W_super
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_suplay
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_tatawaging
+  mean               0.0082       0
+  std. dev.          0.1667  0.1667
+  weight sum            245     245
+  precision               1       1
+
+W_teleradyo
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_teritoryo
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_tinupi
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_tsansang
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_tumama
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_ulat
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_update
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_utos
+  mean               0.0041       0
+  std. dev.          0.1667  0.1667
+  weight sum            245     245
+  precision               1       1
+
+W_village
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_with
+  mean               0.0163       0
+  std. dev.          0.1667  0.1667
+  weight sum            245     245
+  precision               1       1
+
+W_year
+  mean                    0       0
+  std. dev.          0.0017  0.0017
+  weight sum            245     245
+  precision            0.01    0.01
+
+W_yellow
+  mean               0.0041  0.0367
+  std. dev.          0.1667  0.1881
+  weight sum            245     245
+  precision               1       1
+
+Length
+  mean              17.2473 20.6699
+  std. dev.          7.0854  4.1018
+  weight sum            245     245
+  precision          1.2667  1.2667
+
+
+
+Time taken to build model: 0.01 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         438               89.3878 %
+Incorrectly Classified Instances        52               10.6122 %
+Kappa statistic                          0.7878
+Mean absolute error                      0.1439
+Root mean squared error                  0.2838
+Relative absolute error                 28.7701 %
+Root relative squared error             56.7609 %
+Total Number of Instances              490     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.869     0.082      0.914     0.869     0.891      0.957    O
+                 0.918     0.131      0.875     0.918     0.896      0.957    CD
+Weighted Avg.    0.894     0.106      0.895     0.894     0.894      0.957
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 213  32 |   a = O
+  20 225 |   b = CD
+

@@ -1,0 +1,62 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.RandomForest -I 100 -K 0 -S 1
+Relation:     ruby-Bin-D-word-10-weka.filters.unsupervised.attribute.Remove-R1-5,9
+Instances:    74
+Attributes:   20
+              IsUrl
+              IsHashtag
+              IsRetweet
+              Category
+              W_evacuee
+              W_point
+              W_inihahanda
+              W_dswd
+              W_salamat
+              W_food
+              W_family
+              W_navy
+              W_municipality
+              W_towns
+              W_packs
+              W_relief
+              W_goods
+              W_transported
+              W_personnel
+              Length
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Random forest of 100 trees, each constructed while considering 5 random features.
+Out of bag error: 0.0811
+
+
+
+Time taken to build model: 0.04 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          72               97.2973 %
+Incorrectly Classified Instances         2                2.7027 %
+Kappa statistic                          0.9459
+Mean absolute error                      0.0965
+Root mean squared error                  0.175 
+Relative absolute error                 19.2831 %
+Root relative squared error             34.9518 %
+Total Number of Instances               74     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.946     0          1         0.946     0.972      0.997    D
+                 1         0.054      0.949     1         0.974      0.997    O
+Weighted Avg.    0.973     0.027      0.974     0.973     0.973      0.997
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 35  2 |  a = D
+  0 37 |  b = O
+

@@ -1,0 +1,994 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset name="ruby-dataset">
+  <tweet id="3">
+    <user>CitizenPatrol</user>
+    <tweet>Aabot sa 2,000 Evacuees sa Sto. Domingo Church nangangailangan ng tubig. #MarioPH #ReliefPH</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>Domingo Church</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="4">
+    <user>yelpalisoc</user>
+    <tweet>@philredcross #ReliefPH Good PM po, sa Leodegracio Victorino Elementary School po may mga evacuees po wala daw pong kuryente at pagkain.</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>School may</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="5">
+    <user>AngerikBabies41</user>
+    <tweet>Camacho Street Kabayani Road Nangka Marikina needs food and water. Pls. help #ReliefPH #RescuePH #FloodPH #MarioPH @TVPatrol @ABSCBNNews</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>Road Nangka Marikina</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="6">
+    <user>IvanGeroDomingo</user>
+    <tweet>Paki rescue po Luloy Cerbito Macopa St, Banawe QC. Yung may maliit na basketball court dun. #RescuePH</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>Macopa Banawe may</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="7">
+    <user>CitizenPatrol</user>
+    <tweet>Isang Ginang natrapped sa bubong sa Blk.44 mais street bgy.tumana. #MarioPH #RescuePH</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>mais</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="8">
+    <user>CitizenPatrol</user>
+    <tweet>Aabot sa 2,000 Evacuees sa Sto. Domingo Church nangangailangan ng tubig. #MarioPH #ReliefPH</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>Domingo Church</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="10">
+    <user>CitizenPatrol</user>
+    <tweet>Sa Quezon City ,Ilang pamilya, lumikas na sa Holy Family Church sa Roxas District at walang pa ring kuryente ngayon. #MarioPH #FloodPH</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>Quezon Church Roxas</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="11">
+    <user>garcia_brielle</user>
+    <tweet>RT @ReliefPHcom: Nangka Marikina: call for food and water #urgentcalls #MarioPHÃ‚Â #reliefPH http://t.co/wFOMtdRSqL</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>Nangka Marikina</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="12">
+    <user>yelpalisoc</user>
+    <tweet>@TheMayorLIM Sir pahelp po magRT #ReliefPH sa Leodegracio Victorino Elem. School po may mga evacuees po, wala daw pong kuryente at pagkain.</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>School may</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="13">
+    <user>yelpalisoc</user>
+    <tweet>@ABSCBNNews #ReliefPH Good PM po, sa Leodegracio Victorino Elementary School po may mga evacuees po wala daw pong kuryente at pagkain.</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>School may</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="14">
+    <user>yelpalisoc</user>
+    <tweet>@SagipKapamilya #ReliefPH Good PM po, sa Leodegracio Victorino Elementary School po may mga evacuees po wala daw pong kuryente at pagkain.</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>School may</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="15">
+    <user>alcantarajohann</user>
+    <tweet>RT @yelpalisoc: @philredcross #ReliefPH Good PM po, sa Leodegracio Victorino Elementary School po may mga evacuees po wala daw pong kuryentÃ¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>School may</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="16">
+    <user>justcallmelloyd</user>
+    <tweet>RT @yelpalisoc: @philredcross #ReliefPH Good PM po, sa Leodegracio Victorino Elementary School po may mga evacuees po wala daw pong kuryentÃ¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>School may</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="17">
+    <user>yelpalisoc</user>
+    <tweet>@philredcross #ReliefPH Good PM po, sa Leodegracio Victorino Elementary School po may mga evacuees po wala daw pong kuryente at pagkain.</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>School may</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="18">
+    <user>AngerikBabies41</user>
+    <tweet>Camacho Street Kabayani Road Nangka Marikina needs food and water. Pls. help #ReliefPH #RescuePH #FloodPH #MarioPH @TVPatrol @ABSCBNNews</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>Road Nangka Marikina</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="19">
+    <user>yelpalisoc</user>
+    <tweet>@ABSCBNRedAlert #ReliefPH Good PM po, sa Leodegracio Victorino Elementary School po may mga evacuees po wala daw pong kuryente at pagkain.</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>School may</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="20">
+    <user>garcia_brielle</user>
+    <tweet>RT @AngerikBabies41: Camacho Street Kabayani Road Nangka Marikina needs food and water. Pls. help #ReliefPH #MarioPH @ABSCBNNews @bayanmo</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>Road Nangka Marikina</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="21">
+    <user>FoxRn1</user>
+    <tweet>RT @ReliefPHcom: Marikina: relief goods #urgentcalls #MarioPHÃ‚Â #reliefPH http://t.co/C5Aohr0o7M</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>Marikina</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="42">
+    <user>EspiriTruth</user>
+    <tweet>RT @DZMMTeleRadyo: PHOTO: Ilang pasahero ng LRT V.Mapa, stranded dahil sa baha sa Sta Mesa #MarioPH http://t.co/0brMfq2PDA | via... http://Ã¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>Mapa</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="44">
+    <user>VeteranKnows</user>
+    <tweet>RT @LaoMamba: OPEN ANG PSBA-QC PARA MASILUNGAN NGAYON. Just contact 09272214969 for more info #FloodPH #RescuePH #MarioPH</tweet>
+    <prediction>CA</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="45">
+    <user>JmRiveraaaaa</user>
+    <tweet>RT @LaoMamba: OPEN ANG PSBA-QC PARA MASILUNGAN NGAYON. Just contact 09272214969 for more info #FloodPH #RescuePH #MarioPH</tweet>
+    <prediction>CA</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="58">
+    <user>princessbendita</user>
+    <tweet>RT @ruffaguchenez: Hi @RescuePH i need help kasi nabaha kami at wala kong bra #RescuePH #marioph #DahilMayBagyoNgayon #TheRealEnding http:/Ã¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>kasi</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="59">
+    <user>imalekzandra</user>
+    <tweet>RT @ruffaguchenez: Hi @RescuePH i need help kasi nabaha kami at wala kong bra #RescuePH #marioph #DahilMayBagyoNgayon #TheRealEnding http:/Ã¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>kasi</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="60">
+    <user>BasangTalaheb</user>
+    <tweet>RT @ruffaguchenez: Hi @RescuePH i need help kasi nabaha kami at wala kong bra #RescuePH #marioph #DahilMayBagyoNgayon #TheRealEnding http:/Ã¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>kasi</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="61">
+    <user>StevenDequino_</user>
+    <tweet>RT @ruffaguchenez: Hi @RescuePH i need help kasi nabaha kami at wala kong bra #RescuePH #marioph #DahilMayBagyoNgayon #TheRealEnding http:/Ã¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>kasi</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="62">
+    <user>Oneeeeengg</user>
+    <tweet>RT @ruffaguchenez: Hi @RescuePH i need help kasi nabaha kami at wala kong bra #RescuePH #marioph #DahilMayBagyoNgayon #TheRealEnding http:/Ã¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>kasi</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="63">
+    <user>clingyboypren</user>
+    <tweet>RT @ruffaguchenez: Hi @RescuePH i need help kasi nabaha kami at wala kong bra #RescuePH #marioph #DahilMayBagyoNgayon #TheRealEnding http:/Ã¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>kasi</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="64">
+    <user>krssstyncrimen</user>
+    <tweet>RT @ruffaguchenez: Hi @RescuePH i need help kasi nabaha kami at wala kong bra #RescuePH #marioph #DahilMayBagyoNgayon #TheRealEnding http:/Ã¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>kasi</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="65">
+    <user>anjewicuh</user>
+    <tweet>RT @ruffaguchenez: Hi @RescuePH i need help kasi nabaha kami at wala kong bra #RescuePH #marioph #DahilMayBagyoNgayon #TheRealEnding http:/Ã¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>kasi</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="66">
+    <user>ruffaguchenez</user>
+    <tweet>Hi @RescuePH i need help kasi nabaha kami at wala kong bra #RescuePH #marioph #DahilMayBagyoNgayon #TheRealEnding http://t.co/pldmSVpRmV</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>kasi</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="273">
+    <user>MariaRoann</user>
+    <tweet>RT @yelpalisoc: @TheMayorLIM Sir pahelp po magRT #ReliefPH sa Leodegracio Victorino Elem. School po may mga evacuees po, wala daw pong kuryÃ¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>School may</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="274">
+    <user>coachyella</user>
+    <tweet>RT @yelpalisoc: @TheMayorLIM Sir pahelp po magRT #ReliefPH sa Leodegracio Victorino Elem. School po may mga evacuees po, wala daw pong kuryÃ¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>School may</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="275">
+    <user>TheMayorLIM</user>
+    <tweet>RT @yelpalisoc: @TheMayorLIM Sir pahelp po magRT #ReliefPH sa Leodegracio Victorino Elem. School po may mga evacuees po, wala daw pong kuryÃ¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>School may</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="278">
+    <user>CitizenPatrol</user>
+    <tweet>Sa vmac sports complex naman sa New lower,taguig ay may 16 pamilya at 55 indibidwal ang nasa evacuation center. #MarioPH #ReliefPH</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>taguig may</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="279">
+    <user>CitizenPatrol</user>
+    <tweet>Sa bgy. New Lower,Rp Cruz Elem ay tinatayang may 78 na pamilya at 336 indibidwal ang naapektuhan ng bagyong mario. #MarioPH #ReliefPH</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>Cruz may</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="281">
+    <user>nyzelle_paz</user>
+    <tweet>RT @kyutkhulet06: "@itsandreaernii: Paki-rescue si @marlo_mortel nasa Cainta siya, stranded for 9hrs. #RescuePH"</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>Cainta</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="284">
+    <user>CitizenPatrol</user>
+    <tweet>Sa Cayetano High school,bgy. Ususan sa taguig ay umabot na sa 54 na pamilya ang nailikas at nasa 390 naman ang indibidwal.#MarioPH #ReliefPH</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>Cayetano school taguig</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="296">
+    <user>carol_bayhon15</user>
+    <tweet>RT @infinity_jadine: OFF TOPIC GUYS #RescueMarloMortel 9hrs na syang Stranded sa loob ng car nya magisa sa cainta . #RescuePH #RescuePH #ReÃ¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>cainta</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="297">
+    <user>katolikongpinoy</user>
+    <tweet>RT @CamilleRaeV: @DivinemLee #RescuePH Aquilino Silva 09267777459 blk. 66 Roga Compound, Tumana, Marikina from @gmcardenas23</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>Silva Marikina</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="298">
+    <user>CamilleRaeV</user>
+    <tweet>@DivinemLee #RescuePH Aquilino Silva 09267777459 blk. 66 Roga Compound, Tumana, Marikina from @gmcardenas23</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>Silva Marikina</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="299">
+    <user>cincodeziall</user>
+    <tweet>RT @eulajemilgo: @DivinemLee Aquilino Silva, blk. 66 Roga Compound, Tumana, Marikina. 09267777459. #RescuePH</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>Silva Marikina</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="300">
+    <user>katolikongpinoy</user>
+    <tweet>RT @eulajemilgo: @DivinemLee Aquilino Silva, blk. 66 Roga Compound, Tumana, Marikina. 09267777459. #RescuePH</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>Silva Marikina</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="301">
+    <user>eulajemilgo</user>
+    <tweet>@DivinemLee Aquilino Silva, blk. 66 Roga Compound, Tumana, Marikina. 09267777459. #RescuePH</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>Silva Marikina</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="306">
+    <user>fauangeline</user>
+    <tweet>Der r families who needs rescue in Rd 4 Dona Petra Del Rosario,Tumana, Marikina City. Nsa 2ndflr po sila. 09159588046 Allan Arpon #RescuePH</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>Rosario Marikina Allan</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="307">
+    <user>justcallmelloyd</user>
+    <tweet>RT @yelpalisoc: @philredcross #ReliefPH Good PM po, sa Leodegracio Victorino Elementary School po may mga evacuees po wala daw pong kuryentÃ¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>School may</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="316">
+    <user>ReliefPHcom</user>
+    <tweet>RT @yelpalisoc: @TheMayorLIM Sir pahelp po magRT #ReliefPH sa Leodegracio Victorino Elem. School po may mga evacuees po, wala daw pong kuryÃ¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>School may</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="318">
+    <user>kuuhtrina</user>
+    <tweet>People are trapped in their roofs at BRGY TATALON Quezon City. Wla prn ngrrescue skanila until now. #RescuePH</tweet>
+    <prediction>D</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>Quezon</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="329">
+    <user>IvanGeroDomingo</user>
+    <tweet>Paki rescue po Luloy CerbitoMacopa St, Banawe QC. Yung may maliit na basketball court dun. #RescuePH</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>Banawe may</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="330">
+    <user>CitizenPatrol</user>
+    <tweet>Isang Ginang natrapped sa bubong sa Blk.44 mais street bgy.tumana. #MarioPH #RescuePH</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>mais</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="347">
+    <user>gegegegem30</user>
+    <tweet>RT @antudjays: @ANCALERTS baha po sa may F. Roman St., San Juan City... wala pa rescuer... lagpas tao na... #MarioPH #RescuePH http://t.co/Ã¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>may</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="425">
+    <user>KJDumapit</user>
+    <tweet>RT @CitizenPatrol: S 10th St.Youngstown Village,Cainta, Rizal,1 pamilya ang natrapped s loob ng knilang bahay at umabot n s dibdib ang bahaÃ¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>Cainta Rizal</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="436">
+    <user>Adi_thePanda</user>
+    <tweet>#RESCUEPH Nasa bubungan na ng kani-kanilang bahay ang mga residente sa E. Rod cor. Araneta Ave habang naghihintay ng rescue -@michaelfajatin</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="555">
+    <user>MW_BULACAN</user>
+    <tweet>RT @DZMMTeleRadyo: Halos 10-oras nang stranded sa Cainta dahil sa baha si Marlo Mortel (Nicolo sa BCWMH) #MarioPH http://t.co/XgnOyg9Gbs htÃ¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>Cainta</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="566">
+    <user>jmiehalienmitch</user>
+    <tweet>RT @JIErectioner: @gmanews #MarioPH #RescuePH Sa Tumana,labanos po. Sa marikina. Need an immediate rescue lagpas na dw cla sa 2nd floor.mÃ¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>labanos marikina</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="568">
+    <user>katolikongpinoy</user>
+    <tweet>RT @JIErectioner: @gmanews #MarioPH #RescuePH Sa Tumana,labanos po. Sa marikina. Need an immediate rescue lagpas na dw cla sa 2nd floor.mÃ¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>labanos marikina</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="569">
+    <user>anetdin83</user>
+    <tweet>RT @JIErectioner: @gmanews #MarioPH #RescuePH Sa Tumana,labanos po. Sa marikina. Need an immediate rescue lagpas na dw cla sa 2nd floor.mÃ¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>labanos marikina</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="573">
+    <user>JIErectioner</user>
+    <tweet>@gmanews #MarioPH #RescuePH Sa Tumana,labanos po. Sa marikina. Need an immediate rescue lagpas na dw cla sa 2nd floor.my mga mttnda po.</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>labanos marikina</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="574">
+    <user>JIErectioner</user>
+    <tweet>@gmanews #MarioPH #RescuePH Sa Tumana,labanos po. Sa marikina. Need an immediate rescue lagpas na dw cla sa 2nd floor.my mga mttnda poH</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>labanos marikina</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="580">
+    <user>JIErectioner</user>
+    <tweet>#MarioPH #RescuePH @IMReadyPH Sa Tumana,labanos po. Sa marikina. Need an immediate rescue lagpas na dw cla sa 2nd floor.my mga mttnda po</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>labanos marikina</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="595">
+    <user>anetdin83</user>
+    <tweet>RT @JIErectioner: #RescuePH @gmanews @IMReadyPH Sa Tumana,labanos po. Sa marikina. Need an immediate rescue lagpas na dw cla sa 2nd flooÃ¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>labanos marikina</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="602">
+    <user>JIErectioner</user>
+    <tweet>#RescuePH @gmanews @IMReadyPH Sa Tumana,labanos po. Sa marikina. Need an immediate rescue lagpas na dw cla sa 2nd floor.my mga mttnda poh</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>labanos marikina</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="605">
+    <user>JIErectioner</user>
+    <tweet>#RescuePH @gmanews @IMReadyPH Sa Tumana,labanos po. Sa marikina. Need an immediate rescue lagpas na dw cla sa 2nd floor.my mga mttnda po-</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>labanos marikina</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="607">
+    <user>JIErectioner</user>
+    <tweet>#RescuePH @gmanews @IMReadyPH Sa Tumana,labanos po. Sa marikina. Need an immediate rescue lagpas na dw cla sa 2nd floor.my mga mttnda po.</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>labanos marikina</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="608">
+    <user>JIErectioner</user>
+    <tweet>#RescuePH @gmanews @IMReadyPH Sa Tumana,labanos po. Sa marikina. Need an immediate rescue lagpas na dw cla sa 2nd floor.my mga mttnda po</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>labanos marikina</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="621">
+    <user>AudreyMaye</user>
+    <tweet>RT @LakasdiwaCBA: #RescuePH twinville sub, fairlane, marikina Alexis Leyva, 09264645374. dalawa po sila. Nasa second floor na daw tubig PLSÃ¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>fairlane marikina second</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="625">
+    <user>leahurtula</user>
+    <tweet>RT @JIErectioner: #RescuePH @gmanews @IMReadyPH Sa Tumana,labanos po. Sa marikina. May mga nnghhngi ng rescue lagpas na dw cla sa 2nd floÃ¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>labanos marikina May</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="633">
+    <user>JIErectioner</user>
+    <tweet>#RescuePH @gmanews @IMReadyPH Sa Tumana,labanos po. Sa marikina. May mga nnghhngi ng rescue lagpas na dw cla sa 2nd floor.my mga mttnda-</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>labanos marikina May</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="635">
+    <user>JIErectioner</user>
+    <tweet>#RescuePH @gmanews @IMReadyPH Sa Tumana,labanos po. Sa marikina. May mga nnghhngi ng rescue lagpas na dw cla sa 2nd floor.my mga mttnda..</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>labanos marikina May</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="669">
+    <user>princessbendita</user>
+    <tweet>RT @ruffaguchenez: Hi @RescuePH i need help kasi nabaha kami at wala kong bra #RescuePH #marioph #DahilMayBagyoNgayon #TheRealEnding http:/Ã¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>kasi</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="670">
+    <user>imalekzandra</user>
+    <tweet>RT @ruffaguchenez: Hi @RescuePH i need help kasi nabaha kami at wala kong bra #RescuePH #marioph #DahilMayBagyoNgayon #TheRealEnding http:/Ã¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>kasi</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="671">
+    <user>BasangTalaheb</user>
+    <tweet>RT @ruffaguchenez: Hi @RescuePH i need help kasi nabaha kami at wala kong bra #RescuePH #marioph #DahilMayBagyoNgayon #TheRealEnding http:/Ã¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>kasi</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="672">
+    <user>StevenDequino_</user>
+    <tweet>RT @ruffaguchenez: Hi @RescuePH i need help kasi nabaha kami at wala kong bra #RescuePH #marioph #DahilMayBagyoNgayon #TheRealEnding http:/Ã¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>kasi</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="673">
+    <user>Oneeeeengg</user>
+    <tweet>RT @ruffaguchenez: Hi @RescuePH i need help kasi nabaha kami at wala kong bra #RescuePH #marioph #DahilMayBagyoNgayon #TheRealEnding http:/Ã¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>kasi</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="674">
+    <user>clingyboypren</user>
+    <tweet>RT @ruffaguchenez: Hi @RescuePH i need help kasi nabaha kami at wala kong bra #RescuePH #marioph #DahilMayBagyoNgayon #TheRealEnding http:/Ã¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>kasi</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="675">
+    <user>krssstyncrimen</user>
+    <tweet>RT @ruffaguchenez: Hi @RescuePH i need help kasi nabaha kami at wala kong bra #RescuePH #marioph #DahilMayBagyoNgayon #TheRealEnding http:/Ã¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>kasi</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="676">
+    <user>anjewicuh</user>
+    <tweet>RT @ruffaguchenez: Hi @RescuePH i need help kasi nabaha kami at wala kong bra #RescuePH #marioph #DahilMayBagyoNgayon #TheRealEnding http:/Ã¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>kasi</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="677">
+    <user>ruffaguchenez</user>
+    <tweet>Hi @RescuePH i need help kasi nabaha kami at wala kong bra #RescuePH #marioph #DahilMayBagyoNgayon #TheRealEnding http://t.co/pldmSVpRmV</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>kasi</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="716">
+    <user>KuyaTonipet</user>
+    <tweet>RT! My dear Blogger friends, baka may kakilala kayo. Hope you could cascade.. Mga evacuees daw sa Sto. Domingo Church need #ReliefPH.</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>may Hope Domingo Church</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="719">
+    <user>GorgeousTyziel</user>
+    <tweet>RT @KuyaTonipet: RT! My dear Blogger friends, baka may kakilala kayo. Hope you could cascade.. Mga evacuees daw sa Sto. Domingo Church needÃ¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>may Hope Domingo Church</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="767">
+    <user>maphnie</user>
+    <tweet>More than 2k families na yung nasa Sto. Domingo Church. Hindi na nila kaya iaccommodate lahat. Need food &amp; water. #ReliefPH</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>Domingo Church</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="772">
+    <user>MattLeeShoots</user>
+    <tweet>RT @maphnie: More than 2k families na yung nasa Sto. Domingo Church. Hindi na nila kaya iaccommodate lahat. Need food &amp; water. #ReliefPH</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>Domingo Church</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="775">
+    <user>SheWantsTheDIM</user>
+    <tweet>RT @maphnie: More than 2k families na yung nasa Sto. Domingo Church. Hindi na nila kaya iaccommodate lahat. Need food &amp; water. #ReliefPH</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>Domingo Church</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="776">
+    <user>icohizon</user>
+    <tweet>RT @maphnie: More than 2k families na yung nasa Sto. Domingo Church. Hindi na nila kaya iaccommodate lahat. Need food &amp; water. #ReliefPH</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>Domingo Church</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="824">
+    <user>cincodeziall</user>
+    <tweet>Purok 5, Indigo Phase 1, Malanday, Marikina, Muntinlupa, Metro Manila #RescuePH</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>Indigo Marikina Muntinlupa Manila</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="832">
+    <user>ABSCBNRedAlert</user>
+    <tweet>@ABSCBNNews @philredcross @SagipKapamilya RT @yelpalisoc: @ABSCBNRedAlert #ReliefPH Good PM po, sa Leodegracio Victorino Elementary...</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1227">
+    <user>CitizenPatrol</user>
+    <tweet>Aabot sa 2,000 Evacuees sa Sto. Domingo Church nangangailangan ng tubig. #MarioPH #ReliefPH</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>Domingo Church</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1250">
+    <user>KJDumapit</user>
+    <tweet>RT @CitizenPatrol: Sa PUP Sta. Mesa, maraming estudyante ang stranded dahil sa hindi maagap na pagdeklara ng suspensyon ng klase. #MarioPH Ã¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet />
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1283">
+    <user>JIErectioner</user>
+    <tweet>@gmanews #MarioPH #RescuePH Sa Tumana,labanos po. Sa marikina. Need an immediate rescue lagpas na dw cla sa 2nd floor.my mga mttnda po..</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>labanos marikina</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1307">
+    <user>princessbendita</user>
+    <tweet>RT @ruffaguchenez: Hi @RescuePH i need help kasi nabaha kami at wala kong bra #RescuePH #marioph #DahilMayBagyoNgayon #TheRealEnding http:/Ã¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>kasi</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1308">
+    <user>imalekzandra</user>
+    <tweet>RT @ruffaguchenez: Hi @RescuePH i need help kasi nabaha kami at wala kong bra #RescuePH #marioph #DahilMayBagyoNgayon #TheRealEnding http:/Ã¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>kasi</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1309">
+    <user>BasangTalaheb</user>
+    <tweet>RT @ruffaguchenez: Hi @RescuePH i need help kasi nabaha kami at wala kong bra #RescuePH #marioph #DahilMayBagyoNgayon #TheRealEnding http:/Ã¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>kasi</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1310">
+    <user>StevenDequino_</user>
+    <tweet>RT @ruffaguchenez: Hi @RescuePH i need help kasi nabaha kami at wala kong bra #RescuePH #marioph #DahilMayBagyoNgayon #TheRealEnding http:/Ã¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>kasi</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1311">
+    <user>Oneeeeengg</user>
+    <tweet>RT @ruffaguchenez: Hi @RescuePH i need help kasi nabaha kami at wala kong bra #RescuePH #marioph #DahilMayBagyoNgayon #TheRealEnding http:/Ã¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>kasi</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1312">
+    <user>clingyboypren</user>
+    <tweet>RT @ruffaguchenez: Hi @RescuePH i need help kasi nabaha kami at wala kong bra #RescuePH #marioph #DahilMayBagyoNgayon #TheRealEnding http:/Ã¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>kasi</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1313">
+    <user>krssstyncrimen</user>
+    <tweet>RT @ruffaguchenez: Hi @RescuePH i need help kasi nabaha kami at wala kong bra #RescuePH #marioph #DahilMayBagyoNgayon #TheRealEnding http:/Ã¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>kasi</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1314">
+    <user>anjewicuh</user>
+    <tweet>RT @ruffaguchenez: Hi @RescuePH i need help kasi nabaha kami at wala kong bra #RescuePH #marioph #DahilMayBagyoNgayon #TheRealEnding http:/Ã¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>kasi</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1315">
+    <user>ruffaguchenez</user>
+    <tweet>Hi @RescuePH i need help kasi nabaha kami at wala kong bra #RescuePH #marioph #DahilMayBagyoNgayon #TheRealEnding http://t.co/pldmSVpRmV</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>kasi</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1354">
+    <user>KuyaTonipet</user>
+    <tweet>RT! My dear Blogger friends, baka may kakilala kayo. Hope you could cascade.. Mga evacuees daw sa Sto. Domingo Church need #ReliefPH.</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>may Hope Domingo Church</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+  <tweet id="1357">
+    <user>GorgeousTyziel</user>
+    <tweet>RT @KuyaTonipet: RT! My dear Blogger friends, baka may kakilala kayo. Hope you could cascade.. Mga evacuees daw sa Sto. Domingo Church needÃ¢â‚¬Â¦</tweet>
+    <prediction>O</prediction>
+    <actual>CH</actual>
+    <extracted>
+      <locationInTweet>may Hope Domingo Church</locationInTweet>
+      <victimName />
+    </extracted>
+  </tweet>
+</dataset>
+

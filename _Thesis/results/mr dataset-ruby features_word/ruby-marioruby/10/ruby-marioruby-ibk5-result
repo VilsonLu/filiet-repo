@@ -1,0 +1,48 @@
+=== Run information ===
+
+Scheme:weka.classifiers.lazy.IBk -K 5 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Relation:     marioruby-ruby-Combined-word-10-weka.filters.unsupervised.attribute.Remove-R1-5,9
+Instances:    2583
+Attributes:   243
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+IB1 instance-based classifier
+using 5 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        2366               91.5989 %
+Incorrectly Classified Instances       217                8.4011 %
+Kappa statistic                          0.8561
+Mean absolute error                      0.0408
+Root mean squared error                  0.1586
+Relative absolute error                 17.2417 %
+Root relative squared error             46.1062 %
+Total Number of Instances             2583     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.934     0.065      0.934     0.934     0.934      0.979    CA
+                 0.948     0.073      0.893     0.948     0.92       0.98     O
+                 0.763     0.007      0.917     0.763     0.833      0.982    CD
+                 0.222     0          1         0.222     0.364      0.86     CH
+                 0.595     0          1         0.595     0.746      0.956    D
+Weighted Avg.    0.916     0.062      0.917     0.916     0.914      0.979
+
+=== Confusion Matrix ===
+
+    a    b    c    d    e   <-- classified as
+ 1195   73   11    0    0 |    a = CA
+   49  960    4    0    0 |    b = O
+   28   30  187    0    0 |    c = CD
+    0    7    0    2    0 |    d = CH
+    8    5    2    0   22 |    e = D
+

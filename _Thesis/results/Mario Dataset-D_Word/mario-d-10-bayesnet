@@ -1,0 +1,78 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.BayesNet -D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 1 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5
+Relation:     Mario-Bin-D-word-10-weka.filters.unsupervised.attribute.Remove-R1-5,9
+Instances:    94
+Attributes:   14
+              IsUrl
+              IsHashtag
+              IsRetweet
+              Category
+              W_gusto
+              W_magvolunteer
+              W_mabasa
+              W_more
+              W_ngayon
+              W_open
+              W_contact
+              W_just
+              W_rescuer
+              Length
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Bayes Network Classifier
+not using ADTree
+#attributes=14 #classindex=3
+Network structure (nodes followed by parents)
+IsUrl(2): Category 
+IsHashtag(2): Category 
+IsRetweet(2): Category 
+Category(2): 
+W_gusto(2): Category 
+W_magvolunteer(1): Category 
+W_mabasa(2): Category 
+W_more(1): Category 
+W_ngayon(2): Category 
+W_open(2): Category 
+W_contact(2): Category 
+W_just(2): Category 
+W_rescuer(1): Category 
+Length(1): Category 
+LogScore Bayes: -339.83184053161744
+LogScore BDeu: -355.2929445028145
+LogScore MDL: -371.49532268872395
+LogScore ENTROPY: -328.3340222571589
+LogScore AIC: -347.33402225715895
+
+
+Time taken to build model: 0.1 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          66               70.2128 %
+Incorrectly Classified Instances        28               29.7872 %
+Kappa statistic                          0.4043
+Mean absolute error                      0.273 
+Root mean squared error                  0.3923
+Relative absolute error                 54.557  %
+Root relative squared error             78.4044 %
+Coverage of cases (0.95 level)          98.9362 %
+Mean rel. region size (0.95 level)      75      %
+Total Number of Instances               94     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.660    0.255    0.721      0.660    0.689      0.406    0.845     0.824     D
+                 0.745    0.340    0.686      0.745    0.714      0.406    0.845     0.881     O
+Weighted Avg.    0.702    0.298    0.704      0.702    0.702      0.406    0.845     0.852     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 31 16 |  a = D
+ 12 35 |  b = O
+
