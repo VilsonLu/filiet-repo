@@ -1,0 +1,205 @@
+=== Run information ===
+
+Scheme:weka.classifiers.bayes.BayesNet -D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 1 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5
+Relation:     mario-ruby-Combined-word-10-weka.filters.unsupervised.attribute.Remove-R1-5,9
+Instances:    1365
+Attributes:   150
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Bayes Network Classifier
+not using ADTree
+#attributes=150 #classindex=3
+Network structure (nodes followed by parents)
+IsUrl(2): Category 
+IsHashtag(2): Category 
+IsRetweet(2): Category 
+Category(5): 
+W_ahensya(1): Category 
+W_aksidente(1): Category 
+W_alalahanin(1): Category 
+W_alon(1): Category 
+W_area(1): Category 
+W_bago(1): Category 
+W_bagsak(1): Category 
+W_bandang(1): Category 
+W_barangay(1): Category 
+W_bayan(1): Category 
+W_bilang(1): Category 
+W_bilis(1): Category 
+W_biyernes(1): Category 
+W_breaker(1): Category 
+W_bubong(1): Category 
+W_bukas(1): Category 
+W_bunkhouses(1): Category 
+W_calamity(1): Category 
+W_casualty(1): Category 
+W_church(1): Category 
+W_circuit(1): Category 
+W_dagat(1): Category 
+W_daluyong(1): Category 
+W_damages(1): Category 
+W_dapat(1): Category 
+W_dead(1): Category 
+W_delata(1): Category 
+W_delikado(1): Category 
+W_downed(1): Category 
+W_dswd(1): Category 
+W_evacuee(1): Category 
+W_evacuees(1): Category 
+W_family(1): Category 
+W_food(1): Category 
+W_goods(2): Category 
+W_group(1): Category 
+W_habang(1): Category 
+W_hagupit(1): Category 
+W_handa(1): Category 
+W_hanggang(1): Category 
+W_highway(1): Category 
+W_iaccommodate(1): Category 
+W_iba(1): Category 
+W_imbak(1): Category 
+W_imprastraktura(1): Category 
+W_inihahanda(1): Category 
+W_iniwan(2): Category 
+W_istruktura(1): Category 
+W_itinaas(1): Category 
+W_kahoy(2): Category 
+W_kapilya(1): Category 
+W_katao(1): Category 
+W_klase(1): Category 
+W_kph(1): Category 
+W_kung(1): Category 
+W_lalawigan(1): Category 
+W_lines(1): Category 
+W_linya(1): Category 
+W_loob(1): Category 
+W_lubog(1): Category 
+W_lugar(1): Category 
+W_lumabas(1): Category 
+W_lumakas(1): Category 
+W_lumikas(1): Category 
+W_lunes(1): Category 
+W_mag(1): Category 
+W_mahigit(1): Category 
+W_makaiwas(1): Category 
+W_malawak(1): Category 
+W_mamayang(1): Category 
+W_may(2): Category 
+W_more(1): Category 
+W_muling(1): Category 
+W_municipality(1): Category 
+W_nagdulot(1): Category 
+W_nagkansela(1): Category 
+W_naitalang(1): Category 
+W_nakapasok(1): Category 
+W_nang(2): Category 
+W_nasa(1): Category 
+W_nasawi(1): Category 
+W_nasira(1): Category 
+W_natuklapan(1): Category 
+W_navy(1): Category 
+W_need(1): Category 
+W_news(1): Category 
+W_ngcp(2): Category 
+W_nila(1): Category 
+W_ninyo(1): Category 
+W_northeastern(2): Category 
+W_northern(1): Category 
+W_number(1): Category 
+W_numero(1): Category 
+W_paalala(1): Category 
+W_packs(2): Category 
+W_pagbaha(1): Category 
+W_pananalasa(1): Category 
+W_par(1): Category 
+W_patay(1): Category 
+W_patayin(1): Category 
+W_personnel(1): Category 
+W_pinalilikas(1): Category 
+W_pinsala(1): Category 
+W_point(1): Category 
+W_posibleng(1): Category 
+W_post(1): Category 
+W_power(1): Category 
+W_pswd(2): Category 
+W_question(2): Category 
+W_relief(1): Category 
+W_residente(1): Category 
+W_responsibility(1): Category 
+W_sagkahan(1): Category 
+W_sakaling(1): Category 
+W_salamat(1): Category 
+W_sapat(1): Category 
+W_sibuyan(1): Category 
+W_simbahan(1): Category 
+W_sinira(1): Category 
+W_storm(1): Category 
+W_sumusunod(1): Category 
+W_surge(1): Category 
+W_tandaan(1): Category 
+W_than(1): Category 
+W_tindahang(1): Category 
+W_total(1): Category 
+W_towns(1): Category 
+W_transported(1): Category 
+W_tsansang(2): Category 
+W_tulad(1): Category 
+W_tumawag(1): Category 
+W_tumutok(1): Category 
+W_tuwing(1): Category 
+W_typhoon(1): Category 
+W_ulan(1): Category 
+W_umakyat(1): Category 
+W_video(1): Category 
+W_village(1): Category 
+W_weather(1): Category 
+W_winasak(1): Category 
+W_yari(1): Category 
+W_yellow(1): Category 
+W_yero(1): Category 
+W_youscooper(1): Category 
+W_yung(1): Category 
+Length(3): Category 
+LogScore Bayes: -6838.611957901553
+LogScore BDeu: -6995.506306337596
+LogScore MDL: -7066.72293936416
+LogScore ENTROPY: -6763.528731644155
+LogScore AIC: -6847.528731644154
+
+
+Time taken to build model: 0.52 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         938               68.7179 %
+Incorrectly Classified Instances       427               31.2821 %
+Kappa statistic                          0.4691
+Mean absolute error                      0.1662
+Root mean squared error                  0.3012
+Relative absolute error                 66.4256 %
+Root relative squared error             85.2018 %
+Total Number of Instances             1365     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.17      0.002      0.8       0.17      0.281      0.924    D
+                 0         0          0         0         0          0.681    CD
+                 0.646     0.007      0.877     0.646     0.744      0.916    CH
+                 0.748     0.349      0.662     0.748     0.702      0.768    CA
+                 0.743     0.195      0.694     0.743     0.718      0.836    O
+Weighted Avg.    0.687     0.24       0.666     0.687     0.667      0.806
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+   8   0   3  36   0 |   a = D
+   0   0   2  52   4 |   b = CD
+   2   0  64  31   2 |   c = CH
+   0   0   3 487 161 |   d = CA
+   0   0   1 130 379 |   e = O
+

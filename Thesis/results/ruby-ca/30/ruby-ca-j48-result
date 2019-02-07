@@ -1,0 +1,151 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     ruby-Bin-CA-word-30-weka.filters.unsupervised.attribute.Remove-R1-5,9
+Instances:    2292
+Attributes:   252
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+IsUrl <= 0: O (692.0/8.0)
+IsUrl > 0
+|   W_hydromet <= 0
+|   |   W_ahensya <= 0
+|   |   |   IsRetweet <= 0
+|   |   |   |   W_kung <= 0
+|   |   |   |   |   W_sakaling <= 0
+|   |   |   |   |   |   IsHashtag <= 0
+|   |   |   |   |   |   |   W_probinsya <= 0
+|   |   |   |   |   |   |   |   W_tumama <= 0
+|   |   |   |   |   |   |   |   |   Length <= 18: O (100.0/17.0)
+|   |   |   |   |   |   |   |   |   Length > 18
+|   |   |   |   |   |   |   |   |   |   W_alerto <= 0
+|   |   |   |   |   |   |   |   |   |   |   W_dapat <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   W_nasa <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   W_northeast <= 0: O (48.0/10.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   W_northeast > 0: CA (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   W_nasa > 0: CA (2.0)
+|   |   |   |   |   |   |   |   |   |   |   W_dapat > 0: CA (2.0)
+|   |   |   |   |   |   |   |   |   |   W_alerto > 0: CA (4.0)
+|   |   |   |   |   |   |   |   W_tumama > 0
+|   |   |   |   |   |   |   |   |   W_iniulat <= 0: O (2.0)
+|   |   |   |   |   |   |   |   |   W_iniulat > 0: CA (6.0)
+|   |   |   |   |   |   |   W_probinsya > 0: CA (9.0)
+|   |   |   |   |   |   IsHashtag > 0
+|   |   |   |   |   |   |   W_group <= 0
+|   |   |   |   |   |   |   |   W_overnight <= 0
+|   |   |   |   |   |   |   |   |   W_teritoryo <= 0
+|   |   |   |   |   |   |   |   |   |   W_delata <= 0
+|   |   |   |   |   |   |   |   |   |   |   W_forecast <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   W_kaysa <= 0: O (48.0/18.0)
+|   |   |   |   |   |   |   |   |   |   |   |   W_kaysa > 0: CA (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   W_forecast > 0: CA (3.0)
+|   |   |   |   |   |   |   |   |   |   W_delata > 0: CA (3.0)
+|   |   |   |   |   |   |   |   |   W_teritoryo > 0: CA (4.0)
+|   |   |   |   |   |   |   |   W_overnight > 0: CA (4.0)
+|   |   |   |   |   |   |   W_group > 0: CA (4.0)
+|   |   |   |   |   W_sakaling > 0
+|   |   |   |   |   |   IsHashtag <= 0: CA (12.0/1.0)
+|   |   |   |   |   |   IsHashtag > 0: O (8.0/2.0)
+|   |   |   |   W_kung > 0: CA (38.0)
+|   |   |   IsRetweet > 0
+|   |   |   |   W_nakataas <= 0
+|   |   |   |   |   Length <= 20
+|   |   |   |   |   |   W_kung <= 0
+|   |   |   |   |   |   |   W_nakatira <= 0
+|   |   |   |   |   |   |   |   W_city <= 0
+|   |   |   |   |   |   |   |   |   W_dpwh <= 0
+|   |   |   |   |   |   |   |   |   |   W_bahagya <= 0
+|   |   |   |   |   |   |   |   |   |   |   W_binabayo <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   W_centers <= 0: O (44.0/8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   W_centers > 0: CA (2.0)
+|   |   |   |   |   |   |   |   |   |   |   W_binabayo > 0: CA (2.0)
+|   |   |   |   |   |   |   |   |   |   W_bahagya > 0: CA (3.0)
+|   |   |   |   |   |   |   |   |   W_dpwh > 0: CA (19.0/1.0)
+|   |   |   |   |   |   |   |   W_city > 0: CA (12.0)
+|   |   |   |   |   |   |   W_nakatira > 0: CA (20.0)
+|   |   |   |   |   |   W_kung > 0: CA (48.0)
+|   |   |   |   |   Length > 20
+|   |   |   |   |   |   Length <= 28
+|   |   |   |   |   |   |   W_kung <= 0
+|   |   |   |   |   |   |   |   W_gabi <= 0
+|   |   |   |   |   |   |   |   |   Length <= 25
+|   |   |   |   |   |   |   |   |   |   W_les <= 0
+|   |   |   |   |   |   |   |   |   |   |   W_bugso <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   W_dpwh <= 0: CA (134.0/10.0)
+|   |   |   |   |   |   |   |   |   |   |   |   W_dpwh > 0: O (3.0)
+|   |   |   |   |   |   |   |   |   |   |   W_bugso > 0: O (3.0)
+|   |   |   |   |   |   |   |   |   |   W_les > 0: CA (53.0)
+|   |   |   |   |   |   |   |   |   Length > 25
+|   |   |   |   |   |   |   |   |   |   IsHashtag <= 0
+|   |   |   |   |   |   |   |   |   |   |   W_just <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   W_islands <= 0: O (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   W_islands > 0: CA (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   W_just > 0: CA (2.0)
+|   |   |   |   |   |   |   |   |   |   IsHashtag > 0: CA (2.0)
+|   |   |   |   |   |   |   |   W_gabi > 0: CA (81.0)
+|   |   |   |   |   |   |   W_kung > 0: CA (170.0)
+|   |   |   |   |   |   Length > 28: CA (519.0/1.0)
+|   |   |   |   W_nakataas > 0
+|   |   |   |   |   W_dagat <= 0
+|   |   |   |   |   |   W_alalahanin <= 0
+|   |   |   |   |   |   |   W_cellphones <= 0
+|   |   |   |   |   |   |   |   W_nagbago <= 0
+|   |   |   |   |   |   |   |   |   W_sakaling <= 0
+|   |   |   |   |   |   |   |   |   |   W_alerto <= 0
+|   |   |   |   |   |   |   |   |   |   |   W_circuit <= 0: O (37.0)
+|   |   |   |   |   |   |   |   |   |   |   W_circuit > 0: CA (2.0)
+|   |   |   |   |   |   |   |   |   |   W_alerto > 0
+|   |   |   |   |   |   |   |   |   |   |   IsHashtag <= 0: CA (2.0)
+|   |   |   |   |   |   |   |   |   |   |   IsHashtag > 0: O (2.0)
+|   |   |   |   |   |   |   |   |   W_sakaling > 0: CA (5.0)
+|   |   |   |   |   |   |   |   W_nagbago > 0: CA (5.0)
+|   |   |   |   |   |   |   W_cellphones > 0: CA (6.0)
+|   |   |   |   |   |   W_alalahanin > 0: CA (9.0)
+|   |   |   |   |   W_dagat > 0: CA (17.0)
+|   |   W_ahensya > 0
+|   |   |   W_pinalilikas <= 0
+|   |   |   |   W_near <= 0: CA (17.0/2.0)
+|   |   |   |   W_near > 0: O (13.0)
+|   |   |   W_pinalilikas > 0: O (27.0)
+|   W_hydromet > 0
+|   |   W_evacuation <= 0: O (25.0)
+|   |   W_evacuation > 0: CA (3.0)
+
+Number of Leaves  : 	53
+
+Size of the tree : 	105
+
+
+Time taken to build model: 0.51 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        2153               93.9354 %
+Incorrectly Classified Instances       139                6.0646 %
+Kappa statistic                          0.8777
+Mean absolute error                      0.0871
+Root mean squared error                  0.2203
+Relative absolute error                 17.6522 %
+Root relative squared error             44.3517 %
+Total Number of Instances             2292     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.924     0.041      0.966     0.924     0.944      0.97     CA
+                 0.959     0.076      0.909     0.959     0.933      0.97     O
+Weighted Avg.    0.939     0.057      0.941     0.939     0.939      0.97 
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1182   97 |    a = CA
+   42  971 |    b = O
+

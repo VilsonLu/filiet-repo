@@ -1,0 +1,49 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.RandomForest -I 100 -K 0 -S 1
+Relation:     ruby-Combined-word-30-weka.filters.unsupervised.attribute.Remove-R1-5,9
+Instances:    2583
+Attributes:   422
+[list of attributes omitted]
+Test mode:split 60.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+Random forest of 100 trees, each constructed while considering 9 random features.
+Out of bag error: 0.0472
+
+
+
+Time taken to build model: 20.13 seconds
+
+=== Evaluation on test split ===
+=== Summary ===
+
+Correctly Classified Instances         970               93.9013 %
+Incorrectly Classified Instances        63                6.0987 %
+Kappa statistic                          0.8975
+Mean absolute error                      0.0378
+Root mean squared error                  0.1363
+Relative absolute error                 15.9213 %
+Root relative squared error             39.3612 %
+Total Number of Instances             1033     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.925     0.03       0.966     0.925     0.945      0.984    CA
+                 0.988     0.065      0.911     0.988     0.948      0.989    O
+                 0.892     0.006      0.938     0.892     0.915      0.998    CD
+                 0         0          0         0         0          0.994    CH
+                 0.667     0.001      0.909     0.667     0.769      0.988    D
+Weighted Avg.    0.939     0.041      0.936     0.939     0.936      0.987
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+ 458  31   5   0   1 |   a = CA
+   4 411   1   0   0 |   b = O
+   8   3  91   0   0 |   c = CD
+   1   4   0   0   0 |   d = CH
+   3   2   0   0  10 |   e = D
+

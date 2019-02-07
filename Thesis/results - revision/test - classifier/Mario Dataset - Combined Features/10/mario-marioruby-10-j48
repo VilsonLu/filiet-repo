@@ -1,0 +1,191 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     mario-marioruby-Combined-word-10-weka.filters.unsupervised.attribute.Remove-R1-5,9
+Instances:    1365
+Attributes:   243
+[list of attributes omitted]
+Test mode:split 60.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+W_power <= 0
+|   W_habang <= 0
+|   |   W_handa <= 0
+|   |   |   W_ninyo <= 0
+|   |   |   |   W_inihahanda <= 0
+|   |   |   |   |   W_calamity <= 0
+|   |   |   |   |   |   W_dry <= 0
+|   |   |   |   |   |   |   W_nasira <= 0
+|   |   |   |   |   |   |   |   W_sitwasyon <= 0
+|   |   |   |   |   |   |   |   |   W_klase <= 0
+|   |   |   |   |   |   |   |   |   |   W_post <= 0
+|   |   |   |   |   |   |   |   |   |   |   W_typhoon <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   W_inyong <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   IsUrl <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   W_goods <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_namin <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   IsHashtag <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_tinatayang <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_samin <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_katao <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_dswd <= 0: O (280.0/65.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_dswd > 0: CA (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_katao > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_lubog <= 0: O (20.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_lubog > 0: CA (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_samin > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_responsibility <= 0: O (7.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_responsibility > 0: CA (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_tinatayang > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   IsRetweet <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_circuit <= 0: O (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_circuit > 0: CA (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   IsRetweet > 0: CA (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   IsHashtag > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_bandang <= 1: CA (17.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_bandang > 1: O (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_namin > 0: CA (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   W_goods > 0: CD (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   IsUrl > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   W_dapat <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_pamilya <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_istruktura <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_area <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_karangalan <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_patay <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_personnel <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_types <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_ulan <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_along <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_par <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_ahensya <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_mahigit <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_imprastraktura <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_lines <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_ngayon <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_gusto <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_kasi <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_katao <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_all <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_delikado <= 0: O (220.0/68.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_delikado > 0: CA (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_all > 0: CA (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_katao > 0: CA (18.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_kasi > 0: O (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_gusto > 0: CA (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_ngayon > 0: D (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_lines > 0: CA (9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_imprastraktura > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_barangay <= 0: O (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_barangay > 0: D (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_mahigit > 0: CA (14.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_ahensya > 0: CA (12.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_par > 0: CA (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_along > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   IsRetweet <= 0: CD (2.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   IsRetweet > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_cor <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_circuit <= 0: CH (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_circuit > 0: CA (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_cor > 0: CA (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_ulan > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   IsRetweet <= 0: O (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   IsRetweet > 0: D (4.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_types > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_breaker <= 0: CA (7.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_breaker > 0: CH (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_personnel > 0: CA (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_patay > 0: CA (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_karangalan > 0: CA (10.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_area > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 23: CA (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length > 23: D (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_istruktura > 0: CH (9.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_pamilya > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_ingat <= 0: D (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_ingat > 0: CH (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   W_dapat > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_along <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 23: CD (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length > 23: CH (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_along > 0: CA (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   W_inyong > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   W_bilang <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   IsUrl <= 0: CA (9.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   IsUrl > 0: O (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   W_bilang > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 19: CH (4.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Length > 19: D (8.0)
+|   |   |   |   |   |   |   |   |   |   |   W_typhoon > 0
+|   |   |   |   |   |   |   |   |   |   |   |   W_cor <= 0: CA (25.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   W_cor > 0: O (3.0)
+|   |   |   |   |   |   |   |   |   |   W_post > 0: CA (17.0/1.0)
+|   |   |   |   |   |   |   |   |   W_klase > 0: CA (20.0/2.0)
+|   |   |   |   |   |   |   |   W_sitwasyon > 0
+|   |   |   |   |   |   |   |   |   W_blog <= 0
+|   |   |   |   |   |   |   |   |   |   W_personnel <= 0: CA (66.0/3.0)
+|   |   |   |   |   |   |   |   |   |   W_personnel > 0: O (2.0)
+|   |   |   |   |   |   |   |   |   W_blog > 0: CD (2.0/1.0)
+|   |   |   |   |   |   |   W_nasira > 0: CA (58.0/2.0)
+|   |   |   |   |   |   W_dry > 0
+|   |   |   |   |   |   |   W_simbahan <= 0: CA (81.0/1.0)
+|   |   |   |   |   |   |   W_simbahan > 0: CH (4.0/1.0)
+|   |   |   |   |   W_calamity > 0: CA (38.0)
+|   |   |   |   W_inihahanda > 0
+|   |   |   |   |   W_dead <= 0
+|   |   |   |   |   |   W_naitalang <= 0
+|   |   |   |   |   |   |   W_sagkahan <= 0: CA (74.0/4.0)
+|   |   |   |   |   |   |   W_sagkahan > 0: CD (2.0)
+|   |   |   |   |   |   W_naitalang > 0: D (3.0)
+|   |   |   |   |   W_dead > 0: D (9.0)
+|   |   |   W_ninyo > 0
+|   |   |   |   W_simbahan <= 0: O (28.0/5.0)
+|   |   |   |   W_simbahan > 0: CH (15.0/1.0)
+|   |   W_handa > 0
+|   |   |   IsUrl <= 0: O (45.0/1.0)
+|   |   |   IsUrl > 0: D (3.0)
+|   W_habang > 0: CH (46.0/1.0)
+W_power > 0: CD (27.0/1.0)
+
+Number of Leaves  : 	70
+
+Size of the tree : 	139
+
+
+Time taken to build model: 1.68 seconds
+
+=== Evaluation on test split ===
+=== Summary ===
+
+Correctly Classified Instances         433               79.304  %
+Incorrectly Classified Instances       113               20.696  %
+Kappa statistic                          0.6674
+Mean absolute error                      0.1094
+Root mean squared error                  0.2555
+Relative absolute error                 43.6841 %
+Root relative squared error             72.2407 %
+Total Number of Instances              546     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.409     0.002      0.9       0.409     0.563      0.847    D
+                 0.762     0.004      0.889     0.762     0.821      0.913    CD
+                 0.711     0.02       0.73      0.711     0.72       0.865    CH
+                 0.748     0.083      0.889     0.748     0.813      0.868    CA
+                 0.908     0.224      0.712     0.908     0.798      0.882    O
+Weighted Avg.    0.793     0.126      0.811     0.793     0.791      0.874
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+   9   0   3   3   7 |   a = D
+   0  16   0   2   3 |   b = CD
+   0   2  27   4   5 |   c = CH
+   1   0   3 193  61 |   d = CA
+   0   0   4  15 188 |   e = O
+

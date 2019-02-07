@@ -1,0 +1,210 @@
+=== Run information ===
+
+Scheme:weka.classifiers.bayes.BayesNet -D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 1 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5
+Relation:     ruby-Bin-CA-word-10-weka.filters.unsupervised.attribute.Remove-R1-5,9
+Instances:    2292
+Attributes:   81
+              IsUrl
+              IsHashtag
+              IsRetweet
+              Category
+              W_ahensya
+              W_aksidente
+              W_alalahanin
+              W_area
+              W_bago
+              W_bandang
+              W_bilang
+              W_bilis
+              W_biyernes
+              W_breaker
+              W_bukas
+              W_calamity
+              W_circuit
+              W_dagat
+              W_daluyong
+              W_dapat
+              W_delata
+              W_delikado
+              W_group
+              W_habang
+              W_hagupit
+              W_handa
+              W_hanggang
+              W_iba
+              W_imbak
+              W_itinaas
+              W_kapilya
+              W_klase
+              W_kph
+              W_kung
+              W_lalawigan
+              W_loob
+              W_lugar
+              W_lumabas
+              W_lumakas
+              W_lunes
+              W_mag
+              W_makaiwas
+              W_mamayang
+              W_may
+              W_muling
+              W_nagkansela
+              W_nakapasok
+              W_nang
+              W_nasa
+              W_news
+              W_ninyo
+              W_northern
+              W_number
+              W_numero
+              W_paalala
+              W_pagbaha
+              W_par
+              W_patayin
+              W_pinalilikas
+              W_posibleng
+              W_question
+              W_responsibility
+              W_sakaling
+              W_sapat
+              W_sibuyan
+              W_simbahan
+              W_storm
+              W_sumusunod
+              W_surge
+              W_tandaan
+              W_tsansang
+              W_tulad
+              W_tumawag
+              W_tumutok
+              W_tuwing
+              W_typhoon
+              W_ulan
+              W_village
+              W_weather
+              W_yellow
+              Length
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Bayes Network Classifier
+not using ADTree
+#attributes=81 #classindex=3
+Network structure (nodes followed by parents)
+IsUrl(2): Category 
+IsHashtag(1): Category 
+IsRetweet(2): Category 
+Category(2): 
+W_ahensya(1): Category 
+W_aksidente(2): Category 
+W_alalahanin(1): Category 
+W_area(1): Category 
+W_bago(2): Category 
+W_bandang(1): Category 
+W_bilang(1): Category 
+W_bilis(1): Category 
+W_biyernes(2): Category 
+W_breaker(2): Category 
+W_bukas(1): Category 
+W_calamity(1): Category 
+W_circuit(1): Category 
+W_dagat(1): Category 
+W_daluyong(2): Category 
+W_dapat(2): Category 
+W_delata(1): Category 
+W_delikado(2): Category 
+W_group(2): Category 
+W_habang(2): Category 
+W_hagupit(2): Category 
+W_handa(2): Category 
+W_hanggang(2): Category 
+W_iba(1): Category 
+W_imbak(1): Category 
+W_itinaas(1): Category 
+W_kapilya(1): Category 
+W_klase(1): Category 
+W_kph(2): Category 
+W_kung(1): Category 
+W_lalawigan(1): Category 
+W_loob(2): Category 
+W_lugar(1): Category 
+W_lumabas(1): Category 
+W_lumakas(1): Category 
+W_lunes(1): Category 
+W_mag(2): Category 
+W_makaiwas(1): Category 
+W_mamayang(1): Category 
+W_may(1): Category 
+W_muling(2): Category 
+W_nagkansela(1): Category 
+W_nakapasok(1): Category 
+W_nang(2): Category 
+W_nasa(1): Category 
+W_news(1): Category 
+W_ninyo(1): Category 
+W_northern(1): Category 
+W_number(1): Category 
+W_numero(1): Category 
+W_paalala(1): Category 
+W_pagbaha(2): Category 
+W_par(2): Category 
+W_patayin(2): Category 
+W_pinalilikas(2): Category 
+W_posibleng(1): Category 
+W_question(1): Category 
+W_responsibility(1): Category 
+W_sakaling(1): Category 
+W_sapat(1): Category 
+W_sibuyan(1): Category 
+W_simbahan(1): Category 
+W_storm(2): Category 
+W_sumusunod(2): Category 
+W_surge(1): Category 
+W_tandaan(1): Category 
+W_tsansang(1): Category 
+W_tulad(1): Category 
+W_tumawag(2): Category 
+W_tumutok(1): Category 
+W_tuwing(1): Category 
+W_typhoon(2): Category 
+W_ulan(1): Category 
+W_village(2): Category 
+W_weather(1): Category 
+W_yellow(2): Category 
+Length(7): Category 
+LogScore Bayes: -11256.404050835541
+LogScore BDeu: -11335.893655537027
+LogScore MDL: -11451.490761377021
+LogScore ENTROPY: -11176.820868613888
+LogScore AIC: -11247.820868613891
+
+
+Time taken to build model: 0.04 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        2027               88.438  %
+Incorrectly Classified Instances       265               11.562  %
+Kappa statistic                          0.7658
+Mean absolute error                      0.1306
+Root mean squared error                  0.2981
+Relative absolute error                 26.4834 %
+Root relative squared error             60.0234 %
+Total Number of Instances             2292     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.893     0.126      0.899     0.893     0.896      0.957    CA
+                 0.874     0.107      0.866     0.874     0.87       0.957    O
+Weighted Avg.    0.884     0.118      0.885     0.884     0.884      0.957
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1142  137 |    a = CA
+  128  885 |    b = O
+

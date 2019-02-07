@@ -1,0 +1,121 @@
+=== Run information ===
+
+Scheme:weka.classifiers.lazy.IBk -K 7 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Relation:     Mario-Bin-CA-word-10-weka.filters.unsupervised.attribute.Remove-R1-5,9
+Instances:    1161
+Attributes:   80
+              IsUrl
+              IsHashtag
+              IsRetweet
+              Category
+              W_abo
+              W_all
+              W_along
+              W_amin
+              W_area
+              W_as
+              W_babala
+              W_bagong
+              W_bahagi
+              W_bahang
+              W_blog
+              W_city
+              W_cor
+              W_dahil
+              W_dapat
+              W_deep
+              W_dibdib
+              W_dito
+              W_dry
+              W_follow
+              W_gawin
+              W_going
+              W_hall
+              W_hanggang
+              W_high
+              W_highway
+              W_hotlines
+              W_ingat
+              W_inyong
+              W_ito
+              W_kahabaan
+              W_karangalan
+              W_kuha
+              W_kung
+              W_labas
+              W_lagpas
+              W_lalim
+              W_limay
+              W_live
+              W_liwasang
+              W_lugar
+              W_magdulot
+              W_magingat
+              W_malapit
+              W_naman
+              W_namin
+              W_nananatiling
+              W_ngayong
+              W_not
+              W_paalala
+              W_palibot
+              W_passable
+              W_patungong
+              W_pero
+              W_point
+              W_question
+              W_river
+              W_safe
+              W_samin
+              W_san
+              W_sitwasyon
+              W_subd
+              W_subided
+              W_subsided
+              W_tayo
+              W_tubig
+              W_tuhod
+              W_types
+              W_ukol
+              W_ulan
+              W_umiwas
+              W_via
+              W_video
+              W_village
+              W_warning
+              Length
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+IB1 instance-based classifier
+using 7 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         920               79.242  %
+Incorrectly Classified Instances       241               20.758  %
+Kappa statistic                          0.5902
+Mean absolute error                      0.2631
+Root mean squared error                  0.3793
+Relative absolute error                 53.4154 %
+Root relative squared error             76.4322 %
+Total Number of Instances             1161     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.713     0.106      0.896     0.713     0.794      0.869    CA
+                 0.894     0.287      0.709     0.894     0.791      0.869    O
+Weighted Avg.    0.792     0.186      0.814     0.792     0.793      0.869
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 464 187 |   a = CA
+  54 456 |   b = O
+

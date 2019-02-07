@@ -1,0 +1,122 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.RandomForest -I 100 -K 0 -S 1
+Relation:     Mario-Bin-CA-word-10-weka.filters.unsupervised.attribute.Remove-R1-5,9
+Instances:    1161
+Attributes:   80
+              IsUrl
+              IsHashtag
+              IsRetweet
+              Category
+              W_abo
+              W_all
+              W_along
+              W_amin
+              W_area
+              W_as
+              W_babala
+              W_bagong
+              W_bahagi
+              W_bahang
+              W_blog
+              W_city
+              W_cor
+              W_dahil
+              W_dapat
+              W_deep
+              W_dibdib
+              W_dito
+              W_dry
+              W_follow
+              W_gawin
+              W_going
+              W_hall
+              W_hanggang
+              W_high
+              W_highway
+              W_hotlines
+              W_ingat
+              W_inyong
+              W_ito
+              W_kahabaan
+              W_karangalan
+              W_kuha
+              W_kung
+              W_labas
+              W_lagpas
+              W_lalim
+              W_limay
+              W_live
+              W_liwasang
+              W_lugar
+              W_magdulot
+              W_magingat
+              W_malapit
+              W_naman
+              W_namin
+              W_nananatiling
+              W_ngayong
+              W_not
+              W_paalala
+              W_palibot
+              W_passable
+              W_patungong
+              W_pero
+              W_point
+              W_question
+              W_river
+              W_safe
+              W_samin
+              W_san
+              W_sitwasyon
+              W_subd
+              W_subided
+              W_subsided
+              W_tayo
+              W_tubig
+              W_tuhod
+              W_types
+              W_ukol
+              W_ulan
+              W_umiwas
+              W_via
+              W_video
+              W_village
+              W_warning
+              Length
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Random forest of 100 trees, each constructed while considering 7 random features.
+Out of bag error: 0.1593
+
+
+
+Time taken to build model: 4.3 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         971               83.6348 %
+Incorrectly Classified Instances       190               16.3652 %
+Kappa statistic                          0.6714
+Mean absolute error                      0.215 
+Root mean squared error                  0.3482
+Relative absolute error                 43.6476 %
+Root relative squared error             70.1556 %
+Total Number of Instances             1161     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.814     0.135      0.885     0.814     0.848      0.905    CA
+                 0.865     0.186      0.785     0.865     0.823      0.905    O
+Weighted Avg.    0.836     0.158      0.841     0.836     0.837      0.905
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 530 121 |   a = CA
+  69 441 |   b = O
+

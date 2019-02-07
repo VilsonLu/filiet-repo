@@ -1,0 +1,194 @@
+=== Run information ===
+
+Scheme:weka.classifiers.bayes.BayesNet -D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 1 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5
+Relation:     ruby-mario-Combined-word-20-weka.filters.unsupervised.attribute.Remove-R1-5,9
+Instances:    2583
+Attributes:   139
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Bayes Network Classifier
+not using ADTree
+#attributes=139 #classindex=3
+Network structure (nodes followed by parents)
+IsUrl(2): Category 
+IsHashtag(2): Category 
+IsRetweet(2): Category 
+Category(5): 
+W_abo(1): Category 
+W_agos(1): Category 
+W_along(1): Category 
+W_araw(1): Category 
+W_area(1): Category 
+W_bago(1): Category 
+W_bagong(1): Category 
+W_bandang(1): Category 
+W_bewang(1): Category 
+W_binti(1): Category 
+W_blvd(1): Category 
+W_bubong(1): Category 
+W_building(1): Category 
+W_bus(1): Category 
+W_condo(1): Category 
+W_davao(1): Category 
+W_declares(1): Category 
+W_fifth(1): Category 
+W_flight(2): Category 
+W_flood(1): Category 
+W_floods(1): Category 
+W_floor(1): Category 
+W_gma(1): Category 
+W_habang(2): Category 
+W_hala(1): Category 
+W_handa(1): Category 
+W_humupa(1): Category 
+W_inyong(1): Category 
+W_isla(1): Category 
+W_kahit(1): Category 
+W_kanina(2): Category 
+W_kanto(2): Category 
+W_labas(1): Category 
+W_lalim(2): Category 
+W_lipa(1): Category 
+W_mahabang(1): Category 
+W_makita(2): Category 
+W_marami(1): Category 
+W_mataas(1): Category 
+W_may(2): Category 
+W_motorista(1): Category 
+W_namin(1): Category 
+W_ngaun(2): Category 
+W_ngyon(1): Category 
+W_of(1): Category 
+W_out(1): Category 
+W_padala(2): Category 
+W_pahirap(1): Category 
+W_point(1): Category 
+W_pumasok(1): Category 
+W_question(1): Category 
+W_raw(1): Category 
+W_road(1): Category 
+W_sainyo(1): Category 
+W_sasakyan(1): Category 
+W_sasakyang(2): Category 
+W_scout(2): Category 
+W_severe(1): Category 
+W_stop(1): Category 
+W_swimming(1): Category 
+W_tahanan(2): Category 
+W_tska(1): Category 
+W_uhod(1): Category 
+W_weather(1): Category 
+W_yellow(1): Category 
+W_quiteria(1): Category 
+W_ilikas(1): Category 
+W_volunteers(1): Category 
+W_in(1): Category 
+W_pagbaha(1): Category 
+W_kabuluan(1): Category 
+W_compound(1): Category 
+W_brgy(1): Category 
+W_ay(1): Category 
+W_mahigit(2): Category 
+W_bagyo(1): Category 
+W_dulot(2): Category 
+W_estero(1): Category 
+W_apektado(2): Category 
+W_district(1): Category 
+W_bagyong(1): Category 
+W_dist(2): Category 
+W_tulay(2): Category 
+W_tinatayang(1): Category 
+W_pamilya(2): Category 
+W_aabot(1): Category 
+W_blogger(2): Category 
+W_dear(1): Category 
+W_elem(1): Category 
+W_evacuees(2): Category 
+W_families(1): Category 
+W_food(1): Category 
+W_friends(1): Category 
+W_help(2): Category 
+W_i(1): Category 
+W_iaccommodate(2): Category 
+W_isang(2): Category 
+W_kami(1): Category 
+W_kasi(2): Category 
+W_kong(2): Category 
+W_nabaha(1): Category 
+W_nangka(1): Category 
+W_natrapped(1): Category 
+W_need(1): Category 
+W_needs(1): Category 
+W_nila(1): Category 
+W_pahelp(1): Category 
+W_pls(2): Category 
+W_po(1): Category 
+W_rescue(1): Category 
+W_roga(1): Category 
+W_sir(1): Category 
+W_sto(1): Category 
+W_than(1): Category 
+W_tumana(1): Category 
+W_wala(2): Category 
+W_water(1): Category 
+W_parking(1): Category 
+W_ginawa(1): Category 
+W_advisory(1): Category 
+W_kaba(1): Category 
+W_affected(1): Category 
+W_pong(1): Category 
+W_ilang(2): Category 
+W_gusto(1): Category 
+W_nagpabuhat(1): Category 
+W_magvolunteer(1): Category 
+W_mabasa(1): Category 
+W_more(1): Category 
+W_ngayon(2): Category 
+W_open(1): Category 
+W_contact(2): Category 
+W_just(1): Category 
+W_rescuer(1): Category 
+Length(7): Category 
+LogScore Bayes: -14673.63951850582
+LogScore BDeu: -15083.961829507969
+LogScore MDL: -15362.747762144387
+LogScore ENTROPY: -14581.005436231364
+LogScore AIC: -14780.005436231364
+
+
+Time taken to build model: 0.22 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        2119               82.0364 %
+Incorrectly Classified Instances       464               17.9636 %
+Kappa statistic                          0.699 
+Mean absolute error                      0.0833
+Root mean squared error                  0.2228
+Relative absolute error                 35.1791 %
+Root relative squared error             64.757  %
+Total Number of Instances             2583     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.837     0.13       0.864     0.837     0.85       0.942    CA
+                 0.875     0.083      0.871     0.875     0.873      0.966    O
+                 0.616     0.065      0.497     0.616     0.55       0.911    CD
+                 0.444     0          0.8       0.444     0.571      0.889    CH
+                 0.216     0.004      0.444     0.216     0.291      0.919    D
+Weighted Avg.    0.82      0.103      0.826     0.82      0.821      0.948
+
+=== Confusion Matrix ===
+
+    a    b    c    d    e   <-- classified as
+ 1070   90  115    0    4 |    a = CA
+   90  886   34    1    2 |    b = O
+   59   31  151    0    4 |    c = CD
+    0    4    1    4    0 |    d = CH
+   20    6    3    0    8 |    e = D
+

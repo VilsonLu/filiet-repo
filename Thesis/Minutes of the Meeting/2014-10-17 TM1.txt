@@ -1,0 +1,32 @@
+THESIS MEETING
+October 17, 2014
+11:20 AM
+Gox Lobby
+
+A. Annotations
+	- Vilson: 700
+	- JP: 1250
+	- Kyle: 5000
+	- TinTin: Still hasn't checked the minion reports
+
+B. Request Letter
+	- nahanap na!
+	- Kyle: must revise
+	
+C. System
+	- complete na yung feature extraction and classifier modules kaso hindi ma-test
+	- has problem in formatting the dataset / weka issues
+	- error has cascaded! need to finish the annotations para ma-ayus yung classifier
+	
+D. ST Research Congress
+	- start working this
+	
+E. Things to do over the weekend
+	- Kyle: Adjust Trello stuff
+	- Vilson: Prepare proper documentations
+		- product and sprint backlog
+	- TinTin: Fix Dropbox
+	- Kyle: Translate Ontology
+	- JP: Continue annotations
+
+END: 12:00 NN

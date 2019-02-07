@@ -1,0 +1,381 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.BayesNet -D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 1 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5
+Relation:     ruby-marioruby-Combined-word-20-weka.filters.unsupervised.attribute.Remove-R1-5,9
+Instances:    2583
+Attributes:   324
+              [list of attributes omitted]
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Bayes Network Classifier
+not using ADTree
+#attributes=324 #classindex=3
+Network structure (nodes followed by parents)
+IsUrl(2): Category 
+IsHashtag(2): Category 
+IsRetweet(2): Category 
+Category(5): 
+W_aabot(1): Category 
+W_abangan(1): Category 
+W_abo(2): Category 
+W_advisory(1): Category 
+W_affected(1): Category 
+W_agos(1): Category 
+W_airport(1): Category 
+W_alon(1): Category 
+W_along(1): Category 
+W_apektado(2): Category 
+W_araw(2): Category 
+W_area(1): Category 
+W_ay(1): Category 
+W_ayon(1): Category 
+W_bago(2): Category 
+W_bagong(2): Category 
+W_bagsak(2): Category 
+W_bagyo(2): Category 
+W_bagyong(1): Category 
+W_baha(1): Category 
+W_bahagyang(1): Category 
+W_balita(1): Category 
+W_bandang(2): Category 
+W_bangus(1): Category 
+W_barangay(1): Category 
+W_bayan(1): Category 
+W_baylon(2): Category 
+W_bewang(2): Category 
+W_bilis(1): Category 
+W_binti(1): Category 
+W_blogger(1): Category 
+W_blvd(1): Category 
+W_brgy(1): Category 
+W_bubong(2): Category 
+W_bugso(2): Category 
+W_bugsong(2): Category 
+W_building(1): Category 
+W_bumagal(1): Category 
+W_bunkhouses(1): Category 
+W_buong(1): Category 
+W_bus(1): Category 
+W_calamity(1): Category 
+W_casualty(2): Category 
+W_church(1): Category 
+W_city(1): Category 
+W_compound(2): Category 
+W_condo(2): Category 
+W_contact(2): Category 
+W_countries(1): Category 
+W_dagat(1): Category 
+W_dahil(1): Category 
+W_dalawa(2): Category 
+W_damages(2): Category 
+W_davao(1): Category 
+W_dead(1): Category 
+W_dear(1): Category 
+W_declares(2): Category 
+W_dilg(1): Category 
+W_dist(1): Category 
+W_district(1): Category 
+W_donasyon(1): Category 
+W_downed(1): Category 
+W_dswd(1): Category 
+W_dulot(1): Category 
+W_dzmm(1): Category 
+W_eastern(2): Category 
+W_electrical(1): Category 
+W_elem(1): Category 
+W_emergency(2): Category 
+W_establisimyento(1): Category 
+W_estero(1): Category 
+W_evacuee(1): Category 
+W_evacuees(1): Category 
+W_families(1): Category 
+W_family(1): Category 
+W_fifth(1): Category 
+W_flight(2): Category 
+W_flood(1): Category 
+W_floods(1): Category 
+W_floor(2): Category 
+W_food(2): Category 
+W_forecast(2): Category 
+W_free(1): Category 
+W_friends(1): Category 
+W_galaw(2): Category 
+W_ginawa(1): Category 
+W_globe(1): Category 
+W_gma(1): Category 
+W_good(1): Category 
+W_goods(1): Category 
+W_gov(1): Category 
+W_gumagabi(2): Category 
+W_gusto(2): Category 
+W_gym(1): Category 
+W_habang(2): Category 
+W_hala(2): Category 
+W_halos(1): Category 
+W_handa(2): Category 
+W_handang(2): Category 
+W_help(1): Category 
+W_helpdesk(2): Category 
+W_highway(1): Category 
+W_hindi(2): Category 
+W_humupa(1): Category 
+W_hydromet(2): Category 
+W_i(1): Category 
+W_iaccommodate(1): Category 
+W_ilang(2): Category 
+W_ilikas(1): Category 
+W_imprastraktura(2): Category 
+W_in(2): Category 
+W_including(1): Category 
+W_inihahanda(1): Category 
+W_inilikas(1): Category 
+W_iniwan(1): Category 
+W_inyong(1): Category 
+W_ipamigay(2): Category 
+W_ipriority(1): Category 
+W_isang(1): Category 
+W_isinasagawa(2): Category 
+W_isla(2): Category 
+W_islands(1): Category 
+W_istruktura(2): Category 
+W_just(1): Category 
+W_kaba(1): Category 
+W_kabuluan(1): Category 
+W_kahit(1): Category 
+W_kahoy(2): Category 
+W_kailangan(1): Category 
+W_kalupaan(2): Category 
+W_kami(1): Category 
+W_kanina(1): Category 
+W_kanto(2): Category 
+W_kasi(1): Category 
+W_kasunod(1): Category 
+W_katao(1): Category 
+W_kaysa(1): Category 
+W_komunikasyon(1): Category 
+W_kong(2): Category 
+W_kung(1): Category 
+W_labas(1): Category 
+W_lahat(2): Category 
+W_lalim(1): Category 
+W_lines(1): Category 
+W_linya(1): Category 
+W_lipa(1): Category 
+W_list(1): Category 
+W_lubang(1): Category 
+W_lubog(1): Category 
+W_lumakas(1): Category 
+W_lumihis(1): Category 
+W_lumikas(1): Category 
+W_mabasa(1): Category 
+W_maglandfall(1): Category 
+W_magvolunteer(2): Category 
+W_mahabang(2): Category 
+W_mahigit(2): Category 
+W_makita(1): Category 
+W_malawak(1): Category 
+W_marami(1): Category 
+W_mas(2): Category 
+W_mataas(1): Category 
+W_mauubusan(2): Category 
+W_may(1): Category 
+W_mayor(1): Category 
+W_more(2): Category 
+W_motorista(1): Category 
+W_mula(1): Category 
+W_muling(1): Category 
+W_municipality(2): Category 
+W_nabaha(1): Category 
+W_nagbago(1): Category 
+W_nagdulot(1): Category 
+W_nagpabuhat(1): Category 
+W_nagpapatupad(2): Category 
+W_nagsimula(1): Category 
+W_nagsisiksikang(2): Category 
+W_naibalik(1): Category 
+W_naitalang(1): Category 
+W_nakahanda(1): Category 
+W_nakapasok(1): Category 
+W_nakatutok(1): Category 
+W_naman(1): Category 
+W_namataan(1): Category 
+W_namatay(2): Category 
+W_name(1): Category 
+W_namin(1): Category 
+W_nanatili(2): Category 
+W_nangka(2): Category 
+W_nasa(1): Category 
+W_nasawi(1): Category 
+W_nasira(1): Category 
+W_natitirang(1): Category 
+W_natrapped(2): Category 
+W_natuklap(1): Category 
+W_natuklapan(2): Category 
+W_navy(2): Category 
+W_need(1): Category 
+W_needs(1): Category 
+W_ngaun(2): Category 
+W_ngayon(1): Category 
+W_ngcp(2): Category 
+W_ngyon(1): Category 
+W_nila(2): Category 
+W_noah(1): Category 
+W_northeast(1): Category 
+W_northeastern(1): Category 
+W_northwest(2): Category 
+W_of(1): Category 
+W_open(1): Category 
+W_out(1): Category 
+W_packs(1): Category 
+W_padala(1): Category 
+W_pagbaha(1): Category 
+W_pagpasok(1): Category 
+W_pahelp(1): Category 
+W_pahirap(2): Category 
+W_pamilya(2): Category 
+W_pananalasa(1): Category 
+W_para(1): Category 
+W_parking(2): Category 
+W_patay(1): Category 
+W_patuloy(1): Category 
+W_personnel(2): Category 
+W_photo(1): Category 
+W_pinalilikas(1): Category 
+W_pinsala(1): Category 
+W_pls(1): Category 
+W_po(1): Category 
+W_point(1): Category 
+W_pong(1): Category 
+W_port(1): Category 
+W_post(2): Category 
+W_power(1): Category 
+W_preemptive(1): Category 
+W_preso(1): Category 
+W_private(1): Category 
+W_probinsya(2): Category 
+W_providing(1): Category 
+W_pswd(1): Category 
+W_pumasok(1): Category 
+W_question(1): Category 
+W_quiteria(2): Category 
+W_rainfall(1): Category 
+W_raw(1): Category 
+W_ready(1): Category 
+W_red(1): Category 
+W_regional(2): Category 
+W_reinforce(2): Category 
+W_relief(2): Category 
+W_rescue(1): Category 
+W_rescuer(1): Category 
+W_rescueteam(1): Category 
+W_residente(2): Category 
+W_road(2): Category 
+W_roga(1): Category 
+W_sagip(1): Category 
+W_sagkahan(2): Category 
+W_sainyo(1): Category 
+W_salamat(2): Category 
+W_sana(1): Category 
+W_sasakyan(1): Category 
+W_sasakyang(1): Category 
+W_scout(1): Category 
+W_severe(1): Category 
+W_silangan(2): Category 
+W_sinira(1): Category 
+W_sir(2): Category 
+W_southern(2): Category 
+W_state(1): Category 
+W_sto(1): Category 
+W_stop(1): Category 
+W_strong(1): Category 
+W_super(1): Category 
+W_suplay(1): Category 
+W_swimming(2): Category 
+W_tahanan(1): Category 
+W_tala(1): Category 
+W_talaga(1): Category 
+W_tan(1): Category 
+W_tatawaging(1): Category 
+W_teleradyo(2): Category 
+W_teritoryo(1): Category 
+W_than(1): Category 
+W_tinatayang(2): Category 
+W_tindahang(1): Category 
+W_tinupi(2): Category 
+W_topples(1): Category 
+W_total(2): Category 
+W_towns(2): Category 
+W_transported(1): Category 
+W_tsansang(1): Category 
+W_tska(1): Category 
+W_tulay(1): Category 
+W_tumama(2): Category 
+W_tumana(1): Category 
+W_tumatanggap(1): Category 
+W_uhod(1): Category 
+W_ulat(2): Category 
+W_ulit(1): Category 
+W_umakyat(2): Category 
+W_update(1): Category 
+W_utos(2): Category 
+W_victims(1): Category 
+W_video(2): Category 
+W_village(2): Category 
+W_volunteers(1): Category 
+W_wala(1): Category 
+W_water(1): Category 
+W_weather(1): Category 
+W_winasak(1): Category 
+W_with(2): Category 
+W_yari(2): Category 
+W_year(1): Category 
+W_years(2): Category 
+W_yellow(1): Category 
+W_yero(1): Category 
+W_youscooper(1): Category 
+W_yung(1): Category 
+Length(7): Category 
+LogScore Bayes: -24795.375122732512
+LogScore BDeu: -25839.33533407448
+LogScore MDL: -26741.257636285372
+LogScore ENTROPY: -24604.233388563378
+LogScore AIC: -25148.233388563378
+
+
+Time taken to build model: 0.88 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        2301               89.0825 %
+Incorrectly Classified Instances       282               10.9175 %
+Kappa statistic                          0.8153
+Mean absolute error                      0.047 
+Root mean squared error                  0.1812
+Relative absolute error                 19.8461 %
+Root relative squared error             52.669  %
+Coverage of cases (0.95 level)          96.1285 %
+Mean rel. region size (0.95 level)      24.6767 %
+Total Number of Instances             2583     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.901    0.087    0.911      0.901    0.906      0.814    0.975     0.976     CA
+                 0.913    0.069    0.895      0.913    0.904      0.841    0.982     0.972     O
+                 0.800    0.024    0.778      0.800    0.789      0.766    0.976     0.879     CD
+                 0.444    0.000    0.800      0.444    0.571      0.595    0.918     0.484     CH
+                 0.649    0.001    0.889      0.649    0.750      0.756    0.947     0.700     D
+Weighted Avg.    0.891    0.072    0.891      0.891    0.890      0.818    0.977     0.960     
+
+=== Confusion Matrix ===
+
+    a    b    c    d    e   <-- classified as
+ 1152   83   44    0    0 |    a = CA
+   75  925   12    1    0 |    b = O
+   29   18  196    0    2 |    c = CD
+    0    4    0    4    1 |    d = CH
+    9    4    0    0   24 |    e = D
+

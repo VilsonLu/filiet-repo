@@ -1,0 +1,477 @@
+TweetID,User,Tweet,Latitude,Longitude,IsHashtag,IsURL,IsRetweet,Language,Category
+5.13E+17,jhilaine_jc,@MMDA @MarikinaPIO passable na po Rob Metro East pati Marcos Hway... Kadadaan ko lang :) pero baha po sa ilalim SM Marikina,NULL,NULL,0,0,0,tl,CA
+5.13E+17,rima_anne,Baha pala sa pampanga.,NULL,NULL,0,0,0,tl,CA
+5.13E+17,imbeaman,@kennyroGELs sa condo huhu baha sa p. Noval e,NULL,NULL,0,0,0,pt,CA
+5.13E+17,EspiriTruth,"RT @ABSCBNNews: Lagpas gutter ang baha sa Liwasang Bonifacio (Padre Burgos, Mla) #MarioPH http://t.co/SejkhCvA7p |via @zhandercayabyab",NULL,NULL,1,0,1,tl,CA
+5.13E+17,parengsnowbell,RT @hadjirieta: Mataas pa rin ang baha sa bahaging ito ng Espaí±a Boulevard sa Maynila dahil sa walang tigil na ulan. #MarioPH http://t.co/eäó_,NULL,NULL,1,0,1,tl,CA
+5.13E+17,pinoy_e,"""@GMANewsOnline: VIDEO: Mga maliliit na sasakyan, hindi makatawid sa baha sa kahabaan ng Espaí€Œ±a, Manila http://t.co/jXQYTRKEGl""",NULL,NULL,0,1,0,tl,CA
+5.13E+17,pinoy_e,"""@GMANewsOnline: VIDEO: 5 bayan sa Bulacan, lubog sa baha http://t.co/EVeqwvS100""",NULL,NULL,0,1,0,tl,CA
+5.13E+17,JanryOfficial,RT @rapplerdotcom: #FloodPH Quezon City. Follow our #MarioPH LIVE BLOG: http://t.co/eEphgS4eu5 http://t.co/KlHmEK6M4U,NULL,NULL,1,1,1,en,CA
+5.13E+17,lukrexiaAligaga,RT @unetaelrhey: MARIKINA NEWS POST - Bumaba ng kaunti ang ating tubig baha sa ilog: 19.7 meters as of 9:37pm. Maging handa po tayo.,NULL,NULL,0,0,1,tl,CA
+5.13E+17,Chuuukkk,RT @clingyboypren: Hanggang leeg na ung baha sa Kalentong. Stay safe rizalians! ?? #MarioPH http://t.co/nXAwDNmyUJ,NULL,NULL,1,0,1,tl,CA
+5.13E+17,bry121988,RT @hadjirieta: Mataas pa rin ang baha sa bahaging ito ng Espaí±a Boulevard sa Maynila dahil sa walang tigil na ulan. #MarioPH http://t.co/eäó_,NULL,NULL,1,0,1,tl,CA
+5.13E+17,krambronds,RT @rapplerdotcom: #FloodPH Quezon City. vFollow our #MarioPH LIVE BLOG: http://t.co/eEphgS4eu5 http://t.co/KlHmEK6M4U,NULL,NULL,1,1,1,en,CA
+5.13E+17,KeniticChoy,"RT @stateofdnation: Red rainfall warning ang nakataas sa Nueva Ecija, Zambales at Tarlac. Matinding buhos ng ulan at matinding baha ang inaäó_",NULL,NULL,0,0,1,tl,CA
+5.13E+17,YoItsEllaoiG,"RT @DZMMTeleRadyo: Tulay sa CamNorte, nawasak ng baha; Quirino Hiway ang daan pa-Daet (Photo from @PRO5React)   http://t.co/l9AopM1Zmy httpäó_",NULL,NULL,0,1,1,tl,CA
+5.13E+17,KeniticChoy,"RT @stateofdnation: Maaga pa lang, baha na ang mga pangunahing kalsada sa Maynila tulad ng Espaí±a at Taft. May report si @sandraguinaldo.",NULL,NULL,0,0,1,tl,CA
+5.13E+17,schizoprano,RT @MMDA: FLOOD UPDATE: AS OF 9:20 PM OSMEíïA Buendia - Subsided. #mmda,NULL,NULL,1,0,1,en,CA
+5.13E+17,PanahonTV,FLOOD UPDATE: AS OF 9:20 PM OSMEíïA Buendia - Subsided.,NULL,NULL,0,0,0,en,CA
+5.13E+17,BadGirlDL,RT @rapplerdotcom: #FloodPH Quezon City. Follow our #MarioPH LIVE BLOG: http://t.co/eEphgS4eu5 http://t.co/KlHmEK6M4U,NULL,NULL,1,1,1,en,CA
+5.13E+17,elaiidasig,RT @MMDA: FLOOD UPDATE: AS OF 9:16 PM SMCenter Point EB/WB - Passable along Araneta NB/SB - Not Passable. #mmda,NULL,NULL,1,0,1,en,CA
+5.13E+17,EdwardHenryHyde,RT @DZMMTeleRadyo: Abot-tuhod pa rin ang baha sa Espaí±a cor. N.Reyes (Morayta) #MarioPH http://t.co/VZEAMuB01s @zhandercayabyab,NULL,NULL,1,0,1,tl,CA
+5.13E+17,redcross143,#MarioPH FLOOD UPDATE: AS OF 9:20 PM OSMEíïA Buendia - Subsided. #mmda | via RT @MMDA,NULL,NULL,1,0,0,en,CA
+5.13E+17,lynvgarcia,#MarioPH FLOOD UPDATE: AS OF 9:20 PM OSMEíïA Buendia - Subsided. #mmda | via RT @MMDA,NULL,NULL,1,0,0,en,CA
+5.13E+17,RedCrossYouthPH,#MarioPH FLOOD UPDATE: AS OF 9:20 PM OSMEíïA Buendia - Subsided. #mmda | via RT @MMDA,NULL,NULL,1,0,0,en,CA
+5.13E+17,jcrdv_27,RT @MMDA: FLOOD UPDATE: AS OF 9:20 PM OSMEíïA Buendia - Subsided. #mmda,NULL,NULL,1,0,1,en,CA
+5.13E+17,BerteDeam,RT @MMDA: FLOOD UPDATE: AS OF 9:26 PM ESPAíïA Lacson Gutter Deep - Passable. #mmda,NULL,NULL,1,0,1,en,CA
+5.13E+17,KneeCoalChewAH,RT @MMDA: FLOOD UPDATE: AS OF 9:26 PM ESPAíïA Lacson Gutter Deep - Passable. #mmda,NULL,NULL,1,0,1,en,CA
+5.13E+17,MMDA,FLOOD UPDATE: AS OF 9:28 PM Ma.Clara Araneta - Subided. #mmda,NULL,NULL,1,0,0,en,CA
+5.13E+17,MarieGayyed,RT @rapplerdotcom: #FloodPH Quezon City. Follow our #MarioPH LIVE BLOG: http://t.co/eEphgS4eu5 http://t.co/KlHmEK6M4U,NULL,NULL,1,1,1,en,CA
+5.13E+17,PIAalerts,@PanahonTV: #FLOOD UPDATE AS OF 9:16 PM SMCenter Point EB/WB - Passable along Araneta NB/SB - Not Passable,NULL,NULL,1,0,0,en,CA
+5.13E+17,MPCOfficialPage,RT @MMDA: FLOOD UPDATE: AS OF 9:20 PM OSMEíïA Buendia - Subsided. #mmda,NULL,NULL,1,0,1,en,CA
+5.13E+17,SWWELYYIN,RT @redcross143: #MarioPH FLOOD UPDATE: AS OF 9:20 PM OSMEíïA Buendia - Subsided. #mmda | via RT @MMDA,NULL,NULL,1,0,1,en,CA
+5.13E+17,InqMetro,RT @MMDA: FLOOD UPDATE: AS OF 9:28 PM Ma.Clara Araneta - Subided. #mmda,NULL,NULL,1,0,1,en,CA
+5.13E+17,PanahonTV,FLOOD UPDATE: AS OF 9:28 PM Ma.Clara Araneta - Subided.,NULL,NULL,0,0,0,en,CA
+5.13E+17,bernanaboat,RT @MMDA: FLOOD UPDATE: AS OF 9:26 PM ESPAíïA Lacson Gutter Deep - Passable. #mmda,NULL,NULL,1,0,1,en,CA
+5.13E+17,AntipoloPH,RT @MMDA: FLOOD UPDATE: AS OF 9:16 PM SMCenter Point EB/WB - Passable along Araneta NB/SB - Not Passable. #mmda,NULL,NULL,1,0,1,en,CA
+5.13E+17,AntipoloPH,RT @MMDA: FLOOD UPDATE: AS OF 9:26 PM ESPAíïA Lacson Gutter Deep - Passable. #mmda,NULL,NULL,1,0,1,en,CA
+5.13E+17,AntipoloPH,RT @MMDA: FLOOD UPDATE: AS OF 9:20 PM OSMEíïA Buendia - Subsided. #mmda,NULL,NULL,1,0,1,en,CA
+5.13E+17,AntipoloPH,RT @MMDA: FLOOD UPDATE: AS OF 9:28 PM Ma.Clara Araneta - Subided. #mmda,NULL,NULL,1,0,1,en,CA
+5.13E+17,alders_ledge,"RT @momblogger: thankfully. RT @maria_ressa: #MarioPH floods up to 25% of Metro Manila, but worst is over via @rapplerdotcom http://t.co/y0äó_",NULL,NULL,1,1,1,en,CA
+5.13E+17,CapsAmongAll,RT @MMDA: FLOOD UPDATE: AS OF 9:28 PM Ma.Clara Araneta - Subided. #mmda,NULL,NULL,1,0,1,en,CA
+5.13E+17,MJLove0785,RT @MMDA: RT @SkywaySOMCO: Flood Update as of 8:04 PM Tire Deep at Buendia/Dela Rosa: Not passable to all types of vehicles. Buendia Off Raäó_,NULL,NULL,0,0,1,en,CA
+5.13E+17,maryjewelorit,grabeh baha sa quezon city hind na makita ang bhay namin sa eoefrigues @24oras,NULL,NULL,0,0,0,tl,CA
+5.13E+17,rcyccfad,RT @MMDA: FLOOD UPDATE: AS OF 9:26 PM ESPAíïA Lacson Gutter Deep - Passable. #mmda,NULL,NULL,1,0,1,en,CA
+5.13E+17,attic_khat23,RT @MMDA: FLOOD UPDATE: AS OF 9:28 PM Ma.Clara Araneta - Subided. #mmda,NULL,NULL,1,0,1,en,CA
+5.13E+17,ranjay725,RT @dost_pagasa: Heavy Rainfall Warning No.10 #NCR_PRSDvWeather System: Tropical Storm #MarioPHvvIssued at 9:00 PM September... http://t.co/äó_,NULL,NULL,1,1,1,en,CA
+5.13E+17,Rubento7,RT @redcross143: #MarioPH FLOOD UPDATE: AS OF 9:20 PM OSMEíïA Buendia - Subsided. #mmda | via RT @MMDA,NULL,NULL,1,0,1,en,CA
+5.13E+17,MMDA,FLOOD UPDATE: AS OF 9:48 PM Araneta going to E.rod NOT PASSABLE TO ALL TYPES OF VEHICLES. #mmda,NULL,NULL,1,0,0,en,CA
+5.13E+17,rcyccfad,RT @RedCrossYouthPH: #MarioPH FLOOD UPDATE: AS OF 9:16 PM SMCenter Point EB/WB - Passable along Araneta NB/SB - Not Passable. #mmda | @MMDA,NULL,NULL,1,0,1,en,CA
+5.13E+17,renzoquibael,RT @MMDA: FLOOD UPDATE: AS OF 9:20 PM OSMEíïA Buendia - Subsided. #mmda,NULL,NULL,1,0,1,en,CA
+5.13E+17,hannahombion,RT @dost_pagasa: Heavy Rainfall Warning No.10 #NCR_PRSD Weather System: Tropical Storm #MarioPH Issued at 9:00 PM September... http://t.co/äó_,NULL,NULL,1,1,1,en,CA
+5.13E+17,nirvanatime,RT @MMDA: FLOOD UPDATE: AS OF 9:48 PM Araneta going to E.rod NOT PASSABLE TO ALL TYPES OF VEHICLES. #mmda,NULL,NULL,1,0,1,en,CA
+5.13E+17,9newsph,"Flood update: As of 9:28 p.m., Ma. Clara Araneta - subided. | @MMDA",NULL,NULL,0,0,0,en,CA
+5.13E+17,Rubento7,RT @redcross143: #MarioPH FLOOD UPDATE: AS OF 9:16 PM SMCenter Point EB/WB - Passable along Araneta NB/SB - Not Passable. #mmda | @MMDA,NULL,NULL,1,0,1,en,CA
+5.13E+17,centpaul03,RT @MMDA: FLOOD UPDATE: AS OF 9:48 PM Araneta going to E.rod NOT PASSABLE TO ALL TYPES OF VEHICLES. #mmda,NULL,NULL,1,0,1,en,CA
+5.13E+17,zackyazarraga,RT @MMDA: FLOOD UPDATE: AS OF 9:48 PM Araneta going to E.rod NOT PASSABLE TO ALL TYPES OF VEHICLES. #mmda,NULL,NULL,1,0,1,en,CA
+5.13E+17,PSHSCVC2018,Northern Cagayan is currently out of electricity due to floodwaters generated by Tropical Storm Mario,NULL,NULL,0,0,0,en,CA
+5.13E+17,ickomojica,God bless Philippines! Baha din sa Batangas. #MarioPH,NULL,NULL,1,0,0,tl,CA
+5.13E+17,laticiaa,RT @MMDA: FLOOD UPDATE: AS OF 9:48 PM Araneta going to E.rod NOT PASSABLE TO ALL TYPES OF VEHICLES. #mmda,NULL,NULL,1,0,1,en,CA
+5.13E+17,rcyccfad,RT @MMDA: FLOOD UPDATE: AS OF 9:48 PM Araneta going to E.rod NOT PASSABLE TO ALL TYPES OF VEHICLES. #mmda,NULL,NULL,1,0,1,en,CA
+5.13E+17,bullygenobear,@Malabon_City wala ng baha dito victoneta Potrero Di pinapansin ng @meralco pahirap. @MMDA,14.667982,120.986972,0,0,0,tl,CA
+5.13E+17,hahaniiheheisel,RT @MMDA: FLOOD UPDATE: AS OF 9:26 PM ESPAíïA Lacson Gutter Deep - Passable. #mmda,NULL,NULL,1,0,1,en,CA
+5.13E+17,pakasod,RT @MMDA: FLOOD UPDATE: AS OF 9:48 PM Araneta going to E.rod NOT PASSABLE TO ALL TYPES OF VEHICLES. #mmda,NULL,NULL,1,0,1,en,CA
+5.13E+17,9newsph,"Flood update: As on 9:48 p.m., Araneta going to E. Rodriguez not passable to all types of vehicles. | @MMDA",NULL,NULL,0,0,0,en,CA
+5.13E+17,pakasod,RT @MMDA: FLOOD UPDATE: AS OF 9:28 PM Ma.Clara Araneta - Subided. #mmda,NULL,NULL,1,0,1,en,CA
+5.13E+17,pakasod,RT @MMDA: FLOOD UPDATE: AS OF 9:20 PM OSMEíïA Buendia - Subsided. #mmda,NULL,NULL,1,0,1,en,CA
+5.13E+17,cakpyonu,RT @MMDA: FLOOD UPDATE: AS OF 9:48 PM Araneta going to E.rod NOT PASSABLE TO ALL TYPES OF VEHICLES. #mmda,NULL,NULL,1,0,1,en,CA
+5.13E+17,jessyonthewall,RT @MandaluyongPIO: FLOOD UPDATE: Shaw-Kalentong is not passable to light vehicles.,NULL,NULL,0,0,1,en,CA
+5.13E+17,inquirerdotnet,Metro Manila now under Yellow alert; 3 provinces under severe flood warning http://t.co/T6qEJjESm5 | @MJcayabyabINQ #MarioPH,NULL,NULL,1,1,0,en,CA
+5.13E+17,jengbibal,RT @MMDA: FLOOD UPDATE: AS OF 9:48 PM Araneta going to E.rod NOT PASSABLE TO ALL TYPES OF VEHICLES. #mmda,NULL,NULL,1,0,1,en,CA
+5.13E+17,bae_mark,RT @MMDA: FLOOD UPDATE: AS OF 9:48 PM Araneta going to E.rod NOT PASSABLE TO ALL TYPES OF VEHICLES. #mmda,NULL,NULL,1,0,1,en,CA
+5.13E+17,hazelhera,äóì@MMDA: FLOOD UPDATE: AS OF 9:26 PM ESPAíïA Lacson Gutter Deep - Passable. #mmdaäóù WOOH SHET YES,NULL,NULL,1,0,0,en,CA
+5.13E+17,nkln_,"@henshoi woah lalim, goodluck hahahaha UN Taft pero nasa bulacan ako ngayon, walang baha :)",NULL,NULL,0,0,0,tl,CA
+5.13E+17,GLenstOne28,RT @MMDA: FLOOD UPDATE: AS OF 9:48 PM Araneta going to E.rod NOT PASSABLE TO ALL TYPES OF VEHICLES. #mmda,NULL,NULL,1,0,1,en,CA
+5.13E+17,08GuianneTulio,RT @inquirerdotnet: Metro Manila now under Yellow alert; 3 provinces under severe flood warning http://t.co/T6qEJjESm5 | @MJcayabyabINQ #Maäó_,NULL,NULL,1,1,1,en,CA
+5.13E+17,_jev,RT @MMDA: FLOOD UPDATE: AS OF 9:48 PM Araneta going to E.rod NOT PASSABLE TO ALL TYPES OF VEHICLES. #mmda,NULL,NULL,1,0,1,en,CA
+5.13E+17,paoloseril,"RT @9newsph: Flood update: As of 9:28 p.m., Ma. Clara Araneta - subided. | @MMDA",NULL,NULL,0,0,1,en,CA
+5.13E+17,jerzmac,#MarioPH FLOOD UPDATE: AS OF 9:20 PM OSMEíïA Buendia - Subsided.  | via @MMDA,NULL,NULL,1,0,0,en,CA
+5.13E+17,MapuaRedCross,#MarioPH FLOOD UPDATE: AS OF 9:20 PM OSMEíïA Buendia - Subsided.  | via @MMDA,NULL,NULL,1,0,0,en,CA
+5.13E+17,redcrossmakati,#MarioPH FLOOD UPDATE: AS OF 9:20 PM OSMEíïA Buendia - Subsided.  | via @MMDA,NULL,NULL,1,0,0,en,CA
+5.13E+17,applemagnaye18,RT @MMDA: FLOOD UPDATE: AS OF 9:48 PM Araneta going to E.rod NOT PASSABLE TO ALL TYPES OF VEHICLES. #mmda,NULL,NULL,1,0,1,en,CA
+5.13E+17,stateofdnation,Halos wala nang madaanan kanina ang mga sasakyang patungong Maynila dahil sa matinding baha. LIVE si @raffytima.,NULL,NULL,0,0,0,tl,CA
+5.13E+17,paoloseril,RT @MMDA: FLOOD UPDATE: AS OF 9:48 PM Araneta going to E.rod NOT PASSABLE TO ALL TYPES OF VEHICLES. #mmda,NULL,NULL,1,0,1,en,CA
+5.13E+17,PTVph,NewsLife -? #Marikina placed under state of calamity [10] #MarioPH #FloodPH http://t.co/eqNoXgTSku,NULL,NULL,1,1,0,en,CA
+5.13E+17,Rocks_mabey,RT @rapplerdotcom: #FloodPH Quezon City. Follow our #MarioPH LIVE BLOG: http://t.co/eEphgS4eu5 http://t.co/KlHmEK6M4U,NULL,NULL,1,1,1,en,CA
+5.13E+17,Jeolo1697,RT @rapplerdotcom: #FloodPH Quezon City. Follow our #MarioPH LIVE BLOG: http://t.co/eEphgS4eu5 http://t.co/KlHmEK6M4U,NULL,NULL,1,1,1,en,CA
+5.13E+17,AllNews_PH,[Bombo Radyo] Mga bayan sa Pangasinan apektado sa baha dahil sa matinding buhos ng ulan http://t.co/ynx44yve8h,NULL,NULL,0,1,0,tl,CA
+5.13E+17,08GuianneTulio,RT @PTVph: NewsLife -? #Marikina placed under state of calamity [10] #MarioPH #FloodPH http://t.co/eqNoXgTSku,NULL,NULL,1,1,1,en,CA
+5.13E+17,EreecNg,RT @DZMMTeleRadyo: Abot-tuhod pa rin ang baha sa Espaí±a cor. N.Reyes (Morayta) #MarioPH http://t.co/VZEAMuB01s @zhandercayabyab,NULL,NULL,1,0,1,tl,CA
+5.13E+17,jhenchanpot,"Thank you LORD! Pahupa na po ang baha dito sa Cainta, Rizal : ) #MarioPH",14.573363,121.123293,1,0,0,tl,CA
+5.13E+17,TOMCATust,"RT @thecarlomagtaas: @TOMCATust Okay na sa may San Juan City, Mariano Marcos area. Wala na ang baha at mahina nalamang ang ulan. #Tomasinewäó_",NULL,NULL,1,0,1,tl,CA
+5.13E+17,AnnLlorca,RT @stateofdnation: Umabot hanggang leeg ang baha sa looban ng St. Joseph Subd. sa Ortigas Extension kaya na-trap ang maraming mga residentäó_,NULL,NULL,0,0,1,tl,CA
+5.13E+17,BalitaNgayon,Mga bayan sa Pangasinan apektado sa baha dahil sa matinding buhos ng ulan http://t.co/gyloHrMnuU via BOMBO RADYO,NULL,NULL,0,1,0,tl,CA
+5.13E+17,BuzzNgayon,Mga bayan sa Pangasinan apektado sa baha dahil sa matinding buhos ng ulan | Read: http://t.co/RqeF1xD6Xi via BOMBO RADYOŒ©,NULL,NULL,0,1,0,tl,CA
+5.13E+17,ADenreign,RT @rapplerdotcom: #FloodPH Quezon City. Follow our #MarioPH LIVE BLOG: http://t.co/eEphgS4eu5 http://t.co/KlHmEK6M4U,NULL,NULL,1,1,1,en,CA
+5.13E+17,iammaibarroga,RT @DZMMTeleRadyo: Abot-tuhod pa rin ang baha sa Espaí±a cor. N.Reyes (Morayta) #MarioPH http://t.co/VZEAMuB01s @zhandercayabyab,NULL,NULL,1,0,1,tl,CA
+5.13E+17,claechile03,RT @stateofdnation: Umabot hanggang leeg ang baha sa looban ng St. Joseph Subd. sa Ortigas Extension kaya na-trap ang maraming mga residentäó_,NULL,NULL,0,0,1,tl,CA
+5.13E+17,simplyrholly04,"@IMReadyPH @gmanetwork @MMDA @glenjuego @dzbb Dito sa Novaliches QC, wala pa ding patid ang pabugsu-bugsong ulan at sinasamahan pa ng hangin",NULL,NULL,0,0,0,tl,CA
+5.13E+17,CitizenPatrol,"Tumana,labanos sa marikina,lagpas na sa 2nd flr ang baha. #MarioPH #RescuePH",NULL,NULL,1,0,0,tl,CA
+5.13E+17,iamairsupremo,äóì@DZMMTeleRadyo: Abot-tuhod pa rin ang baha sa Espaí±a cor. N.Reyes (Morayta) #MarioPH http://t.co/afeBHULmjE @zhandercayabyabäóù - VIVA ESPAíïA,NULL,NULL,1,0,0,tl,CA
+5.13E+17,stateofdnation,Lampas-taong baha ang pumerwisyo sa mga residente ng Bulacan matapos umapaw ang Marilao at Bocaue River. LIVE si John Consulta.,NULL,NULL,0,0,0,tl,CA
+5.13E+17,paulcoles24,"RT @dzbb: Malakas na pag-ulan sa MM, huhupa na ngayong gabi; Pero ang Zambales, Tarlac at Nueva Ecija, patuloy na babayuhin ng ulan.#SuperBäó_",NULL,NULL,1,0,1,tl,CA
+5.13E+17,moncorpuz,RT @RescuePH: Be a #RescuePH volunteer and help save our kababayans! (Pls. RT and share) http://t.co/TS0lmy0vil,NULL,NULL,1,0,1,en,CA
+5.13E+17,karess,RT @TweetupMNL: Be a #RescuePH volunteer and help save our kababayans! (Pls. RT and share) http://t.co/hK162DKsYg,NULL,NULL,1,0,1,en,CA
+5.13E+17,moncorpuz,RT @TweetupMNL: Be a #RescuePH volunteer and help save our kababayans! (Pls. RT and share) http://t.co/hK162DKsYg,NULL,NULL,1,0,1,en,CA
+5.13E+17,twitter_ph,RT @tonyocruz: Be a #RescuePH volunteer and help save our kababayans! (Pls. RT and share) http://t.co/a0Iukea3Qh,NULL,NULL,1,0,1,en,CA
+5.13E+17,kimashertotzz,@Rizzah22 @SGforlyf @gingging14 @rosary_joy @ces_rose24 @ilabsarahgee ahh dito baha baha po. Ingat po ate.,14.617252,121.048322,0,0,0,tl,CA
+5.13E+17,khxlyeah,@mymanestream di ba baha jan sainyo? ingat ka btw hhehehe,NULL,NULL,0,0,0,in,CA
+5.13E+17,Micheeyy21,Andaming baha and ang lakas ng ulan. Better stay at home. Stay safe every one :),NULL,NULL,0,0,0,tl,CA
+5.13E+17,aauuuuw,grabi na yung baha sa ibang lugar.. buti samin di binabaha.. thank God. keepsafe! specially to those affected by the typhoon Mario,NULL,NULL,0,0,0,tl,CA
+5.13E+17,jayjayvee17,Baby Stay safe po kayo dyan senyo alam kong mataas ang baha dyan senyo ingat po kyo :(( Iloveyou!!! :**,14.567523,121.119048,0,0,0,tl,CA
+5.13E+17,nowimfree07,@gvrlyc @vncmagtubo mga pare baha daw sa valenzuela? Ingat kayo dyan. Godbless,NULL,NULL,0,0,0,tl,CA
+5.13E+17,ItsmeRivera,@MarjorieSavanah mag ingat kayo.. Ayaw tumigil ng ulan. Bahang baha naba dian?,NULL,NULL,0,0,0,tl,CA
+5.13E+17,necotiny,@MARGEmallows_ ako‚ùóÔ∏è‚ùóÔ∏è‚ùóÔ∏è‚ùóÔ∏è Wag ka muna umuwi super baha Di ka makakauwi,NULL,NULL,0,0,0,tl,CA
+5.13E+17,AngerikBabies41,"""@GerryMoralesJr: AGAIN! Be a #RescuePH volunteer and help save our kababayans! (Pls. RT and share) http://t.co/c0R1Nh74kY""",NULL,NULL,1,0,0,en,CA
+5.13E+17,HaruLi01,Baha alert! http://t.co/Xr4w5HqHxq,NULL,NULL,0,1,0,tr,CA
+5.13E+17,AwesomeDoyle,@ProVINCEsia idul stay safe idul ahhh! baha na daw sa Quirino Ave.,NULL,NULL,0,0,0,tl,CA
+5.13E+17,vncmagtubo,RT @nowimfree07: @gvrlyc @vncmagtubo mga pare baha daw sa valenzuela? Ingat kayo dyan. Godbless,NULL,NULL,0,0,1,tl,CA
+5.13E+17,darleeeeene,@Maikehhh @kristiiiineeeee Oo nga tin. Dala kang life vest at salbabida baka malunod ka. Iilag mo yung sa may mga sharp end points sa baha.,NULL,NULL,0,0,0,tl,CA
+5.13E+17,tmcert,"RT @News5AKSYON: #AKSYON: Mga sasakyan sa Marcos Highway, 'di na pinadaan dahil sa baha",NULL,NULL,1,0,1,tl,CA
+5.13E+17,angelagutzz,‚Äú@clingyboypren: Lagpas tao na yung baha sa ibang lugar sa marikina. Grabe.. #MarioPH http://t.co/UriYPX75IA‚Äù Grabe. Stay safe guys.,NULL,NULL,1,0,0,tl,CA
+5.13E+17,JonnahO10,RT @gmanews: QUEZON CITY ‚Äî Patuloy ang rescue ops sa Brgy. Bagong Silangan. Lampas tao ang baha sa ilang lugar. | via @BamAlegre http://t.c‚Ä¶,NULL,NULL,0,0,1,tl,CA
+5.13E+17,HarryPattyy,"RT @News5AKSYON: #AKSYON: Mga sasakyan sa Marcos Highway, 'di na pinadaan dahil sa baha",NULL,NULL,1,0,1,tl,CA
+5.13E+17,restyvil,RT @JarrenRepedro: For those who are now preparing for evac or rescue. Be sure to bring the ff. via @RESCUE5PH #MarioPH #RescuePH http://t.‚Ä¶,NULL,NULL,1,0,1,en,CA
+5.13E+17,iamsai20,"RT @24OrasGMA: Mga Kapuso, ingat po sa gitna ng kambal na hagupit ni #MarioPH at Habagat. Ano'ng lagay ng panahon at baha pa ba sa inyong l‚Ä¶",NULL,NULL,1,0,1,tl,CA
+5.13E+17,JLKardashian,RT @DivinemLee: Please use proper hashtags so we can facilitate rescue requests. #rescueph for immediate rescues or go to our site http://t‚Ä¶,NULL,NULL,1,1,1,en,CA
+5.13E+17,magyeeess,RT @5SOSBuyoutPHL: If you guys are around places that are flooded. Tweet #RescuePH for help. Be safe everyone.,NULL,NULL,1,0,1,en,CA
+5.13E+17,_tracy_09,RT @ogiediaz: Nag-txt si Mahal. Hanggang leeg na raw niya ang baha sa kanilang lugar.,NULL,NULL,0,0,1,tl,CA
+5.13E+17,maaashtoncake,Grabe baha sa cainta :<,NULL,NULL,0,0,0,pt,CA
+5.13E+17,JanelMnl,RT @ChamChon: Baha na sa midtown :/,NULL,NULL,0,0,1,tl,CA
+5.13E+17,sanji20142,@inquirerdotnet @meralco @AHeginaINQ kabutihan ng diyos saamin po tamang ulan langa po at wala pong baha  sa barangay langkiwa binan laguna,NULL,NULL,0,0,0,tl,CA
+5.13E+17,AApatas,RT @TMLycaOfficial: Ingat po sa baha #LycaInvadesDavao,NULL,NULL,1,0,1,tl,CA
+5.13E+17,krizzaxxvi,"‚Äú@DZMMTeleRadyo: Pasay-Taft patungong Maynila, hindi na halos madaanan dahil sa taas ng baha | ulat ni RP36 Glen Carlos #MarioPH‚Äù Hi PNU </3",NULL,NULL,1,0,0,tl,CA
+5.13E+17,RoNiloDagos,"RT @DZMMTeleRadyo: Lagpas tuhod na baha, nararanasan sa ilang barangay sa San Pedro at Sta. Rosa, Laguna | ulat ni @RoNiloDagos #radyopatro‚Ä¶",NULL,NULL,1,0,1,tl,CA
+5.13E+17,AAtonay,"RT @luzabelarde06: Cancelled flight for Davao. This is the front area of our house. Darren, anak sorry. Baha sa loob ng Bahay. http://t.co/‚Ä¶",NULL,NULL,0,0,1,en,CA
+5.13E+17,francorreyes,"Bahagi ng magkabilang linya ng SLEX, nagmistulang lawa dahil sa baha. Bahagyang pagsisikip sa daloy ng‚Ä¶ http://t.co/WsUnS3Eils",NULL,NULL,0,1,0,tl,CA
+5.13E+17,chinopeiyumi,"Baha Outside :(( (@ C4 Roxas Borja Building in Manila, Metro Manila) https://t.co/js33U4IVfR",14.606208,120.989775,0,1,0,tl,CA
+5.13E+17,paintlikewater,@ohstrawberry_ bahang baha na sa marcos highway. :(( wag lang magbbrown out sana!,NULL,NULL,0,0,0,tl,CA
+5.13E+17,peachygf,"RT @Balitanghali11: VIDEO: Baha, umabot sa ikalawang palapag ng ilang bahay sa Roxas District, QC | Ulat ni @Tricia_Zafra http://t.co/dzSJH‚Ä¶",NULL,NULL,0,1,1,tl,CA
+5.13E+17,TheQueeNavy,Baha na sa karangalan.,NULL,NULL,0,0,0,tl,CA
+5.13E+17,yessiryessiryes,"RT @meralco: Paalala: Bago pasukin ng baha ang inyong tahanan, siguruhing nakapatay ang ciruit breaker upang makaiwas sa aksidente. #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,AngelouRabuya,RT @VargasMannysen: Malakas ang agos ng baha sa loob ng Dela Costa subd sa bgy Burgos Rodriguez Rizal @dzbb https://t.co/IC3ClSOThC,NULL,NULL,0,1,1,tl,CA
+5.13E+17,EsquiviasMaxene,Grabi baha sa cainta,NULL,NULL,0,0,0,tl,CA
+5.13E+17,_auieballss,@itugotDMD @lexzxc pero forced evacuation na sa bacoor. Baha na sa palico and bayanan.,NULL,NULL,0,0,0,tl,CA
+5.13E+17,xMMxi_,Ang hirap umuwi .. Sumuuong na kami ng baha sa Espana ..nakakaiyak na experience tong araw na to ..,NULL,NULL,0,0,0,tl,CA
+5.13E+17,ppmrts,Baha pa rin dito sa sta mesa huhu,NULL,NULL,0,0,0,tl,CA
+5.13E+17,rannahraymundo,Ahang baha pa rin.,14.545597,121.059149,0,0,0,tl,CA
+5.13E+17,iamRizzaaa19,@sam_concepcion baha na samin dito sa paranaque sainyo ba?:(,NULL,NULL,0,0,0,tl,CA
+5.13E+17,Loiseclores101,@Paaamchiu @Nelboy7 @buboyoggg Grabe na daw yung baha sa Cainta Ingaaaat Kayoooo dyan!,NULL,NULL,0,0,0,tl,CA
+5.13E+17,nikkiclacio,"RT @DZMMTeleRadyo: PHOTO: Lagpas gutter ang baha sa Liwasang Bonifacio (Padre Burgos, Mla) #MarioPH http://t.co/DJWyJ6ucMR | via @zhanderca‚Ä¶",NULL,NULL,1,0,1,tl,CA
+5.13E+17,OyingPineda,"RT @DZMMTeleRadyo: Pasay-Taft patungong Maynila, hindi na halos madaanan dahil sa taas ng baha | ulat ni RP36 Glen Carlos #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,kenttancio,Baha na rin po dito sa amin sa Para√±aque. @YouScoop #MarioPH http://t.co/HeQZdC8SUE,NULL,NULL,1,0,0,tl,CA
+5.13E+17,AlzatRoi,Kanina baha sa labas!! Ngaun humupa na pero merong hangin! :) http://t.co/LIWVAgTTa1,NULL,NULL,0,0,0,tl,CA
+5.13E+17,SP01_CJ,"@Sirrecklessy haha ok naman, baha narin dto sa cavite ehh. musta dyan bro?",NULL,NULL,0,0,0,tl,CA
+5.13E+17,vnicavalencia,"RT @DZMMTeleRadyo: Pasay-Taft patungong Maynila, hindi na halos madaanan dahil sa taas ng baha | ulat ni RP36 Glen Carlos #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,Duuhnicuuh,Grabe baha sa Rizal.,NULL,NULL,0,0,0,tl,CA
+5.13E+17,Jamessshhh,Grabe yung baha sa Maynila.... Lagpas ulo na... Lagpas ulo ni Sam Chan hahaha @ifyuseekay,NULL,NULL,0,0,0,tl,CA
+5.13E+17,JoannaSicat,@elishakimchee Baha daw hanggang bubong sa pasig eh. Di naman nagtetext si jhe kaasar,NULL,NULL,0,0,0,tl,CA
+5.13E+17,allysadeguia,"RT @DZMMTeleRadyo: Pasay-Taft patungong Maynila, hindi na halos madaanan dahil sa taas ng baha | ulat ni RP36 Glen Carlos #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,salesmaui,"RT @DZMMTeleRadyo: Pasay-Taft patungong Maynila, hindi na halos madaanan dahil sa taas ng baha | ulat ni RP36 Glen Carlos #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,OfficialLRTA,@HeyAlvinFhorest LRT is still operating at this time. Walang baha po sa Central,NULL,NULL,0,0,0,tl,CA
+5.13E+17,dianneduallo,Grabe Baha na sa cartimar tapos sinarado na daan papuntang metropoint,NULL,NULL,0,0,0,tl,CA
+5.13E+17,jandisputed,Baha sa minamahal kong Marikina. ingat friends :),NULL,NULL,0,0,0,tl,CA
+5.13E+17,nylriehss,"RT @DZMMTeleRadyo: Palibot ng SM Manila at Manila City Hall, may gutter deep na baha #MarioPH http://t.co/G4CK8xEsuW... http://t.co/LwM3cni‚Ä¶",NULL,NULL,1,1,1,tl,CA
+5.13E+17,kobe8_mike29,"Zhander Cayabyab on Twitter: ""PHOTO: Abot-dibdib na baha sa Araneta cor. E.Rod QC (padala ni... http://t.co/QNshINlg4Q",NULL,NULL,0,1,0,tl,CA
+5.13E+17,EspiriTruth,RT @FEUtamz: Baha sa Espa√±a Blvd. #MarioPH http://t.co/pqvqtex2K2,NULL,NULL,1,0,1,es,CA
+5.13E+17,judei06,"RT @DZMMTeleRadyo: Pasay-Taft patungong Maynila, hindi na halos madaanan dahil sa taas ng baha | ulat ni RP36 Glen Carlos #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,Angeebellissima,"@MMDA Anong po ibang way to EDSA from Buendia? Malalim kasi baha sa Buendia Washington, may alternative route pa po ba?",NULL,NULL,0,0,0,tl,CA
+5.13E+17,nimfaravelo,"Baha sa Pasong Tamo - Pasay Road, bumababa sa ngayon @dzbb http://t.co/Z11EEmjjBU",NULL,NULL,0,0,0,tl,CA
+5.13E+17,itsmeace29,"RT @nimfaravelo: Baha sa may Wowee Market sa Protacio, (near Edsa) Taft Ave.  hanggang sa Libertad Market sa Pasay City @dzbb http://t.co/r‚Ä¶",NULL,NULL,0,0,1,tl,CA
+5.13E+17,dzbb,"RT @nimfaravelo: Baha sa Pasong Tamo - Pasay Road, bumababa sa ngayon @dzbb http://t.co/Z11EEmjjBU",NULL,NULL,0,0,1,tl,CA
+5.13E+17,elma_53,RT @gmanews: MANILA ‚Äî Nananatiling baha sa kahabaan ng Espa√±a | via @oscaroida http://t.co/8SGSarlOpf,NULL,NULL,0,0,1,tl,CA
+5.13E+17,AllNews_PH,"[Video - GMA News] Ilang bahagi ng Marikina, lubog sa baha http://t.co/yLAeqkvxYp",NULL,NULL,0,1,0,tl,CA
+5.13E+17,ecbeltran,"RT @DZMMTeleRadyo: Pasay-Taft patungong Maynila, hindi na halos madaanan dahil sa taas ng baha | ulat ni RP36 Glen Carlos #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,gabdarez,RT @YouScoop: Hanggang dibdib ang baha sa Limay St. sa Tondo. Marc Laurente. Kuha ni @MarcMyTweet #MarioPH http://t.co/qnVwJAQ1ah,NULL,NULL,1,0,1,tl,CA
+5.13E+17,jefboi87,RT @YouScoop: Hanggang dibdib ang baha sa Limay St. sa Tondo. Marc Laurente. Kuha ni @MarcMyTweet #MarioPH http://t.co/qnVwJAQ1ah,NULL,NULL,1,0,1,tl,CA
+5.13E+17,SHANETADA,"Medyo baha na sa labas -.- @ Lupang Pari San Miguel, Pasig City http://t.co/AOvFiduUq0",14.56709,121.088964,0,1,0,tl,CA
+5.13E+17,gabdarez,"RT @YouScoop: Lagpas-tao na ang baha dito sa Libis Sto. Nino, Marikina City. #MarioPH | via YouScooper @ajibayron http://t.co/PWJBjD1QC4",NULL,NULL,1,0,1,tl,CA
+5.13E+17,MonsterLover31,Baha sa manila,NULL,NULL,0,0,0,tl,CA
+5.13E+17,Cindeeboy,Kawawa naman tlga ang cainta nalulubog na sa baha. Tskk,NULL,NULL,0,0,0,tl,CA
+5.13E+17,CitizenPatrol,Hindi lng sa QC at manila ang baha maging sa Bacoor Cavite ay baha na din. #MarioPH #FloodPH,NULL,NULL,1,0,0,tl,CA
+5.13E+17,CitizenPatrol,"Mga residente sa Brgy Tumana, abot pa din sa second floor ang baha at marami pa ang na-trap sa bubongan ng kanilang bahay.#MarioPH #RescuePH",NULL,NULL,1,0,0,tl,CA
+5.13E+17,johnyyybabes,"RT @DZMMTeleRadyo: Pasay-Taft patungong Maynila, hindi na halos madaanan dahil sa taas ng baha | ulat ni RP36 Glen Carlos #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,CitizenPatrol,"Mahigit 3,000 pamilya, apektado ng baha sa Candaba, Pampanga. #MarioPH  #FloodPH",NULL,NULL,1,0,0,tl,CA
+5.13E+17,MariaRoann,"RT @yelpalisoc: @TheMayorLIM Sir pahelp po magRT #ReliefPH sa Leodegracio Victorino Elem. School po may mga evacuees po, wala daw pong kury‚Ä¶",NULL,NULL,1,0,1,tl,CA
+5.13E+17,coachyella,"RT @yelpalisoc: @TheMayorLIM Sir pahelp po magRT #ReliefPH sa Leodegracio Victorino Elem. School po may mga evacuees po, wala daw pong kury‚Ä¶",NULL,NULL,1,0,1,tl,CA
+5.13E+17,TheMayorLIM,"RT @yelpalisoc: @TheMayorLIM Sir pahelp po magRT #ReliefPH sa Leodegracio Victorino Elem. School po may mga evacuees po, wala daw pong kury‚Ä¶",NULL,NULL,1,0,1,tl,CA
+5.13E+17,CitizenPatrol,"Sa San mateo,Rizal,Ilang residente, nag-akyatan sa bubong ng kanilang bahay dahil sa pag-apaw ng ilog. #RescuePH #MarioPH",NULL,NULL,1,0,0,tl,CA
+5.13E+17,CitizenPatrol,"Sa E. Rodriguez, Araneta,mga bahay at ospital, nalubog sa baha.  #MarioPH #FloodPH",NULL,NULL,1,0,0,tl,CA
+5.13E+17,CitizenPatrol,"Sa vmac sports complex naman sa New lower,taguig ay may 16 pamilya at 55 indibidwal ang nasa evacuation center. #MarioPH #ReliefPH",NULL,NULL,1,0,0,tl,CA
+5.13E+17,CitizenPatrol,"Sa bgy. New Lower,Rp Cruz Elem ay tinatayang may 78 na pamilya at 336 indibidwal ang naapektuhan ng bagyong mario. #MarioPH #ReliefPH",NULL,NULL,1,0,0,tl,CA
+5.13E+17,CitizenPatrol,"Ilang kalsada sa lungsod ng marikina, hindi pa rin madaanan. #MarioPH #FloodPH",NULL,NULL,1,0,0,tl,CA
+5.13E+17,nyzelle_paz,"RT @kyutkhulet06: ""@itsandreaernii: Paki-rescue si @marlo_mortel nasa Cainta siya, stranded for 9hrs. #RescuePH""",NULL,NULL,1,0,1,tl,CA
+5.13E+17,CitizenPatrol,"Ilang lugar naman sa Lungsod ng Makati, lubog pa rin sa baha. #MarioPH #FloodPH",NULL,NULL,1,0,0,tl,CA
+5.13E+17,CitizenPatrol,"Baha sa Roxas District, QC, umabot sa second floor ang baha.  #MarioPH #RescuePH",NULL,NULL,1,0,0,tl,CA
+5.13E+17,CitizenPatrol,"Sa Cayetano High school,bgy. Ususan sa taguig ay umabot na sa 54 na pamilya ang nailikas at nasa 390 naman ang indibidwal.#MarioPH #ReliefPH",NULL,NULL,1,0,0,tl,CA
+5.13E+17,CitizenPatrol,ilang residente sa marikina inilikas na sa Malanday Elem. School. #MarioPH #ReliefPH,NULL,NULL,1,0,0,tl,CA
+5.13E+17,CitizenPatrol,ilang residente sa marikina inilikas na sa din sa pilipinas at sampaguita village . #MarioPH #ReliefPH,NULL,NULL,1,0,0,tl,CA
+5.13E+17,CitizenPatrol,"Ginawa na ding Evacuation center ang Aglipay,IFI Church at Bulelak cover court. #MarioPH #ReliefPH",NULL,NULL,1,0,0,tl,CA
+5.13E+17,CitizenPatrol,"Sa bahagi naman ng malanday,Marikina h.school at Bautista Elem. school ay ginawa ng Evacuation Center. #MarioPH #ReliefPH",NULL,NULL,1,0,0,tl,CA
+5.13E+17,sanjuncssr,RT @CitizenPatrol: ilang residente sa marikina inilikas na sa Malanday Elem. School. #MarioPH #ReliefPH,NULL,NULL,1,0,1,tl,CA
+5.13E+17,sanjuncssr,RT @CitizenPatrol: ilang residente sa marikina inilikas na sa din sa pilipinas at sampaguita village . #MarioPH #ReliefPH,NULL,NULL,1,0,1,tl,CA
+5.13E+17,sanjuncssr,"RT @CitizenPatrol: Ginawa na ding Evacuation center ang Aglipay,IFI Church at Bulelak cover court. #MarioPH #ReliefPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,sanjuncssr,"RT @CitizenPatrol: Sa bahagi naman ng malanday,Marikina h.school at Bautista Elem. school ay ginawa ng Evacuation Center. #MarioPH #ReliefPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,CitizenPatrol,"Tumana,labanos sa marikina,lagpas na sa 2nd flr ang baha. #MarioPH #RescuePH",NULL,NULL,1,0,0,tl,CA
+5.13E+17,CitizenPatrol,"Lot 17 Block 8 Villa Olympia town homes, bogy sot domingo cainta rizal,Lagpas tao na baha. #MarioPH #RescuePH",NULL,NULL,1,0,0,tl,CA
+5.13E+17,CitizenPatrol,"Lot 17 Block 8 Villa Olympia town homes, bogy sot domingo cainta rizal,Lagpas tao na ang baha. #MarioPH #RescuePH",NULL,NULL,1,0,0,tl,CA
+5.13E+17,carol_bayhon15,RT @infinity_jadine: OFF TOPIC GUYS #RescueMarloMortel 9hrs na syang Stranded sa loob ng car nya magisa sa cainta . #RescuePH #RescuePH #Re‚Ä¶,NULL,NULL,1,0,1,tl,CA
+5.13E+17,katolikongpinoy,"RT @CamilleRaeV: @DivinemLee #RescuePH  Aquilino Silva 09267777459  blk. 66 Roga Compound, Tumana, Marikina from @gmcardenas23",NULL,NULL,1,0,0,tl,CA
+5.13E+17,CamilleRaeV,"@DivinemLee #RescuePH  Aquilino Silva 09267777459  blk. 66 Roga Compound, Tumana, Marikina from @gmcardenas23",NULL,NULL,1,0,0,tl,CA
+5.13E+17,cincodeziall,"RT @eulajemilgo: @DivinemLee Aquilino Silva, blk. 66 Roga Compound, Tumana, Marikina. 09267777459. #RescuePH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,katolikongpinoy,"RT @eulajemilgo: @DivinemLee Aquilino Silva, blk. 66 Roga Compound, Tumana, Marikina. 09267777459. #RescuePH",NULL,NULL,1,0,0,tl,CA
+5.13E+17,eulajemilgo,"@DivinemLee Aquilino Silva, blk. 66 Roga Compound, Tumana, Marikina. 09267777459. #RescuePH",NULL,NULL,1,0,0,tl,CA
+5.13E+17,iamneia,"RT @PTVph: #FloodPH #MarioPH PAGASA declares ORANGE warning for Metro Manila, Cavite, Bulacan, Rizal, and Pampanga. http://t.co/hfAUboOnAr",NULL,NULL,1,1,1,tl,CA
+5.13E+17,AllNews_PH,"[PTVph] #FloodPH #MarioPH PAGASA declares ORANGE warning for Metro Manila, Cavite, Bulac... http://t.co/oQZFhiz5kT",NULL,NULL,1,1,0,tl,CA
+5.13E+17,jmreyes816,"RT @PTVph: #FloodPH #MarioPH PAGASA declares ORANGE warning for Metro Manila, Cavite, Bulacan, Rizal, and Pampanga. http://t.co/hfAUboOnAr",NULL,NULL,1,1,1,tl,CA
+5.13E+17,PTVph,"#FloodPH #MarioPH PAGASA declares ORANGE warning for Metro Manila, Cavite, Bulacan, Rizal, and Pampanga. http://t.co/hfAUboOnAr",NULL,NULL,1,1,0,tl,CA
+5.13E+17,fauangeline,"Der r families who needs rescue in Rd 4 Dona Petra Del Rosario,Tumana, Marikina City. Nsa 2ndflr po sila. 09159588046 Allan Arpon #RescuePH",NULL,NULL,1,0,0,tl,CA
+5.13E+17,justcallmelloyd,"RT @yelpalisoc: @philredcross #ReliefPH Good PM po, sa Leodegracio Victorino Elementary School po may mga evacuees po wala daw pong kuryent‚Ä¶",NULL,NULL,1,0,1,tl,CA
+5.13E+17,ja_guazon,@TVPatrol  Grabe po Baha hangang bewang and still rising here at Silver Homes Multinational Paranaque.#floodph http://t.co/c9LJDovrdD,NULL,NULL,1,0,0,tl,CA
+5.13E+17,martinbarretto1,#24Oras Hanggang dibdib na po yung baha dito sa amin sa Para√±aque brgy: San isidro #floodPH @24OrasGMA,NULL,NULL,1,0,0,tl,CA
+5.13E+17,martinbarretto1,#24Oras Hanggang dibdib na po yung baha dito sa amin sa Para√±aque brgy: San isidro #floodPH,NULL,NULL,1,0,0,tl,CA
+5.13E+17,martinbarretto1,#floodPH @gmanews Hanggang dibdib na po yung baha dito sa amin sa Para√±aque brgy: San isidro,NULL,NULL,1,0,0,tl,CA
+5.13E+17,_jhEberLiciOus_,"An update sa Mayflower Greenland Cainta, slowly humuhupa ng ung baha.. hopefully tuloy tuloy na xa.. #FloodPH",NULL,NULL,1,0,0,tl,CA
+5.13E+17,mang_tikyo,#FloodPH 5:36PM brgy 180 bayanihan st. Pasay city. water level-4ft. Hirap na bumili ng food ang mga residents -- mercene family,NULL,NULL,1,0,0,tl,CA
+5.13E+17,maaashtoncake,"RT @News5E: Mga taga-Rosario 6 Subdivision sa Pasig City, hanggang baywang na ang baha @PasigInfo @RESCUE5PH @News5AKSYON #RescuePH @MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,Antriz20_,"@gmanews #floodPH VillageEastCainta,Rizal mdyo mababanapo ung baha sa street nmin than ung knina http://t.co/MeybpGN9rS",NULL,NULL,1,1,0,tl,CA
+5.13E+17,ReliefPHcom,"RT @yelpalisoc: @TheMayorLIM Sir pahelp po magRT #ReliefPH sa Leodegracio Victorino Elem. School po may mga evacuees po, wala daw pong kury‚Ä¶",NULL,NULL,1,0,1,tl,CA
+5.13E+17,CitizenPatrol,Mga residente sa bgy maly San Mateo nasa maly elem school na. #MateoPH #FloodPH,NULL,NULL,1,0,0,tl,CA
+5.13E+17,kuuhtrina,People are trapped in their roofs at BRGY TATALON Quezon City. Wla prn ngrrescue skanila until now. #RescuePH,NULL,NULL,1,0,0,tl,CA
+5.13E+17,monacesandalo,"""@rapplerdotcom: #FloodPH Quezon City. Follow our #MarioPH LIVE BLOG: http://t.co/QEwWGhEFDO http://t.co/OuBWYXWFRU"" Naykupo",NULL,NULL,1,1,0,tl,CA
+5.13E+17,atomdatcom,"Overheard: ""Pinaglalaruan natin si Mario dati, ngayon pinaglalaruan na nya tayo."" - Phil #MarioPH #FloodPH",NULL,NULL,1,0,0,tl,CA
+5.13E+17,CitizenPatrol,ilang residente sa marikina inilikas na sa concepcion integrated school. #MarioPH #ReliefPH,NULL,NULL,1,0,0,tl,CA
+5.13E+17,iam_carltejada," Hanggang dibdib na ang baha dito sa KARANGALAN VILLAGE, BRGY. DELA PAZ, PASIG CITY#MarioPH #FloodPH http://t.co/ypIWgzrYBA",NULL,NULL,1,0,0,tl,CA
+5.13E+17,iam_carltejada,"@gmanews Hanggang dibdib na ang baha dito sa KARANGALAN VILLAGE, BRGY. DELA PAZ, PASIG CITY#MarioPH #FloodPH http://t.co/psokTv0QeQ",NULL,NULL,1,0,0,tl,CA
+5.13E+17,CitizenPatrol,Hindi lng sa QC at manila ang baha maging sa Bacoor Cavite ay baha na din. #MarioPH #FloodPH,NULL,NULL,1,0,0,tl,CA
+5.13E+17,CitizenPatrol,Mataas pa rin ang tubig sa Marikina Riverbanks. #MarioPH #FloodPH,NULL,NULL,1,0,0,tl,CA
+5.13E+17,maybahaba,"RT @iam_carltejada: Hanggang dibdib na ang baha dito sa KARANGALAN VILLAGE, BRGY. DELA PAZ, PASIG CITY#MarioPH #FloodPH http://t.co/Fh9WE‚Ä¶",NULL,NULL,1,0,1,tl,CA
+5.13E+17,iam_carltejada,"Hanggang dibdib na ang baha dito sa KARANGALAN VILLAGE, BRGY. DELA PAZ, PASIG CITY#MarioPH #FloodPH http://t.co/Fh9WEVSinQ",NULL,NULL,1,0,0,tl,CA
+5.13E+17,CitizenPatrol,"Mga residente sa Brgy Tumana, abot pa din sa second floor ang baha at marami pa ang na-trap sa bubongan ng kanilang bahay.#MarioPH #RescuePH",NULL,NULL,1,0,0,tl,CA
+5.13E+17,IvanGeroDomingo,"Paki rescue po Luloy CerbitoMacopa St, Banawe QC. Yung may maliit na basketball court dun. #RescuePH",NULL,NULL,1,0,0,tl,CA
+5.13E+17,CitizenPatrol,Isang Ginang natrapped sa bubong sa Blk.44 mais street bgy.tumana.  #MarioPH #RescuePH,NULL,NULL,1,0,0,tl,CA
+5.13E+17,princesssowleyy,Baha sa lower Antipolo.,NULL,NULL,0,0,0,tl,CA
+5.13E+17,johnyyybabes,"RT @DZMMTeleRadyo: Pasay-Taft patungong Maynila, hindi na halos madaanan dahil sa taas ng baha | ulat ni RP36 Glen Carlos #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,AngelouRabuya,"RT @ABSCBNNews: Lagpas gutter ang baha sa Liwasang Bonifacio (Padre Burgos, Mla) #MarioPH http://t.co/SejkhCvA7p |via @zhandercayabyab",NULL,NULL,1,0,1,tl,CA
+5.13E+17,princesssowleyy,"Baha na sa Marcos Hi-Way. Ingat,",NULL,NULL,0,0,0,tl,CA
+5.13E+17,kimhaetyung,mga malapit na sa binti ko yung baha sa araneta.... eh maliit ako,NULL,NULL,0,0,0,tl,CA
+5.13E+17,elitadionisiox,Grabe yung baha sa Marcos Highway,NULL,NULL,0,0,0,tl,CA
+5.13E+17,jencpascua,@AlyyBlaire Baha na girl ang Marcos highway.,14.647538,121.07693,0,0,0,tl,CA
+5.13E+17,iamdheane,Guraabe yung baha sa marikina. #MarioPH,NULL,NULL,1,0,0,tl,CA
+5.13E+17,herchellim,"RT @ABSCBNNews: Lagpas gutter ang baha sa Liwasang Bonifacio (Padre Burgos, Mla) #MarioPH http://t.co/SejkhCvA7p |via @zhandercayabyab",NULL,NULL,1,0,1,tl,CA
+5.13E+17,badillo_kevin,"RT @ABSCBNNews: Lagpas gutter ang baha sa Liwasang Bonifacio (Padre Burgos, Mla) #MarioPH http://t.co/SejkhCvA7p |via @zhandercayabyab",NULL,NULL,1,0,1,tl,CA
+5.13E+17,zsrna,"RT @DZMMTeleRadyo: Pasay-Taft patungong Maynila, hindi na halos madaanan dahil sa taas ng baha | ulat ni RP36 Glen Carlos #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,jovelyn_n,"BT: Ilang bahagi ng Marikina, lubog sa baha: BT: Ilang bahagi ng Marikina, lubog sa baha 09‚Ä¶ http://t.co/gsBVYE31xa",NULL,NULL,0,1,0,tl,CA
+5.13E+17,DaChaKass,"RT @DZMMTeleRadyo: Pasay-Taft patungong Maynila, hindi na halos madaanan dahil sa taas ng baha | ulat ni RP36 Glen Carlos #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,gabdarez,"RT @YouScoop: Lagpas-tao na ang baha dito sa Libis Sto. Nino, Marikina City. #MarioPH | via YouScooper @ajibayron http://t.co/PWJBjD1QC4",NULL,NULL,1,0,1,tl,CA
+5.13E+17,SHANETADA,"Medyo baha na sa labas -.- @ Lupang Pari San Miguel, Pasig City http://t.co/AOvFiduUq0",14.56709,121.088964,0,1,0,tl,CA
+5.13E+17,jefboi87,RT @YouScoop: Hanggang dibdib ang baha sa Limay St. sa Tondo. Marc Laurente. Kuha ni @MarcMyTweet #MarioPH http://t.co/qnVwJAQ1ah,NULL,NULL,1,0,1,tl,CA
+5.13E+17,gegegegem30,"RT @antudjays: @ANCALERTS baha po sa may F. Roman St., San Juan City... wala pa rescuer... lagpas tao na... #MarioPH #RescuePH http://t.co/‚Ä¶",NULL,NULL,1,0,1,tl,CA
+5.13E+17,gabdarez,RT @YouScoop: Hanggang dibdib ang baha sa Limay St. sa Tondo. Marc Laurente. Kuha ni @MarcMyTweet #MarioPH http://t.co/qnVwJAQ1ah,NULL,NULL,1,0,1,tl,CA
+5.13E+17,ecbeltran,"RT @DZMMTeleRadyo: Pasay-Taft patungong Maynila, hindi na halos madaanan dahil sa taas ng baha | ulat ni RP36 Glen Carlos #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,AllNews_PH,"[Video - GMA News] Ilang bahagi ng Marikina, lubog sa baha http://t.co/yLAeqkvxYp",NULL,NULL,0,1,0,tl,CA
+5.13E+17,elma_53,RT @gmanews: MANILA ‚Äî Nananatiling baha sa kahabaan ng Espa√±a | via @oscaroida http://t.co/8SGSarlOpf,NULL,NULL,0,0,1,tl,CA
+5.13E+17,dzbb,"RT @nimfaravelo: Baha sa Pasong Tamo - Pasay Road, bumababa sa ngayon @dzbb http://t.co/Z11EEmjjBU",NULL,NULL,0,0,1,tl,CA
+5.13E+17,itsmeace29,"RT @nimfaravelo: Baha sa may Wowee Market sa Protacio, (near Edsa) Taft Ave.  hanggang sa Libertad Market sa Pasay City @dzbb http://t.co/r‚Ä¶",NULL,NULL,0,0,1,tl,CA
+5.13E+17,nimfaravelo,"Baha sa Pasong Tamo - Pasay Road, bumababa sa ngayon @dzbb http://t.co/Z11EEmjjBU",NULL,NULL,0,0,0,tl,CA
+5.13E+17,judei06,"RT @DZMMTeleRadyo: Pasay-Taft patungong Maynila, hindi na halos madaanan dahil sa taas ng baha | ulat ni RP36 Glen Carlos #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,kobe8_mike29,"Zhander Cayabyab on Twitter: ""PHOTO: Abot-dibdib na baha sa Araneta cor. E.Rod QC (padala ni... http://t.co/QNshINlg4Q",NULL,NULL,0,1,0,tl,CA
+5.13E+17,nylriehss,"RT @DZMMTeleRadyo: Palibot ng SM Manila at Manila City Hall, may gutter deep na baha #MarioPH http://t.co/G4CK8xEsuW... http://t.co/LwM3cni‚Ä¶",NULL,NULL,1,1,1,tl,CA
+5.13E+17,salesmaui,"RT @DZMMTeleRadyo: Pasay-Taft patungong Maynila, hindi na halos madaanan dahil sa taas ng baha | ulat ni RP36 Glen Carlos #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,allysadeguia,"RT @DZMMTeleRadyo: Pasay-Taft patungong Maynila, hindi na halos madaanan dahil sa taas ng baha | ulat ni RP36 Glen Carlos #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,Duuhnicuuh,Grabe baha sa Rizal.,NULL,NULL,0,0,0,tl,CA
+5.13E+17,vnicavalencia,"RT @DZMMTeleRadyo: Pasay-Taft patungong Maynila, hindi na halos madaanan dahil sa taas ng baha | ulat ni RP36 Glen Carlos #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,itsmeshierocero,@eenuhxarvlo @GlennBrus gags grbe yung baha sa Cainta kyla eli girl hahaah! Swimming galore amp! Hahaha,NULL,NULL,0,0,0,tl,CA
+5.13E+17,AbanteNews,"Bus lang ang dumaraan ngayon sa Espa√±a, Manila dahil sa baha.",NULL,NULL,0,0,0,tl,CA
+5.13E+17,kenttancio,Baha na rin po dito sa amin sa Para√±aque. @YouScoop #MarioPH http://t.co/HeQZdC8SUE,NULL,NULL,1,0,0,tl,CA
+5.13E+17,OyingPineda,"RT @DZMMTeleRadyo: Pasay-Taft patungong Maynila, hindi na halos madaanan dahil sa taas ng baha | ulat ni RP36 Glen Carlos #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,nikkiclacio,"RT @DZMMTeleRadyo: PHOTO: Lagpas gutter ang baha sa Liwasang Bonifacio (Padre Burgos, Mla) #MarioPH http://t.co/DJWyJ6ucMR | via @zhanderca‚Ä¶",NULL,NULL,1,0,1,tl,CA
+5.13E+17,iamRizzaaa19,@sam_concepcion baha na samin dito sa paranaque sainyo ba?:(,NULL,NULL,0,0,0,tl,CA
+5.13E+17,kearllanaeymard,Hala?! Tumataas na yung baha dito sa bulacan kanina tuhod ngayong bewang na!,NULL,NULL,0,0,0,tl,CA
+5.13E+17,ppmrts,Baha pa rin dito sa sta mesa huhu,NULL,NULL,0,0,0,tl,CA
+5.13E+17,EsquiviasMaxene,Grabi baha sa cainta,NULL,NULL,0,0,0,tl,CA
+5.13E+17,AngelouRabuya,RT @VargasMannysen: Malakas ang agos ng baha sa loob ng Dela Costa subd sa bgy Burgos Rodriguez Rizal @dzbb https://t.co/IC3ClSOThC,NULL,NULL,0,1,1,tl,CA
+5.13E+17,TheQueeNavy,Baha na sa karangalan.,NULL,NULL,0,0,0,tl,CA
+5.13E+17,peachygf,"RT @Balitanghali11: VIDEO: Baha, umabot sa ikalawang palapag ng ilang bahay sa Roxas District, QC | Ulat ni @Tricia_Zafra http://t.co/dzSJH‚Ä¶",NULL,NULL,0,1,1,tl,CA
+5.13E+17,paintlikewater,@ohstrawberry_ bahang baha na sa marcos highway. :(( wag lang magbbrown out sana!,NULL,NULL,0,0,0,tl,CA
+5.13E+17,chinopeiyumi,"Baha Outside :(( (@ C4 Roxas Borja Building in Manila, Metro Manila) https://t.co/js33U4IVfR",14.606208,120.989775,0,1,0,tl,CA
+5.13E+17,jaspiedad,@nikka14 sa zapote baha tska dito sa kalsada sa tapat nmin,NULL,NULL,0,0,0,tl,CA
+5.13E+17,RoNiloDagos,"RT @DZMMTeleRadyo: Lagpas tuhod na baha, nararanasan sa ilang barangay sa San Pedro at Sta. Rosa, Laguna | ulat ni @RoNiloDagos #radyopatro‚Ä¶",NULL,NULL,1,0,1,tl,CA
+5.13E+17,krizzaxxvi,"‚Äú@DZMMTeleRadyo: Pasay-Taft patungong Maynila, hindi na halos madaanan dahil sa taas ng baha | ulat ni RP36 Glen Carlos #MarioPH‚Äù Hi PNU </3",NULL,NULL,1,0,0,tl,CA
+5.13E+17,jarlego_td14,"RT @DZMMTeleRadyo: Pasay-Taft patungong Maynila, hindi na halos madaanan dahil sa taas ng baha | ulat ni RP36 Glen Carlos #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,CaiaLoka,"RT @DZMMTeleRadyo: Pasay-Taft patungong Maynila, hindi na halos madaanan dahil sa taas ng baha | ulat ni RP36 Glen Carlos #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,joshjahrelv,"RT @DZMMTeleRadyo: Pasay-Taft patungong Maynila, hindi na halos madaanan dahil sa taas ng baha | ulat ni RP36 Glen Carlos #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,jamstarfyui,"RT @DZMMTeleRadyo: Pasay-Taft patungong Maynila, hindi na halos madaanan dahil sa taas ng baha | ulat ni RP36 Glen Carlos #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,kenttancio,Baha na rin po dito sa amin sa Para√±aque. @YouScoop #MarioPH http://t.co/6cafHyiglS,NULL,NULL,1,0,0,tl,CA
+5.13E+17,nikkiclacio,"RT @DZMMTeleRadyo: Pasay-Taft patungong Maynila, hindi na halos madaanan dahil sa taas ng baha | ulat ni RP36 Glen Carlos #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,Sherwyn_Izah,"RT @DZMMTeleRadyo: Pasay-Taft patungong Maynila, hindi na halos madaanan dahil sa taas ng baha | ulat ni RP36 Glen Carlos #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,OhshizzKyeopta,"RT @RealTalkBes: Lagpas-tao na ang baha dito sa Libis Sto. Nino, Marikina City. #MarioPH | via @dexciscruzat http://t.co/7uMQCWQ7hG",NULL,NULL,1,0,1,tl,CA
+5.13E+17,RickZamora26,"RT @DZMMTeleRadyo: Lagpas tuhod na baha, nararanasan sa ilang barangay sa San Pedro at Sta. Rosa, Laguna | ulat ni @RoNiloDagos #radyopatro‚Ä¶",NULL,NULL,1,0,1,tl,CA
+5.13E+17,revas_9,"RT @DZMMTeleRadyo: Pasay-Taft patungong Maynila, hindi na halos madaanan dahil sa taas ng baha | ulat ni RP36 Glen Carlos #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,JennyRockwell,"""@DZMMTeleRadyo: Pasay-Taft patungong Maynila, hindi na halos madaanan dahil sa taas ng baha | ulat ni RP36 Glen Carlos #MarioPH""",14.433098,120.989335,1,0,0,tl,CA
+5.13E+17,conejoseunice09,"RT @DZMMTeleRadyo: Pasay-Taft patungong Maynila, hindi na halos madaanan dahil sa taas ng baha | ulat ni RP36 Glen Carlos #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,pleaseNeil_,"RT @DZMMTeleRadyo: Pasay-Taft patungong Maynila, hindi na halos madaanan dahil sa taas ng baha | ulat ni RP36 Glen Carlos #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,dianesatimbre,"RT @DZMMTeleRadyo: Pasay-Taft patungong Maynila, hindi na halos madaanan dahil sa taas ng baha | ulat ni RP36 Glen Carlos #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,Carlempleo28,"Lalim ng baha sa phase 4,7,9 ng  vista verde zone 5,6  ng Greenpark Cainta then Buong Karanglan Village. Keepsafeeveryone",NULL,NULL,0,0,0,tl,CA
+5.13E+17,SummerDownDRoad,"‚Äú@DZMMTeleRadyo: Pasay-Taft patungong Maynila, hindi na halos madaanan dahil sa taas ng baha | ulat ni RP36 Glen Carlos #MarioPH‚Äù",NULL,NULL,1,0,0,tl,CA
+5.13E+17,nicolelily26,"RT @DZMMTeleRadyo: Pasay-Taft patungong Maynila, hindi na halos madaanan dahil sa taas ng baha | ulat ni RP36 Glen Carlos #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,imjzcarta,"RT @DZMMTeleRadyo: Lagpas tuhod na baha, nararanasan sa ilang barangay sa San Pedro at Sta. Rosa, Laguna | ulat ni @RoNiloDagos #radyopatro‚Ä¶",NULL,NULL,1,0,1,tl,CA
+5.13E+17,ylizajacob,"RT @DZMMTeleRadyo: Pasay-Taft patungong Maynila, hindi na halos madaanan dahil sa taas ng baha | ulat ni RP36 Glen Carlos #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,KeiTiiiiin,"RT @DZMMTeleRadyo: Pasay-Taft patungong Maynila, hindi na halos madaanan dahil sa taas ng baha | ulat ni RP36 Glen Carlos #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,KJDumapit,RT @CitizenPatrol: Sa Frisco Del Monte Quezon City hanggang tuhod na ang baha. #MarioPH #RescuePH,NULL,NULL,1,0,1,tl,CA
+5.13E+17,KJDumapit,"RT @CitizenPatrol: Sa Ramon Magsaysay Blvd cor Pureza, umabot na din sa tuhod ang baha. #MarioPH #FloodPH #RescuePH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,KJDumapit,"RT @CitizenPatrol: Sa Daang Tubo Sapa and Mary Town, Brgy Loyola Heights, lampas-tao na ang tubig at aabot na sa 2nd floor. #MarioPH #Flood‚Ä¶",NULL,NULL,1,0,1,tl,CA
+5.13E+17,KJDumapit,"RT @CitizenPatrol: Sa Brgy. San Perfecto, San Juan aabot na sa 5ft ang baha, lumilikas na ang mga apektado ng baha. #MarioPH #FloodPH #Resc‚Ä¶",NULL,NULL,1,0,1,tl,CA
+5.13E+17,KJDumapit,"RT @CitizenPatrol: Ang baha ay umabot na sa  2nd floor sa  Bgy 17 zone 2, Caloocan, P. Zamora st. #MarioPH #FloodPH #RescuePH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,KJDumapit,"RT @CitizenPatrol: Sa Purok 3, 4 at 5 ng Bulelak, Marikina lubog na sa baha ang 1st floor ng mga bahay doon. #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,GieSuperKinis,Sa Ibayo Marilao Bulacan (Malapit sa SM City Marillao) umabot na din hanggang bewang ang baha. #FloodPH #MarioPH,NULL,NULL,1,0,0,tl,CA
+5.13E+17,KJDumapit,RT @CitizenPatrol: Sa Flamengco St. Manila Hanggang hita na baha . #MarioPH,NULL,NULL,1,0,1,tl,CA
+5.13E+17,KJDumapit,"RT @CitizenPatrol: Sa Barangay San Antonio, Quezon City, Umabot na ang baha hanggang leeg.  #MarioPH #FloodPH #RescuePH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,KJDumapit,RT @CitizenPatrol: Sa Dela Rosa St. cor Buendia hindi na madaanan ang mga kalsada dahil sa mabilisang taas ng baha. #FloodPH #MarioPH,NULL,NULL,1,0,1,tl,CA
+5.13E+17,KJDumapit,"RT @CitizenPatrol: Sa Scout Tobias, Quezon City hindi na madaanan ng mga sasakyan dahil sa lagpas bewang na lalim na ng baha. #FloodPH #Mar‚Ä¶",NULL,NULL,1,0,1,tl,CA
+5.13E+17,KJDumapit,RT @CitizenPatrol: Sa Ibayo Marilao Bulacan (Malapit sa SM City Marillao) umabot na din hanggang bewang ang baha. #FloodPH #MarioPH,NULL,NULL,1,0,1,tl,CA
+5.13E+17,wynnywynne,"RT @DZMMTeleRadyo: Pasay-Taft patungong Maynila, hindi na halos madaanan dahil sa taas ng baha | ulat ni RP36 Glen Carlos #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,KJDumapit,"RT @CitizenPatrol: Sa V. Mapa Extension, Sta Mesa, Manila, umabot na hanggang tuhod ang baha. #FloodPH #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,robertnatics,"RT @DZMMTeleRadyo: Pasay-Taft patungong Maynila, hindi na halos madaanan dahil sa taas ng baha | ulat ni RP36 Glen Carlos #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,KJDumapit,"RT @CitizenPatrol: Lagpas tao na ang tubig baha sa Brgym Rivera, San Juan City. #MarioPH #FloodPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,katminaclosa,"RT @DZMMTeleRadyo: Pasay-Taft patungong Maynila, hindi na halos madaanan dahil sa taas ng baha | ulat ni RP36 Glen Carlos #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,KJDumapit,"RT @CitizenPatrol: Sa Atienza Elementary School at Aquino Elementary School lumikas ang mga taga Baseco, Tondo. #MarioPH #ReliefPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,KJDumapit,"RT @CitizenPatrol: Sa Brgy Bagong Silang ,Magalona,Mandaluyong hanggang tuhod ang baha.  #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,KJDumapit,"RT @CitizenPatrol: Sa Brgy Bagong Silang,haig,Mandaluyong hanggang bewang na ang baha. #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,DZMMTeleRadyo,"Pasay-Taft patungong Maynila, hindi na halos madaanan dahil sa taas ng baha | ulat ni RP36 Glen Carlos #MarioPH",NULL,NULL,1,0,0,tl,CA
+5.13E+17,KJDumapit,"RT @CitizenPatrol: Sa Brgy Bagong Silang,JB Vargas,Mandaluyong hanggang bewang na ang baha. #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,KJDumapit,"RT @CitizenPatrol: Sa shaw ,Mandaluyong hanggang tuhod na ang baha na humigit kumulang 1 1/2 ft. #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,KJDumapit,"RT @CitizenPatrol: Sa F. Manalo, San Juan lagpas tao na ang baha at naglutangan na ang basura. #MarioPH #FloodPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,KJDumapit,"RT @CitizenPatrol: Sa Sen. Mariano J. Cuenco, Sta. Mesa Heights, Quezon City, Aabot na sa balikat ang baha. #MarioPH #FloodPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,KJDumapit,"RT @CitizenPatrol: Sa B. Pag-asa st., Brgy. Sta. Ana, Taytay, Rizal, lagpas tuhod na ang baha.ilang mga kabahayan pinasok na ng baha. #Mari‚Ä¶",NULL,NULL,1,0,1,tl,CA
+5.13E+17,KJDumapit,"RT @CitizenPatrol: S 10th St.Youngstown Village,Cainta, Rizal,1 pamilya ang natrapped s loob ng knilang bahay at umabot n s dibdib ang baha‚Ä¶",NULL,NULL,1,0,1,tl,CA
+5.13E+17,KJDumapit,"RT @CitizenPatrol: Abot-leeg na ang baha sa ilang lugar sa Malanday, Marikina. Ang ilang residente ay inililikas na. #MarioPH #ReliefPH #Fl‚Ä¶",NULL,NULL,1,0,1,tl,CA
+5.13E+17,KJDumapit,"RT @CitizenPatrol: Sa Vista Verde Ave, Cainta, Rizal, hanggang 1st flr na ang baha sa kanila. #FloodPH #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,KJDumapit,"RT @CitizenPatrol: Sa san mateo,Rizal, dulong bayan sa tubo ay umabot na hanggang dibdib nag baha. #FloodPH #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,KJDumapit,"RT @CitizenPatrol: Ilang ding Bgy San Pedro,Laguna (Brgy. Cuyab, Brgy. Landayan, and Brgy. San Roque). Umabot na hanggang tuhod ang lalim. ‚Ä¶",NULL,NULL,1,0,1,tl,CA
+5.13E+17,KJDumapit,"RT @CitizenPatrol: Mga motorista di na makadaan sa hanggang tuhod na lalim ng baha sa C5 road,Pasig City dahil sa patuloy na pag ulan.  #Fl‚Ä¶",NULL,NULL,1,0,1,tl,CA
+5.13E+17,KJDumapit,"RT @CitizenPatrol: Sa marilao, bulacan din ay umabot leeg na ang baha sa ilang lugar. Ilang residente ang inilikas na. #MarioPH #FloodPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,KJDumapit,RT @CitizenPatrol: S QC ay lagpas tao n din ang baha partikular s Araneta Avenue kung san marami rin ang ngsilikas at ngyon ay nsa evacuati‚Ä¶,NULL,NULL,1,0,1,tl,CA
+5.13E+17,maridel_bonabon,@YouScoop  brgy. Purok 7 malanday marikina city .  Hanggang dibdib ang baha . http://t.co/eSuTUYwAEs,NULL,NULL,0,0,0,tl,CA
+5.13E+17,marou_ps,"RT @DZMMTeleRadyo: Lagpas tuhod na baha, nararanasan sa ilang barangay sa San Pedro at Sta. Rosa, Laguna | ulat ni @RoNiloDagos #radyopatro‚Ä¶",NULL,NULL,1,0,1,tl,CA
+5.13E+17,jasminclaire17,"RT @ABSCBNNews: Lagpas gutter ang baha sa Liwasang Bonifacio (Padre Burgos, Mla) #MarioPH http://t.co/SejkhCvA7p |via @zhandercayabyab",NULL,NULL,1,0,1,tl,CA
+5.13E+17,Adi_thePanda,#RESCUEPH Nasa bubungan na ng kani-kanilang bahay ang mga residente sa E. Rod cor. Araneta Ave habang naghihintay ng rescue -@michaelfajatin,NULL,NULL,1,0,0,tl,CA
+5.13E+17,CitizenPatrol,Sa dist. 4 brgy. 576 d. santiago ay tinatayang 50 pamilya ang apektado ng bagyong mario.  #MarioPH #FloodPH,NULL,NULL,1,0,0,tl,CA
+5.13E+17,reen_rivera,"RT @nimfaravelo: Baha sa may Wowee Market sa Protacio, (near Edsa) Taft Ave.  hanggang sa Libertad Market sa Pasay City @dzbb http://t.co/r‚Ä¶",NULL,NULL,0,0,1,tl,CA
+5.13E+17,ishabalagtas,Keep safe everyone lalo na sa mga nasa labas ng bahay nila. Wag pilitin makauwi dahil mas delikado pag sumugod sa baha. #MarioPH,NULL,NULL,1,0,0,tl,CA
+5.13E+17,DZMMTeleRadyo,"Baha sa Monumento, Caloocan, lagpas gutter na partikular sa tapat ng MCU | ulat ni RP35 J. Iba√±ez #MarioPH",NULL,NULL,1,0,0,tl,CA
+5.13E+17,martxxvii,Baha na sa loob ng baler. Ugh! #MarioPH,NULL,NULL,1,0,0,tl,CA
+5.13E+17,ReaArandia,"RT @gmanews: MARILAO, BULACAN ‚Äî Abot leeg na ang baha sa ilang lugar. Ilang residente ang inilikas. #MarioPH update ni John Consulta.",NULL,NULL,1,0,1,tl,CA
+5.13E+17,robertnatics,"RT @DZMMTeleRadyo: Baha sa Monumento, Caloocan, lagpas gutter na partikular sa tapat ng MCU | ulat ni RP35 J. Iba√±ez #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,Nilo96203913,"RT @DZMMTeleRadyo: Baha sa Monumento, Caloocan, lagpas gutter na partikular sa tapat ng MCU | ulat ni RP35 J. Iba√±ez #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,biancamilca,"RT @DZMMTeleRadyo: Baha sa Monumento, Caloocan, lagpas gutter na partikular sa tapat ng MCU | ulat ni RP35 J. Iba√±ez #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,Iamelise17,"""@gmanews: MARILAO, BULACAN ‚Äî Abot leeg na ang baha sa ilang lugar. Ilang residente ang inilikas. #MarioPH update ni John Consulta.""",NULL,NULL,1,0,0,tl,CA
+5.13E+17,JKtrinidad_,"RT @DZMMTeleRadyo: Baha sa Monumento, Caloocan, lagpas gutter na partikular sa tapat ng MCU | ulat ni RP35 J. Iba√±ez #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,IMReadyPH,"MARILAO, BULACAN ‚Äî Abot leeg na ang baha sa ilang lugar. Ilang residente ang inilikas. #MarioPH update ni John Consulta.| via @gmanews",NULL,NULL,1,0,0,tl,CA
+5.13E+17,kyla_KDlover,"RT @IMReadyPH: MARILAO, BULACAN ‚Äî Abot leeg na ang baha sa ilang lugar. Ilang residente ang inilikas. #MarioPH update ni John Consulta.| vi‚Ä¶",NULL,NULL,1,0,1,tl,CA
+5.13E+17,itsbeaguilar,"RT @DZMMTeleRadyo: Baha sa Monumento, Caloocan, lagpas gutter na partikular sa tapat ng MCU | ulat ni RP35 J. Iba√±ez #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,AnaLooovesYou,"RT @DZMMTeleRadyo: Baha sa Monumento, Caloocan, lagpas gutter na partikular sa tapat ng MCU | ulat ni RP35 J. Iba√±ez #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,greedygeek,RT @YouScoop: Hanggang dibdib ang baha sa Limay St. sa Tondo. Marc Laurente. Kuha ni @MarcMyTweet #MarioPH http://t.co/qnVwJAQ1ah,NULL,NULL,1,0,1,tl,CA
+5.13E+17,leahnavarro,"RT @DZMMTeleRadyo: Baha sa Monumento, Caloocan, lagpas gutter na partikular sa tapat ng MCU | ulat ni RP35 J. Iba√±ez #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,reydungca,"RT @DZMMTeleRadyo: Baha sa Monumento, Caloocan, lagpas gutter na partikular sa tapat ng MCU | ulat ni RP35 J. Iba√±ez #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,HuamiShaiam,@gmanews  dito po sa brgy 595 v.mapa sta mesa manila ay lagpas tao na ang baha. #flooodPH #MarioPH http://t.co/QzwgZT9BWO,NULL,NULL,1,0,0,tl,CA
+5.13E+17,abcdefghiJxx,"RT @DZMMTeleRadyo: Baha sa Monumento, Caloocan, lagpas gutter na partikular sa tapat ng MCU | ulat ni RP35 J. Iba√±ez #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,CarmzChie,"RT @IMReadyPH: MARILAO, BULACAN ‚Äî Abot leeg na ang baha sa ilang lugar. Ilang residente ang inilikas. #MarioPH update ni John Consulta.| vi‚Ä¶",NULL,NULL,1,0,1,tl,CA
+5.13E+17,missoriented,"RT @gmanews: MARILAO, BULACAN ‚Äî Abot leeg na ang baha sa ilang lugar. Ilang residente ang inilikas. #MarioPH update ni John Consulta.",NULL,NULL,1,0,1,tl,CA
+5.13E+17,rizzaliciousv,"RT @kakaiiii: ‚Äú@gmanews: MARILAO, BULACAN ‚Äî Abot leeg na ang baha sa ilang lugar. Ilang residente ang inilikas. #MarioPH update ni John Con‚Ä¶",NULL,NULL,1,0,1,tl,CA
+5.13E+17,AceMomblan,"RT @DZMMTeleRadyo: Baha sa Monumento, Caloocan, lagpas gutter na partikular sa tapat ng MCU | ulat ni RP35 J. Iba√±ez #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,meL00017,"RT @IMReadyPH: MARILAO, BULACAN ‚Äî Abot leeg na ang baha sa ilang lugar. Ilang residente ang inilikas. #MarioPH update ni John Consulta.| vi‚Ä¶",NULL,NULL,1,0,1,tl,CA
+5.13E+17,jajaeight,"RT @gmanews: MARILAO, BULACAN ‚Äî Abot leeg na ang baha sa ilang lugar. Ilang residente ang inilikas. #MarioPH update ni John Consulta.",NULL,NULL,1,0,1,tl,CA
+5.13E+17,jennylynchh,"RT @DZMMTeleRadyo: Baha sa Monumento, Caloocan, lagpas gutter na partikular sa tapat ng MCU | ulat ni RP35 J. Iba√±ez #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,ChooChooMofo,"RT @gmanews: MARILAO, BULACAN ‚Äî Abot leeg na ang baha sa ilang lugar. Ilang residente ang inilikas. #MarioPH update ni John Consulta.",NULL,NULL,1,0,1,tl,CA
+5.13E+17,Miimmey,"RT @gmanews: MARILAO, BULACAN ‚Äî Abot leeg na ang baha sa ilang lugar. Ilang residente ang inilikas. #MarioPH update ni John Consulta.",NULL,NULL,1,0,1,tl,CA
+5.13E+17,mariemercygun,"RT @meralco: Paalala: Bago pasukin ng baha ang inyong tahanan, siguruhing nakapatay ang ciruit breaker upang makaiwas sa aksidente. #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,kaetiem,"RT @DZMMTeleRadyo: Baha sa Monumento, Caloocan, lagpas gutter na partikular sa tapat ng MCU | ulat ni RP35 J. Iba√±ez #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,eyabeldia,RT @govph: Mga dapat gawin kung may babala ng pagbaha: http://t.co/pIvUdLtgEy #MarioPH http://t.co/KghPRfL1fa,NULL,NULL,1,1,1,tl,CA
+5.13E+17,christinaluna,RT @govph: Mga dapat gawin kung may babala ng pagbaha: http://t.co/pIvUdLtgEy #MarioPH http://t.co/KghPRfL1fa,NULL,NULL,1,1,1,tl,CA
+5.13E+17,spiglobal,RT @govph: Mga dapat gawin kung may babala ng pagbaha: http://t.co/pIvUdLtgEy #MarioPH http://t.co/KghPRfL1fa,NULL,NULL,1,1,1,tl,CA
+5.13E+17,mlberzaldo,"RT @DZMMTeleRadyo: PHOTO: Lagpas gutter ang baha sa Liwasang Bonifacio (Padre Burgos, Mla) #MarioPH http://t.co/DJWyJ6ucMR | via @zhanderca‚Ä¶",NULL,NULL,1,0,1,tl,CA
+5.13E+17,BalitaNgayon,"Baha sa Monumento, Caloocan, lagpas gutter na partikular sa tapat ng MCU | ulat ni RP35 J. Iba√±ez #MarioPH via DZMM",NULL,NULL,1,0,0,tl,CA
+5.13E+17,JeorjetteM,RT @YouScoop: MARIKINA CITY ‚Äî Baha sa Marikina Sports Park. Kuha ni YouScooper Ariel Vicencio #MarioPH http://t.co/9lSZZ1sS27,NULL,NULL,1,0,1,tl,CA
+5.13E+17,BalitaNgayon,"Palibot ng SM Manila at Manila City Hall, may gutter deep na baha #MarioPH http://t.co/pfy8FCT5tK... http://t.co/kmwRVkO0pQ via DZMM",NULL,NULL,1,1,0,tl,CA
+5.13E+17,angelieguday,RT @govph: Mga dapat gawin kung may babala ng pagbaha: http://t.co/pIvUdLtgEy #MarioPH http://t.co/KghPRfL1fa,NULL,NULL,1,1,1,tl,CA
+5.13E+17,IhleBEEE,"RT @DZMMTeleRadyo: PHOTO: Lagpas gutter ang baha sa Liwasang Bonifacio (Padre Burgos, Mla) #MarioPH http://t.co/DJWyJ6ucMR | via @zhanderca‚Ä¶",NULL,NULL,1,0,1,tl,CA
+5.13E+17,Uniceairasarmie,"RT @DZMMTeleRadyo: PHOTO: Lagpas gutter ang baha sa Liwasang Bonifacio (Padre Burgos, Mla) #MarioPH http://t.co/DJWyJ6ucMR | via @zhanderca‚Ä¶",NULL,NULL,1,0,1,tl,CA
+5.13E+17,News5AKSYON,RT @govph: Mga dapat gawin kung may babala ng pagbaha: http://t.co/pIvUdLtgEy #MarioPH http://t.co/KghPRfL1fa,NULL,NULL,1,1,1,tl,CA
+5.13E+17,JoanaKapsa,RT @govph: Mga dapat gawin kung may babala ng pagbaha: http://t.co/pIvUdLtgEy #MarioPH http://t.co/KghPRfL1fa,NULL,NULL,1,1,1,tl,CA
+5.13E+17,diegobandido907,"RT @DZMMTeleRadyo: PHOTO: Lagpas gutter ang baha sa Liwasang Bonifacio (Padre Burgos, Mla) #MarioPH http://t.co/DJWyJ6ucMR | via @zhanderca‚Ä¶",NULL,NULL,1,0,1,tl,CA
+5.13E+17,EspiriTruth,"RT @DZMMTeleRadyo: PHOTO: Lagpas gutter ang baha sa Liwasang Bonifacio (Padre Burgos, Mla) #MarioPH http://t.co/DJWyJ6ucMR | via @zhanderca‚Ä¶",NULL,NULL,1,0,1,tl,CA
+5.13E+17,DZMMTeleRadyo,"PHOTO: Lagpas gutter ang baha sa Liwasang Bonifacio (Padre Burgos, Mla) #MarioPH http://t.co/esDBcVP45F | via... http://t.co/UXBfsvZ3tN",NULL,NULL,1,1,0,tl,CA
+5.13E+17,HeyDaaaaan,"RT @DZMMTeleRadyo: Palibot ng SM Manila at Manila City Hall, may gutter deep na baha #MarioPH http://t.co/G4CK8xEsuW... http://t.co/LwM3cni‚Ä¶",NULL,NULL,1,1,1,tl,CA
+5.13E+17,KaaaathCruz,"RT @DZMMTeleRadyo: Palibot ng SM Manila at Manila City Hall, may gutter deep na baha #MarioPH http://t.co/G4CK8xEsuW... http://t.co/LwM3cni‚Ä¶",NULL,NULL,1,1,1,tl,CA
+5.13E+17,AweSAMpyo,"RT @gmanews: MARILAO, BULACAN ‚Äî Abot leeg na ang baha sa ilang lugar. Ilang residente ang inilikas. #MarioPH update ni John Consulta.",NULL,NULL,1,0,1,tl,CA
+5.13E+17,DDRHD,"RT @DZMMTeleRadyo: Palibot ng SM Manila at Manila City Hall, may gutter deep na baha #MarioPH http://t.co/G4CK8xEsuW... http://t.co/LwM3cni‚Ä¶",NULL,NULL,1,1,1,tl,CA
+5.13E+17,chichatty,"RT @DZMMTeleRadyo: Baha sa Monumento, Caloocan, lagpas gutter na partikular sa tapat ng MCU | ulat ni RP35 J. Iba√±ez #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,thet25,RT @katolikongpinoy: RT @CzarCzarMae: Baha sa junction at gruar. (c) angelica samson #cainta #caintarizal #MarioPH flood #MarioPH http://t.‚Ä¶,NULL,NULL,1,0,1,tl,CA
+5.13E+17,ohitsloy,"RT @DZMMTeleRadyo: Baha sa Monumento, Caloocan, lagpas gutter na partikular sa tapat ng MCU | ulat ni RP35 J. Iba√±ez #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,darlingshaney,"RT @meralco: Paalala: Bago pasukin ng baha ang inyong tahanan, siguruhing nakapatay ang ciruit breaker upang makaiwas sa aksidente. #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,violetaportera,"RT @gmanews: MARILAO, BULACAN ‚Äî Abot leeg na ang baha sa ilang lugar. Ilang residente ang inilikas. #MarioPH update ni John Consulta.",NULL,NULL,1,0,1,tl,CA
+5.13E+17,romanoalonzo,"RT @meralco: Paalala: Bago pasukin ng baha ang inyong tahanan, siguruhing nakapatay ang ciruit breaker upang makaiwas sa aksidente. #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,GenesisDelaRoma,"RT @gmanews: MARILAO, BULACAN ‚Äî Abot leeg na ang baha sa ilang lugar. Ilang residente ang inilikas. #MarioPH update ni John Consulta.",NULL,NULL,1,0,1,tl,CA
+5.13E+17,markcabigthing,"Kanina, humuhupa na yung baha dito sa Tumana, Marikina. Pero tumataas ulit siya dahil sa ulan. #MarioPH",NULL,NULL,1,0,0,tl,CA
+5.13E+17,itsmeAngeliqueV,Baha na sa Cainta. Tama na #MarioPH . Stay Safe everyone.,NULL,NULL,1,0,0,tl,CA
+5.13E+17,igobbledygook,"RT @IMReadyPH: MARILAO, BULACAN ‚Äî Abot leeg na ang baha sa ilang lugar. Ilang residente ang inilikas. #MarioPH update ni John Consulta.| vi‚Ä¶",NULL,NULL,1,0,1,tl,CA
+5.13E+17,tecsonronaldbo,"RT @gmanews: MARILAO, BULACAN ‚Äî Abot leeg na ang baha sa ilang lugar. Ilang residente ang inilikas. #MarioPH update ni John Consulta.",NULL,NULL,1,0,1,tl,CA
+5.13E+17,aziledram,"Malapit ng pumasok sa loob ng bahay ang baha at paquita st., morayta . Sa espanya mas mataas. #MarioPH http://t.co/HX6UwgqzMA",NULL,NULL,1,0,0,tl,CA
+5.13E+17,sb_onecainta,RT @govph: Mga dapat gawin at alalahanin kung may babala ng pagbaha: http://t.co/SeLts7lbaL #MarioPH http://t.co/2RbyMmLQiB,NULL,NULL,1,1,0,tl,CA
+5.13E+17,jvgeli,"RT @gmanews: MARILAO, BULACAN ‚Äî Abot leeg na ang baha sa ilang lugar. Ilang residente ang inilikas. #MarioPH update ni John Consulta.",NULL,NULL,1,0,1,tl,CA
+5.13E+17,VicoSotto,RT @govph: INFOGRAPHIC ‚Ä¢ Mga paalala ukol sa baha: http://t.co/UafeqinIXM #MarioPH http://t.co/nW0wC6vulz,NULL,NULL,1,1,1,tl,CA
+5.13E+17,katolikongpinoy,"RT @aziledram Malapit ng pumasok sa loob ng bahay ang baha at paquita st., morayta . Sa espanya mas mataas. #MarioPH http://t.co/sX41pPOv20",NULL,NULL,1,0,0,tl,CA
+5.13E+17,mmguevarra,"RT @gmanews: MARILAO, BULACAN ‚Äî Abot leeg na ang baha sa ilang lugar. Ilang residente ang inilikas. #MarioPH update ni John Consulta.",NULL,NULL,1,0,1,tl,CA
+5.13E+17,_zimrymadrinico,‚Äú@FEUtamz: Baha sa Espa√±a Blvd. #MarioPH http://t.co/xWU9rNIVWo‚Äù ganto pala dadaanan pag pumasok kami,NULL,NULL,1,0,0,tl,CA
+5.13E+17,jvgeli,"RT @YouScoop: Baha sa McArthur Highway sa Marilao, Bulacan, hanggang hita na. Kuha ni @Roldan_101 #MarioPH http://t.co/wX0PxmOdb1",NULL,NULL,1,0,1,tl,CA
+5.13E+17,Grace_OMGrace,"RT @gmanews: MARILAO, BULACAN ‚Äî Abot leeg na ang baha sa ilang lugar. Ilang residente ang inilikas. #MarioPH update ni John Consulta.",NULL,NULL,1,0,1,tl,CA
+5.13E+17,jvgeli,"RT @dianajcnt: ‚Äú@gmanews: MARILAO, BULACAN ‚Äî Abot leeg na ang baha sa ilang lugar. Ilang residente ang inilikas. #MarioPH update ni John Co‚Ä¶",NULL,NULL,1,0,1,tl,CA
+5.13E+17,mriamdg,"RT @gmanews: MARILAO, BULACAN ‚Äî Abot leeg na ang baha sa ilang lugar. Ilang residente ang inilikas. #MarioPH update ni John Consulta.",NULL,NULL,1,0,1,tl,CA
+5.13E+17,maymayasahan,"RT @DZMMTeleRadyo: Baha sa Monumento, Caloocan, lagpas gutter na partikular sa tapat ng MCU | ulat ni RP35 J. Iba√±ez #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,4MarizUmali,"RT @IMReadyPH: MARILAO, BULACAN ‚Äî Abot leeg na ang baha sa ilang lugar. Ilang residente ang inilikas. #MarioPH update ni John Consulta.| vi‚Ä¶",NULL,NULL,1,0,1,tl,CA
+5.13E+17,illuje2,"RT @gmanews: MARILAO, BULACAN ‚Äî Abot leeg na ang baha sa ilang lugar. Ilang residente ang inilikas. #MarioPH update ni John Consulta.",NULL,NULL,1,0,1,tl,CA
+5.13E+17,markroyboado,RT @msjuanta: Huwag muna kayo magpadeliver ng food. Be considerate of delivery drivers. #MarioPH #baha,NULL,NULL,1,0,1,tl,CA
+5.13E+17,_alyymanansala,"RT @DZMMTeleRadyo: Baha sa Monumento, Caloocan, lagpas gutter na partikular sa tapat ng MCU | ulat ni RP35 J. Iba√±ez #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,gmanews,RT @govph: INFOGRAPHIC ‚Ä¢ Mga paalala ukol sa baha: http://t.co/UafeqinIXM #MarioPH http://t.co/nW0wC6vulz,NULL,NULL,1,1,1,tl,CA
+5.13E+17,MadsBermudez,"RT @DZMMTeleRadyo: Palibot ng SM Manila at Manila City Hall, may gutter deep na baha #MarioPH http://t.co/G4CK8xEsuW... http://t.co/LwM3cni‚Ä¶",NULL,NULL,1,1,1,tl,CA
+5.13E+17,abyrustia,"RT @DZMMTeleRadyo: Baha sa Monumento, Caloocan, lagpas gutter na partikular sa tapat ng MCU | ulat ni RP35 J. Iba√±ez #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,dpenkian,"RT @gmanews: MARILAO, BULACAN ‚Äî Abot leeg na ang baha sa ilang lugar. Ilang residente ang inilikas. #MarioPH update ni John Consulta.",NULL,NULL,1,0,1,tl,CA
+5.13E+17,jstndmnq,"RT @gmanews: MARILAO, BULACAN ‚Äî Abot leeg na ang baha sa ilang lugar. Ilang residente ang inilikas. #MarioPH update ni John Consulta.",NULL,NULL,1,0,1,tl,CA
+5.13E+17,eric_cainta,RT @govph: Mga dapat gawin at alalahanin kung may babala ng pagbaha: http://t.co/laBNbLtNzL #MarioPH http://t.co/fSJ4F0dJ1D,NULL,NULL,1,1,0,tl,CA
+5.13E+17,luvrachel09,"RT @DZMMTeleRadyo: Baha sa Monumento, Caloocan, lagpas gutter na partikular sa tapat ng MCU | ulat ni RP35 J. Iba√±ez #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,Panget_Bubbly,Baha na po sa (Malabon-Valenzuela boundary at sa mandaluyong. KeepSafe po. #MarioPH,NULL,NULL,1,0,0,tl,CA
+5.13E+17,kkkPINKCAT,"RT @IMReadyPH: MARILAO, BULACAN ‚Äî Abot leeg na ang baha sa ilang lugar. Ilang residente ang inilikas. #MarioPH update ni John Consulta.| vi‚Ä¶",NULL,NULL,1,0,1,tl,CA
+5.13E+17,sumiimaidegawa,"""@DZMMTeleRadyo: Baha sa Monumento, Caloocan, lagpas gutter na partikular sa tapat ng MCU | ulat ni RP35 J. Iba√±ez #MarioPH""",NULL,NULL,1,0,0,tl,CA
+5.13E+17,CRISEEELLE,MEJJ BAHA NA SA QUAD NG IMMA #MarioPH stop na plith :((,NULL,NULL,1,0,0,tl,CA
+5.13E+17,happy18yra,"RT @gmanews: MARILAO, BULACAN ‚Äî Abot leeg na ang baha sa ilang lugar. Ilang residente ang inilikas. #MarioPH update ni John Consulta.",NULL,NULL,1,0,1,tl,CA
+5.13E+17,JulieMananes,"RT @IMReadyPH: MARILAO, BULACAN ‚Äî Abot leeg na ang baha sa ilang lugar. Ilang residente ang inilikas. #MarioPH update ni John Consulta.| vi‚Ä¶",NULL,NULL,1,0,1,tl,CA
+5.13E+17,TeamLabas,RT @govph: INFOGRAPHIC ‚Ä¢ Mga paalala ukol sa baha: http://t.co/UafeqinIXM #MarioPH http://t.co/nW0wC6vulz,NULL,NULL,1,1,1,tl,CA
+5.13E+17,riot_19,"RT @Chipabaya: Hay pureza kelan ka ba magbabago? ""@YouScoop: Baha sa Pureza St., Sta. Mesa, Manila. Kuha ni @siGABna_____ #MarioPH http://t‚Ä¶",NULL,NULL,1,0,1,tl,CA
+5.13E+17,YouScoop,MARIKINA CITY ‚Äî Baha sa Marikina Sports Park. Kuha ni YouScooper Ariel Vicencio #MarioPH http://t.co/9lSZZ1sS27,NULL,NULL,1,0,0,tl,CA
+5.13E+17,iamanadc,"RT @gmanews: MARILAO, BULACAN ‚Äî Abot leeg na ang baha sa ilang lugar. Ilang residente ang inilikas. #MarioPH update ni John Consulta.",NULL,NULL,1,0,1,tl,CA
+5.13E+17,trishiadlcrz,"RT @gmanews: MARILAO, BULACAN ‚Äî Abot leeg na ang baha sa ilang lugar. Ilang residente ang inilikas. #MarioPH update ni John Consulta.",NULL,NULL,1,0,1,tl,CA
+5.13E+17,Vinceserrano26,RT @YouScoop: MARIKINA CITY ‚Äî Baha sa Marikina Sports Park. Kuha ni YouScooper Ariel Vicencio #MarioPH http://t.co/9lSZZ1sS27,NULL,NULL,1,0,1,tl,CA
+5.13E+17,janapatrisha,"RT @IMReadyPH: MARILAO, BULACAN ‚Äî Abot leeg na ang baha sa ilang lugar. Ilang residente ang inilikas. #MarioPH update ni John Consulta.| vi‚Ä¶",NULL,NULL,1,0,1,tl,CA
+5.13E+17,cuteburf,RT @govph: INFOGRAPHIC ‚Ä¢ Mga paalala ukol sa baha: http://t.co/UafeqinIXM #MarioPH http://t.co/nW0wC6vulz,NULL,NULL,1,1,1,tl,CA
+5.13E+17,gladyscui,RT @govph: INFOGRAPHIC ‚Ä¢ Mga paalala ukol sa baha: http://t.co/UafeqinIXM #MarioPH http://t.co/nW0wC6vulz,NULL,NULL,1,1,1,tl,CA
+5.13E+17,EspiriTruth,"RT @DZMMTeleRadyo: Baha sa Monumento, Caloocan, lagpas gutter na partikular sa tapat ng MCU | ulat ni RP35 J. Iba√±ez #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,EspiriTruth,"RT @DZMMTeleRadyo: Baha sa Monumento, Caloocan, lagpas gutter na partikular sa tapat ng MCU | ulat ni RP35 J. Iba√±ez #MarioPH",NULL,NULL,1,0,1,tl,CA
+5.13E+17,dzbb,RT @YouScoop: MARIKINA CITY ‚Äî Baha sa Marikina Sports Park. Kuha ni YouScooper Ariel Vicencio #MarioPH http://t.co/9lSZZ1sS27,NULL,NULL,1,0,1,tl,CA
+5.13E+17,audreydomasian,RT @YouScoop: MARIKINA CITY ‚Äî Baha sa Marikina Sports Park. Kuha ni YouScooper Ariel Vicencio #MarioPH http://t.co/9lSZZ1sS27,NULL,NULL,1,0,1,tl,CA
+5.13E+17,EspiriTruth,"RT @DZMMTeleRadyo: Palibot ng SM Manila at Manila City Hall, may gutter deep na baha #MarioPH http://t.co/G4CK8xEsuW... http://t.co/LwM3cni‚Ä¶",NULL,NULL,1,1,1,tl,CA
+5.13E+17,mikexray,"@gmanews:MARILAO, BUL‚ÄîAbot leeg ang baha sa ilang lugar. Residente ang inilikas. #MarioPH ni John Consulta - where exactly? @MarileNews",NULL,NULL,1,0,0,tl,CA
+5.13E+17,EspiriTruth,RT @DZMMTeleRadyo: PHOTO: Gutter-deep na baha sa Carlos Palanca St. (Tapat ng FEATI) Quiapo #MarioPH http://t.co/HP6zspbGKr |... http://t.c‚Ä¶,NULL,NULL,1,1,1,tl,CA
+5.13E+17,kidrauhlxwin,#MarioPH Baha na daw sa Tita ko sa Marikina. :(,NULL,NULL,1,0,0,tl,CA
+5.13E+17,DZMMTeleRadyo,"PHOTO: Lagpas gutter ang baha sa Liwasang Bonifacio (Padre Burgos, Mla) #MarioPH http://t.co/DJWyJ6ucMR | via @zhandercayabyab",NULL,NULL,1,0,0,tl,CA
+5.13E+17,artistahun,RT @govph: INFOGRAPHIC ‚Ä¢ Mga paalala ukol sa baha: http://t.co/UafeqinIXM #MarioPH http://t.co/nW0wC6vulz,NULL,NULL,1,1,1,tl,CA
+5.13E+17,billyjean_CJ21,RT @YouScoop: MARIKINA CITY ‚Äî Baha sa Marikina Sports Park. Kuha ni YouScooper Ariel Vicencio #MarioPH http://t.co/9lSZZ1sS27,NULL,NULL,1,0,1,tl,CA
+5.13E+17,meowisdatime,RT @govph: INFOGRAPHIC ‚Ä¢ Mga paalala ukol sa baha: http://t.co/UafeqinIXM #MarioPH http://t.co/nW0wC6vulz,NULL,NULL,1,1,1,tl,CA
+5.13E+17,DETTEthreat,RT @govph: INFOGRAPHIC ‚Ä¢ Mga paalala ukol sa baha: http://t.co/UafeqinIXM #MarioPH http://t.co/nW0wC6vulz,NULL,NULL,1,1,1,tl,CA
+5.13E+17,Divaaaaan,"""@gmanews: MARILAO, BULACAN ‚Äî Abot leeg na ang baha sa ilang lugar. Ilang residente ang inilikas. #MarioPH update ni John Consulta."" Hala :(",NULL,NULL,1,0,0,tl,CA
+5.13E+17,aigee56,"RT @oscaroida: Di na kinaya ang baha sa may Sampaloc, Maynila. @gmanews  @YouScoop  #MarioPH http://t.co/p2kYSUXut9",NULL,NULL,1,0,1,tl,CA
+5.13E+17,Erikafyn,"RT @gmanews: MARILAO, BULACAN ‚Äî Abot leeg na ang baha sa ilang lugar. Ilang residente ang inilikas. #MarioPH update ni John Consulta.",NULL,NULL,1,0,1,tl,CA
+5.13E+17,lloydscorp1988,RT @govph: INFOGRAPHIC ‚Ä¢ Mga paalala ukol sa baha: http://t.co/UafeqinIXM #MarioPH http://t.co/nW0wC6vulz,NULL,NULL,1,1,1,tl,CA
+5.13E+17,GloBanas,"RT @dzbb: MARILAO, BULACAN ‚Äî Abot leeg na ang baha sa ilang lugar. Ilang residente ang inilikas. #MarioPH update ni John Consulta.| via @gm‚Ä¶",NULL,NULL,1,0,1,tl,CA
+5.13E+17,kayedotkayebye,"RT @gmanews: MARILAO, BULACAN ‚Äî Abot leeg na ang baha sa ilang lugar. Ilang residente ang inilikas. #MarioPH update ni John Consulta.",NULL,NULL,1,0,1,tl,CA
+5.13E+17,MW_BULACAN,RT @DZMMTeleRadyo: Halos 10-oras nang stranded sa Cainta dahil sa baha si Marlo Mortel (Nicolo sa BCWMH) #MarioPH http://t.co/XgnOyg9Gbs ht‚Ä¶,NULL,NULL,1,1,1,tl,CA
+5.13E+17,reiann_kate,"RT @gmanews: MARILAO, BULACAN ‚Äî Abot leeg na ang baha sa ilang lugar. Ilang residente ang inilikas. #MarioPH update ni John Consulta.",NULL,NULL,1,0,1,tl,CA
+5.13E+17,amaezzzayn,RT @YouScoop: MARIKINA CITY ‚Äî Baha sa Marikina Sports Park. Kuha ni YouScooper Ariel Vicencio #MarioPH http://t.co/9lSZZ1sS27,NULL,NULL,1,0,1,tl,CA
+5.13E+17,drew_00,Nangangati na yung paa ko dahil sa natuyong baha!! Phuta #MarioPH,NULL,NULL,1,0,0,tl,CA
+5.13E+17,vixxsaj,RT @govph: INFOGRAPHIC ‚Ä¢ Mga paalala ukol sa baha: http://t.co/UafeqinIXM #MarioPH http://t.co/nW0wC6vulz,NULL,NULL,1,1,1,tl,CA
+5.13E+17,imsoul_vip,"News that i wont like to hear : tao nalunod ng magselfie sa  gitna ng baha"".  Wag po tau tanga ha. Keep safe people.#MarioPH",NULL,NULL,1,0,0,tl,CA
+5.13E+17,_veeyayayaya,RT @YouScoop: MARIKINA CITY ‚Äî Baha sa Marikina Sports Park. Kuha ni YouScooper Ariel Vicencio #MarioPH http://t.co/9lSZZ1sS27,NULL,NULL,1,0,1,tl,CA
+5.13E+17,onecainta,RT @govph: Mga dapat gawin at alalahanin kung may babala ng pagbaha: http://t.co/4RcnjlG81W #MarioPH http://t.co/zrgEnEPD9r,NULL,NULL,1,1,0,tl,CA
+5.13E+17,kayedotkayebye,"""@gmanews: MARILAO, BULACAN ‚Äî Abot leeg na ang baha sa ilang lugar. Ilang residente ang inilikas. #MarioPH update ni John Consulta."" Omg!",NULL,NULL,1,0,0,tl,CA
+5.13E+17,EspiriTruth,RT @YouScoop: MARIKINA CITY ‚Äî Baha sa Marikina Sports Park. Kuha ni YouScooper Ariel Vicencio #MarioPH http://t.co/9lSZZ1sS27,NULL,NULL,1,0,1,tl,CA
+5.13E+17,eloc28,"RT @IMReadyPH: MARILAO, BULACAN ‚Äî Abot leeg na ang baha sa ilang lugar. Ilang residente ang inilikas. #MarioPH update ni John Consulta.| vi‚Ä¶",NULL,NULL,1,0,1,tl,CA

@@ -1,0 +1,241 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     Ruby-marioruby-Combined-word-10-weka.filters.unsupervised.attribute.Remove-R1-5,9
+Instances:    2583
+Attributes:   243
+              [list of attributes omitted]
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+IsUrl <= 0: O (692.0/8.0)
+IsUrl > 0
+|   W_pahelp <= 0
+|   |   W_sinira <= 0
+|   |   |   W_northeastern <= 0
+|   |   |   |   W_tandaan <= 0
+|   |   |   |   |   IsRetweet <= 0
+|   |   |   |   |   |   W_hanggang <= 0
+|   |   |   |   |   |   |   W_family <= 0
+|   |   |   |   |   |   |   |   W_mamayang <= 0
+|   |   |   |   |   |   |   |   |   W_dapat <= 0
+|   |   |   |   |   |   |   |   |   |   W_hagupit <= 0
+|   |   |   |   |   |   |   |   |   |   |   W_klase <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   W_salamat <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   W_high <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   W_ngcp <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_along <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_tayo <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_need <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_packs <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_subsided <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_sitwasyon <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_bandang <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_nasira <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   IsHashtag <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 26
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_tulay <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_gawin <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_par <= 0: O (117.0/23.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_par > 0: CA (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_gawin > 0: CD (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_tulay > 0: CA (2.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length > 26
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_habang <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_not <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 28: D (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length > 28: CA (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_not > 0: CA (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_habang > 0: O (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   IsHashtag > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_casualty <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_nang <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_responsibility <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_dist <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_transported <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 14: O (18.0/5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length > 14
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_contact <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 19
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 17: CA (14.0/4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length > 17
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 18: O (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length > 18: CA (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length > 19
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_labas <= 0: CD (10.0/4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_labas > 0: CA (2.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_contact > 0: CA (2.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_transported > 0: CA (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_dist > 0: CA (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_responsibility > 0: O (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_nang > 0: CD (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_casualty > 0: CD (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_nasira > 0: CA (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_bandang > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_naitalang <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_kasi <= 0: CA (10.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_kasi > 0: O (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_naitalang > 0: CD (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_sitwasyon > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_may <= 0: CA (11.0/4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_may > 0: D (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_subsided > 0: O (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_packs > 0: O (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_need > 0: O (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_tayo > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_sitwasyon <= 0: CD (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_sitwasyon > 0: CA (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_along > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_camnorte <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_labas <= 0: CA (14.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_labas > 0: CD (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_camnorte > 0: O (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   W_ngcp > 0: CA (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   W_high > 0: CA (10.0)
+|   |   |   |   |   |   |   |   |   |   |   |   W_salamat > 0: CA (11.0)
+|   |   |   |   |   |   |   |   |   |   |   W_klase > 0
+|   |   |   |   |   |   |   |   |   |   |   |   W_circuit <= 0: CA (48.0/10.0)
+|   |   |   |   |   |   |   |   |   |   |   |   W_circuit > 0: CD (2.0)
+|   |   |   |   |   |   |   |   |   |   W_hagupit > 0: CD (7.0)
+|   |   |   |   |   |   |   |   |   W_dapat > 0: CD (8.0/1.0)
+|   |   |   |   |   |   |   |   W_mamayang > 0: CD (8.0/1.0)
+|   |   |   |   |   |   |   W_family > 0: CD (8.0)
+|   |   |   |   |   |   W_hanggang > 0
+|   |   |   |   |   |   |   W_cor <= 0: D (6.0)
+|   |   |   |   |   |   |   W_cor > 0: O (2.0)
+|   |   |   |   |   IsRetweet > 0
+|   |   |   |   |   |   W_sitwasyon <= 0
+|   |   |   |   |   |   |   Length <= 20
+|   |   |   |   |   |   |   |   W_dapat <= 0
+|   |   |   |   |   |   |   |   |   W_nang <= 0
+|   |   |   |   |   |   |   |   |   |   W_barangay <= 0
+|   |   |   |   |   |   |   |   |   |   |   W_dahil <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   W_dibdib <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   W_kasi <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   W_klase <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_along <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 17: O (51.0/11.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length > 17
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_mahigit <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_bandang <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_nasawi <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 19: CA (35.0/5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length > 19: O (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_nasawi > 0: CA (20.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_bandang > 0: CA (11.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_mahigit > 0: O (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_along > 0: CD (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   W_klase > 0: CA (48.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   W_kasi > 0: O (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   W_dibdib > 0: CD (4.0)
+|   |   |   |   |   |   |   |   |   |   |   W_dahil > 0: CD (5.0)
+|   |   |   |   |   |   |   |   |   |   W_barangay > 0: CD (7.0)
+|   |   |   |   |   |   |   |   |   W_nang > 0: CD (8.0)
+|   |   |   |   |   |   |   |   W_dapat > 0: CD (9.0)
+|   |   |   |   |   |   |   Length > 20
+|   |   |   |   |   |   |   |   W_labas <= 0
+|   |   |   |   |   |   |   |   |   W_along <= 0
+|   |   |   |   |   |   |   |   |   |   W_ninyo <= 0
+|   |   |   |   |   |   |   |   |   |   |   W_nasira <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   Length <= 27
+|   |   |   |   |   |   |   |   |   |   |   |   |   W_lumakas <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   W_ulan <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_water <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_contact <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 25: CA (262.0/6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length > 25
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_church <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_cor <= 0: CA (72.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_cor > 0: O (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_church > 0: CD (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_contact > 0: O (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_water > 0: CD (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   W_ulan > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 25: CA (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length > 25: O (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   W_lumakas > 0: D (15.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Length > 27
+|   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 35: CA (462.0/4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Length > 35
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   W_gawin <= 0: CA (68.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   W_gawin > 0: CD (3.0)
+|   |   |   |   |   |   |   |   |   |   |   W_nasira > 0
+|   |   |   |   |   |   |   |   |   |   |   |   W_klase <= 0: CA (34.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   W_klase > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   W_imprastraktura <= 0: CD (10.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   W_imprastraktura > 0: D (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   W_ninyo > 0
+|   |   |   |   |   |   |   |   |   |   |   W_klase <= 0: O (12.0)
+|   |   |   |   |   |   |   |   |   |   |   W_klase > 0: CA (8.0)
+|   |   |   |   |   |   |   |   |   W_along > 0
+|   |   |   |   |   |   |   |   |   |   W_babala <= 0
+|   |   |   |   |   |   |   |   |   |   |   W_dahil <= 0: CA (68.0)
+|   |   |   |   |   |   |   |   |   |   |   W_dahil > 0: CD (3.0)
+|   |   |   |   |   |   |   |   |   |   W_babala > 0: CD (14.0)
+|   |   |   |   |   |   |   |   W_labas > 0
+|   |   |   |   |   |   |   |   |   W_apektado <= 0: CA (19.0/3.0)
+|   |   |   |   |   |   |   |   |   W_apektado > 0: CD (7.0)
+|   |   |   |   |   |   W_sitwasyon > 0
+|   |   |   |   |   |   |   W_casualty <= 0
+|   |   |   |   |   |   |   |   W_babala <= 0
+|   |   |   |   |   |   |   |   |   W_along <= 0: CA (10.0/2.0)
+|   |   |   |   |   |   |   |   |   W_along > 0
+|   |   |   |   |   |   |   |   |   |   W_bandang <= 0: CD (2.0)
+|   |   |   |   |   |   |   |   |   |   W_bandang > 0: CA (4.0)
+|   |   |   |   |   |   |   |   W_babala > 0: CD (4.0)
+|   |   |   |   |   |   |   W_casualty > 0: CD (5.0)
+|   |   |   |   W_tandaan > 0
+|   |   |   |   |   W_alon <= 0: CD (34.0)
+|   |   |   |   |   W_alon > 0: CA (9.0)
+|   |   |   W_northeastern > 0: O (30.0/1.0)
+|   |   W_sinira > 0
+|   |   |   W_camnorte <= 0: CD (45.0)
+|   |   |   W_camnorte > 0: CA (2.0)
+|   W_pahelp > 0
+|   |   W_breaker <= 0: O (59.0/1.0)
+|   |   W_breaker > 0: CH (4.0)
+
+Number of Leaves  : 	94
+
+Size of the tree : 	187
+
+
+Time taken to build model: 3.04 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        2379               92.1022 %
+Incorrectly Classified Instances       204                7.8978 %
+Kappa statistic                          0.8652
+Mean absolute error                      0.0409
+Root mean squared error                  0.1604
+Relative absolute error                 17.2697 %
+Root relative squared error             46.6289 %
+Coverage of cases (0.95 level)          96.8641 %
+Mean rel. region size (0.95 level)      25.1413 %
+Total Number of Instances             2583     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.940    0.067    0.932      0.940    0.936      0.872    0.969     0.962     CA
+                 0.947    0.054    0.919      0.947    0.932      0.888    0.974     0.937     O
+                 0.800    0.011    0.887      0.800    0.841      0.827    0.962     0.889     CD
+                 0.444    0.000    1.000      0.444    0.615      0.666    0.862     0.459     CH
+                 0.486    0.002    0.750      0.486    0.590      0.600    0.865     0.586     D
+Weighted Avg.    0.921    0.056    0.920      0.921    0.919      0.870    0.969     0.938     
+
+=== Confusion Matrix ===
+
+    a    b    c    d    e   <-- classified as
+ 1202   59   16    0    2 |    a = CA
+   43  959    7    0    4 |    b = O
+   34   15  196    0    0 |    c = CD
+    0    5    0    4    0 |    d = CH
+   11    6    2    0   18 |    e = D
+

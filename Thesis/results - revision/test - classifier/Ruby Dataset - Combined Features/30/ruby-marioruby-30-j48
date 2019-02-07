@@ -1,0 +1,231 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     ruby-marioruby-Combined-word-30-weka.filters.unsupervised.attribute.Remove-R1-5,9
+Instances:    2583
+Attributes:   628
+[list of attributes omitted]
+Test mode:split 60.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+IsUrl <= 0: O (692.0/8.0)
+IsUrl > 0
+|   W_kaugnay <= 0
+|   |   W_evacuees <= 0
+|   |   |   W_maglandfall <= 0
+|   |   |   |   W_purok <= 0
+|   |   |   |   |   W_southern <= 0
+|   |   |   |   |   |   W_mula <= 0
+|   |   |   |   |   |   |   W_ngayong <= 0
+|   |   |   |   |   |   |   |   IsRetweet <= 0
+|   |   |   |   |   |   |   |   |   W_iniwan <= 0
+|   |   |   |   |   |   |   |   |   |   W_abo <= 0
+|   |   |   |   |   |   |   |   |   |   |   W_peligroso <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   W_kasagsagan <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   W_evac <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   W_flight <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_lumabas <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_coast <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_dapat <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_roga <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_near <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_paglusong <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_bilis <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_muna <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_istruktura <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_meters <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_inilikas <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_call <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_photo <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_kalye <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_nddrmc <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_ulit <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 25
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_ilikas <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_malalaking <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_quad <= 0: O (107.0/26.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_quad > 0: CD (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_malalaking > 0: CD (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_ilikas > 0: D (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length > 25: CA (6.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_ulit > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_rising <= 0: O (2.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_rising > 0: CA (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_nddrmc > 0: CA (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_kalye > 0: CA (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_photo > 0: CA (8.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_call > 0: CA (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_inilikas > 0: CD (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_meters > 0: CA (8.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_istruktura > 0: CA (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_muna > 0: CA (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_bilis > 0: CA (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_paglusong > 0: CA (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_near > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 20: CA (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length > 20
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_kabuluan <= 0: CD (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_kabuluan > 0: CA (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_roga > 0: CA (10.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_dapat > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   IsHashtag <= 0: CA (2.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   IsHashtag > 0: CD (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_coast > 0: CD (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_lumabas > 0: CA (10.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   W_flight > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_correspondent <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_residente <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_metro <= 0: CA (41.0/5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_metro > 0: CD (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_residente > 0: CD (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_correspondent > 0: CD (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   W_evac > 0: O (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   W_kasagsagan > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 21: CA (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Length > 21: CD (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   W_peligroso > 0: CD (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   W_abo > 0: CD (7.0)
+|   |   |   |   |   |   |   |   |   W_iniwan > 0: D (6.0)
+|   |   |   |   |   |   |   |   IsRetweet > 0
+|   |   |   |   |   |   |   |   |   W_not <= 0
+|   |   |   |   |   |   |   |   |   |   W_tumawag <= 0
+|   |   |   |   |   |   |   |   |   |   |   Length <= 18
+|   |   |   |   |   |   |   |   |   |   |   |   W_video <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   W_brownout <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   W_flight <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   IsHashtag <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_around <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_bangus <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_nagsimula <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_homes <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_stop <= 0: O (32.0/6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_stop > 0: CA (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_homes > 0: O (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_nagsimula > 0: CA (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_bangus > 0: CA (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_around > 0: CA (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   IsHashtag > 0: CA (16.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   W_flight > 0: CA (23.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   W_brownout > 0: CD (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   W_video > 0: CD (10.0)
+|   |   |   |   |   |   |   |   |   |   |   Length > 18
+|   |   |   |   |   |   |   |   |   |   |   |   W_stop <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   W_types <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   W_near <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_istruktura <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_rainfall <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_pananalasa <= 0: CA (373.0/6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_pananalasa > 0: O (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_rainfall > 0: CA (478.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_istruktura > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_cross <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_electrical <= 0: CA (42.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_electrical > 0: D (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_cross > 0: CD (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   W_near > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 22: CD (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length > 22
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_complex <= 0: CA (65.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_complex > 0: CD (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   W_types > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   W_iniwan <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 25: CA (24.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length > 25: O (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   W_iniwan > 0: D (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   W_stop > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   W_airport <= 0: CA (18.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   W_airport > 0: CD (7.0)
+|   |   |   |   |   |   |   |   |   |   W_tumawag > 0
+|   |   |   |   |   |   |   |   |   |   |   W_flight <= 0: CA (20.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   W_flight > 0
+|   |   |   |   |   |   |   |   |   |   |   |   W_pumasok <= 0: CD (25.0)
+|   |   |   |   |   |   |   |   |   |   |   |   W_pumasok > 0: CA (2.0)
+|   |   |   |   |   |   |   |   |   W_not > 0
+|   |   |   |   |   |   |   |   |   |   W_talaga <= 0
+|   |   |   |   |   |   |   |   |   |   |   W_nailikas <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   W_binabayo <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   W_ngyon <= 0: CD (23.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   W_ngyon > 0: O (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   W_binabayo > 0: CA (4.0)
+|   |   |   |   |   |   |   |   |   |   |   W_nailikas > 0: CA (22.0)
+|   |   |   |   |   |   |   |   |   |   W_talaga > 0: D (15.0)
+|   |   |   |   |   |   |   W_ngayong > 0
+|   |   |   |   |   |   |   |   W_nakahanda <= 0
+|   |   |   |   |   |   |   |   |   W_bahagya <= 0
+|   |   |   |   |   |   |   |   |   |   W_meters <= 0
+|   |   |   |   |   |   |   |   |   |   |   W_cellphones <= 0: CD (22.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   W_cellphones > 0: CA (3.0)
+|   |   |   |   |   |   |   |   |   |   W_meters > 0: CA (3.0)
+|   |   |   |   |   |   |   |   |   W_bahagya > 0: CA (3.0)
+|   |   |   |   |   |   |   |   W_nakahanda > 0: O (2.0)
+|   |   |   |   |   |   W_mula > 0
+|   |   |   |   |   |   |   W_flight <= 0
+|   |   |   |   |   |   |   |   W_ipinagagamit <= 0
+|   |   |   |   |   |   |   |   |   W_deep <= 0: O (51.0/5.0)
+|   |   |   |   |   |   |   |   |   W_deep > 0: CD (2.0)
+|   |   |   |   |   |   |   |   W_ipinagagamit > 0: CA (17.0)
+|   |   |   |   |   |   |   W_flight > 0: CD (10.0)
+|   |   |   |   |   W_southern > 0
+|   |   |   |   |   |   W_name <= 0
+|   |   |   |   |   |   |   IsHashtag <= 0: O (59.0/5.0)
+|   |   |   |   |   |   |   IsHashtag > 0
+|   |   |   |   |   |   |   |   W_lalawigan <= 0: CA (4.0/1.0)
+|   |   |   |   |   |   |   |   W_lalawigan > 0: O (2.0)
+|   |   |   |   |   |   W_name > 0: CD (2.0)
+|   |   |   |   W_purok > 0
+|   |   |   |   |   W_alalahanin <= 0
+|   |   |   |   |   |   W_helpdesk <= 0: O (22.0)
+|   |   |   |   |   |   W_helpdesk > 0: CA (3.0)
+|   |   |   |   |   W_alalahanin > 0: CD (2.0)
+|   |   |   W_maglandfall > 0
+|   |   |   |   W_nddrmc <= 0: CD (34.0)
+|   |   |   |   W_nddrmc > 0: CA (9.0)
+|   |   W_evacuees > 0
+|   |   |   W_bangus <= 0: CD (45.0)
+|   |   |   W_bangus > 0: CA (2.0)
+|   W_kaugnay > 0
+|   |   W_babala <= 0: O (59.0/1.0)
+|   |   W_babala > 0: CH (4.0)
+
+Number of Leaves  : 	90
+
+Size of the tree : 	179
+
+
+Time taken to build model: 8.09 seconds
+
+=== Evaluation on test split ===
+=== Summary ===
+
+Correctly Classified Instances         944               91.3843 %
+Incorrectly Classified Instances        89                8.6157 %
+Kappa statistic                          0.8535
+Mean absolute error                      0.0443
+Root mean squared error                  0.1731
+Relative absolute error                 18.6408 %
+Root relative squared error             49.9913 %
+Total Number of Instances             1033     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.923     0.059      0.935     0.923     0.929      0.956    CA
+                 0.969     0.084      0.886     0.969     0.925      0.967    O
+                 0.755     0.004      0.951     0.755     0.842      0.934    CD
+                 0         0          0         0         0          0.789    CH
+                 0.467     0.001      0.875     0.467     0.609      0.842    D
+Weighted Avg.    0.914     0.063      0.911     0.914     0.91       0.956
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+ 457  35   3   0   0 |   a = CA
+  11 403   1   0   1 |   b = O
+  20   5  77   0   0 |   c = CD
+   1   4   0   0   0 |   d = CH
+   0   8   0   0   7 |   e = D
+

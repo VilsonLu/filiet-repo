@@ -1,0 +1,172 @@
+=== Run information ===
+
+Scheme:weka.classifiers.bayes.NaiveBayes 
+Relation:     ruby-Bin-CH-word-20-weka.filters.unsupervised.attribute.Remove-R1-5,9
+Instances:    18
+Attributes:   19
+              IsUrl
+              IsHashtag
+              IsRetweet
+              Category
+              W_namin
+              W_mauubusan
+              W_ipriority
+              W_kailangan
+              W_nasa
+              W_talaga
+              W_hindi
+              W_than
+              W_need
+              W_nila
+              W_church
+              W_more
+              W_iaccommodate
+              W_yung
+              Length
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                   Class
+Attribute             CH       O
+                   (0.5)   (0.5)
+=================================
+IsUrl
+  mean                  1       1
+  std. dev.        0.0017  0.0017
+  weight sum            9       9
+  precision          0.01    0.01
+
+IsHashtag
+  mean                  0       0
+  std. dev.        0.0017  0.0017
+  weight sum            9       9
+  precision          0.01    0.01
+
+IsRetweet
+  mean             0.3333  0.8889
+  std. dev.        0.4714  0.3143
+  weight sum            9       9
+  precision             1       1
+
+W_namin
+  mean             0.1111       0
+  std. dev.        0.3143  0.1667
+  weight sum            9       9
+  precision             1       1
+
+W_mauubusan
+  mean             0.4444       0
+  std. dev.        0.4969  0.1667
+  weight sum            9       9
+  precision             1       1
+
+W_ipriority
+  mean             0.1111       0
+  std. dev.        0.3143  0.1667
+  weight sum            9       9
+  precision             1       1
+
+W_kailangan
+  mean             0.4444       0
+  std. dev.        0.4969  0.1667
+  weight sum            9       9
+  precision             1       1
+
+W_nasa
+  mean             0.4444       0
+  std. dev.        0.4969  0.1667
+  weight sum            9       9
+  precision             1       1
+
+W_talaga
+  mean             0.5556       0
+  std. dev.        0.4969  0.1667
+  weight sum            9       9
+  precision             1       1
+
+W_hindi
+  mean             0.2222       0
+  std. dev.        0.4157  0.1667
+  weight sum            9       9
+  precision             1       1
+
+W_than
+  mean             0.1111       0
+  std. dev.        0.3143  0.1667
+  weight sum            9       9
+  precision             1       1
+
+W_need
+  mean             0.4444       0
+  std. dev.        0.4969  0.1667
+  weight sum            9       9
+  precision             1       1
+
+W_nila
+  mean             0.4444       0
+  std. dev.        0.4969  0.1667
+  weight sum            9       9
+  precision             1       1
+
+W_church
+  mean             0.1111       0
+  std. dev.        0.3143  0.1667
+  weight sum            9       9
+  precision             1       1
+
+W_more
+  mean             0.4444       0
+  std. dev.        0.4969  0.1667
+  weight sum            9       9
+  precision             1       1
+
+W_iaccommodate
+  mean             0.4444       0
+  std. dev.        0.4969  0.1667
+  weight sum            9       9
+  precision             1       1
+
+W_yung
+  mean             0.4444       0
+  std. dev.        0.4969  0.1667
+  weight sum            9       9
+  precision             1       1
+
+Length
+  mean            23.4861 16.8889
+  std. dev.        4.3999  4.5401
+  weight sum            9       9
+  precision         2.375   2.375
+
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          14               77.7778 %
+Incorrectly Classified Instances         4               22.2222 %
+Kappa statistic                          0.5556
+Mean absolute error                      0.1993
+Root mean squared error                  0.4249
+Relative absolute error                 39.6245 %
+Root relative squared error             84.4705 %
+Total Number of Instances               18     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.556     0          1         0.556     0.714      0.901    CH
+                 1         0.444      0.692     1         0.818      0.901    O
+Weighted Avg.    0.778     0.222      0.846     0.778     0.766      0.901
+
+=== Confusion Matrix ===
+
+ a b   <-- classified as
+ 5 4 | a = CH
+ 0 9 | b = O
+

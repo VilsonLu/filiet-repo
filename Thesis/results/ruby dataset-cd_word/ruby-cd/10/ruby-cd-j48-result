@@ -1,0 +1,136 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     ruby-Bin-CD-word-10-weka.filters.unsupervised.attribute.Remove-R1-5,9
+Instances:    490
+Attributes:   52
+              IsUrl
+              IsHashtag
+              IsRetweet
+              Category
+              W_northeastern
+              W_downed
+              W_dead
+              W_natuklapan
+              W_katao
+              W_barangay
+              W_lumikas
+              W_nagdulot
+              W_bayan
+              W_linya
+              W_mahigit
+              W_sagkahan
+              W_pswd
+              W_imprastraktura
+              W_total
+              W_iniwan
+              W_bagsak
+              W_sinira
+              W_video
+              W_residente
+              W_kahoy
+              W_tindahang
+              W_yero
+              W_yari
+              W_alon
+              W_evacuees
+              W_highway
+              W_post
+              W_lines
+              W_lubog
+              W_winasak
+              W_damages
+              W_power
+              W_ngcp
+              W_pananalasa
+              W_bubong
+              W_casualty
+              W_bunkhouses
+              W_malawak
+              W_umakyat
+              W_nasawi
+              W_patay
+              W_istruktura
+              W_pinsala
+              W_nasira
+              W_naitalang
+              W_youscooper
+              Length
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+IsUrl <= 0: O (147.0)
+IsUrl > 0
+|   W_tindahang <= 0
+|   |   W_linya <= 0
+|   |   |   W_video <= 0
+|   |   |   |   W_umakyat <= 0
+|   |   |   |   |   W_post <= 0
+|   |   |   |   |   |   W_northeastern <= 0
+|   |   |   |   |   |   |   W_damages <= 0
+|   |   |   |   |   |   |   |   W_pananalasa <= 0
+|   |   |   |   |   |   |   |   |   W_malawak <= 0
+|   |   |   |   |   |   |   |   |   |   W_ngcp <= 0
+|   |   |   |   |   |   |   |   |   |   |   W_istruktura <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   IsRetweet <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   IsHashtag <= 0: O (67.0/26.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   IsHashtag > 0: CD (18.0/4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   IsRetweet > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 28
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 16: O (15.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Length > 16
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 17: CD (8.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length > 17
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 24: O (34.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length > 24
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 25: CD (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length > 25: O (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Length > 28: CD (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   W_istruktura > 0: CD (8.0)
+|   |   |   |   |   |   |   |   |   |   W_ngcp > 0: CD (8.0)
+|   |   |   |   |   |   |   |   |   W_malawak > 0: CD (10.0)
+|   |   |   |   |   |   |   |   W_pananalasa > 0: CD (10.0)
+|   |   |   |   |   |   |   W_damages > 0: CD (10.0)
+|   |   |   |   |   |   W_northeastern > 0: CD (11.0)
+|   |   |   |   |   W_post > 0: CD (13.0)
+|   |   |   |   W_umakyat > 0: CD (14.0)
+|   |   |   W_video > 0: CD (24.0)
+|   |   W_linya > 0: CD (29.0)
+|   W_tindahang > 0: CD (50.0)
+
+Number of Leaves  : 	20
+
+Size of the tree : 	39
+
+
+Time taken to build model: 0.04 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         437               89.1837 %
+Incorrectly Classified Instances        53               10.8163 %
+Kappa statistic                          0.7837
+Mean absolute error                      0.131 
+Root mean squared error                  0.2779
+Relative absolute error                 26.1942 %
+Root relative squared error             55.5777 %
+Total Number of Instances              490     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.955     0.171      0.848     0.955     0.898      0.963    O
+                 0.829     0.045      0.949     0.829     0.885      0.963    CD
+Weighted Avg.    0.892     0.108      0.898     0.892     0.891      0.963
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 234  11 |   a = O
+  42 203 |   b = CD
+

@@ -1,0 +1,93 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     ruby-Bin-D-word-20-weka.filters.unsupervised.attribute.Remove-R1-5,9
+Instances:    74
+Attributes:   35
+              IsUrl
+              IsHashtag
+              IsRetweet
+              Category
+              W_tumatanggap
+              W_bangus
+              W_victims
+              W_countries
+              W_globe
+              W_ulit
+              W_handang
+              W_sagip
+              W_providing
+              W_donasyon
+              W_evacuee
+              W_volunteers
+              W_nakahanda
+              W_free
+              W_photo
+              W_ipamigay
+              W_point
+              W_inihahanda
+              W_dswd
+              W_salamat
+              W_food
+              W_family
+              W_navy
+              W_municipality
+              W_towns
+              W_packs
+              W_relief
+              W_goods
+              W_transported
+              W_personnel
+              Length
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+IsUrl <= 0: O (21.0)
+IsUrl > 0
+|   Length <= 11: O (6.0)
+|   Length > 11
+|   |   W_donasyon <= 0
+|   |   |   W_ipamigay <= 0
+|   |   |   |   W_towns <= 0
+|   |   |   |   |   IsRetweet <= 0: D (11.0/3.0)
+|   |   |   |   |   IsRetweet > 0: O (7.0)
+|   |   |   |   W_towns > 0: D (4.0)
+|   |   |   W_ipamigay > 0: D (9.0)
+|   |   W_donasyon > 0: D (16.0)
+
+Number of Leaves  : 	7
+
+Size of the tree : 	13
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          67               90.5405 %
+Incorrectly Classified Instances         7                9.4595 %
+Kappa statistic                          0.8108
+Mean absolute error                      0.1238
+Root mean squared error                  0.291 
+Relative absolute error                 24.7258 %
+Root relative squared error             58.1268 %
+Total Number of Instances               74     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.865     0.054      0.941     0.865     0.901      0.956    D
+                 0.946     0.135      0.875     0.946     0.909      0.956    O
+Weighted Avg.    0.905     0.095      0.908     0.905     0.905      0.956
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 32  5 |  a = D
+  2 35 |  b = O
+

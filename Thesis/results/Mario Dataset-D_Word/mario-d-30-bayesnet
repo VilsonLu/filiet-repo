@@ -1,0 +1,116 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.BayesNet -D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 1 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5
+Relation:     Mario-Bin-D-word-30-weka.filters.unsupervised.attribute.Remove-R1-5,9
+Instances:    94
+Attributes:   33
+              IsUrl
+              IsHashtag
+              IsRetweet
+              Category
+              W_metro
+              W_lahat
+              W_you
+              W_ating
+              W_extension
+              W_weather
+              W_requests
+              W_parking
+              W_ginawa
+              W_advisory
+              W_kaba
+              W_malls
+              W_service
+              W_volunteer
+              W_affected
+              W_pong
+              W_ilang
+              W_gusto
+              W_nagpabuhat
+              W_magvolunteer
+              W_mabasa
+              W_more
+              W_ngayon
+              W_open
+              W_contact
+              W_just
+              W_masilungan
+              W_rescuer
+              Length
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Bayes Network Classifier
+not using ADTree
+#attributes=33 #classindex=3
+Network structure (nodes followed by parents)
+IsUrl(2): Category 
+IsHashtag(2): Category 
+IsRetweet(2): Category 
+Category(2): 
+W_metro(1): Category 
+W_lahat(1): Category 
+W_you(1): Category 
+W_ating(1): Category 
+W_extension(1): Category 
+W_weather(1): Category 
+W_requests(1): Category 
+W_parking(2): Category 
+W_ginawa(1): Category 
+W_advisory(1): Category 
+W_kaba(2): Category 
+W_malls(1): Category 
+W_service(1): Category 
+W_volunteer(2): Category 
+W_affected(1): Category 
+W_pong(1): Category 
+W_ilang(1): Category 
+W_gusto(1): Category 
+W_nagpabuhat(2): Category 
+W_magvolunteer(1): Category 
+W_mabasa(1): Category 
+W_more(1): Category 
+W_ngayon(2): Category 
+W_open(2): Category 
+W_contact(1): Category 
+W_just(2): Category 
+W_masilungan(2): Category 
+W_rescuer(1): Category 
+Length(1): Category 
+LogScore Bayes: -400.17526389410045
+LogScore BDeu: -419.07216874778584
+LogScore MDL: -438.8840870135104
+LogScore ENTROPY: -386.6361970174053
+LogScore AIC: -409.63619701740544
+
+
+Time taken to build model: 0.03 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          75               79.7872 %
+Incorrectly Classified Instances        19               20.2128 %
+Kappa statistic                          0.5957
+Mean absolute error                      0.2071
+Root mean squared error                  0.3351
+Relative absolute error                 41.3963 %
+Root relative squared error             66.9751 %
+Coverage of cases (0.95 level)          98.9362 %
+Mean rel. region size (0.95 level)      73.9362 %
+Total Number of Instances               94     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.745    0.149    0.833      0.745    0.787      0.599    0.914     0.910     D
+                 0.851    0.255    0.769      0.851    0.808      0.599    0.914     0.924     O
+Weighted Avg.    0.798    0.202    0.801      0.798    0.797      0.599    0.914     0.917     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 35 12 |  a = D
+  7 40 |  b = O
+

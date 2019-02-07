@@ -1,0 +1,76 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.lazy.IBk -K 3 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Relation:     Mario-Bin-D-word-30-weka.filters.unsupervised.attribute.Remove-R1-5,9
+Instances:    94
+Attributes:   33
+              IsUrl
+              IsHashtag
+              IsRetweet
+              Category
+              W_metro
+              W_lahat
+              W_you
+              W_ating
+              W_extension
+              W_weather
+              W_requests
+              W_parking
+              W_ginawa
+              W_advisory
+              W_kaba
+              W_malls
+              W_service
+              W_volunteer
+              W_affected
+              W_pong
+              W_ilang
+              W_gusto
+              W_nagpabuhat
+              W_magvolunteer
+              W_mabasa
+              W_more
+              W_ngayon
+              W_open
+              W_contact
+              W_just
+              W_masilungan
+              W_rescuer
+              Length
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+IB1 instance-based classifier
+using 3 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          71               75.5319 %
+Incorrectly Classified Instances        23               24.4681 %
+Kappa statistic                          0.5106
+Mean absolute error                      0.1819
+Root mean squared error                  0.3479
+Relative absolute error                 36.358  %
+Root relative squared error             69.5275 %
+Coverage of cases (0.95 level)          98.9362 %
+Mean rel. region size (0.95 level)      63.8298 %
+Total Number of Instances               94     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.702    0.191    0.786      0.702    0.742      0.514    0.934     0.939     D
+                 0.809    0.298    0.731      0.809    0.768      0.514    0.934     0.941     O
+Weighted Avg.    0.755    0.245    0.758      0.755    0.755      0.514    0.934     0.940     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 33 14 |  a = D
+  9 38 |  b = O
+

@@ -1,0 +1,233 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     ruby-mario-Combined-word-20-weka.filters.unsupervised.attribute.Remove-R1-5,9
+Instances:    2583
+Attributes:   139
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+IsUrl <= 0: O (692.0/8.0)
+IsUrl > 0
+|   W_pls <= 0
+|   |   Length <= 26
+|   |   |   W_mahigit <= 0
+|   |   |   |   W_kong <= 0
+|   |   |   |   |   W_tahanan <= 0
+|   |   |   |   |   |   W_may <= 0
+|   |   |   |   |   |   |   W_habang <= 0
+|   |   |   |   |   |   |   |   IsRetweet <= 0
+|   |   |   |   |   |   |   |   |   W_padala <= 0
+|   |   |   |   |   |   |   |   |   |   W_nangka <= 0
+|   |   |   |   |   |   |   |   |   |   |   W_nila <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   Length <= 14
+|   |   |   |   |   |   |   |   |   |   |   |   |   IsHashtag <= 0: O (74.0/23.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   IsHashtag > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   W_flight <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 13
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 11
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 9: O (6.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length > 9: CA (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length > 11: O (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length > 13: CA (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   W_flight > 0: O (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Length > 14
+|   |   |   |   |   |   |   |   |   |   |   |   |   W_pamilya <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   W_road <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_flight <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   IsHashtag <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_sir <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_blvd <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_mabasa <= 0: O (96.0/38.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_mabasa > 0: CD (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_blvd > 0: D (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_sir > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 21
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 19: CA (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length > 19: CH (2.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length > 21: O (5.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   IsHashtag > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_makita <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_hala <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_ilikas <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 22
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 16: O (14.0/7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length > 16
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 17: CA (5.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length > 17
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 19: O (9.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length > 19: CD (6.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length > 22: CA (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_ilikas > 0: O (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_hala > 0: CA (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_makita > 0: CD (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_flight > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 16: CD (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length > 16: CA (7.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   W_road > 0: CA (8.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   W_pamilya > 0: D (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   W_nila > 0: CA (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   W_nangka > 0: CA (8.0/2.0)
+|   |   |   |   |   |   |   |   |   W_padala > 0: CD (6.0/1.0)
+|   |   |   |   |   |   |   |   IsRetweet > 0
+|   |   |   |   |   |   |   |   |   W_dear <= 0
+|   |   |   |   |   |   |   |   |   |   W_ilikas <= 0
+|   |   |   |   |   |   |   |   |   |   |   IsHashtag <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   W_sir <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 20
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   W_padala <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_makita <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 19
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_flight <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_labas <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_road <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 18: O (55.0/16.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length > 18: CA (40.0/19.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_road > 0: CA (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_labas > 0: CA (13.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_flight > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 15: CA (22.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length > 15
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_uhod <= 0: CD (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_uhod > 0: O (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length > 19: CD (10.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_makita > 0: CD (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   W_padala > 0: CD (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Length > 20
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 25
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_nangka <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_ngayon <= 0: CA (146.0/18.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_ngayon > 0: O (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_nangka > 0: O (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Length > 25: O (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   W_sir > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 21
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   W_bandang <= 0: CA (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   W_bandang > 0: O (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Length > 21: CD (7.0)
+|   |   |   |   |   |   |   |   |   |   |   IsHashtag > 0: CD (18.0/1.0)
+|   |   |   |   |   |   |   |   |   |   W_ilikas > 0: CA (35.0/5.0)
+|   |   |   |   |   |   |   |   |   W_dear > 0: CA (14.0)
+|   |   |   |   |   |   |   W_habang > 0
+|   |   |   |   |   |   |   |   Length <= 23
+|   |   |   |   |   |   |   |   |   Length <= 16
+|   |   |   |   |   |   |   |   |   |   IsHashtag <= 0: CA (11.0/1.0)
+|   |   |   |   |   |   |   |   |   |   IsHashtag > 0: O (3.0/1.0)
+|   |   |   |   |   |   |   |   |   Length > 16
+|   |   |   |   |   |   |   |   |   |   IsRetweet <= 0
+|   |   |   |   |   |   |   |   |   |   |   W_pamilya <= 0: CA (19.0/4.0)
+|   |   |   |   |   |   |   |   |   |   |   W_pamilya > 0: O (2.0)
+|   |   |   |   |   |   |   |   |   |   IsRetweet > 0
+|   |   |   |   |   |   |   |   |   |   |   W_makita <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   IsHashtag <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   W_padala <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 22
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 18: CD (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length > 18: CA (13.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Length > 22: CD (18.0/4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   W_padala > 0: CD (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   IsHashtag > 0: CD (47.0/9.0)
+|   |   |   |   |   |   |   |   |   |   |   W_makita > 0: CD (3.0)
+|   |   |   |   |   |   |   |   Length > 23
+|   |   |   |   |   |   |   |   |   Length <= 25: CA (22.0)
+|   |   |   |   |   |   |   |   |   Length > 25: O (2.0)
+|   |   |   |   |   |   W_may > 0: CA (30.0)
+|   |   |   |   |   W_tahanan > 0
+|   |   |   |   |   |   W_pamilya <= 0: CD (13.0/1.0)
+|   |   |   |   |   |   W_pamilya > 0: D (5.0)
+|   |   |   |   W_kong > 0
+|   |   |   |   |   W_may <= 0: CD (30.0/3.0)
+|   |   |   |   |   W_may > 0: CA (2.0)
+|   |   |   W_mahigit > 0
+|   |   |   |   W_flight <= 0
+|   |   |   |   |   Length <= 24: CA (134.0/1.0)
+|   |   |   |   |   Length > 24
+|   |   |   |   |   |   W_mataas <= 0
+|   |   |   |   |   |   |   W_blogger <= 0
+|   |   |   |   |   |   |   |   IsHashtag <= 0
+|   |   |   |   |   |   |   |   |   IsRetweet <= 0: CA (6.0/3.0)
+|   |   |   |   |   |   |   |   |   IsRetweet > 0: CD (11.0)
+|   |   |   |   |   |   |   |   IsHashtag > 0: CA (2.0)
+|   |   |   |   |   |   |   W_blogger > 0: CA (5.0)
+|   |   |   |   |   |   W_mataas > 0: D (3.0/1.0)
+|   |   |   |   W_flight > 0
+|   |   |   |   |   W_inyong <= 0
+|   |   |   |   |   |   IsHashtag <= 0: D (16.0/1.0)
+|   |   |   |   |   |   IsHashtag > 0: CD (3.0)
+|   |   |   |   |   W_inyong > 0: CA (8.0)
+|   |   Length > 26
+|   |   |   IsRetweet <= 0
+|   |   |   |   W_dulot <= 0: CA (19.0/8.0)
+|   |   |   |   W_dulot > 0: O (2.0)
+|   |   |   IsRetweet > 0
+|   |   |   |   W_mahigit <= 0
+|   |   |   |   |   W_flight <= 0
+|   |   |   |   |   |   W_labas <= 0
+|   |   |   |   |   |   |   W_evacuees <= 0: CA (250.0/1.0)
+|   |   |   |   |   |   |   W_evacuees > 0: CH (4.0/1.0)
+|   |   |   |   |   |   W_labas > 0: O (10.0)
+|   |   |   |   |   W_flight > 0
+|   |   |   |   |   |   Length <= 27: CD (4.0)
+|   |   |   |   |   |   Length > 27
+|   |   |   |   |   |   |   Length <= 33: O (2.0)
+|   |   |   |   |   |   |   Length > 33: CD (3.0)
+|   |   |   |   W_mahigit > 0
+|   |   |   |   |   Length <= 29: CA (306.0)
+|   |   |   |   |   Length > 29
+|   |   |   |   |   |   W_padala <= 0: CA (104.0)
+|   |   |   |   |   |   W_padala > 0: CD (3.0)
+|   W_pls > 0
+|   |   W_bandang <= 0
+|   |   |   IsHashtag <= 0
+|   |   |   |   W_habang <= 0: O (59.0/4.0)
+|   |   |   |   W_habang > 0
+|   |   |   |   |   Length <= 16: O (3.0/1.0)
+|   |   |   |   |   Length > 16: CD (2.0)
+|   |   |   IsHashtag > 0
+|   |   |   |   W_pls <= 1: CA (2.0)
+|   |   |   |   W_pls > 1: O (4.0/1.0)
+|   |   W_bandang > 0: CA (3.0)
+
+Number of Leaves  : 	91
+
+Size of the tree : 	181
+
+
+Time taken to build model: 0.98 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        2258               87.4177 %
+Incorrectly Classified Instances       325               12.5823 %
+Kappa statistic                          0.7858
+Mean absolute error                      0.065 
+Root mean squared error                  0.196 
+Relative absolute error                 27.436  %
+Root relative squared error             56.9827 %
+Total Number of Instances             2583     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.892     0.082      0.914     0.892     0.903      0.952    CA
+                 0.918     0.101      0.855     0.918     0.885      0.96     O
+                 0.69      0.023      0.761     0.69      0.724      0.94     CD
+                 0         0.001      0         0         0          0.661    CH
+                 0.486     0.002      0.818     0.486     0.61       0.868    D
+Weighted Avg.    0.874     0.082      0.872     0.874     0.872      0.952
+
+=== Confusion Matrix ===
+
+    a    b    c    d    e   <-- classified as
+ 1141  104   34    0    0 |    a = CA
+   63  930   17    1    2 |    b = O
+   35   40  169    0    1 |    c = CD
+    4    3    1    0    1 |    d = CH
+    5   11    1    2   18 |    e = D
+

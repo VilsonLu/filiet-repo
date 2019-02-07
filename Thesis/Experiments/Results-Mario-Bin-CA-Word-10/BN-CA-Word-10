@@ -1,0 +1,208 @@
+=== Run information ===
+
+Scheme:weka.classifiers.bayes.BayesNet -D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 1 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5
+Relation:     Mario-Bin-CA-word-10-weka.filters.unsupervised.attribute.Remove-R1-5,9
+Instances:    1161
+Attributes:   80
+              IsUrl
+              IsHashtag
+              IsRetweet
+              Category
+              W_abo
+              W_all
+              W_along
+              W_amin
+              W_area
+              W_as
+              W_babala
+              W_bagong
+              W_bahagi
+              W_bahang
+              W_blog
+              W_city
+              W_cor
+              W_dahil
+              W_dapat
+              W_deep
+              W_dibdib
+              W_dito
+              W_dry
+              W_follow
+              W_gawin
+              W_going
+              W_hall
+              W_hanggang
+              W_high
+              W_highway
+              W_hotlines
+              W_ingat
+              W_inyong
+              W_ito
+              W_kahabaan
+              W_karangalan
+              W_kuha
+              W_kung
+              W_labas
+              W_lagpas
+              W_lalim
+              W_limay
+              W_live
+              W_liwasang
+              W_lugar
+              W_magdulot
+              W_magingat
+              W_malapit
+              W_naman
+              W_namin
+              W_nananatiling
+              W_ngayong
+              W_not
+              W_paalala
+              W_palibot
+              W_passable
+              W_patungong
+              W_pero
+              W_point
+              W_question
+              W_river
+              W_safe
+              W_samin
+              W_san
+              W_sitwasyon
+              W_subd
+              W_subided
+              W_subsided
+              W_tayo
+              W_tubig
+              W_tuhod
+              W_types
+              W_ukol
+              W_ulan
+              W_umiwas
+              W_via
+              W_video
+              W_village
+              W_warning
+              Length
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Bayes Network Classifier
+not using ADTree
+#attributes=80 #classindex=3
+Network structure (nodes followed by parents)
+IsUrl(2): Category 
+IsHashtag(2): Category 
+IsRetweet(2): Category 
+Category(2): 
+W_abo(1): Category 
+W_all(1): Category 
+W_along(1): Category 
+W_amin(1): Category 
+W_area(1): Category 
+W_as(1): Category 
+W_babala(2): Category 
+W_bagong(1): Category 
+W_bahagi(2): Category 
+W_bahang(1): Category 
+W_blog(2): Category 
+W_city(2): Category 
+W_cor(1): Category 
+W_dahil(1): Category 
+W_dapat(1): Category 
+W_deep(1): Category 
+W_dibdib(2): Category 
+W_dito(1): Category 
+W_dry(1): Category 
+W_follow(1): Category 
+W_gawin(1): Category 
+W_going(2): Category 
+W_hall(1): Category 
+W_hanggang(1): Category 
+W_high(2): Category 
+W_highway(1): Category 
+W_hotlines(1): Category 
+W_ingat(1): Category 
+W_inyong(1): Category 
+W_ito(2): Category 
+W_kahabaan(1): Category 
+W_karangalan(1): Category 
+W_kuha(1): Category 
+W_kung(1): Category 
+W_labas(1): Category 
+W_lagpas(1): Category 
+W_lalim(1): Category 
+W_limay(1): Category 
+W_live(1): Category 
+W_liwasang(2): Category 
+W_lugar(2): Category 
+W_magdulot(1): Category 
+W_magingat(1): Category 
+W_malapit(1): Category 
+W_naman(1): Category 
+W_namin(1): Category 
+W_nananatiling(1): Category 
+W_ngayong(1): Category 
+W_not(1): Category 
+W_paalala(1): Category 
+W_palibot(1): Category 
+W_passable(2): Category 
+W_patungong(1): Category 
+W_pero(1): Category 
+W_point(1): Category 
+W_question(1): Category 
+W_river(2): Category 
+W_safe(1): Category 
+W_samin(1): Category 
+W_san(1): Category 
+W_sitwasyon(1): Category 
+W_subd(1): Category 
+W_subided(1): Category 
+W_subsided(1): Category 
+W_tayo(2): Category 
+W_tubig(1): Category 
+W_tuhod(1): Category 
+W_types(1): Category 
+W_ukol(1): Category 
+W_ulan(2): Category 
+W_umiwas(1): Category 
+W_via(1): Category 
+W_video(2): Category 
+W_village(1): Category 
+W_warning(1): Category 
+Length(2): Category 
+LogScore Bayes: -6008.72658157747
+LogScore BDeu: -6041.366689961108
+LogScore MDL: -6086.827022876525
+LogScore ENTROPY: -5949.2148017334175
+LogScore AIC: -5988.2148017334175
+
+
+Time taken to build model: 0.34 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         883               76.0551 %
+Incorrectly Classified Instances       278               23.9449 %
+Kappa statistic                          0.5227
+Mean absolute error                      0.297 
+Root mean squared error                  0.4245
+Relative absolute error                 60.2929 %
+Root relative squared error             85.542  %
+Total Number of Instances             1161     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.72      0.188      0.83      0.72      0.771      0.812    CA
+                 0.812     0.28       0.695     0.812     0.749      0.812    O
+Weighted Avg.    0.761     0.228      0.771     0.761     0.761      0.812
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 469 182 |   a = CA
+  96 414 |   b = O
+

@@ -1,0 +1,152 @@
+=== Run information ===
+
+Scheme:weka.classifiers.bayes.BayesNet -D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 1 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5
+Relation:     ruby-Bin-CD-word-10-weka.filters.unsupervised.attribute.Remove-R1-5,9
+Instances:    490
+Attributes:   52
+              IsUrl
+              IsHashtag
+              IsRetweet
+              Category
+              W_northeastern
+              W_downed
+              W_dead
+              W_natuklapan
+              W_katao
+              W_barangay
+              W_lumikas
+              W_nagdulot
+              W_bayan
+              W_linya
+              W_mahigit
+              W_sagkahan
+              W_pswd
+              W_imprastraktura
+              W_total
+              W_iniwan
+              W_bagsak
+              W_sinira
+              W_video
+              W_residente
+              W_kahoy
+              W_tindahang
+              W_yero
+              W_yari
+              W_alon
+              W_evacuees
+              W_highway
+              W_post
+              W_lines
+              W_lubog
+              W_winasak
+              W_damages
+              W_power
+              W_ngcp
+              W_pananalasa
+              W_bubong
+              W_casualty
+              W_bunkhouses
+              W_malawak
+              W_umakyat
+              W_nasawi
+              W_patay
+              W_istruktura
+              W_pinsala
+              W_nasira
+              W_naitalang
+              W_youscooper
+              Length
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Bayes Network Classifier
+not using ADTree
+#attributes=52 #classindex=3
+Network structure (nodes followed by parents)
+IsUrl(2): Category 
+IsHashtag(2): Category 
+IsRetweet(2): Category 
+Category(2): 
+W_northeastern(2): Category 
+W_downed(1): Category 
+W_dead(1): Category 
+W_natuklapan(1): Category 
+W_katao(1): Category 
+W_barangay(1): Category 
+W_lumikas(1): Category 
+W_nagdulot(1): Category 
+W_bayan(1): Category 
+W_linya(2): Category 
+W_mahigit(2): Category 
+W_sagkahan(1): Category 
+W_pswd(2): Category 
+W_imprastraktura(1): Category 
+W_total(1): Category 
+W_iniwan(1): Category 
+W_bagsak(1): Category 
+W_sinira(1): Category 
+W_video(2): Category 
+W_residente(2): Category 
+W_kahoy(2): Category 
+W_tindahang(2): Category 
+W_yero(1): Category 
+W_yari(1): Category 
+W_alon(1): Category 
+W_evacuees(1): Category 
+W_highway(2): Category 
+W_post(2): Category 
+W_lines(1): Category 
+W_lubog(2): Category 
+W_winasak(1): Category 
+W_damages(1): Category 
+W_power(1): Category 
+W_ngcp(1): Category 
+W_pananalasa(1): Category 
+W_bubong(1): Category 
+W_casualty(1): Category 
+W_bunkhouses(2): Category 
+W_malawak(1): Category 
+W_umakyat(2): Category 
+W_nasawi(1): Category 
+W_patay(2): Category 
+W_istruktura(1): Category 
+W_pinsala(1): Category 
+W_nasira(2): Category 
+W_naitalang(1): Category 
+W_youscooper(2): Category 
+Length(2): Category 
+LogScore Bayes: -2477.2492880848936
+LogScore BDeu: -2511.6072969097772
+LogScore MDL: -2565.687370097227
+LogScore ENTROPY: -2438.7020595795802
+LogScore AIC: -2479.7020595795802
+
+
+Time taken to build model: 0.01 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         399               81.4286 %
+Incorrectly Classified Instances        91               18.5714 %
+Kappa statistic                          0.6286
+Mean absolute error                      0.2082
+Root mean squared error                  0.3461
+Relative absolute error                 41.643  %
+Root relative squared error             69.2137 %
+Total Number of Instances              490     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.829     0.2        0.806     0.829     0.817      0.921    O
+                 0.8       0.171      0.824     0.8       0.812      0.921    CD
+Weighted Avg.    0.814     0.186      0.815     0.814     0.814      0.921
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 203  42 |   a = O
+  49 196 |   b = CD
+

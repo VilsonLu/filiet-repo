@@ -1,0 +1,134 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.RandomForest -I 100 -K 0 -S 1
+Relation:     ruby-Bin-CD-word-20-weka.filters.unsupervised.attribute.Remove-R1-5,9
+Instances:    490
+Attributes:   92
+              IsUrl
+              IsHashtag
+              IsRetweet
+              Category
+              W_abangan
+              W_bahagyang
+              W_balita
+              W_bilis
+              W_bugso
+              W_bumagal
+              W_buong
+              W_calamity
+              W_city
+              W_dagat
+              W_emergency
+              W_forecast
+              W_galaw
+              W_gumagabi
+              W_gym
+              W_halos
+              W_helpdesk
+              W_hydromet
+              W_i
+              W_ilang
+              W_including
+              W_isinasagawa
+              W_islands
+              W_just
+              W_kalupaan
+              W_kanina
+              W_kasunod
+              W_kaysa
+              W_kung
+              W_lahat
+              W_list
+              W_lubang
+              W_lumakas
+              W_lumihis
+              W_maglandfall
+              W_mas
+              W_mataas
+              W_mula
+              W_muling
+              W_nagbago
+              W_nagpapatupad
+              W_nagsimula
+              W_nagsisiksikang
+              W_naibalik
+              W_nakapasok
+              W_nakatutok
+              W_naman
+              W_namataan
+              W_name
+              W_natitirang
+              W_noah
+              W_northeast
+              W_northwest
+              W_pagpasok
+              W_para
+              W_patuloy
+              W_photo
+              W_pinalilikas
+              W_port
+              W_preemptive
+              W_preso
+              W_private
+              W_probinsya
+              W_rainfall
+              W_ready
+              W_regional
+              W_reinforce
+              W_rescueteam
+              W_sana
+              W_silangan
+              W_southern
+              W_state
+              W_super
+              W_suplay
+              W_tatawaging
+              W_teleradyo
+              W_teritoryo
+              W_tinupi
+              W_tsansang
+              W_tumama
+              W_ulat
+              W_update
+              W_utos
+              W_village
+              W_with
+              W_year
+              W_yellow
+              Length
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Random forest of 100 trees, each constructed while considering 7 random features.
+Out of bag error: 0.0714
+
+
+
+Time taken to build model: 0.88 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         458               93.4694 %
+Incorrectly Classified Instances        32                6.5306 %
+Kappa statistic                          0.8694
+Mean absolute error                      0.1019
+Root mean squared error                  0.2409
+Relative absolute error                 20.3763 %
+Root relative squared error             48.1716 %
+Total Number of Instances              490     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.906     0.037      0.961     0.906     0.933      0.971    O
+                 0.963     0.094      0.911     0.963     0.937      0.971    CD
+Weighted Avg.    0.935     0.065      0.936     0.935     0.935      0.971
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 222  23 |   a = O
+   9 236 |   b = CD
+

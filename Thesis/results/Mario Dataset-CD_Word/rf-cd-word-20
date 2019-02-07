@@ -1,0 +1,69 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomForest -I 10 -K 0 -S 1 -num-slots 1
+Relation:     Mario-Bin-CD-word-20-weka.filters.unsupervised.attribute.Remove-R1-5,9
+Instances:    116
+Attributes:   25
+              IsUrl
+              IsHashtag
+              IsRetweet
+              Category
+              W_quiteria
+              W_ilikas
+              W_volunteers
+              W_in
+              W_pagbaha
+              W_kabuluan
+              W_compound
+              W_brgy
+              W_ay
+              W_mahigit
+              W_bagyo
+              W_dulot
+              W_estero
+              W_apektado
+              W_district
+              W_bagyong
+              W_dist
+              W_tulay
+              W_tinatayang
+              W_pamilya
+              Length
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Random forest of 10 trees, each constructed while considering 5 random features.
+Out of bag error: 0.0776
+
+
+
+Time taken to build model: 0.03 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         109               93.9655 %
+Incorrectly Classified Instances         7                6.0345 %
+Kappa statistic                          0.8793
+Mean absolute error                      0.1146
+Root mean squared error                  0.2415
+Relative absolute error                 22.9042 %
+Root relative squared error             48.2879 %
+Coverage of cases (0.95 level)          98.2759 %
+Mean rel. region size (0.95 level)      68.9655 %
+Total Number of Instances              116     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.879    0.000    1.000      0.879    0.936      0.886    0.962     0.972     CD
+                 1.000    0.121    0.892      1.000    0.943      0.886    0.962     0.937     O
+Weighted Avg.    0.940    0.060    0.946      0.940    0.939      0.886    0.962     0.955     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 51  7 |  a = CD
+  0 58 |  b = O
+

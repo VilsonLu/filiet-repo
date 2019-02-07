@@ -1,0 +1,68 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.lazy.IBk -K 3 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Relation:     Mario-Bin-CD-word-20-weka.filters.unsupervised.attribute.Remove-R1-5,9
+Instances:    116
+Attributes:   25
+              IsUrl
+              IsHashtag
+              IsRetweet
+              Category
+              W_quiteria
+              W_ilikas
+              W_volunteers
+              W_in
+              W_pagbaha
+              W_kabuluan
+              W_compound
+              W_brgy
+              W_ay
+              W_mahigit
+              W_bagyo
+              W_dulot
+              W_estero
+              W_apektado
+              W_district
+              W_bagyong
+              W_dist
+              W_tulay
+              W_tinatayang
+              W_pamilya
+              Length
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+IB1 instance-based classifier
+using 3 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         103               88.7931 %
+Incorrectly Classified Instances        13               11.2069 %
+Kappa statistic                          0.7759
+Mean absolute error                      0.1282
+Root mean squared error                  0.2976
+Relative absolute error                 25.6292 %
+Root relative squared error             59.4998 %
+Coverage of cases (0.95 level)          96.5517 %
+Mean rel. region size (0.95 level)      58.6207 %
+Total Number of Instances              116     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.776    0.000    1.000      0.776    0.874      0.796    0.953     0.961     CD
+                 1.000    0.224    0.817      1.000    0.899      0.796    0.953     0.925     O
+Weighted Avg.    0.888    0.112    0.908      0.888    0.887      0.796    0.953     0.943     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 45 13 |  a = CD
+  0 58 |  b = O
+

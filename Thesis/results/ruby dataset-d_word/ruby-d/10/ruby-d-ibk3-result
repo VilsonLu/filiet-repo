@@ -1,0 +1,61 @@
+=== Run information ===
+
+Scheme:weka.classifiers.lazy.IBk -K 3 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Relation:     ruby-Bin-D-word-10-weka.filters.unsupervised.attribute.Remove-R1-5,9
+Instances:    74
+Attributes:   20
+              IsUrl
+              IsHashtag
+              IsRetweet
+              Category
+              W_evacuee
+              W_point
+              W_inihahanda
+              W_dswd
+              W_salamat
+              W_food
+              W_family
+              W_navy
+              W_municipality
+              W_towns
+              W_packs
+              W_relief
+              W_goods
+              W_transported
+              W_personnel
+              Length
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+IB1 instance-based classifier
+using 3 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          68               91.8919 %
+Incorrectly Classified Instances         6                8.1081 %
+Kappa statistic                          0.8378
+Mean absolute error                      0.1115
+Root mean squared error                  0.2391
+Relative absolute error                 22.2664 %
+Root relative squared error             47.7596 %
+Total Number of Instances               74     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.865     0.027      0.97      0.865     0.914      0.986    D
+                 0.973     0.135      0.878     0.973     0.923      0.986    O
+Weighted Avg.    0.919     0.081      0.924     0.919     0.919      0.986
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 32  5 |  a = D
+  1 36 |  b = O
+

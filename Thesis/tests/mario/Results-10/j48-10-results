@@ -1,0 +1,161 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     mario-combined-10-weka.filters.unsupervised.attribute.Remove-R1-3
+Instances:    1365
+Attributes:   376
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+W_bahagyang <= 0
+|   W_inaasahang <= 0
+|   |   W_navy <= 0
+|   |   |   Language = en
+|   |   |   |   W_imprastraktura <= 0
+|   |   |   |   |   W_miyerkules <= 0
+|   |   |   |   |   |   Length <= 13: D (3.0/1.0)
+|   |   |   |   |   |   Length > 13: CA (76.0/1.0)
+|   |   |   |   |   W_miyerkules > 0: D (3.0/1.0)
+|   |   |   |   W_imprastraktura > 0: CH (2.0/1.0)
+|   |   |   Language = tl
+|   |   |   |   W_@dswdserves <= 0
+|   |   |   |   |   W_ninyo <= 0
+|   |   |   |   |   |   W_imprastraktura <= 0
+|   |   |   |   |   |   |   W_gabi <= 0
+|   |   |   |   |   |   |   |   W_estrada <= 0
+|   |   |   |   |   |   |   |   |   W_feel <= 0
+|   |   |   |   |   |   |   |   |   |   W_miyerkules <= 0
+|   |   |   |   |   |   |   |   |   |   |   W_malabon <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   W_navotas <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   W_kanluran <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   W_humina <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   IsRetweet <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_ilikas <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_cebu <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_] <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   IsHashtag <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_@meralco <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   IsURL <= 0: O (227.0/51.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   IsURL > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 20: CA (14.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length > 20: O (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_@meralco > 0: CA (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   IsHashtag > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_abucay <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 15
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_umaga <= 0: O (99.0/10.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_umaga > 0: CA (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length > 15: CA (77.0/23.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_abucay > 0: O (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_] > 0: O (11.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_cebu > 0: O (34.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_ilikas > 0: O (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   IsRetweet > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   IsHashtag <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_itinaas <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   IsURL <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_â€? <= 0: O (66.0/17.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_â€? > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 16: CA (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length > 16: O (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   IsURL > 0: CD (7.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_itinaas > 0: CA (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   IsHashtag > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_hilagang-kanluran <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_provinces <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_katao <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   IsURL <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 16: O (21.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length > 16: CA (75.0/11.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   IsURL > 0: CA (27.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_katao > 0: CA (25.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_provinces > 0: O (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_hilagang-kanluran > 0: CH (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   W_humina > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_areas <= 0: O (45.0/7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_areas > 0: CA (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   W_kanluran > 0: O (30.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   W_navotas > 0: CA (11.0)
+|   |   |   |   |   |   |   |   |   |   |   W_malabon > 0: CA (19.0/2.0)
+|   |   |   |   |   |   |   |   |   |   W_miyerkules > 0: O (21.0/1.0)
+|   |   |   |   |   |   |   |   |   W_feel > 0
+|   |   |   |   |   |   |   |   |   |   W_areas <= 0
+|   |   |   |   |   |   |   |   |   |   |   W_feel <= 1: O (2.0)
+|   |   |   |   |   |   |   |   |   |   |   W_feel > 1: CD (7.0)
+|   |   |   |   |   |   |   |   |   |   W_areas > 0: CA (3.0)
+|   |   |   |   |   |   |   |   W_estrada > 0: O (32.0/1.0)
+|   |   |   |   |   |   |   W_gabi > 0: O (20.0)
+|   |   |   |   |   |   W_imprastraktura > 0
+|   |   |   |   |   |   |   W_erap <= 0
+|   |   |   |   |   |   |   |   IsRetweet <= 0: CH (9.0/1.0)
+|   |   |   |   |   |   |   |   IsRetweet > 0
+|   |   |   |   |   |   |   |   |   Length <= 24: CH (3.0/1.0)
+|   |   |   |   |   |   |   |   |   Length > 24: CA (4.0)
+|   |   |   |   |   |   |   W_erap > 0: O (4.0)
+|   |   |   |   |   W_ninyo > 0: O (93.0/6.0)
+|   |   |   |   W_@dswdserves > 0: CA (81.0/2.0)
+|   |   |   Language = pt: CA (2.0)
+|   |   |   Language = in: CA (1.0)
+|   |   |   Language = tr: CA (1.0)
+|   |   |   Language = es: CA (1.0)
+|   |   W_navy > 0
+|   |   |   W_[ <= 0: O (31.0/2.0)
+|   |   |   W_[ > 0: D (12.0)
+|   W_inaasahang > 0
+|   |   W_humina <= 0
+|   |   |   W_family <= 1: CA (83.0/16.0)
+|   |   |   W_family > 1: CD (4.0)
+|   |   W_humina > 0: D (3.0/1.0)
+W_bahagyang > 0
+|   W_mahigit <= 0
+|   |   IsRetweet <= 0
+|   |   |   W_maramdaman <= 0: O (5.0/3.0)
+|   |   |   W_maramdaman > 0
+|   |   |   |   W_â€? <= 0: CD (5.0/2.0)
+|   |   |   |   W_â€? > 0: CA (2.0)
+|   |   IsRetweet > 0: CD (20.0/1.0)
+|   W_mahigit > 0: O (2.0)
+
+Number of Leaves  : 	57
+
+Size of the tree : 	109
+
+
+Time taken to build model: 2 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1110               81.3187 %
+Incorrectly Classified Instances       255               18.6813 %
+Kappa statistic                          0.6636
+Mean absolute error                      0.1016
+Root mean squared error                  0.2453
+Relative absolute error                 44.2954 %
+Root relative squared error             72.5054 %
+Total Number of Instances             1365     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.667     0.001      0.875     0.667     0.757      0.914    D
+                 0.368     0.001      0.875     0.368     0.519      0.778    CH
+                 0.766     0.136      0.802     0.766     0.784      0.868    CA
+                 0.91      0.194      0.823     0.91      0.865      0.908    O
+                 0.431     0.009      0.738     0.431     0.544      0.865    CD
+Weighted Avg.    0.813     0.155      0.812     0.813     0.807      0.887
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+  14   0   5   2   0 |   a = D
+   0   7  11   1   0 |   b = CH
+   1   0 438 126   7 |   c = CA
+   0   0  57 620   4 |   d = O
+   1   1  35   4  31 |   e = CD
+

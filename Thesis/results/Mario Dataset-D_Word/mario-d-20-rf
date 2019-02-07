@@ -1,0 +1,66 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomForest -I 10 -K 0 -S 1 -num-slots 1
+Relation:     Mario-Bin-D-word-20-weka.filters.unsupervised.attribute.Remove-R1-5,9
+Instances:    94
+Attributes:   22
+              IsUrl
+              IsHashtag
+              IsRetweet
+              Category
+              W_parking
+              W_ginawa
+              W_advisory
+              W_kaba
+              W_affected
+              W_pong
+              W_ilang
+              W_gusto
+              W_nagpabuhat
+              W_magvolunteer
+              W_mabasa
+              W_more
+              W_ngayon
+              W_open
+              W_contact
+              W_just
+              W_rescuer
+              Length
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Random forest of 10 trees, each constructed while considering 5 random features.
+Out of bag error: 0.117
+
+
+
+Time taken to build model: 0.02 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          85               90.4255 %
+Incorrectly Classified Instances         9                9.5745 %
+Kappa statistic                          0.8085
+Mean absolute error                      0.1217
+Root mean squared error                  0.2796
+Relative absolute error                 24.3261 %
+Root relative squared error             55.8723 %
+Coverage of cases (0.95 level)          96.8085 %
+Mean rel. region size (0.95 level)      62.766  %
+Total Number of Instances               94     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.915    0.106    0.896      0.915    0.905      0.809    0.944     0.902     D
+                 0.894    0.085    0.913      0.894    0.903      0.809    0.944     0.956     O
+Weighted Avg.    0.904    0.096    0.904      0.904    0.904      0.809    0.944     0.929     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 43  4 |  a = D
+  5 42 |  b = O
+
