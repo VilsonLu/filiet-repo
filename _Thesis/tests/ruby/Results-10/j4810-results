@@ -1,0 +1,221 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     ruby-combined-10-weka.filters.unsupervised.attribute.Remove-R1-3
+Instances:    2303
+Attributes:   376
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+IsHashtag <= 0: O (692.0)
+IsHashtag > 0
+|   W_sibuyan <= 0
+|   |   IsRetweet <= 0
+|   |   |   W_tandaan <= 0
+|   |   |   |   W_kalupaan <= 0
+|   |   |   |   |   W_gumaca <= 0
+|   |   |   |   |   |   W_@rapplerdotcom <= 0
+|   |   |   |   |   |   |   W_@dswdserves <= 0
+|   |   |   |   |   |   |   |   W_goods <= 0
+|   |   |   |   |   |   |   |   |   W_hilagang-kanluran <= 0
+|   |   |   |   |   |   |   |   |   |   W_calabarzon <= 0
+|   |   |   |   |   |   |   |   |   |   |   W_silangan <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   W_catbalogan <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   W_cu�a <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   W_mata <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_naman <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_topples <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 20
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_classes <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_cebu <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   IsURL <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_alon <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_navotas <= 0: O (128.0/23.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_navotas > 0: CD (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_alon > 0: CA (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   IsURL > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_ann <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 16
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 14: O (21.0/9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length > 14
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 15: CH (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length > 15: CD (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length > 16: O (14.0/5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_ann > 0: CD (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_cebu > 0: O (16.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_classes > 0: CD (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length > 20
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_mamaya… <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_northeastern <= 0: O (51.0/22.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_northeastern > 0: CA (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_mamaya… > 0: CD (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_topples > 0: CD (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_naman > 0: CD (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   W_mata > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 16: O (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length > 16: CD (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   W_cu�a > 0: CD (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   W_catbalogan > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   IsURL <= 0: O (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   IsURL > 0: CA (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   W_silangan > 0: CD (6.0/2.0)
+|   |   |   |   |   |   |   |   |   |   W_calabarzon > 0
+|   |   |   |   |   |   |   |   |   |   |   W_casualty <= 0: O (2.0)
+|   |   |   |   |   |   |   |   |   |   |   W_casualty > 0: CA (4.0)
+|   |   |   |   |   |   |   |   |   W_hilagang-kanluran > 0
+|   |   |   |   |   |   |   |   |   |   W_ito <= 0: CH (2.0/1.0)
+|   |   |   |   |   |   |   |   |   |   W_ito > 0: D (4.0)
+|   |   |   |   |   |   |   |   W_goods > 0
+|   |   |   |   |   |   |   |   |   IsURL <= 0
+|   |   |   |   |   |   |   |   |   |   W_araw <= 0: D (2.0)
+|   |   |   |   |   |   |   |   |   |   W_araw > 0: CH (2.0)
+|   |   |   |   |   |   |   |   |   IsURL > 0: CD (3.0)
+|   |   |   |   |   |   |   W_@dswdserves > 0: CD (16.0/1.0)
+|   |   |   |   |   |   W_@rapplerdotcom > 0
+|   |   |   |   |   |   |   IsURL <= 0: CD (14.0/1.0)
+|   |   |   |   |   |   |   IsURL > 0: CH (2.0)
+|   |   |   |   |   W_gumaca > 0: CD (7.0)
+|   |   |   |   W_kalupaan > 0: CD (9.0)
+|   |   |   W_tandaan > 0: CA (9.0)
+|   |   IsRetweet > 0
+|   |   |   W_& <= 0
+|   |   |   |   W_malabon <= 0
+|   |   |   |   |   W_ninyo <= 0
+|   |   |   |   |   |   W_navy <= 0
+|   |   |   |   |   |   |   Length <= 26
+|   |   |   |   |   |   |   |   W_govt <= 0
+|   |   |   |   |   |   |   |   |   W_nasawi <= 0
+|   |   |   |   |   |   |   |   |   |   W_estrada <= 0
+|   |   |   |   |   |   |   |   |   |   |   IsURL <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   Length <= 20
+|   |   |   |   |   |   |   |   |   |   |   |   |   W_navotas <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   W_calauag <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_@rapplerdotcom <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_west <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_cebu <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_v… <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 14: O (8.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length > 14
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_humina <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 17
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_numero <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 16: CA (35.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length > 16: O (4.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_numero > 0: O (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length > 17: CA (40.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_humina > 0: O (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_v… > 0: O (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_cebu > 0: O (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_west > 0: O (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_@rapplerdotcom > 0: CD (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   W_calauag > 0: CD (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   W_navotas > 0: CH (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Length > 20
+|   |   |   |   |   |   |   |   |   |   |   |   |   W_http://t.co/lkvkotzx… <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   W_http://t.co/i5ibubfn… <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_@dswdserves <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 25
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_school <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_http://t.co/xck… <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 21
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_kung <= 1: O (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_kung > 1: CA (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length > 21
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_electrical <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_humina <= 0: CA (138.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_humina > 0: O (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_electrical > 0: D (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_http://t.co/xck… > 0: CA (67.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_school > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_@meralco <= 0: CH (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_@meralco > 0: CA (16.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length > 25: CD (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_@dswdserves > 0: CD (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   W_http://t.co/i5ibubfn… > 0: D (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   W_http://t.co/lkvkotzx… > 0: D (7.0)
+|   |   |   |   |   |   |   |   |   |   |   IsURL > 0
+|   |   |   |   |   |   |   |   |   |   |   |   W_habang <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   W_lungsod <= 0: O (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   W_lungsod > 0: CH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   W_habang > 0: CA (2.0)
+|   |   |   |   |   |   |   |   |   |   W_estrada > 0: O (8.0)
+|   |   |   |   |   |   |   |   |   W_nasawi > 0
+|   |   |   |   |   |   |   |   |   |   W_.. <= 0: CD (7.0)
+|   |   |   |   |   |   |   |   |   |   W_.. > 0: CH (8.0)
+|   |   |   |   |   |   |   |   W_govt > 0: CH (12.0)
+|   |   |   |   |   |   |   Length > 26
+|   |   |   |   |   |   |   |   W_numero <= 0
+|   |   |   |   |   |   |   |   |   Length <= 28
+|   |   |   |   |   |   |   |   |   |   W_humina <= 0: CA (124.0/4.0)
+|   |   |   |   |   |   |   |   |   |   W_humina > 0: O (5.0)
+|   |   |   |   |   |   |   |   |   Length > 28: CA (499.0/2.0)
+|   |   |   |   |   |   |   |   W_numero > 0
+|   |   |   |   |   |   |   |   |   W_bahagyang <= 0: CA (12.0)
+|   |   |   |   |   |   |   |   |   W_bahagyang > 0: CD (3.0)
+|   |   |   |   |   |   W_navy > 0
+|   |   |   |   |   |   |   W_hilagang-kanluran <= 0
+|   |   |   |   |   |   |   |   W_pi�as <= 0
+|   |   |   |   |   |   |   |   |   W_1/4 <= 0
+|   |   |   |   |   |   |   |   |   |   W_numero <= 0
+|   |   |   |   |   |   |   |   |   |   |   W_@meralco <= 0: O (17.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   W_@meralco > 0: CA (2.0)
+|   |   |   |   |   |   |   |   |   |   W_numero > 0: CA (3.0)
+|   |   |   |   |   |   |   |   |   W_1/4 > 0: CH (4.0)
+|   |   |   |   |   |   |   |   W_pi�as > 0: CD (2.0)
+|   |   |   |   |   |   |   W_hilagang-kanluran > 0: D (2.0)
+|   |   |   |   |   W_ninyo > 0
+|   |   |   |   |   |   W_ay <= 0: O (16.0)
+|   |   |   |   |   |   W_ay > 0: CA (17.0)
+|   |   |   |   W_malabon > 0
+|   |   |   |   |   W_araw <= 0
+|   |   |   |   |   |   W_http://t.co/lkvkotzx… <= 0
+|   |   |   |   |   |   |   Length <= 21: O (3.0)
+|   |   |   |   |   |   |   Length > 21: CD (12.0/1.0)
+|   |   |   |   |   |   W_http://t.co/lkvkotzx… > 0: D (8.0)
+|   |   |   |   |   W_araw > 0: CH (9.0)
+|   |   |   W_& > 0: O (33.0/1.0)
+|   W_sibuyan > 0: CD (59.0)
+
+Number of Leaves  : 	85
+
+Size of the tree : 	169
+
+
+Time taken to build model: 2.45 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        2124               92.2275 %
+Incorrectly Classified Instances       179                7.7725 %
+Kappa statistic                          0.8721
+Mean absolute error                      0.0397
+Root mean squared error                  0.1581
+Relative absolute error                 16.1003 %
+Root relative squared error             45.0418 %
+Total Number of Instances             2303     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.953     0.03       0.961     0.953     0.957      0.984    CA
+                 0.762     0.012      0.856     0.762     0.806      0.964    CD
+                 0.619     0.001      0.929     0.619     0.743      0.882    CH
+                 0.558     0.005      0.686     0.558     0.615      0.928    D
+                 0.959     0.076      0.905     0.959     0.931      0.977    O
+Weighted Avg.    0.922     0.047      0.921     0.922     0.92       0.975
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+ 953   1   0   3  43 |   a = CA
+   8 154   2   0  38 |   b = CD
+   6   9  39   1   8 |   c = CH
+   5   2   1  24  11 |   d = D
+  20  14   0   7 954 |   e = O
+

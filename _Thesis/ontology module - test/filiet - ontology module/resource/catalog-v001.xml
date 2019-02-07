@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1427725968987" name="duplicate:http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5" uri="FILIET_Ontology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1427725968987" name="duplicate:http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5" uri="FILIET_Ontology2.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1427725968987" name="duplicate:http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5" uri="FILIET_Ontology3.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1427725968987" name="duplicate:http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5" uri="Fixed_Ontology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1427725968987" name="duplicate:http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5" uri="Ruby_OWL.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1427725968987" name="duplicate:http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5" uri="Vilson_Ontology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1427725968987" name="duplicate:http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5" uri="Vilson_OWL.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1427725968987" name="duplicate:http://www.semanticweb.org/kylemchalebdelacruz/ontologies/2014/9/untitled-ontology-5" uri="Vilson_OWL_Final.owl"/>
+    </group>
+</catalog>

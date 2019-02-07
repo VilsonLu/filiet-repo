@@ -1,0 +1,211 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     ruby-combined-20-weka.filters.unsupervised.attribute.Remove-R1-3
+Instances:    2303
+Attributes:   693
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+IsHashtag <= 0: O (692.0)
+IsHashtag > 0
+|   W_hay <= 0
+|   |   W_malalakas <= 0
+|   |   |   IsRetweet <= 0
+|   |   |   |   W_http://t.co/c61… <= 0
+|   |   |   |   |   W_antique <= 0
+|   |   |   |   |   |   W_norte <= 0
+|   |   |   |   |   |   |   W_#tvpatrol <= 0
+|   |   |   |   |   |   |   |   W_occ <= 0
+|   |   |   |   |   |   |   |   |   W_5:00 <= 0
+|   |   |   |   |   |   |   |   |   |   W_15kph <= 0
+|   |   |   |   |   |   |   |   |   |   |   W_feu <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   W_https://t.… <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   W_complex <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   W_pi� <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_posibleng <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_total <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_pinag-iingat <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_downed <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_delikado <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_light <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_bugso <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_martes <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_violent <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_km <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_abscbnnews <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_@sunstarcebu <= 0: O (177.0/36.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_@sunstarcebu > 0: CD (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_abscbnnews > 0: CA (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_km > 0: CD (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_violent > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 17: CD (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length > 17: O (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_martes > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_@deped_ph <= 0: O (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_@deped_ph > 0: CA (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_bugso > 0: D (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_light > 0: CD (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_delikado > 0: CA (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_downed > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   IsURL <= 0: CD (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   IsURL > 0: O (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_pinag-iingat > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_calauag <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 19: CA (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length > 19: CH (2.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_calauag > 0: O (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_total > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_food <= 0: CH (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_food > 0: CD (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_posibleng > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_tuluyan <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_@ukgdos <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 16: CA (7.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length > 16: CH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_@ukgdos > 0: CA (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_tuluyan > 0: CD (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   W_pi� > 0: CD (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   W_complex > 0: CD (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   W_https://t.… > 0: CD (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   W_feu > 0: CD (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   W_15kph > 0
+|   |   |   |   |   |   |   |   |   |   |   W_@ancalerts <= 0: CD (15.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   W_@ancalerts > 0: CA (2.0)
+|   |   |   |   |   |   |   |   |   W_5:00 > 0
+|   |   |   |   |   |   |   |   |   |   IsURL <= 0
+|   |   |   |   |   |   |   |   |   |   |   W_bay <= 0: D (2.0)
+|   |   |   |   |   |   |   |   |   |   |   W_bay > 0: CH (2.0)
+|   |   |   |   |   |   |   |   |   |   IsURL > 0: CD (3.0)
+|   |   |   |   |   |   |   |   W_occ > 0
+|   |   |   |   |   |   |   |   |   W_coding <= 0: CH (2.0/1.0)
+|   |   |   |   |   |   |   |   |   W_coding > 0: D (4.0)
+|   |   |   |   |   |   |   W_#tvpatrol > 0
+|   |   |   |   |   |   |   |   IsURL <= 0: CD (14.0/1.0)
+|   |   |   |   |   |   |   |   IsURL > 0: CH (2.0)
+|   |   |   |   |   |   W_norte > 0: CD (7.0)
+|   |   |   |   |   W_antique > 0: CD (9.0)
+|   |   |   |   W_http://t.co/c61… > 0: CA (9.0)
+|   |   |   IsRetweet > 0
+|   |   |   |   W_dilg <= 0
+|   |   |   |   |   W_komunikasyon <= 0
+|   |   |   |   |   |   W_15kph <= 0
+|   |   |   |   |   |   |   W_paskuhan <= 0
+|   |   |   |   |   |   |   |   W_dalawa <= 0
+|   |   |   |   |   |   |   |   |   W_sapat <= 0
+|   |   |   |   |   |   |   |   |   |   Length <= 20
+|   |   |   |   |   |   |   |   |   |   |   W_high <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   W_c… <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   W_#tvpatrol <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   W_per <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_casualty <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 14: O (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Length > 14: CA (59.0/9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_casualty > 0: O (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   W_per > 0: O (9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   W_#tvpatrol > 0: CD (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   W_c… > 0: CD (4.0)
+|   |   |   |   |   |   |   |   |   |   |   W_high > 0: CH (7.0)
+|   |   |   |   |   |   |   |   |   |   Length > 20
+|   |   |   |   |   |   |   |   |   |   |   W_handa <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   W_silangan <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Length <= 28
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   W_adm <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_ncr <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_dadaanan <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_cayabyab <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_hagupit <= 0: CA (317.0/6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_hagupit > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_@ukgdos <= 0: O (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_@ukgdos > 0: CA (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_cayabyab > 0: D (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_dadaanan > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_#2 <= 0: D (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_#2 > 0: CD (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_ncr > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_8-10pm <= 0: CH (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   W_8-10pm > 0: CD (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   W_adm > 0: O (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Length > 28: CA (489.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   W_silangan > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   W_#tvpatrol <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   W_buhos <= 0: CA (24.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   W_buhos > 0: CD (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   W_#tvpatrol > 0: CD (3.0)
+|   |   |   |   |   |   |   |   |   |   |   W_handa > 0
+|   |   |   |   |   |   |   |   |   |   |   |   W_@mmaarryyeell <= 0: CA (16.0)
+|   |   |   |   |   |   |   |   |   |   |   |   W_@mmaarryyeell > 0: CH (3.0)
+|   |   |   |   |   |   |   |   |   W_sapat > 0
+|   |   |   |   |   |   |   |   |   |   W_coding <= 0
+|   |   |   |   |   |   |   |   |   |   |   W_a <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   W_buhos <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   W_http://t.c… <= 0: O (16.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   W_http://t.c… > 0: CA (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   W_buhos > 0: CA (3.0)
+|   |   |   |   |   |   |   |   |   |   |   W_a > 0: CH (4.0)
+|   |   |   |   |   |   |   |   |   |   W_coding > 0: D (2.0)
+|   |   |   |   |   |   |   |   W_dalawa > 0
+|   |   |   |   |   |   |   |   |   W_@nababaha <= 0: O (16.0)
+|   |   |   |   |   |   |   |   |   W_@nababaha > 0: CA (17.0)
+|   |   |   |   |   |   |   W_paskuhan > 0
+|   |   |   |   |   |   |   |   W_@dsm_sunstar <= 0: CA (12.0)
+|   |   |   |   |   |   |   |   W_@dsm_sunstar > 0: CD (10.0)
+|   |   |   |   |   |   W_15kph > 0
+|   |   |   |   |   |   |   W_total <= 0
+|   |   |   |   |   |   |   |   W_@sunstarcebu <= 0
+|   |   |   |   |   |   |   |   |   W_ann <= 0: CA (13.0/1.0)
+|   |   |   |   |   |   |   |   |   W_ann > 0: CD (3.0)
+|   |   |   |   |   |   |   |   W_@sunstarcebu > 0: CD (6.0)
+|   |   |   |   |   |   |   W_total > 0: CH (10.0)
+|   |   |   |   |   W_komunikasyon > 0
+|   |   |   |   |   |   W_#votynews <= 0: CA (20.0)
+|   |   |   |   |   |   W_#votynews > 0: D (15.0)
+|   |   |   |   W_dilg > 0
+|   |   |   |   |   W_blue <= 0: CH (22.0/2.0)
+|   |   |   |   |   W_blue > 0: O (8.0)
+|   |   W_malalakas > 0: O (59.0/1.0)
+|   W_hay > 0: CD (59.0)
+
+Number of Leaves  : 	80
+
+Size of the tree : 	159
+
+
+Time taken to build model: 5.25 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        2145               93.1394 %
+Incorrectly Classified Instances       158                6.8606 %
+Kappa statistic                          0.8875
+Mean absolute error                      0.034 
+Root mean squared error                  0.1514
+Relative absolute error                 13.7968 %
+Root relative squared error             43.1237 %
+Total Number of Instances             2303     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.953     0.028      0.963     0.953     0.958      0.985    CA
+                 0.822     0.016      0.834     0.822     0.828      0.977    CD
+                 0.651     0.003      0.854     0.651     0.739      0.875    CH
+                 0.558     0          0.96      0.558     0.706      0.927    D
+                 0.966     0.061      0.923     0.966     0.944      0.983    O
+Weighted Avg.    0.931     0.04       0.931     0.931     0.93       0.979
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+ 953   9   1   0  37 |   a = CA
+  12 166   1   0  23 |   b = CD
+   7   7  41   1   7 |   c = CH
+   0   5   1  24  13 |   d = D
+  18  12   4   0 961 |   e = O
+
