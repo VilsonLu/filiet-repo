@@ -1,0 +1,9 @@
+1. Yung mga datasets readable na yan ng weka
+2. Pag open ng file, make sure sa CSV. Default kasi ARFF. Hindi mo makikita ung mga CSV
+3. Dun sa preprocess tab, make sure na iremove mo ung tweet id
+4. Tapos iset mo ung class sa CATEGORY. Dont forget this
+5. Irun mo ung: kNN-3, kNN-5, kNN-7, Random Forest, J48
+6. Icopy mo sa isang notepad ung results nila. See the Results.txt for format
+7. Tapos diba may parang list below the text box button, may lumalabas dun kung ano ung ginawa mo. Iright click mo un, tapos save model.
+	Naming scheme: ruby_bin_<CATEGORY>
+8. Isend mo ung results kay Tin!
